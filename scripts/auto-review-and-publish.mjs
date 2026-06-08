@@ -50,7 +50,10 @@ function inferCategory(title) {
 }
 
 function makeSummary(product, candidate) {
-  const reason = candidate.reasons?.map((item) => item.replace(/\s[+-]\d+$/u, "")).join("、") || "重大产品变化";
+  const reason = candidate.reasons
+    ?.filter((item) => !item.includes("疑似日常更新"))
+    .map((item) => item.replace(/\s[+-]\d+$/u, ""))
+    .join("、") || "重大产品变化";
   return `${product.name} 出现新的${reason}。自动审核确认其信源和事件强度达到正式时间线的收录标准。`;
 }
 
@@ -85,7 +88,7 @@ for (const candidate of candidates.filter((item) => item.status === "pending")) 
   const official = candidate.sourceType === "official";
   const exactMatch = productMatchesTitle(product, candidate.title);
   const trustedMedia = trustedMediaPattern.test(candidate.sourceLabel || "");
-  const noisy = lowSignalPattern.test(candidate.title);
+  const noisy = lowSignalPattern.test(candidate.title) || candidate.reasons?.some((reason) => reason.includes("疑似日常更新"));
   const publishable = !noisy && ((official && candidate.score >= 6) || (exactMatch && trustedMedia && candidate.score >= 9));
 
   if (noisy || (!official && !exactMatch)) {

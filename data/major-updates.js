@@ -1,18 +1,5 @@
 window.MAJOR_UPDATES = [
   {
-    "id": "2026-06-06-p42-hermes-agent-f12ec815",
-    "productSlug": "p42-hermes-agent",
-    "date": "2026-06-06",
-    "category": "重大版本",
-    "title": "Hermes Agent v0.16.0 (2026.6.5)",
-    "summary": "Hermes Agent（Nous Research） 出现新的产品发布或公司级事件、关键能力变化、商业或开放范围变化、明确事件词、疑似日常更新。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
-    "impact": "可能改变产品商业化、合作生态或市场竞争判断",
-    "sourceUrl": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.5",
-    "sourceLabel": "GitHub Release · NousResearch/hermes-agent",
-    "verifiedAt": "2026-06-08",
-    "autoReviewed": true
-  },
-  {
     "id": "2026-06-04-hermes-desktop",
     "productSlug": "p42-hermes-agent",
     "date": "2026-06-04",
@@ -59,19 +46,6 @@ window.MAJOR_UPDATES = [
     "sourceUrl": "https://www.coze.cn/overview",
     "sourceLabel": "扣子官方产品页",
     "verifiedAt": "2026-06-08"
-  },
-  {
-    "id": "2026-05-28-p42-hermes-agent-d5ef206f",
-    "productSlug": "p42-hermes-agent",
-    "date": "2026-05-28",
-    "category": "重大版本",
-    "title": "Hermes Agent v0.15.0 (2026.5.28)",
-    "summary": "Hermes Agent（Nous Research） 出现新的产品发布或公司级事件、关键能力变化、商业或开放范围变化、明确事件词、疑似日常更新。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
-    "impact": "可能改变产品商业化、合作生态或市场竞争判断",
-    "sourceUrl": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.28",
-    "sourceLabel": "GitHub Release · NousResearch/hermes-agent",
-    "verifiedAt": "2026-06-08",
-    "autoReviewed": true
   },
   {
     "id": "2026-05-27-qoderwork-workspaces",
@@ -122,19 +96,6 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-05-28"
   },
   {
-    "id": "2026-05-16-p42-hermes-agent-49e78846",
-    "productSlug": "p42-hermes-agent",
-    "date": "2026-05-16",
-    "category": "重大动态",
-    "title": "Hermes Agent v0.14.0 (2026.5.16)",
-    "summary": "Hermes Agent（Nous Research） 出现新的产品发布或公司级事件、关键能力变化、商业或开放范围变化、明确事件词。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
-    "impact": "可能改变产品商业化、合作生态或市场竞争判断",
-    "sourceUrl": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.16",
-    "sourceLabel": "GitHub Release · NousResearch/hermes-agent",
-    "verifiedAt": "2026-06-08",
-    "autoReviewed": true
-  },
-  {
     "id": "2026-05-14-codex-mobile-remote",
     "productSlug": "p12-codex-open-ai",
     "date": "2026-05-14",
@@ -147,32 +108,6 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-05-28"
   },
   {
-    "id": "2026-05-07-p42-hermes-agent-c60a172e",
-    "productSlug": "p42-hermes-agent",
-    "date": "2026-05-07",
-    "category": "重大版本",
-    "title": "Hermes Agent v0.13.0 (2026.5.7)",
-    "summary": "Hermes Agent（Nous Research） 出现新的产品发布或公司级事件、关键能力变化、明确事件词、疑似日常更新。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
-    "impact": "可能改变产品商业化、合作生态或市场竞争判断",
-    "sourceUrl": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.7",
-    "sourceLabel": "GitHub Release · NousResearch/hermes-agent",
-    "verifiedAt": "2026-06-08",
-    "autoReviewed": true
-  },
-  {
-    "id": "2026-04-23-p42-hermes-agent-f18acb8f",
-    "productSlug": "p42-hermes-agent",
-    "date": "2026-04-23",
-    "category": "重大动态",
-    "title": "Hermes Agent v0.11.0 (2026.4.23)",
-    "summary": "Hermes Agent（Nous Research） 出现新的产品发布或公司级事件、商业或开放范围变化、明确事件词、疑似日常更新。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
-    "impact": "可能改变产品商业化、合作生态或市场竞争判断",
-    "sourceUrl": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.23",
-    "sourceLabel": "GitHub Release · NousResearch/hermes-agent",
-    "verifiedAt": "2026-06-08",
-    "autoReviewed": true
-  },
-  {
     "id": "2026-04-17-minimax-pocket-computer-use",
     "productSlug": "p04-minimax-agent-minimax",
     "date": "2026-04-17",
@@ -183,18 +118,5 @@ window.MAJOR_UPDATES = [
     "sourceUrl": "https://agent.minimaxi.com/",
     "sourceLabel": "MiniMax Agent 官方产品页",
     "verifiedAt": "2026-05-28"
-  },
-  {
-    "id": "2026-04-13-p42-hermes-agent-e9888060",
-    "productSlug": "p42-hermes-agent",
-    "date": "2026-04-13",
-    "category": "重大动态",
-    "title": "Hermes Agent v0.9.0 (v2026.4.13)",
-    "summary": "Hermes Agent（Nous Research） 出现新的产品发布或公司级事件、商业或开放范围变化、明确事件词、疑似日常更新。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
-    "impact": "可能改变产品商业化、合作生态或市场竞争判断",
-    "sourceUrl": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.13",
-    "sourceLabel": "GitHub Release · NousResearch/hermes-agent",
-    "verifiedAt": "2026-06-08",
-    "autoReviewed": true
   }
 ];

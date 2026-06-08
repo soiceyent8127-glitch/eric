@@ -2,7 +2,7 @@
 
 运行时区：Asia/Shanghai
 
-- 自动正式收录：6 条
+- 自动正式收录：0 条
 - 自动暂缓：0 条
 - 自动拒绝：0 条
 
@@ -10,12 +10,7 @@
 
 | 产品 | 事件 | 结论 |
 |---|---|---|
-| Hermes Agent（Nous Research） | [Hermes Agent v0.14.0 (2026.5.16)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.16) | 自动审核：官方一手信源且达到重大事件阈值 |
-| Hermes Agent（Nous Research） | [Hermes Agent v0.16.0 (2026.6.5)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.5) | 自动审核：官方一手信源且达到重大事件阈值 |
-| Hermes Agent（Nous Research） | [Hermes Agent v0.15.0 (2026.5.28)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.28) | 自动审核：官方一手信源且达到重大事件阈值 |
-| Hermes Agent（Nous Research） | [Hermes Agent v0.13.0 (2026.5.7)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.7) | 自动审核：官方一手信源且达到重大事件阈值 |
-| Hermes Agent（Nous Research） | [Hermes Agent v0.11.0 (2026.4.23)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.23) | 自动审核：官方一手信源且达到重大事件阈值 |
-| Hermes Agent（Nous Research） | [Hermes Agent v0.9.0 (v2026.4.13)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.13) | 自动审核：官方一手信源且达到重大事件阈值 |
+| 无 | 无 | 无 |
 
 ## 自动暂缓
 

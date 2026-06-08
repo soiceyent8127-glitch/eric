@@ -169,7 +169,9 @@ async function discoverGithubReleases(product, repo) {
           product,
           {
             title: release.name || release.tag_name,
-            description: release.body || "",
+            // Release notes often mention many capabilities and fixes. Only the
+            // release title may elevate a routine version into a major event.
+            description: "",
             link: release.html_url,
             publishedAt: release.published_at,
             sourceLabel: `GitHub Release · ${repo}`,

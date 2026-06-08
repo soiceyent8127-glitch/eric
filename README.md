@@ -21,6 +21,7 @@ npm run serve
 - `data/candidates.json`：自动发现、尚未公开的候选
 - `data/product-candidates.json`：尚未入库的新产品候选
 - `data/source-overrides.json`：额外搜索词、官方 RSS 和 GitHub Release 信源
+- `reviews/weekly-candidates.md`：每周 PR 中供人阅读的候选审核单
 - `EDITORIAL_RULES.md`：正式收录标准
 
 提升候选后，必须编辑 `data/major-updates.js` 中的摘要、类别和收录原因，再提交发布。

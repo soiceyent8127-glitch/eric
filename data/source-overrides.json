@@ -1,9 +1,13 @@
 {
-  "githubRepos": {},
+  "githubRepos": {
+    "p42-hermes-agent": "NousResearch/hermes-agent"
+  },
   "officialRss": {},
   "extraQueries": {
     "p12-codex-open-ai": ["OpenAI Codex app"],
     "p07-microsoft-copilot-cowork-microsoft": ["Microsoft Copilot Cowork"],
-    "p31-gemini-spark-google": ["Google Gemini Spark agent"]
+    "p31-gemini-spark-google": ["Google Gemini Spark agent"],
+    "p41-microsoft-scout": ["Microsoft Scout Autopilot personal agent"],
+    "p42-hermes-agent": ["Nous Research Hermes Agent Desktop"]
   }
 }

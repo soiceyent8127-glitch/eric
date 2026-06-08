@@ -12,7 +12,9 @@
     "reasons": [
       "产品发布或公司级事件 +6"
     ],
-    "status": "pending"
+    "status": "rejected",
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "评论分析文章，不是本周新发生的产品或公司事件"
   },
   {
     "id": "p28-nemoclaw-nvidia-70179fff",
@@ -28,7 +30,9 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "pending"
+    "status": "rejected",
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "候选讲述研华 AI Factory Brain，与 NemoClaw 产品更新不匹配"
   },
   {
     "id": "p02-workbuddy-fca2c574",
@@ -44,6 +48,8 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "pending"
+    "status": "accepted",
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "确认中兴与腾讯推出搭载 WorkBuddy 的 AI 云电脑，进入正式时间线"
   }
 ]

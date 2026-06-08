@@ -6,13 +6,15 @@
     "sourceLabel": "同花顺财经",
     "publishedAt": "2026-06-08T08:23:08.000Z",
     "discoveredAt": "2026-06-08T11:39:25.428Z",
-    "status": "pending",
+    "status": "rejected",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "腾讯效率智能体工具集是既有产品组合，不是独立产品"
   },
   {
     "id": "new-product-73d31bde",
@@ -21,13 +23,15 @@
     "sourceLabel": "搜狐网",
     "publishedAt": "2026-06-08T00:52:32.000Z",
     "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "pending",
+    "status": "rejected",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "更偏算力与行业解决方案，暂不属于本产品库核心范围"
   },
   {
     "id": "new-product-9240ef56",
@@ -36,13 +40,15 @@
     "sourceLabel": "搜狐网",
     "publishedAt": "2026-06-05T08:51:28.000Z",
     "discoveredAt": "2026-06-08T11:39:25.428Z",
-    "status": "pending",
+    "status": "rejected",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "与腾讯效率智能体工具集为重复报道，不是独立产品"
   },
   {
     "id": "new-product-5ec52780",
@@ -51,13 +57,15 @@
     "sourceLabel": "新浪财经",
     "publishedAt": "2026-06-04T09:53:59.000Z",
     "discoveredAt": "2026-06-08T11:39:25.428Z",
-    "status": "pending",
+    "status": "rejected",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "既有 QoderWork 的营销活动，不是新产品或重大能力更新"
   },
   {
     "id": "new-product-95a3df6c",
@@ -66,13 +74,15 @@
     "sourceLabel": "51CTO",
     "publishedAt": "2026-06-03T08:03:46.000Z",
     "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "pending",
+    "status": "accepted",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "确认 Hermes Agent 推出官方跨平台桌面应用，新增产品并进入正式时间线"
   },
   {
     "id": "new-product-2f661049",
@@ -81,13 +91,15 @@
     "sourceLabel": "新浪财经",
     "publishedAt": "2026-06-03T00:53:27.000Z",
     "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "pending",
+    "status": "accepted",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "确认 Microsoft Scout 为独立企业级常驻个人 Agent，新增产品并进入正式时间线"
   },
   {
     "id": "new-product-3b11d632",
@@ -96,13 +108,15 @@
     "sourceLabel": "东方财富",
     "publishedAt": "2026-06-02T17:50:35.000Z",
     "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "pending",
+    "status": "rejected",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "微软 OpenClaw 技术与 Scout 相关，但不是独立产品候选"
   },
   {
     "id": "new-product-29b96520",
@@ -111,12 +125,14 @@
     "sourceLabel": "驱动之家",
     "publishedAt": "2026-06-01T12:05:00.000Z",
     "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "pending",
+    "status": "accepted_as_update",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "确认 Coze 3.0 为既有扣子的重大版本，进入正式时间线但不新增产品"
   }
 ]

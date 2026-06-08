@@ -1,5 +1,53 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-06-04-hermes-desktop",
+    "productSlug": "p42-hermes-agent",
+    "date": "2026-06-04",
+    "category": "产品发布",
+    "title": "推出跨平台 Hermes Desktop",
+    "summary": "Hermes Agent 新增面向 macOS、Windows 和 Linux 的桌面应用，与 CLI、TUI 和 Web Dashboard 共享配置、会话、Skills 与长期记忆。",
+    "impact": "从开发者工具扩展为更易用的桌面 Agent 产品",
+    "sourceUrl": "https://hermes-agent.nousresearch.com/docs/user-guide/desktop",
+    "sourceLabel": "Hermes Agent 官方文档",
+    "verifiedAt": "2026-06-08"
+  },
+  {
+    "id": "2026-06-03-workbuddy-zte-cloud-pc",
+    "productSlug": "p02-workbuddy",
+    "date": "2026-06-03",
+    "category": "生态合作",
+    "title": "中兴与腾讯推出搭载 WorkBuddy 的 AI 云电脑",
+    "summary": "中兴云电脑与腾讯 WorkBuddy 结合，将 WorkBuddy 从独立桌面 Agent 延伸到云电脑硬件与企业办公交付场景。",
+    "impact": "形成重要硬件与云电脑分发渠道",
+    "sourceUrl": "https://finance.sina.com.cn/tech/mobile/n/n/2026-06-05/doc-iniakrwk8193819.shtml",
+    "sourceLabel": "新浪科技：中兴与腾讯正式合作报道",
+    "verifiedAt": "2026-06-08"
+  },
+  {
+    "id": "2026-06-02-microsoft-scout-launch",
+    "productSlug": "p41-microsoft-scout",
+    "date": "2026-06-02",
+    "category": "产品发布",
+    "title": "Microsoft 发布企业级常驻个人 Agent Scout",
+    "summary": "Scout 基于开源 OpenClaw 构建，接入 Microsoft 365 和 Work IQ，可在后台持续工作，并加入企业身份、策略、安全与合规控制。",
+    "impact": "大厂正式将 OpenClaw 路线产品化为企业级常驻 Agent",
+    "sourceUrl": "https://partner.microsoft.com/en-us/blog/article/microsoft-build-2026-recap",
+    "sourceLabel": "Microsoft Build 2026 官方回顾",
+    "verifiedAt": "2026-06-08"
+  },
+  {
+    "id": "2026-06-01-coze-3",
+    "productSlug": "p36-2.5",
+    "date": "2026-06-01",
+    "category": "重大版本",
+    "title": "扣子 Coze 3.0 上线并接入多种本地 Agent",
+    "summary": "Coze 3.0 支持多人、多 Agent 协作，并可接入 OpenClaw、Claude Code 与 Codex CLI；云端 Agent 可在扣子云电脑中长期运行。",
+    "impact": "从单一 Agent 平台升级为多 Agent 项目协作与托管入口",
+    "sourceUrl": "https://www.coze.cn/overview",
+    "sourceLabel": "扣子官方产品页",
+    "verifiedAt": "2026-06-08"
+  },
+  {
     "id": "2026-05-27-qoderwork-workspaces",
     "productSlug": "p01-qoderwork",
     "date": "2026-05-27",

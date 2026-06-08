@@ -2,8 +2,8 @@ window.RESEARCH_DATA = {
   "meta": {
     "title": "类 OpenClaw 和类 Claude Cowork 竞品调研",
     "source": "类OpenClaw&类ClaudeCowork竞品调研.docx",
-    "generatedAt": "2026-05-28",
-    "productCount": 40
+    "generatedAt": "2026-06-08",
+    "productCount": 42
   },
   "strategy": {
     "overview": "海外正在分化为两条路线：OpenAI / Anthropic 抢本地桌面 Agent 和个人生产力入口，Google / AWS / Microsoft 抢云端常驻 Agent 和企业工作流入口；国内则围绕 OpenClaw 生态做产品化封装，竞争核心是 IM 分发、混合执行环境、Skill 生态、办公场景交付和企业化治理。",
@@ -942,13 +942,13 @@ window.RESEARCH_DATA = {
       "slug": "p35-qbotclaw"
     },
     {
-      "name": "扣子2.5（字节）",
+      "name": "扣子 Coze 3.0（字节）",
       "type": "类 OpenClaw",
       "group": "核心友商",
       "region": "国内",
       "vendor": "字节",
       "launchDate": "4.7",
-      "updatedAt": "",
+      "updatedAt": "2026-06-01",
       "deployment": "云端",
       "businessModel": "* 分层订阅积分制* 企业版分为标准/旗舰版本",
       "features": "一个面向个人与企业的云端通用 Agent 平台 - 升级执行环境 - 独立云设备：Agent获配云电脑（运行代码、桌面级操作）与云手机（Android 13真机环境，滑动点击操作APP），支持后台异步执行不占用主线程 - 专属工作台：新增“工作日历”可视化排班与定时任务功能，支持7×24小时后台主动运行；内置文件系统自动分类保存文件产出 - 扩展能力边界 - 视频创作：内置Seedance 2.0，支持从剧本、分镜到成片的一站式生成，具备无限上下文记忆与多轨剪辑能力，实现跨项目角色复用 - 编程开发：上线扣子编程CLI，支持全生命周期管理（创建、预览、部署）与毫秒级终端补全，Agent可自主完成编码、测试与发布 - 行业专家：技能商店上线法律（全流程咨询）、金融（行情分析）等深度Skills，由专业机构共建，赋予Agent行业洞察力 - 配置独立身份 - 长期记忆：基于全新记忆层架构，Agent异步提炼用户偏好与习惯，实现跨Session的记忆共享与权限隔离，告别“聊完即忘” - 独立邮箱：为每个Agent配备专属邮箱（@coze.email），可作为数字身份证注册第三方服务、收发邮件，实现资源隔离与自主社交",
@@ -1747,6 +1747,79 @@ window.RESEARCH_DATA = {
         "Skill 生态"
       ],
       "slug": "p32-officeclaw"
+    },
+    {
+      "name": "Microsoft Scout（Microsoft）",
+      "type": "类 OpenClaw",
+      "group": "模型厂商",
+      "region": "国外",
+      "vendor": "Microsoft",
+      "launchDate": "2026-06-02",
+      "updatedAt": "2026-06-02",
+      "deployment": "云端 / Microsoft 365",
+      "businessModel": "Frontier 客户预览阶段",
+      "features": "Microsoft 面向工作的企业级常驻个人 Agent。Scout 基于开源 OpenClaw 构建，可在后台持续运行，理解用户的工作方式，并在无需每次提示的情况下主动执行任务。",
+      "ecosystem": "深度接入 Microsoft 365、Work IQ、Teams 与 Outlook，并叠加企业身份、策略、安全和合规控制。",
+      "partnership": "",
+      "website": "https://partner.microsoft.com/en-us/blog/article/microsoft-build-2026-recap",
+      "pricing": "预览阶段，未公布独立定价",
+      "updates": "",
+      "summary": "基于 OpenClaw 构建的企业级常驻个人 Agent，深度接入 Microsoft 365，并加入身份、策略、安全与合规控制。",
+      "featureBullets": [
+        "企业级、始终在线的个人 Agent",
+        "可在后台持续运行并主动完成工作任务",
+        "基于 OpenClaw 构建，叠加企业身份、策略和安全控制"
+      ],
+      "ecosystemBullets": [
+        "接入 Microsoft 365、Work IQ、Teams 与 Outlook",
+        "面向 Frontier 客户开放预览"
+      ],
+      "updateBullets": [],
+      "capabilities": [
+        "IM 入口",
+        "云端沙箱",
+        "安全治理",
+        "长期记忆",
+        "自动化任务"
+      ],
+      "slug": "p41-microsoft-scout"
+    },
+    {
+      "name": "Hermes Agent（Nous Research）",
+      "type": "类 OpenClaw",
+      "group": "其他厂商",
+      "region": "国外",
+      "vendor": "Nous Research",
+      "launchDate": "2026-02",
+      "updatedAt": "2026-06-04",
+      "deployment": "本地 / 云端",
+      "businessModel": "开源；Nous Portal 提供模型服务",
+      "features": "开源自主 Agent，支持长期记忆、Skills、定时任务、子 Agent、浏览器与 Computer Use，并可在完成复杂任务后沉淀可复用技能。",
+      "ecosystem": "支持多模型、多消息平台和多种前端；Desktop、CLI、TUI 与 Web Dashboard 共享配置、会话、Skills 和记忆。",
+      "partnership": "",
+      "website": "https://hermes-agent.nousresearch.com/docs/user-guide/desktop",
+      "pricing": "开源；模型调用费用取决于所选服务",
+      "updates": "",
+      "summary": "Nous Research 推出的开源自主 Agent，强调长期记忆、技能沉淀、多入口运行和自我改进。",
+      "featureBullets": [
+        "长期记忆、Skills 与自然语言定时任务",
+        "支持子 Agent、浏览器与 Computer Use",
+        "复杂任务完成后可沉淀为可复用技能"
+      ],
+      "ecosystemBullets": [
+        "Desktop、CLI、TUI 与 Web Dashboard 共享状态",
+        "支持 macOS、Windows、Linux 和多种消息平台"
+      ],
+      "updateBullets": [],
+      "capabilities": [
+        "IM 入口",
+        "本地执行",
+        "Skill 生态",
+        "多 Agent",
+        "长期记忆",
+        "自动化任务"
+      ],
+      "slug": "p42-hermes-agent"
     }
   ]
 };

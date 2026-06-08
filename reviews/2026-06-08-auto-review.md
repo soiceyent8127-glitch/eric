@@ -2,21 +2,26 @@
 
 运行时区：Asia/Shanghai
 
-- 自动正式收录：0 条
-- 自动暂缓：1 条
+- 自动正式收录：6 条
+- 自动暂缓：0 条
 - 自动拒绝：0 条
 
 ## 自动正式收录
 
 | 产品 | 事件 | 结论 |
 |---|---|---|
-| 无 | 无 | 无 |
+| Hermes Agent（Nous Research） | [Hermes Agent v0.14.0 (2026.5.16)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.16) | 自动审核：官方一手信源且达到重大事件阈值 |
+| Hermes Agent（Nous Research） | [Hermes Agent v0.16.0 (2026.6.5)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.5) | 自动审核：官方一手信源且达到重大事件阈值 |
+| Hermes Agent（Nous Research） | [Hermes Agent v0.15.0 (2026.5.28)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.28) | 自动审核：官方一手信源且达到重大事件阈值 |
+| Hermes Agent（Nous Research） | [Hermes Agent v0.13.0 (2026.5.7)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.5.7) | 自动审核：官方一手信源且达到重大事件阈值 |
+| Hermes Agent（Nous Research） | [Hermes Agent v0.11.0 (2026.4.23)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.23) | 自动审核：官方一手信源且达到重大事件阈值 |
+| Hermes Agent（Nous Research） | [Hermes Agent v0.9.0 (v2026.4.13)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.13) | 自动审核：官方一手信源且达到重大事件阈值 |
 
 ## 自动暂缓
 
 | 产品 | 事件 | 结论 |
 |---|---|---|
-| 扣子 Coze 3.0（字节） | [扣子 3.0 正式上线，支持多人多 Agent 协同作业](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kbWYzTzZVNWVENHE2YTk3QXRQRkRkbXJnTkI5aHhQdnh5cFg5NlRLa0xVN2RRSzFDQnJ0SXZ0d0puQW1VS0tVc2FQUnZqTk0?oc=5) | 自动审核：事件可能相关，但信源或事件强度不足以无人值守发布 |
+| 无 | 无 | 无 |
 
 ## 自动拒绝
 

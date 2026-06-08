@@ -42,13 +42,14 @@ function renderHeader() {
     <div class="nav">
       <a class="brand" href="index.html">
         <span class="brand-mark" aria-hidden="true"></span>
-        <span>类 OpenClaw 和类 Claude Cowork 竞品调研</span>
+        <span><strong>AGENT INDEX</strong><small>产品情报库</small></span>
       </a>
       <nav class="nav-links" aria-label="主导航">
-        <a data-nav href="index.html">战略判断</a>
-        <a data-nav href="products.html">产品拆解</a>
-        <a data-nav href="timeline.html">重大动态</a>
+        <a data-nav href="index.html"><span>01</span>战略判断</a>
+        <a data-nav href="products.html"><span>02</span>产品索引</a>
+        <a data-nav href="timeline.html"><span>03</span>重大动态</a>
       </nav>
+      <a class="live-indicator" href="timeline.html"><i></i>每周自动更新</a>
     </div>
   `;
   setActiveNav();
@@ -84,12 +85,12 @@ function renderHome() {
     <section class="page-band">
       <div class="wrap dashboard-hero">
         <div>
-          <p class="eyebrow">2026 竞品调研</p>
-          <h1><span>类 OpenClaw 和类</span><span>Claude Cowork 竞品调研</span></h1>
+          <p class="eyebrow">Agent product intelligence / 2026</p>
+          <h1><span>追踪 Agent 产品</span><span>如何重写工作方式</span></h1>
           <p class="lead">${data.strategy.overview}</p>
           <div class="hero-actions">
-            <a class="primary-button" href="products.html">查看产品拆解</a>
-            <a class="ghost-button" href="#strategy">查看战略判断</a>
+            <a class="primary-button" href="products.html">浏览产品索引 <b>→</b></a>
+            <a class="ghost-button" href="timeline.html">查看最新动态</a>
           </div>
           <div class="stats-row">
             <div class="stat"><strong>${products.length}</strong><span>产品 / 项目条目</span></div>
@@ -98,6 +99,7 @@ function renderHome() {
           </div>
         </div>
         <div class="map-panel" aria-label="竞品能力图谱">
+          <div class="panel-kicker"><span>能力渗透率</span><b>LIVE DATASET</b></div>
           <div class="map-grid">
             ${[
               ["IM / 跨端入口", "82%", "var(--teal)", ["微信", "飞书", "Slack", "手机远控"]],
@@ -126,8 +128,8 @@ function renderHome() {
       <div class="wrap">
         <div class="section-head">
           <div>
-            <p class="eyebrow">战略判断</p>
-            <h2>从入口、执行、治理到复用的竞争迁移</h2>
+            <p class="eyebrow">Strategic signals / 战略判断</p>
+            <h2>竞争正在从模型能力，迁移到入口、执行与治理</h2>
           </div>
           <a class="ghost-button" href="products.html">产品拆解</a>
         </div>
@@ -151,8 +153,8 @@ function renderHome() {
       <div class="wrap">
         <div class="section-head">
           <div>
-            <p class="eyebrow">产品逐个拆解</p>
-            <h2>按类型、分类、部署方式和能力标签拆解</h2>
+            <p class="eyebrow">Product matrix / 产品矩阵</p>
+            <h2>42 个产品，放进同一套坐标系</h2>
           </div>
           <a class="primary-button" href="products.html">查看全部 ${products.length} 个产品</a>
         </div>
@@ -243,8 +245,8 @@ function renderProducts() {
   root.innerHTML = `
     <section class="page-band">
       <div class="wrap">
-        <p class="eyebrow">二、产品逐个拆解</p>
-        <h1>产品逐个拆解</h1>
+        <p class="eyebrow">Product index / 产品索引</p>
+        <h1>不是产品名单，<br>是一张竞争地图</h1>
         <p class="lead">共 ${products.length} 个条目，按类 Cowork 产品和类 OpenClaw 产品逐个拆解，并归入国内、国外、核心友商、模型厂商、其他厂商和手机厂商。</p>
       </div>
     </section>
@@ -280,7 +282,7 @@ function renderProducts() {
         </aside>
         <main>
           <div class="section-head">
-            <div><h2 id="result-count">${products.length} 个产品</h2></div>
+            <div><p class="eyebrow">Filtered results</p><h2 id="result-count">${products.length} 个产品</h2></div>
           </div>
           <div id="product-grid" class="product-grid"></div>
         </main>
@@ -491,8 +493,8 @@ function renderTimeline() {
   root.innerHTML = `
     <section class="page-band">
       <div class="wrap">
-        <p class="eyebrow">持续更新的产品情报库</p>
-        <h1>重大动态</h1>
+        <p class="eyebrow">Signal timeline / 重大动态</p>
+        <h1>过滤噪音，<br>只留下改变判断的事件</h1>
         <p class="lead">只收录会改变产品定位、核心能力、商业模式或行业格局的事件。普通日常更新不进入此时间线。</p>
         <div class="stats-row compact-stats">
           <div class="stat"><strong>${majorUpdates.length}</strong><span>已审核重大事件</span></div>
@@ -513,7 +515,7 @@ function renderTimeline() {
               ${categories.map((value) => `<option>${value}</option>`).join("")}
             </select>
           </div>
-          <p class="filter-help">自动采集仅生成候选，人工确认后才会显示在这里。</p>
+          <p class="filter-help">系统每周一自动采集并严格审核。只有达到重大事件阈值的内容才会进入正式时间线。</p>
         </aside>
         <main>
           <div class="section-head"><h2 id="timeline-count">${majorUpdates.length} 条重大动态</h2></div>

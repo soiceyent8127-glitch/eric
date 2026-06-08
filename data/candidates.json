@@ -1,0 +1,49 @@
+[
+  {
+    "id": "p08-manus-manus-27ab28e",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "Manus收购案“破产”后的对外投资时代 - 21财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS2lCckVfUmdCRmFsU1Z3VDd1eFZMbndkbG1TVU1OZ21BVlB2U2g4V3dNYnpFencyVVg5NExTVW05VFVybTRiX2JxUDMzUzg3WTFkV2pWWlJSd1ZxVGROcWpSMEFlUzVZZXR4c2I1ZlBFZ3hfU3RzbTdXY21lNlVHRFR3M3AtV1U4VklwYUphd3NFRURq?oc=5",
+    "sourceLabel": "21财经",
+    "publishedAt": "2026-06-04T07:00:00.000Z",
+    "discoveredAt": "2026-06-08T11:39:21.398Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或公司级事件 +6"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p28-nemoclaw-nvidia-70179fff",
+    "productSlug": "p28-nemoclaw-nvidia",
+    "productName": "NemoClaw（NVIDIA）",
+    "title": "研华与英伟达深化合作推出「AI Factory Brain」 以Agentic AI串联全厂智慧决策 - 新浪网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhUHhnTTNEbHhBeWJIdDlGeWtZbUFxaE9UYXNXU3lhU1BIYk1hRzFuWk9lWnhleEFuTTFYU2ZxcWFseDBZYzI3ZzBqUVhMWHVFTl9QQXlWVkZYd0JtTFZHRG8xVnBiT3JzamIwZnJFOTYxaVpL?oc=5",
+    "sourceLabel": "新浪网",
+    "publishedAt": "2026-06-04T03:18:42.000Z",
+    "discoveredAt": "2026-06-08T11:39:23.483Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p02-workbuddy-fca2c574",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "中兴与腾讯将合作发布WorkBuddy AI云电脑 - 东方财富",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvWTZ0NHNJalV3VjVNUXczWnlJVlZ6cnQ5Y3lXNmFlRElOM0tjbVd5MGlaMkNHUHNiM01zXzEwd3phbzB4bXZKbTAwYi1DTXJ4R3BLUjdTQWdNSlBWZWo1VA?oc=5",
+    "sourceLabel": "东方财富",
+    "publishedAt": "2026-06-03T10:31:23.000Z",
+    "discoveredAt": "2026-06-08T11:38:22.282Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  }
+]

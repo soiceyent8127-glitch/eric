@@ -1,0 +1,11 @@
+{
+  "name": "agent-product-intelligence",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "discover": "node scripts/discover-major-updates.mjs && node scripts/discover-new-products.mjs",
+    "promote": "node scripts/promote-candidate.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}

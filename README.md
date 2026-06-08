@@ -2,6 +2,11 @@
 
 这是从现有 Netlify 静态站恢复并升级的可持续维护版本。正式页面只展示经过审核的重大更新，自动采集结果保存在候选列表中。
 
+## 线上入口
+
+- 网站：https://roaring-froyo-8e6e30.netlify.app/
+- 重大动态：https://roaring-froyo-8e6e30.netlify.app/timeline.html
+
 ## 日常维护
 
 ```bash

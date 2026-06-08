@@ -1,5 +1,21 @@
 [
   {
+    "id": "new-product-cd413b20",
+    "title": "AgentScope Java 2.0 发布",
+    "sourceUrl": "https://x.com/alibaba_cloud/status/2063923881857945815",
+    "sourceLabel": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+    "sourceType": "media",
+    "publishedAt": "2026-06-08T09:59:33.000Z",
+    "discoveredAt": "2026-06-08T13:21:31.528Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-12ec024c",
     "title": "从超级个体到超级团队，腾讯首发效率智能体工具集 - 同花顺财经",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZTE54NXE1Q09FQUZRel81aDVhSjhwS3dQYnNNVmdCejY3ellXNmtqM1REWDV5UjR0aEVkM1pqWXNvS1B6YlAxeWE3OW5NU18zRi0xWHN0MkllRWZuQlE?oc=5",
@@ -51,6 +67,38 @@
     "reviewReason": "与腾讯效率智能体工具集为重复报道，不是独立产品"
   },
   {
+    "id": "new-product-9c3e4c2d",
+    "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
+    "sourceUrl": "https://x.com/alibaba_cloud/status/2062777684120244656",
+    "sourceLabel": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+    "sourceType": "media",
+    "publishedAt": "2026-06-05T06:04:59.000Z",
+    "discoveredAt": "2026-06-08T13:21:31.529Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-4ec95ed7",
+    "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
+    "sourceUrl": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag",
+    "sourceLabel": "Google Research：Blog（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-04T16:00:00.000Z",
+    "discoveredAt": "2026-06-08T13:21:31.529Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-5ec52780",
     "title": "阿里桌面智能体工作台推出AI生产力计划，港股通互联网ETF华夏(520910)近2日合计“吸金”超1200万元 - 新浪财经",
     "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NY3ZvZ2RJZC1DNFllWHVSeEpkM1JGV21fcm9fRGxiOGRpbTA4TjNDZmdrYVdwQnN5dkVxS25EVVdkakhjbGNYR25ucUstUnBibFpfOGxmUy1ocFVsV3FOM3I5ckhyeVVjcVV3WW9zSQ?oc=5",
@@ -66,6 +114,54 @@
     ],
     "reviewedAt": "2026-06-08",
     "reviewReason": "既有 QoderWork 的营销活动，不是新产品或重大能力更新"
+  },
+  {
+    "id": "new-product-dd9832b8",
+    "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+    "sourceUrl": "https://x.com/openclaw/status/2062288421406785710",
+    "sourceLabel": "X：OpenClaw (@openclaw)",
+    "sourceType": "media",
+    "publishedAt": "2026-06-03T21:40:49.000Z",
+    "discoveredAt": "2026-06-08T13:21:31.529Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-cbe5b6f2",
+    "title": "Replit上线SEO Agent助应用被发现",
+    "sourceUrl": "https://x.com/Replit/status/2062211976995188871",
+    "sourceLabel": "X：Replit (@Replit)",
+    "sourceType": "media",
+    "publishedAt": "2026-06-03T16:37:04.000Z",
+    "discoveredAt": "2026-06-08T13:21:31.529Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-77aae0d7",
+    "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
+    "sourceUrl": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
+    "sourceLabel": "TechCrunch：AI（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-03T13:40:00.000Z",
+    "discoveredAt": "2026-06-08T13:21:31.529Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
   },
   {
     "id": "new-product-95a3df6c",

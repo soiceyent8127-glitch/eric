@@ -36,6 +36,23 @@
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {
+    "id": "p12-codex-open-ai-16167634",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "ChatGPT 要变 AgentGPT 了",
+    "sourceUrl": "https://x.com/dotey/status/2063686036895478162",
+    "sourceLabel": "X：宝玉 (@dotey)",
+    "sourceType": "media",
+    "publishedAt": "2026-06-07T18:14:27.000Z",
+    "discoveredAt": "2026-06-08T13:21:18.761Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
     "id": "p28-nemoclaw-nvidia-70179fff",
     "productSlug": "p28-nemoclaw-nvidia",
     "productName": "NemoClaw（NVIDIA）",

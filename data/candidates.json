@@ -17,6 +17,25 @@
     "reviewReason": "评论分析文章，不是本周新发生的产品或公司事件"
   },
   {
+    "id": "p36-2.5-e24498d3",
+    "productSlug": "p36-2.5",
+    "productName": "扣子 Coze 3.0（字节）",
+    "title": "扣子 3.0 正式上线，支持多人多 Agent 协同作业 - article.9466.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kbWYzTzZVNWVENHE2YTk3QXRQRkRkbXJnTkI5aHhQdnh5cFg5NlRLa0xVN2RRSzFDQnJ0SXZ0d0puQW1VS0tVc2FQUnZqTk0?oc=5",
+    "sourceLabel": "article.9466.com",
+    "sourceType": "media",
+    "publishedAt": "2026-06-02T01:54:00.000Z",
+    "discoveredAt": "2026-06-08T12:26:36.712Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-08",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
     "id": "p28-nemoclaw-nvidia-70179fff",
     "productSlug": "p28-nemoclaw-nvidia",
     "productName": "NemoClaw（NVIDIA）",

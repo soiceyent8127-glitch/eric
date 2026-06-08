@@ -1,35 +1,40 @@
-name: Discover major product updates
+name: Weekly auto-review and publish
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 1 * * 1"
+    # GitHub cron uses UTC. 02:10 UTC is Monday 10:10 in Asia/Shanghai.
+    - cron: "10 2 * * 1"
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: weekly-auto-review-and-publish
+  cancel-in-progress: false
 
 jobs:
-  discover:
+  update:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      GITHUB_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - run: npm run discover
-      - run: npm run validate
-      - uses: peter-evans/create-pull-request@v7
-        with:
-          branch: automation/major-update-candidates
-          delete-branch: true
-          commit-message: "chore: refresh major update candidates"
-          title: "候选：本周重大产品动态"
-          body: |
-            自动发现的重大更新候选，仅供审核。
-
-            请核对信源与实际影响。确认值得收录后，运行：
-            `npm run promote -- <candidate-id>`
-
-            发布前必须补充摘要、分类和收录原因。
-          labels: intelligence-candidates
+      - run: npm run weekly:auto
+      - name: Commit reviewed updates directly to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reviews
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "content: weekly automatic product intelligence update"
+            git push origin HEAD:main
+          fi

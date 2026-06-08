@@ -1,6 +1,6 @@
 # AI Agent 产品情报库
 
-这是从现有 Netlify 静态站恢复并升级的可持续维护版本。正式页面只展示经过审核的重大更新，自动采集结果保存在候选列表中。
+这是从现有 Netlify 静态站恢复并升级的可持续维护版本。正式页面只展示通过严格自动审核的重大更新。
 
 ## 线上入口
 
@@ -12,6 +12,8 @@
 ```bash
 npm run validate
 npm run discover
+npm run auto-review
+npm run weekly:auto
 npm run promote -- <candidate-id>
 npm run serve
 ```
@@ -21,16 +23,16 @@ npm run serve
 - `data/candidates.json`：自动发现、尚未公开的候选
 - `data/product-candidates.json`：尚未入库的新产品候选
 - `data/source-overrides.json`：额外搜索词、官方 RSS 和 GitHub Release 信源
-- `reviews/weekly-candidates.md`：每周 PR 中供人阅读的候选审核单
+- `reviews/latest-auto-review.md`：最近一次自动审核记录
 - `EDITORIAL_RULES.md`：正式收录标准
 
-提升候选后，必须编辑 `data/major-updates.js` 中的摘要、类别和收录原因，再提交发布。
+## 每周自动更新
 
-## 自动发现
+GitHub Actions 每周一北京时间 10:10 自动运行，完成公开新闻与官方信源发现、严格审核、正式时间线更新，并直接提交到 `main`。Netlify 监听 `main`，随后自动更新线上网站。整个过程不需要处理 PR。
 
-GitHub Actions 每周一运行一次公开新闻 RSS 搜索，根据严格关键词评分生成候选 PR。它不会自动修改正式时间线，因此普通日常更新不会直接进入网站。
+自动审核采用保守策略：官方高影响事件，或高分、产品名称明确匹配的可信媒体事件才会发布；证据不足的候选会暂缓。新产品不会仅凭一条媒体标题自动入库。
 
-第一版不需要搜索 API 或模型 API Key。后续如果公开搜索漏报明显，可以接入 Tavily、Serper、Brave Search 或模型判断，但仍应保留人工审核。
+当前版本不需要搜索 API 或模型 API Key。后续如果需要提高新产品自动入库能力，可接入搜索 API 和模型判断。
 
 `source-overrides.json` 支持按产品 slug 补充官方信源：
 
@@ -44,4 +46,4 @@ GitHub Actions 每周一运行一次公开新闻 RSS 搜索，根据严格关键
 
 ## 部署
 
-将此目录作为 GitHub 仓库根目录，并在 Netlify 连接该仓库。`netlify.toml` 已将当前目录配置为静态发布目录；合并到默认分支后 Netlify 会自动更新网站。
+此目录已连接 GitHub 与 Netlify。自动任务提交到默认分支后，Netlify 会自动更新网站。

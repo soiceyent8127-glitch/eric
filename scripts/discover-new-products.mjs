@@ -74,6 +74,7 @@ for (const query of queries) {
         title: item.title,
         sourceUrl: item.link,
         sourceLabel: item.sourceLabel || "Google News 收录信源",
+        sourceType: "media",
         publishedAt: item.publishedAt ? new Date(item.publishedAt).toISOString() : null,
         discoveredAt: new Date().toISOString(),
         status: "pending",

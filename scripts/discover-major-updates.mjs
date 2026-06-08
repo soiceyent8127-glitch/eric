@@ -76,9 +76,9 @@ async function loadWindowData(path, key) {
   return context.window[key];
 }
 
-async function fetchText(url) {
+async function fetchText(url, extraHeaders = {}) {
   const response = await fetch(url, {
-    headers: { "user-agent": "Mozilla/5.0 AgentProductIntelligence/1.0" },
+    headers: { "user-agent": "Mozilla/5.0 AgentProductIntelligence/1.0", ...extraHeaders },
   });
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.text();
@@ -105,6 +105,7 @@ async function discoverForProduct(product, extraQueries) {
           title: item.title,
           sourceUrl: item.link,
           sourceLabel: item.sourceLabel || "Google News 收录信源",
+          sourceType: "media",
           publishedAt: item.publishedAt ? new Date(item.publishedAt).toISOString() : null,
           discoveredAt: new Date().toISOString(),
           score,
@@ -160,7 +161,8 @@ async function discoverOfficialRss(product, feeds) {
 async function discoverGithubReleases(product, repo) {
   if (!repo) return [];
   try {
-    const releases = JSON.parse(await fetchText(`https://api.github.com/repos/${repo}/releases?per_page=10`));
+    const authHeaders = process.env.GITHUB_TOKEN ? { authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {};
+    const releases = JSON.parse(await fetchText(`https://api.github.com/repos/${repo}/releases?per_page=10`, authHeaders));
     return releases
       .map((release) =>
         makeCandidate(

@@ -1,5 +1,24 @@
 [
   {
+    "id": "p04-minimax-agent-minimax-480e6baa",
+    "productSlug": "p04-minimax-agent-minimax",
+    "productName": "MiniMax Agent（MiniMax）",
+    "title": "MiniMax Agent 升级更名为 Mavis，推出 Agent Teams 重构多智能体协作 - 品玩",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MOVpCckRxVjJxeWsyVHhHNUVtNmtqY05iZFhiXzlFaDcyMmpDRXZQOFlyMk5WZnd6OVQ4LVFIV2Q3WDNXaUx5Rg?oc=5",
+    "sourceLabel": "品玩",
+    "sourceType": "media",
+    "publishedAt": "2026-06-08T03:32:25.000Z",
+    "discoveredAt": "2026-06-09T07:35:10.537Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-09",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
     "id": "p08-manus-manus-27ab28e",
     "productSlug": "p08-manus-manus",
     "productName": "Manus桌面版（Manus）",
@@ -50,7 +69,9 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "pending"
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-09",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
     "id": "p28-nemoclaw-nvidia-70179fff",
@@ -71,6 +92,25 @@
     "reviewReason": "候选讲述研华 AI Factory Brain，与 NemoClaw 产品更新不匹配"
   },
   {
+    "id": "p02-workbuddy-ccc83f4e",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "港股中兴通讯股价上涨 与腾讯达成深度战略合作 将重磅发布WorkBuddy AI云电脑 - 东方财富",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtbzNIMmVwTDN2WEVVN0hyQ1BpX19TNC1CaHBxR0NTZU9TQnlhbVF1ejA3XzU1cmgzQVFsaFN0bTY5YjNCVlNySk1ZS2tHd2xQbDg1b2EwSmFfRDF1TExsbA?oc=5",
+    "sourceLabel": "东方财富",
+    "sourceType": "media",
+    "publishedAt": "2026-06-04T02:01:49.000Z",
+    "discoveredAt": "2026-06-09T07:35:10.638Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-09",
+    "reviewReason": "自动审核：标题属于评论、传闻、市场噪音或日常更新"
+  },
+  {
     "id": "p02-workbuddy-fca2c574",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",
@@ -87,5 +127,24 @@
     "status": "accepted",
     "reviewedAt": "2026-06-08",
     "reviewReason": "确认中兴与腾讯推出搭载 WorkBuddy 的 AI 云电脑，进入正式时间线"
+  },
+  {
+    "id": "p02-workbuddy-81b85338",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "中兴与腾讯将合作发布WorkBuddy AI云电脑 - Jiemian.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1rbjRWdVFydF9HbDdaQlo4N1E1V1Z1UnhpU0lDaU03Zl93Mi0xM2U2N2VEQ2dCN3k2bzEyNmo4YzNyNEd0bW0yRzJPTGlJZVFMQjI5alQ0NjI?oc=5",
+    "sourceLabel": "Jiemian.com",
+    "sourceType": "media",
+    "publishedAt": "2026-06-02T19:28:00.000Z",
+    "discoveredAt": "2026-06-09T07:35:10.638Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-09",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   }
 ]

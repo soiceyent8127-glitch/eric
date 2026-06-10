@@ -41,7 +41,13 @@ function renderHeader() {
   header.innerHTML = `
     <div class="nav">
       <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" focusable="false">
+            <rect class="brand-mark-bg" x="1" y="1" width="30" height="30" rx="7"></rect>
+            <path class="brand-mark-lines" d="M9 10h14M9 16h10M9 22h14"></path>
+            <circle class="brand-mark-point" cx="22" cy="16" r="2"></circle>
+          </svg>
+        </span>
         <span><strong>Agent Index</strong><small>AI 产品情报</small></span>
       </a>
       <nav class="nav-links" aria-label="主导航">
@@ -341,7 +347,7 @@ function renderProducts() {
     count.textContent = `${filtered.length} 个产品`;
     grid.innerHTML = filtered.length
       ? renderGroupedProducts(filtered)
-      : `<div class="empty-state">没有匹配的产品。</div>`;
+      : `<div class="empty-state"><strong>没有匹配的产品</strong><span>调整搜索词或清除筛选后再试。</span></div>`;
   }
 
   $("#type-filter").addEventListener("click", (event) => {
@@ -550,7 +556,7 @@ function renderTimeline() {
     count.textContent = `${filtered.length} 条重大动态`;
     list.innerHTML = filtered.length
       ? filtered.map((item) => timelineCard(item)).join("")
-      : `<div class="empty-state">没有匹配的重大动态。</div>`;
+      : `<div class="empty-state"><strong>没有匹配的重大动态</strong><span>调整搜索词或事件类别后再试。</span></div>`;
   }
 
   [search, category].forEach((control) => control.addEventListener("input", applyTimelineFilters));

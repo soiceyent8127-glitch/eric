@@ -42,14 +42,14 @@ function renderHeader() {
     <div class="nav">
       <a class="brand" href="index.html">
         <span class="brand-mark" aria-hidden="true"></span>
-        <span><strong>AGENT INDEX</strong><small>产品情报库</small></span>
+        <span><strong>Agent Index</strong><small>AI 产品情报</small></span>
       </a>
       <nav class="nav-links" aria-label="主导航">
-        <a data-nav href="index.html"><span>01</span>战略判断</a>
-        <a data-nav href="products.html"><span>02</span>产品索引</a>
-        <a data-nav href="timeline.html"><span>03</span>重大动态</a>
+        <a data-nav href="index.html">战略判断</a>
+        <a data-nav href="products.html">产品索引</a>
+        <a data-nav href="timeline.html">重大动态</a>
       </nav>
-      <a class="live-indicator" href="timeline.html"><i></i>每周自动更新</a>
+      <a class="live-indicator" href="timeline.html"><i aria-hidden="true"></i>每周一更新</a>
     </div>
   `;
   setActiveNav();
@@ -82,79 +82,76 @@ function renderHome() {
     .slice(0, 6);
 
   root.innerHTML = `
-    <section class="page-band">
+    <section class="hero-band">
       <div class="wrap dashboard-hero">
-        <div>
-          <p class="eyebrow">Agent product intelligence / 2026</p>
-          <h1><span>追踪 Agent 产品</span><span>如何重写工作方式</span></h1>
-          <p class="lead">${data.strategy.overview}</p>
+        <div class="hero-copy">
+          <p class="hero-kicker">持续更新的 Agent 产品情报库</p>
+          <h1>看清 Agent 产品，正在往哪里走</h1>
+          <p class="lead">追踪类 Cowork 与类 OpenClaw 产品，只保留足以改变竞争判断的更新与信源。</p>
           <div class="hero-actions">
-            <a class="primary-button" href="products.html">浏览产品索引 <b>→</b></a>
+            <a class="primary-button" href="products.html">浏览产品索引</a>
             <a class="ghost-button" href="timeline.html">查看最新动态</a>
           </div>
           <div class="stats-row">
-            <div class="stat"><strong>${products.length}</strong><span>产品 / 项目条目</span></div>
+            <div class="stat"><strong>${products.length}</strong><span>产品与项目</span></div>
             <div class="stat"><strong>${typeCounts["类 Cowork"] || 0}</strong><span>类 Cowork 产品</span></div>
             <div class="stat"><strong>${typeCounts["类 OpenClaw"] || 0}</strong><span>类 OpenClaw 产品</span></div>
           </div>
         </div>
-        <div class="map-panel" aria-label="竞品能力图谱">
-          <div class="panel-kicker"><span>能力渗透率</span><b>LIVE DATASET</b></div>
-          <div class="map-grid">
-            ${[
-              ["IM / 跨端入口", "82%", "var(--teal)", ["微信", "飞书", "Slack", "手机远控"]],
-              ["混合执行环境", "70%", "var(--mint)", ["本地", "云端沙箱", "端云混合"]],
-              ["Skill 商品化", "88%", "var(--gold)", ["ClawHub", "SkillHub", "Claude Skills"]],
-              ["治理与安全", "66%", "var(--coral)", ["沙箱", "审批", "审计", "权限"]],
-            ]
+        <aside class="coverage-panel" aria-label="产品能力覆盖">
+          <div class="coverage-head">
+            <div><span>产品能力覆盖</span><strong>${products.length} 个样本</strong></div>
+            <a href="products.html">进入索引</a>
+          </div>
+          <div class="coverage-list">
+            ${topCapabilities
               .map(
-                ([label, width, color, points]) => `
-                  <div class="map-lane">
-                    <div class="lane-label">${label}</div>
-                    <div>
-                      <div class="lane-bar" style="--w:${width};--c:${color}"><span></span></div>
-                      <div class="lane-points">${points.map((point) => `<b>${point}</b>`).join("")}</div>
-                    </div>
+                ([label, count], index) => `
+                  <div class="coverage-row">
+                    <span>${String(index + 1).padStart(2, "0")}</span>
+                    <strong>${label}</strong>
+                    <b>${count} 个产品</b>
                   </div>
                 `,
               )
               .join("")}
           </div>
-        </div>
+          <p class="coverage-note">基于公开资料中的能力标签统计，随产品库更新。</p>
+        </aside>
       </div>
     </section>
 
-    <section id="strategy" class="page-band">
+    <section id="strategy">
       <div class="wrap">
         <div class="section-head">
           <div>
-            <p class="eyebrow">Strategic signals / 战略判断</p>
+            <p class="section-label">战略判断</p>
             <h2>竞争正在从模型能力，迁移到入口、执行与治理</h2>
           </div>
           <a class="ghost-button" href="products.html">产品拆解</a>
         </div>
-        <div class="strategy-grid">
+        <p class="research-note">${data.strategy.overview}</p>
+        <ol class="strategy-list">
           ${data.strategy.items
             .map(
               (item) => `
-                <article class="strategy-card">
+                <li>
                   <span class="strategy-id">${item.id}</span>
-                  <h3>${item.title}</h3>
-                  <p>${item.judgment}</p>
-                </article>
+                  <div><h3>${item.title}</h3><p>${item.judgment}</p></div>
+                </li>
               `,
             )
             .join("")}
-        </div>
+        </ol>
       </div>
     </section>
 
-    <section class="page-band">
+    <section class="section-tint">
       <div class="wrap">
         <div class="section-head">
           <div>
-            <p class="eyebrow">Product matrix / 产品矩阵</p>
-            <h2>42 个产品，放进同一套坐标系</h2>
+            <p class="section-label">产品矩阵</p>
+            <h2>${products.length} 个产品，放进同一套坐标系</h2>
           </div>
           <a class="primary-button" href="products.html">查看全部 ${products.length} 个产品</a>
         </div>
@@ -218,18 +215,17 @@ function productCard(product) {
       <div class="card-top">
         <div>
           <h3><a href="${productUrl(product)}">${product.name}</a></h3>
-          <div class="product-meta">${formatValue(product.vendor)} · ${formatValue(product.launchDate, "上线时间未标明")}</div>
+          <div class="product-meta">${formatValue(product.vendor)}<span>${formatValue(product.launchDate, "上线时间未标明")}</span></div>
         </div>
         ${tag(product.type, tone)}
       </div>
       <p>${product.summary}</p>
       <div class="tag-row">
         ${tag(formatValue(product.group), "gold")}
-        ${product.deployment ? tag(product.deployment) : ""}
-        ${product.capabilities.slice(0, 4).map((item) => tag(item, "teal")).join("")}
+        ${product.capabilities.slice(0, 3).map((item) => tag(item, "teal")).join("")}
       </div>
       <div class="card-footer">
-        <a class="primary-button" href="${productUrl(product)}">详情</a>
+        <a class="text-link" href="${productUrl(product)}">查看详情</a>
         <div class="external-links">
           ${externalLink(product.website, "官网")}
           ${externalLink(product.pricing, "定价")}
@@ -243,11 +239,10 @@ function renderProducts() {
   const root = $("#products-root");
   if (!root) return;
   root.innerHTML = `
-    <section class="page-band">
-      <div class="wrap">
-        <p class="eyebrow">Product index / 产品索引</p>
-        <h1>不是产品名单，<br>是一张竞争地图</h1>
-        <p class="lead">共 ${products.length} 个条目，按类 Cowork 产品和类 OpenClaw 产品逐个拆解，并归入国内、国外、核心友商、模型厂商、其他厂商和手机厂商。</p>
+    <section class="page-intro">
+      <div class="wrap intro-grid">
+        <div><p class="section-label">产品索引</p><h1>浏览与比较 Agent 产品</h1></div>
+        <p class="lead">共 ${products.length} 个条目，按产品类型、厂商分类和能力标签筛选，详情页保留官网、定价与公开资料。</p>
       </div>
     </section>
     <section>
@@ -279,10 +274,11 @@ function renderProducts() {
                 .join("")}
             </select>
           </div>
+          <button id="reset-filters" class="quiet-button" type="button">清除筛选</button>
         </aside>
         <main>
           <div class="section-head">
-            <div><p class="eyebrow">Filtered results</p><h2 id="result-count">${products.length} 个产品</h2></div>
+            <div><p class="section-label">筛选结果</p><h2 id="result-count" aria-live="polite">${products.length} 个产品</h2></div>
           </div>
           <div id="product-grid" class="product-grid"></div>
         </main>
@@ -296,6 +292,7 @@ function renderProducts() {
   const capability = $("#capability-filter");
   const grid = $("#product-grid");
   const count = $("#result-count");
+  const reset = $("#reset-filters");
 
   function renderGroupedProducts(items) {
     let currentKey = "";
@@ -355,6 +352,15 @@ function renderProducts() {
     applyFilters();
   });
   [search, group, capability].forEach((control) => control.addEventListener("input", applyFilters));
+  reset.addEventListener("click", () => {
+    search.value = "";
+    group.value = "";
+    capability.value = "";
+    selectedType = "";
+    $("#type-filter").querySelectorAll("button").forEach((button, index) => button.classList.toggle("active", index === 0));
+    applyFilters();
+    search.focus();
+  });
   applyFilters();
 }
 
@@ -372,10 +378,10 @@ function renderProductDetail() {
     .sort((a, b) => b.date.localeCompare(a.date));
 
   root.innerHTML = `
-    <section class="page-band">
+    <section class="page-intro">
       <div class="wrap detail-hero">
         <div class="detail-title">
-          <p class="eyebrow">${product.type} / ${formatValue(product.group)}</p>
+          <p class="breadcrumb"><a href="products.html">产品索引</a><span>/</span>${product.type}<span>/</span>${formatValue(product.group)}</p>
           <h1>${product.name}</h1>
           <p>${product.summary}</p>
           <div class="hero-actions">
@@ -384,7 +390,7 @@ function renderProductDetail() {
             ${externalLink(product.pricing, "查看定价")}
           </div>
         </div>
-        <aside class="detail-panel">
+        <aside class="fact-panel">
           <div class="facts">
             ${[
               ["厂商", formatValue(product.vendor)],
@@ -428,13 +434,13 @@ function renderProductDetail() {
           </section>
         </main>
         <aside class="side-stack">
-          <section class="detail-panel">
+          <section class="side-panel">
             <h3>能力标签</h3>
             <div class="tag-row" style="margin-top:12px">
               ${product.capabilities.map((item) => tag(item, "teal")).join("") || tag("待补充")}
             </div>
           </section>
-          <section class="detail-panel">
+          <section class="side-panel">
             <h3>相关产品</h3>
             <div class="cluster-list" style="margin-top:12px">
               ${related
@@ -475,7 +481,7 @@ function timelineCard(item, showProduct = true) {
         </div>
         <h3>${item.title}</h3>
         <p>${item.summary}</p>
-        <div class="impact-note"><strong>收录原因：</strong>${item.impact}</div>
+        <div class="impact-note"><strong>为什么值得收录</strong><span>${item.impact}</span></div>
         <div class="timeline-links">
           ${product ? `<a href="${productUrl(product)}">产品详情</a>` : ""}
           ${externalLink(item.sourceUrl, item.sourceLabel || "查看信源")}
@@ -491,10 +497,9 @@ function renderTimeline() {
   if (!root) return;
   const categories = [...new Set(majorUpdates.map((item) => item.category))].sort();
   root.innerHTML = `
-    <section class="page-band">
-      <div class="wrap">
-        <p class="eyebrow">Signal timeline / 重大动态</p>
-        <h1>过滤噪音，<br>只留下改变判断的事件</h1>
+    <section class="page-intro">
+      <div class="wrap intro-grid timeline-intro">
+        <div><p class="section-label">重大动态</p><h1>过滤噪音，只留下改变判断的事件</h1></div>
         <p class="lead">只收录会改变产品定位、核心能力、商业模式或行业格局的事件。普通日常更新不进入此时间线。</p>
         <div class="stats-row compact-stats">
           <div class="stat"><strong>${majorUpdates.length}</strong><span>已审核重大事件</span></div>
@@ -518,7 +523,7 @@ function renderTimeline() {
           <p class="filter-help">系统每周一自动采集并严格审核。只有达到重大事件阈值的内容才会进入正式时间线。</p>
         </aside>
         <main>
-          <div class="section-head"><h2 id="timeline-count">${majorUpdates.length} 条重大动态</h2></div>
+          <div class="section-head"><div><p class="section-label">已审核事件</p><h2 id="timeline-count" aria-live="polite">${majorUpdates.length} 条重大动态</h2></div></div>
           <div id="timeline-list" class="timeline-list"></div>
         </main>
       </div>

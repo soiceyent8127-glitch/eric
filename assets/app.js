@@ -80,54 +80,82 @@ function renderHome() {
     });
     return acc;
   }, {});
-  const topCapabilities = Object.entries(capabilityCounts)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 6);
+  const topCapabilities = Object.entries(capabilityCounts).sort((a, b) => b[1] - a[1]).slice(0, 7);
   const highlighted = products
     .filter((product) => product.website && product.pricing)
-    .slice(0, 6);
+    .filter((product) => ["QoderWork（阿里巴巴）", "WorkBuddy（腾讯）", "Codex桌面版（Open AI）", "Amazon Quick（AWS）"].includes(product.name));
+  const latest = majorUpdates.slice().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
   root.innerHTML = `
-    <section class="hero-band">
+    <section class="hero-band graphite-hero">
+      <canvas id="ambient-map" class="ambient-map" aria-hidden="true"></canvas>
       <div class="wrap dashboard-hero">
         <div class="hero-copy">
-          <p class="hero-kicker">持续更新的 Agent 产品情报库</p>
-          <h1>看清 Agent 产品，正在往哪里走</h1>
+          <p class="hero-kicker">Agent Market Signals · Week 24</p>
+          <h1>看清 Agent 产品，<em>正在往哪里走</em></h1>
           <p class="lead">追踪类 Cowork 与类 OpenClaw 产品，只保留足以改变竞争判断的更新与信源。</p>
           <div class="hero-actions">
             <a class="primary-button" href="products.html">浏览产品索引</a>
             <a class="ghost-button" href="timeline.html">查看最新动态</a>
           </div>
           <div class="stats-row">
-            <div class="stat"><strong>${products.length}</strong><span>产品与项目</span></div>
-            <div class="stat"><strong>${typeCounts["类 Cowork"] || 0}</strong><span>类 Cowork 产品</span></div>
-            <div class="stat"><strong>${typeCounts["类 OpenClaw"] || 0}</strong><span>类 OpenClaw 产品</span></div>
+            <div class="stat"><strong>${products.length}</strong><span>Products Tracked</span></div>
+            <div class="stat"><strong>${majorUpdates.length}</strong><span>Major Signals</span></div>
+            <div class="stat"><strong>${String(data.strategy.items.length).padStart(2, "0")}</strong><span>Strategic Theses</span></div>
           </div>
         </div>
-        <aside class="coverage-panel" aria-label="产品能力覆盖">
-          <div class="coverage-head">
-            <div><span>产品能力覆盖</span><strong>${products.length} 个样本</strong></div>
-            <a href="products.html">进入索引</a>
-          </div>
-          <div class="coverage-list">
-            ${topCapabilities
-              .map(
-                ([label, count], index) => `
-                  <div class="coverage-row">
-                    <span>${String(index + 1).padStart(2, "0")}</span>
-                    <strong>${label}</strong>
-                    <b>${count} 个产品</b>
-                  </div>
-                `,
-              )
-              .join("")}
-          </div>
-          <p class="coverage-note">基于公开资料中的能力标签统计，随产品库更新。</p>
+        <aside class="competition-map" aria-label="Agent 竞争格局">
+          <div class="map-head"><div><strong>Agent 竞争格局</strong><span>核心玩家按区域与执行形态分布</span></div><span>竞争格局</span></div>
+          <canvas id="competition-map" aria-hidden="true"></canvas>
+          <div class="map-axis axis-x"><span>本地桌面执行</span><span>云端常驻执行</span></div>
+          <div class="map-axis axis-y"><span>国外核心玩家</span><span>国内竞争格局</span></div>
+          <div class="map-cluster c1"><b>国外 · 本地桌面 Agent</b><span>个人生产力入口</span></div>
+          <div class="map-cluster c2"><b>国外 · 云端企业 Agent</b><span>企业工作流入口</span></div>
+          <div class="map-cluster c3"><b>国内 · 三大厂主战场</b><span>IM + 混合执行 + 生态</span></div>
+          <div class="map-cluster c4"><b>国内 · 模型厂商</b><span>模型能力产品化</span></div>
+          ${[
+            ["OpenAI · Codex Desktop", "本地桌面 Agent", "p1"],
+            ["Anthropic · Claude Cowork", "本地桌面 Agent", "p2"],
+            ["AWS · Amazon Quick", "云端企业工作流", "p3"],
+            ["Google · Gemini Spark", "云端常驻 Agent", "p4"],
+            ["腾讯", "WorkBuddy · QClaw", "p5"],
+            ["阿里", "QoderWork · CoPaw", "p6"],
+            ["字节", "Coze · ArkClaw", "p7"],
+            ["MiniMax", "Agent · MaxClaw", "p8"],
+            ["阶跃星辰", "桌面伙伴 · StepClaw", "p9"],
+          ]
+            .map(([name, desc, cls], index) => `<div class="map-product ${cls} ${index < 7 ? "major" : ""}"><b>${name}</b><span>${desc}</span></div>`)
+            .join("")}
+          <div class="map-legend"><span>核心竞争者</span><span>关联产品</span><span>生态连接</span></div>
         </aside>
       </div>
     </section>
 
-    <section id="strategy">
+    <section class="signal-panels">
+      <div class="wrap signal-grid">
+        <article class="signal-panel">
+          <div class="panel-head"><strong>本周关键信号</strong><span>${String(latest.length).padStart(2, "0")} Verified Events</span></div>
+          <div class="event-list">
+            ${latest
+              .map((item) => {
+                const product = products.find((entry) => entry.slug === item.productSlug);
+                return `<a class="event-row" href="${product ? productUrl(product) : "timeline.html"}"><time>${item.date.slice(5).replace("-", "/")}</time><div><b>${item.title}</b><span>${item.impact}</span></div>${tag(item.category, "teal")}</a>`;
+              })
+              .join("")}
+          </div>
+        </article>
+        <article class="signal-panel">
+          <div class="panel-head"><strong>能力覆盖强度</strong><span>${products.length} Products</span></div>
+          <div class="coverage-list signal-coverage">
+            ${topCapabilities
+              .map(([label, count]) => `<a class="coverage-row" href="products.html"><strong>${label}</strong><i><span style="width:${(count / topCapabilities[0][1]) * 100}%"></span></i><b>${count}</b></a>`)
+              .join("")}
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="strategy" class="graphite-section">
       <div class="wrap">
         <div class="section-head">
           <div>
@@ -136,13 +164,13 @@ function renderHome() {
           </div>
           <a class="ghost-button" href="products.html">产品拆解</a>
         </div>
-        <p class="research-note">${data.strategy.overview}</p>
         <ol class="strategy-list">
           ${data.strategy.items
+            .slice(0, 6)
             .map(
               (item) => `
                 <li>
-                  <span class="strategy-id">${item.id}</span>
+                  <span class="strategy-id">${String(item.id).padStart(2, "0")}</span>
                   <div><h3>${item.title}</h3><p>${item.judgment}</p></div>
                 </li>
               `,
@@ -152,7 +180,7 @@ function renderHome() {
       </div>
     </section>
 
-    <section class="section-tint">
+    <section class="section-tint graphite-section">
       <div class="wrap">
         <div class="section-head">
           <div>
@@ -162,11 +190,12 @@ function renderHome() {
           <a class="primary-button" href="products.html">查看全部 ${products.length} 个产品</a>
         </div>
         <div class="matrix-preview">
-          <div class="cluster-list">
+          <div class="cluster-list route-list">
             ${[
-              ["国内 Cowork", groupCounts["国内"] || 0, "QoderWork、WorkBuddy、阶跃桌面伙伴、MiniMax Agent、Skywork 桌面版等。"],
-              ["国外 Cowork", groupCounts["国外"] || 0, "OpenWork、Microsoft Copilot Cowork、Manus 桌面版、Amazon Quick、Codex 桌面版。"],
-              ["OpenClaw 分类", typeCounts["类 OpenClaw"] || 0, "核心友商 / 模型厂商 / 其他厂商 / 手机厂商。"],
+              ["国外本地桌面 Agent", 2, "OpenAI Codex Desktop、Anthropic Claude Cowork。"],
+              ["国外云端企业 Agent", 2, "AWS Amazon Quick、Google Gemini Spark。"],
+              ["国内三大厂主战场", 3, "腾讯、阿里、字节围绕 IM、混合执行与生态竞争。"],
+              ["模型厂商卫星区", groupCounts["模型厂商"] || 0, "MiniMax、阶跃星辰、智谱等从模型能力产品化切入。"],
             ]
               .map(
                 ([label, number, desc]) => `
@@ -201,6 +230,115 @@ function renderHome() {
       </div>
     </section>
   `;
+}
+
+function initCompetitionMap() {
+  const canvas = $("#competition-map");
+  const ambient = $("#ambient-map");
+  if (!canvas || !ambient || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const map = canvas.parentElement;
+  const hero = ambient.parentElement;
+  const ctx = canvas.getContext("2d");
+  const actx = ambient.getContext("2d");
+  let mx = 0;
+  let my = 0;
+  let t = 0;
+  const centers = [{ x: 0.27, y: 0.35 }, { x: 0.73, y: 0.35 }, { x: 0.35, y: 0.68 }, { x: 0.76, y: 0.68 }];
+  const counts = [8, 7, 18, 9];
+  const points = counts.flatMap((count, group) =>
+    Array.from({ length: count }, (_, index) => ({
+      group,
+      angle: (index / count) * Math.PI * 2 + Math.random() * 0.45,
+      radius: 28 + Math.random() * 62,
+      size: 1.5 + Math.random() * 2,
+      hot: (group < 3 && index < 3) || (group === 3 && index < 2),
+      phase: Math.random() * Math.PI * 2,
+    })),
+  );
+  const streams = Array.from({ length: 30 }, (_, index) => ({ y: 0.1 + Math.random() * 0.78, speed: 0.12 + Math.random() * 0.25, phase: Math.random() * 8, width: 0.25 + Math.random() * 0.8, bright: index < 6 }));
+
+  function resize(target, context, width, height) {
+    const density = devicePixelRatio;
+    const pixelWidth = Math.round(width * density);
+    const pixelHeight = Math.round(height * density);
+    if (target.width === pixelWidth && target.height === pixelHeight) return;
+    target.width = pixelWidth;
+    target.height = pixelHeight;
+    context.setTransform(density, 0, 0, density, 0, 0);
+  }
+
+  function draw() {
+    t += 0.012;
+    const width = map.clientWidth;
+    const height = map.clientHeight;
+    resize(canvas, ctx, width, height);
+    ctx.clearRect(0, 0, width, height);
+    points.forEach((point) => {
+      const center = centers[point.group];
+      const cx = center.x * width + mx * (8 + point.group * 2);
+      const cy = center.y * height + my * (6 + point.group);
+      const wave = Math.sin(t + point.phase) * 3;
+      point.x = cx + Math.cos(point.angle) * (point.radius + wave);
+      point.y = cy + Math.sin(point.angle) * (point.radius * 0.62 + wave);
+    });
+    points.forEach((point, index) => {
+      points.slice(index + 1).forEach((other) => {
+        if (point.group !== other.group) return;
+        const distance = Math.hypot(point.x - other.x, point.y - other.y);
+        if (distance < 82) {
+          ctx.strokeStyle = `rgba(255,255,255,${0.09 * (1 - distance / 82)})`;
+          ctx.beginPath();
+          ctx.moveTo(point.x, point.y);
+          ctx.lineTo(other.x, other.y);
+          ctx.stroke();
+        }
+      });
+    });
+    [[0, 1], [0, 2], [1, 2], [1, 3], [2, 3]].forEach(([a, b]) => {
+      ctx.strokeStyle = "rgba(255,156,59,.1)";
+      ctx.setLineDash([2, 8]);
+      ctx.beginPath();
+      ctx.moveTo(centers[a].x * width, centers[a].y * height);
+      ctx.quadraticCurveTo(width * 0.5, height * 0.5, centers[b].x * width, centers[b].y * height);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    });
+    points.forEach((point) => {
+      ctx.fillStyle = point.hot ? "#ff9c3b" : "rgba(235,232,224,.72)";
+      ctx.beginPath();
+      ctx.arc(point.x, point.y, point.hot ? point.size + 1.8 : point.size, 0, Math.PI * 2);
+      ctx.fill();
+      if (point.hot) {
+        ctx.strokeStyle = "rgba(255,156,59,.28)";
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, 9 + (Math.sin(t * 3 + point.phase) + 1) * 3, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+    });
+
+    const aw = hero.clientWidth;
+    const ah = hero.clientHeight;
+    resize(ambient, actx, aw, ah);
+    actx.clearRect(0, 0, aw, ah);
+    streams.forEach((stream) => {
+      actx.beginPath();
+      for (let px = -30; px < aw + 30; px += 14) {
+        const progress = px / aw;
+        const y = stream.y * ah + Math.sin(progress * 5 + stream.phase + t * stream.speed * 12) * 35 + Math.sin(progress * 13 + stream.phase) * 4;
+        px === -30 ? actx.moveTo(px, y) : actx.lineTo(px, y);
+      }
+      actx.strokeStyle = stream.bright ? "rgba(255,156,59,.09)" : "rgba(255,255,255,.025)";
+      actx.lineWidth = stream.width;
+      actx.stroke();
+    });
+    requestAnimationFrame(draw);
+  }
+  map.addEventListener("pointermove", (event) => {
+    const rect = map.getBoundingClientRect();
+    mx = (event.clientX - rect.left) / rect.width - 0.5;
+    my = (event.clientY - rect.top) / rect.height - 0.5;
+  });
+  draw();
 }
 
 function uniqueValues(key) {
@@ -568,3 +706,4 @@ renderHome();
 renderProducts();
 renderProductDetail();
 renderTimeline();
+initCompetitionMap();

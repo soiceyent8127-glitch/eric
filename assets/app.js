@@ -105,7 +105,8 @@ function renderHome() {
           </div>
         </div>
         <aside class="competition-map" aria-label="Agent 竞争格局">
-          <div class="map-head"><div><strong>Agent 竞争格局</strong><span>核心玩家按区域与执行形态分布</span></div><span>竞争格局</span></div>
+          <div class="map-head"><div><strong>Agent 竞争格局</strong><span>核心玩家按区域与执行形态分布</span></div><span class="radar-state"><i aria-hidden="true"></i>Live Sweep</span></div>
+          <canvas id="radar-map" aria-hidden="true"></canvas>
           <canvas id="competition-map" aria-hidden="true"></canvas>
           <div class="map-axis axis-x"><span>本地桌面执行</span><span>云端常驻执行</span></div>
           <div class="map-axis axis-y"><span>国外核心玩家</span><span>国内竞争格局</span></div>
@@ -232,11 +233,120 @@ function renderHome() {
   `;
 }
 
+function initRadarMap(canvas, map) {
+  if (!canvas) return;
+  const gl = canvas.getContext("webgl", { alpha: true, antialias: false, premultipliedAlpha: false });
+  if (!gl) return;
+  const vertexSource = `
+    attribute vec2 position;
+    void main() {
+      gl_Position = vec4(position, 0.0, 1.0);
+    }
+  `;
+  const fragmentSource = `
+    precision highp float;
+    uniform float uTime;
+    uniform vec2 uResolution;
+    uniform vec2 uMouse;
+
+    #define TAU 6.28318530718
+
+    void main() {
+      vec2 st = gl_FragCoord.xy / uResolution;
+      st = st * 2.0 - 1.0;
+      st.x *= uResolution.x / uResolution.y;
+      vec2 mouseShift = (uMouse * 2.0 - 1.0);
+      mouseShift.x *= uResolution.x / uResolution.y;
+      st -= mouseShift * 0.08;
+      st *= 1.42;
+
+      float dist = length(st);
+      float theta = atan(st.y, st.x);
+      float ringDist = abs(fract(dist * 8.0 - uTime * 0.08) - 0.5);
+      float rings = 1.0 - smoothstep(0.0, 0.035, ringDist);
+      float spokeAngle = abs(fract(theta * 12.0 / TAU + 0.5) - 0.5) * TAU / 12.0;
+      float spokes = (1.0 - smoothstep(0.0, 0.008, spokeAngle * dist)) * smoothstep(0.03, 0.16, dist);
+      float sweep = pow(max(0.5 * sin(theta + uTime * 0.55) + 0.5, 0.0), 18.0);
+      float trail = pow(max(0.5 * sin(theta + uTime * 0.55 - 0.24) + 0.5, 0.0), 7.0) * 0.35;
+      float fade = smoothstep(1.04, 0.76, dist) * pow(max(1.0 - dist, 0.0), 1.45);
+      float intensity = (rings * 0.12 + spokes * 0.09 + sweep * 0.8 + trail) * fade;
+      vec3 amber = vec3(1.0, 0.52, 0.16);
+      gl_FragColor = vec4(amber * intensity, clamp(intensity * 0.7, 0.0, 0.38));
+    }
+  `;
+
+  function shader(type, source) {
+    const item = gl.createShader(type);
+    gl.shaderSource(item, source);
+    gl.compileShader(item);
+    if (!gl.getShaderParameter(item, gl.COMPILE_STATUS)) {
+      gl.deleteShader(item);
+      return null;
+    }
+    return item;
+  }
+
+  const vertex = shader(gl.VERTEX_SHADER, vertexSource);
+  const fragment = shader(gl.FRAGMENT_SHADER, fragmentSource);
+  if (!vertex || !fragment) return;
+  const program = gl.createProgram();
+  gl.attachShader(program, vertex);
+  gl.attachShader(program, fragment);
+  gl.linkProgram(program);
+  if (!gl.getProgramParameter(program, gl.LINK_STATUS)) return;
+
+  const buffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+  const position = gl.getAttribLocation(program, "position");
+  const timeUniform = gl.getUniformLocation(program, "uTime");
+  const resolutionUniform = gl.getUniformLocation(program, "uResolution");
+  const mouseUniform = gl.getUniformLocation(program, "uMouse");
+  const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let currentMouse = [0.5, 0.5];
+  let targetMouse = [0.5, 0.5];
+
+  map.addEventListener("pointermove", (event) => {
+    const rect = map.getBoundingClientRect();
+    targetMouse = [(event.clientX - rect.left) / rect.width, 1 - (event.clientY - rect.top) / rect.height];
+  });
+  map.addEventListener("pointerleave", () => {
+    targetMouse = [0.5, 0.5];
+  });
+
+  function render(time = 0) {
+    const density = Math.min(devicePixelRatio, 2);
+    const width = Math.round(map.clientWidth * density);
+    const height = Math.round(map.clientHeight * density);
+    if (canvas.width !== width || canvas.height !== height) {
+      canvas.width = width;
+      canvas.height = height;
+    }
+    currentMouse[0] += (targetMouse[0] - currentMouse[0]) * 0.035;
+    currentMouse[1] += (targetMouse[1] - currentMouse[1]) * 0.035;
+    gl.viewport(0, 0, width, height);
+    gl.clearColor(0, 0, 0, 0);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.useProgram(program);
+    gl.enableVertexAttribArray(position);
+    gl.vertexAttribPointer(position, 2, gl.FLOAT, false, 0, 0);
+    gl.uniform1f(timeUniform, time * 0.001);
+    gl.uniform2f(resolutionUniform, width, height);
+    gl.uniform2f(mouseUniform, currentMouse[0], currentMouse[1]);
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+    if (!reducedMotion) requestAnimationFrame(render);
+  }
+  requestAnimationFrame(render);
+}
+
 function initCompetitionMap() {
   const canvas = $("#competition-map");
+  const radar = $("#radar-map");
   const ambient = $("#ambient-map");
-  if (!canvas || !ambient || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if (!canvas || !ambient) return;
   const map = canvas.parentElement;
+  initRadarMap(radar, map);
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const hero = ambient.parentElement;
   const ctx = canvas.getContext("2d");
   const actx = ambient.getContext("2d");

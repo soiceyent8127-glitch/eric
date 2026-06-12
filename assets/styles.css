@@ -350,6 +350,7 @@ summary { padding: 16px 18px; cursor: pointer; font-size: 14px; font-weight: 750
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .001ms !important; }
+  .radar-state i { box-shadow: none; }
 }
 
 /* Graphite Constellation */
@@ -405,11 +406,15 @@ h1, h2, h3 { letter-spacing: -.04em; }
 .competition-map { position: relative; overflow: hidden; min-height: 625px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(145deg, color-mix(in oklch, var(--surface) 90%, transparent), color-mix(in oklch, var(--bg) 92%, transparent)); box-shadow: inset 0 1px color-mix(in oklch, var(--ink) 7%, transparent), 0 8px 30px color-mix(in oklch, black 28%, transparent); }
 .competition-map::before { content: ""; position: absolute; inset: 0; background: linear-gradient(color-mix(in oklch, var(--ink) 3%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in oklch, var(--ink) 3%, transparent) 1px, transparent 1px); background-size: 44px 44px; mask-image: linear-gradient(to bottom, black, transparent 88%); }
 .competition-map canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+#radar-map { z-index: 1; opacity: .88; mix-blend-mode: screen; pointer-events: none; }
+#competition-map { z-index: 2; pointer-events: none; }
 .map-head { position: absolute; z-index: 5; top: 22px; right: 24px; left: 24px; display: flex; justify-content: space-between; }
 .map-head div { display: grid; gap: 4px; }
 .map-head strong { font-size: 13px; }
 .map-head div span, .map-head > span { color: var(--muted); font: 500 9px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; }
 .map-head > span { padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: color-mix(in oklch, var(--surface-2) 70%, transparent); }
+.map-head .radar-state { display: flex; align-items: center; gap: 6px; color: var(--accent-strong); border-color: color-mix(in oklch, var(--accent) 30%, var(--line)); }
+.radar-state i { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px color-mix(in oklch, var(--accent) 12%, transparent); }
 .map-axis { position: absolute; z-index: 3; display: flex; justify-content: space-between; color: color-mix(in oklch, var(--ink) 28%, transparent); font: 500 8px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; }
 .axis-x { right: 24px; bottom: 54px; left: 24px; padding-top: 7px; border-top: 1px solid color-mix(in oklch, var(--ink) 7%, transparent); }
 .axis-y { top: 100px; bottom: 75px; left: 24px; padding-right: 7px; border-right: 1px solid color-mix(in oklch, var(--ink) 7%, transparent); writing-mode: vertical-rl; }

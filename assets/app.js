@@ -108,6 +108,7 @@ function renderHome() {
           <div class="map-head"><div><strong>Agent 竞争格局</strong><span>核心玩家按区域与执行形态分布</span></div><span class="radar-state"><i aria-hidden="true"></i>Live Sweep</span></div>
           <canvas id="radar-map" aria-hidden="true"></canvas>
           <canvas id="competition-map" aria-hidden="true"></canvas>
+          <div class="radar-cardinals" aria-hidden="true"><span>N</span><span>E</span><span>S</span><span>W</span></div>
           <div class="map-axis axis-x"><span>本地桌面执行</span><span>云端常驻执行</span></div>
           <div class="map-axis axis-y"><span>国外核心玩家</span><span>国内竞争格局</span></div>
           <div class="map-cluster c1"><b>国外 · 本地桌面 Agent</b><span>个人生产力入口</span></div>
@@ -250,28 +251,36 @@ function initRadarMap(canvas, map) {
     uniform vec2 uMouse;
 
     #define TAU 6.28318530718
+    #define PI 3.14159265359
 
     void main() {
-      vec2 st = gl_FragCoord.xy / uResolution;
-      st = st * 2.0 - 1.0;
-      st.x *= uResolution.x / uResolution.y;
-      vec2 mouseShift = (uMouse * 2.0 - 1.0);
-      mouseShift.x *= uResolution.x / uResolution.y;
-      st -= mouseShift * 0.08;
-      st *= 1.42;
+      float unit = min(uResolution.x, uResolution.y);
+      vec2 st = (gl_FragCoord.xy - uResolution * 0.5) * 2.0 / unit;
+      vec2 mouseShift = (uMouse - 0.5) * 0.025;
+      st -= mouseShift;
 
       float dist = length(st);
       float theta = atan(st.y, st.x);
-      float ringDist = abs(fract(dist * 8.0 - uTime * 0.08) - 0.5);
-      float rings = 1.0 - smoothstep(0.0, 0.035, ringDist);
+      float mask = 1.0 - smoothstep(0.875, 0.9, dist);
+      float ringPhase = abs(fract(dist * 5.0 + 0.5) - 0.5);
+      float rings = (1.0 - smoothstep(0.0, 0.013, ringPhase)) * mask;
+      float outer = 1.0 - smoothstep(0.0, 0.012, abs(dist - 0.89));
+      float crosshair = max(1.0 - smoothstep(0.0, 0.004, abs(st.x)), 1.0 - smoothstep(0.0, 0.004, abs(st.y))) * mask;
       float spokeAngle = abs(fract(theta * 12.0 / TAU + 0.5) - 0.5) * TAU / 12.0;
-      float spokes = (1.0 - smoothstep(0.0, 0.008, spokeAngle * dist)) * smoothstep(0.03, 0.16, dist);
-      float sweep = pow(max(0.5 * sin(theta + uTime * 0.55) + 0.5, 0.0), 18.0);
-      float trail = pow(max(0.5 * sin(theta + uTime * 0.55 - 0.24) + 0.5, 0.0), 7.0) * 0.35;
-      float fade = smoothstep(1.04, 0.76, dist) * pow(max(1.0 - dist, 0.0), 1.45);
-      float intensity = (rings * 0.12 + spokes * 0.09 + sweep * 0.8 + trail) * fade;
+      float spokes = (1.0 - smoothstep(0.0, 0.004, spokeAngle * dist)) * smoothstep(0.12, 0.2, dist) * mask;
+      float ticks = (1.0 - smoothstep(0.0, 0.08, abs(fract(theta * 36.0 / TAU + 0.5) - 0.5))) * smoothstep(0.82, 0.84, dist) * (1.0 - smoothstep(0.88, 0.9, dist));
+      float center = 1.0 - smoothstep(0.018, 0.03, dist);
+
+      float sweepAngle = mod(uTime * 0.48, TAU) - PI;
+      float delta = mod(theta - sweepAngle + TAU, TAU);
+      float beamDistance = min(delta, TAU - delta) * dist;
+      float beam = (1.0 - smoothstep(0.0, 0.012, beamDistance)) * mask;
+      float trail = exp(-delta * 3.2) * step(delta, 1.15) * mask;
+
+      float structure = rings * 0.34 + outer * 0.75 + crosshair * 0.22 + spokes * 0.18 + ticks * 0.55 + center * 0.9;
+      float intensity = structure + trail * 0.38 + beam * 1.15;
       vec3 amber = vec3(1.0, 0.52, 0.16);
-      gl_FragColor = vec4(amber * intensity, clamp(intensity * 0.7, 0.0, 0.38));
+      gl_FragColor = vec4(amber * intensity, clamp(intensity * 0.9, 0.0, 0.72));
     }
   `;
 

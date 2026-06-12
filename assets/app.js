@@ -8,6 +8,10 @@ function $(selector, root = document) {
   return root.querySelector(selector);
 }
 
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" })[character]);
+}
+
 function formatValue(value, fallback = "未标明") {
   return value && value.trim() ? value.trim() : fallback;
 }
@@ -39,6 +43,7 @@ function renderHeader() {
   const header = $("#site-header");
   if (!header) return;
   header.innerHTML = `
+    <div class="page-progress" aria-hidden="true"><i></i></div>
     <div class="nav">
       <a class="brand" href="index.html">
         <span class="brand-mark" aria-hidden="true">
@@ -51,6 +56,7 @@ function renderHeader() {
         <span><strong>Agent Index</strong><small>AI 产品情报</small></span>
       </a>
       <nav class="nav-links" aria-label="主导航">
+        <i class="nav-glider" aria-hidden="true"></i>
         <a data-nav href="index.html">战略判断</a>
         <a data-nav href="products.html">产品索引</a>
         <a data-nav href="timeline.html">重大动态</a>
@@ -474,7 +480,7 @@ function uniqueValues(key) {
 function productCard(product) {
   const tone = product.type.includes("Cowork") ? "teal" : "coral";
   return `
-    <article class="product-card">
+    <article class="product-card spotlight-surface" data-reveal data-reveal-y="10">
       <div class="card-top">
         <div>
           <h3><a href="${productUrl(product)}">${product.name}</a></h3>
@@ -503,14 +509,14 @@ function renderProducts() {
   if (!root) return;
   root.innerHTML = `
     <section class="page-intro">
-      <div class="wrap intro-grid">
+      <div class="wrap intro-grid" data-reveal data-reveal-y="14">
         <div><p class="section-label">产品索引</p><h1>浏览与比较 Agent 产品</h1></div>
         <p class="lead">共 ${products.length} 个条目，按产品类型、厂商分类和能力标签筛选，详情页保留官网、定价与公开资料。</p>
       </div>
     </section>
     <section>
       <div class="wrap filters-layout">
-        <aside class="filter-panel">
+        <aside class="filter-panel spotlight-surface" data-reveal data-reveal-x="-12">
           <label for="search">搜索</label>
           <input id="search" class="search-input" type="search" placeholder="产品、厂商、能力、链接">
           <div class="filter-group">
@@ -543,6 +549,7 @@ function renderProducts() {
           <div class="section-head">
             <div><p class="section-label">筛选结果</p><h2 id="result-count" aria-live="polite">${products.length} 个产品</h2></div>
           </div>
+          <div id="active-filters" class="active-filters" aria-live="polite"></div>
           <div id="product-grid" class="product-grid"></div>
         </main>
       </div>
@@ -556,6 +563,7 @@ function renderProducts() {
   const grid = $("#product-grid");
   const count = $("#result-count");
   const reset = $("#reset-filters");
+  const activeFilters = $("#active-filters");
 
   function renderGroupedProducts(items) {
     let currentKey = "";
@@ -602,9 +610,20 @@ function renderProducts() {
       );
     });
     count.textContent = `${filtered.length} 个产品`;
-    grid.innerHTML = filtered.length
-      ? renderGroupedProducts(filtered)
-      : `<div class="empty-state"><strong>没有匹配的产品</strong><span>调整搜索词或清除筛选后再试。</span></div>`;
+    const render = () => {
+      grid.innerHTML = filtered.length
+        ? renderGroupedProducts(filtered)
+        : `<div class="empty-state"><strong>没有匹配的产品</strong><span>调整搜索词或清除筛选后再试。</span></div>`;
+      activeFilters.innerHTML = [
+        q ? `<span>搜索：${escapeHtml(search.value.trim())}</span>` : "",
+        selectedType ? `<span>${selectedType}</span>` : "",
+        selectedGroup ? `<span>${selectedGroup}</span>` : "",
+        selectedCapability ? `<span>${selectedCapability}</span>` : "",
+      ].join("");
+      initSpotlightSurfaces(grid);
+      initAnimatedContent(grid);
+    };
+    render();
   }
 
   $("#type-filter").addEventListener("click", (event) => {
@@ -642,7 +661,7 @@ function renderProductDetail() {
 
   root.innerHTML = `
     <section class="page-intro">
-      <div class="wrap detail-hero">
+      <div class="wrap detail-hero" data-reveal data-reveal-y="14">
         <div class="detail-title">
           <p class="breadcrumb"><a href="products.html">产品索引</a><span>/</span>${product.type}<span>/</span>${formatValue(product.group)}</p>
           <h1>${product.name}</h1>
@@ -653,7 +672,7 @@ function renderProductDetail() {
             ${externalLink(product.pricing, "查看定价")}
           </div>
         </div>
-        <aside class="fact-panel">
+        <aside class="fact-panel spotlight-surface">
           <div class="facts">
             ${[
               ["厂商", formatValue(product.vendor)],
@@ -671,15 +690,15 @@ function renderProductDetail() {
     <section>
       <div class="wrap detail-grid">
         <main>
-          <section class="content-section">
+          <section id="capabilities" class="content-section" data-reveal data-reveal-y="16">
             <h2>核心能力</h2>
             ${product.featureBullets.length ? `<ul class="bullet-list">${product.featureBullets.map((item) => `<li>${item}</li>`).join("")}</ul>` : `<p>${formatValue(product.features, "待补充")}</p>`}
           </section>
-          <section class="content-section">
+          <section id="ecosystem" class="content-section" data-reveal data-reveal-y="16">
             <h2>生态与入口</h2>
             ${product.ecosystemBullets.length ? `<ul class="bullet-list">${product.ecosystemBullets.map((item) => `<li>${item}</li>`).join("")}</ul>` : `<p>${formatValue(product.ecosystem, "待补充")}</p>`}
           </section>
-          <section class="content-section">
+          <section id="updates" class="content-section" data-reveal data-reveal-y="16">
             <h2>重大更新时间线</h2>
             ${
               productUpdates.length
@@ -687,7 +706,7 @@ function renderProductDetail() {
                 : `<p>暂无经过审核的重大更新。原始调研记录仍保留在下方。</p>`
             }
           </section>
-          <section class="content-section">
+          <section id="raw-research" class="content-section" data-reveal data-reveal-y="16">
             <details>
               <summary>查看原始调研更新记录</summary>
               <div class="legacy-updates">
@@ -697,13 +716,20 @@ function renderProductDetail() {
           </section>
         </main>
         <aside class="side-stack">
-          <section class="side-panel">
+          <nav class="side-panel detail-outline" aria-label="详情页目录" data-reveal data-reveal-x="12">
+            <h3>研究档案</h3>
+            <a href="#capabilities"><span>01</span>核心能力</a>
+            <a href="#ecosystem"><span>02</span>生态与入口</a>
+            <a href="#updates"><span>03</span>重大动态</a>
+            <a href="#raw-research"><span>04</span>原始记录</a>
+          </nav>
+          <section class="side-panel spotlight-surface" data-reveal data-reveal-x="12">
             <h3>能力标签</h3>
             <div class="tag-row" style="margin-top:12px">
               ${product.capabilities.map((item) => tag(item, "teal")).join("") || tag("待补充")}
             </div>
           </section>
-          <section class="side-panel">
+          <section class="side-panel spotlight-surface" data-reveal data-reveal-x="12">
             <h3>相关产品</h3>
             <div class="cluster-list" style="margin-top:12px">
               ${related
@@ -735,7 +761,7 @@ function formatDate(date) {
 function timelineCard(item, showProduct = true) {
   const product = products.find((entry) => entry.slug === item.productSlug);
   return `
-    <article class="timeline-card">
+    <article class="timeline-card scroll-focus spotlight-surface">
       <div class="timeline-date">${formatDate(item.date)}</div>
       <div class="timeline-body">
         <div class="tag-row">
@@ -761,7 +787,7 @@ function renderTimeline() {
   const categories = [...new Set(majorUpdates.map((item) => item.category))].sort();
   root.innerHTML = `
     <section class="page-intro">
-      <div class="wrap intro-grid timeline-intro">
+      <div class="wrap intro-grid timeline-intro" data-reveal data-reveal-y="14">
         <div><p class="section-label">重大动态</p><h1>过滤噪音，只留下改变判断的事件</h1></div>
         <p class="lead">只收录会改变产品定位、核心能力、商业模式或行业格局的事件。普通日常更新不进入此时间线。</p>
         <div class="stats-row compact-stats">
@@ -773,7 +799,7 @@ function renderTimeline() {
     </section>
     <section>
       <div class="wrap timeline-layout">
-        <aside class="filter-panel">
+        <aside class="filter-panel spotlight-surface" data-reveal data-reveal-x="-12">
           <label for="timeline-search">搜索</label>
           <input id="timeline-search" class="search-input" type="search" placeholder="产品、事件、影响">
           <div class="filter-group">
@@ -787,7 +813,7 @@ function renderTimeline() {
         </aside>
         <main>
           <div class="section-head"><div><p class="section-label">已审核事件</p><h2 id="timeline-count" aria-live="polite">${majorUpdates.length} 条重大动态</h2></div></div>
-          <div id="timeline-list" class="timeline-list"></div>
+          <div id="timeline-list" class="timeline-list timeline-stack"></div>
         </main>
       </div>
     </section>
@@ -814,6 +840,8 @@ function renderTimeline() {
     list.innerHTML = filtered.length
       ? filtered.map((item) => timelineCard(item)).join("")
       : `<div class="empty-state"><strong>没有匹配的重大动态</strong><span>调整搜索词或事件类别后再试。</span></div>`;
+    initScrollFocus(list);
+    initSpotlightSurfaces(list);
   }
 
   [search, category].forEach((control) => control.addEventListener("input", applyTimelineFilters));
@@ -858,8 +886,8 @@ function initSplitText() {
   requestAnimationFrame(() => heading.classList.add("split-visible"));
 }
 
-function initAnimatedContent() {
-  const elements = document.querySelectorAll("[data-reveal]");
+function initAnimatedContent(root = document) {
+  const elements = root.querySelectorAll("[data-reveal]:not(.reveal-visible)");
   if (!elements.length || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   elements.forEach((element) => {
     element.style.setProperty("--reveal-x", `${element.dataset.revealX || 0}px`);
@@ -880,6 +908,53 @@ function initAnimatedContent() {
   elements.forEach((element) => observer.observe(element));
 }
 
+function initNavGlider() {
+  const nav = $(".nav-links");
+  const active = $(".nav-links a.active");
+  if (!nav || !active) return;
+  function position() {
+    nav.style.setProperty("--nav-x", `${active.offsetLeft}px`);
+    nav.style.setProperty("--nav-width", `${active.offsetWidth}px`);
+  }
+  requestAnimationFrame(position);
+  addEventListener("resize", position, { passive: true });
+}
+
+function initPageProgress() {
+  const bar = $(".page-progress i");
+  if (!bar) return;
+  function update() {
+    const distance = document.documentElement.scrollHeight - innerHeight;
+    bar.style.transform = `scaleX(${distance > 0 ? Math.min(scrollY / distance, 1) : 0})`;
+  }
+  update();
+  addEventListener("scroll", update, { passive: true });
+}
+
+function initSpotlightSurfaces(root = document) {
+  if (matchMedia("(pointer: coarse)").matches) return;
+  root.querySelectorAll(".spotlight-surface:not([data-spotlight-ready])").forEach((surface) => {
+    surface.dataset.spotlightReady = "true";
+    surface.addEventListener("pointermove", (event) => {
+      const rect = surface.getBoundingClientRect();
+      surface.style.setProperty("--spot-x", `${event.clientX - rect.left}px`);
+      surface.style.setProperty("--spot-y", `${event.clientY - rect.top}px`);
+    });
+  });
+}
+
+function initScrollFocus(root = document) {
+  const items = root.querySelectorAll(".scroll-focus");
+  if (!items.length) return;
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => entry.target.classList.toggle("is-focused", entry.isIntersecting));
+    },
+    { threshold: 0.58 },
+  );
+  items.forEach((item) => observer.observe(item));
+}
+
 renderHeader();
 renderHome();
 renderProducts();
@@ -889,3 +964,7 @@ initCompetitionMap();
 initCountUp();
 initSplitText();
 initAnimatedContent();
+initNavGlider();
+initPageProgress();
+initSpotlightSurfaces();
+initScrollFocus();

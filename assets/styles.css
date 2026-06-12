@@ -393,7 +393,8 @@ h1, h2, h3 { letter-spacing: -.04em; }
 .ghost-button, .link-button { background: color-mix(in oklch, var(--surface) 85%, transparent); }
 
 .graphite-hero { position: relative; overflow: hidden; border-bottom: 0; background: var(--bg); }
-.ambient-map { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: .9; mask-image: linear-gradient(to bottom, black 5%, black 78%, transparent 100%); }
+.galaxy-background { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: .58; mix-blend-mode: screen; mask-image: radial-gradient(ellipse 92% 88% at 34% 48%, black 0%, color-mix(in oklch, black 72%, transparent) 58%, transparent 100%); }
+.ambient-map { position: absolute; z-index: 1; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: .38; mask-image: linear-gradient(to bottom, black 5%, black 78%, transparent 100%); }
 .dashboard-hero { position: relative; z-index: 2; grid-template-columns: minmax(430px, .82fr) minmax(650px, 1.18fr); gap: 42px; min-height: 690px; max-height: none; padding-block: 34px 22px; }
 .hero-copy { display: flex; flex-direction: column; align-self: stretch; padding: 48px 15px 34px 10px; }
 .hero-kicker { display: flex; align-items: center; gap: 11px; color: var(--accent-strong); font: 700 10px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .12em; text-transform: uppercase; }
@@ -519,6 +520,7 @@ h1, h2, h3 { letter-spacing: -.04em; }
 }
 @media (max-width: 720px) {
   .nav { padding-inline: 14px; }
+  .galaxy-background { opacity: .42; mask-image: linear-gradient(to bottom, black 0%, black 48%, transparent 92%); }
   .dashboard-hero { padding-inline: 16px; }
   .hero-copy { padding: 36px 0 20px; }
   .hero-copy h1 { font-size: 50px; }

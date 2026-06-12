@@ -534,3 +534,29 @@ h1, h2, h3 { letter-spacing: -.04em; }
   .timeline-stack .timeline-card { opacity: 1; transform: none; }
   .active-filters { margin-top: -12px; }
 }
+
+/* Global Galaxy ambient layer (vanilla port of React Bits <Galaxy />) */
+html { background: var(--bg); }
+body { background: transparent; }
+
+#global-galaxy {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Let the global star field show through page chrome while content surfaces stay opaque for readability */
+.graphite-hero,
+.hero-band,
+.graphite-section,
+.section-tint,
+.page-intro,
+.footer { background: transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  #global-galaxy { opacity: 0.38; }
+}

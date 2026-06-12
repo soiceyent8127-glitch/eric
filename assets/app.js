@@ -92,16 +92,16 @@ function renderHome() {
       <div class="wrap dashboard-hero">
         <div class="hero-copy">
           <p class="hero-kicker">Agent Market Signals · Week 24</p>
-          <h1>看清 Agent 产品，<em>正在往哪里走</em></h1>
+          <h1 class="split-heading" aria-label="看清 Agent 产品，正在往哪里走"><span>看清 Agent</span><span>产品，<em>正在</em></span><span><em>往哪里走</em></span></h1>
           <p class="lead">追踪类 Cowork 与类 OpenClaw 产品，只保留足以改变竞争判断的更新与信源。</p>
           <div class="hero-actions">
             <a class="primary-button" href="products.html">浏览产品索引</a>
             <a class="ghost-button" href="timeline.html">查看最新动态</a>
           </div>
           <div class="stats-row">
-            <div class="stat"><strong>${products.length}</strong><span>Products Tracked</span></div>
-            <div class="stat"><strong>${majorUpdates.length}</strong><span>Major Signals</span></div>
-            <div class="stat"><strong>${String(data.strategy.items.length).padStart(2, "0")}</strong><span>Strategic Theses</span></div>
+            <div class="stat"><strong data-count="${products.length}">${products.length}</strong><span>Products Tracked</span></div>
+            <div class="stat"><strong data-count="${majorUpdates.length}">${majorUpdates.length}</strong><span>Major Signals</span></div>
+            <div class="stat"><strong data-count="${data.strategy.items.length}" data-pad="2">${String(data.strategy.items.length).padStart(2, "0")}</strong><span>Strategic Theses</span></div>
           </div>
         </div>
         <aside class="competition-map" aria-label="Agent 竞争格局">
@@ -135,7 +135,7 @@ function renderHome() {
 
     <section class="signal-panels">
       <div class="wrap signal-grid">
-        <article class="signal-panel">
+        <article class="signal-panel" data-reveal data-reveal-x="-22">
           <div class="panel-head"><strong>本周关键信号</strong><span>${String(latest.length).padStart(2, "0")} Verified Events</span></div>
           <div class="event-list">
             ${latest
@@ -146,7 +146,7 @@ function renderHome() {
               .join("")}
           </div>
         </article>
-        <article class="signal-panel">
+        <article class="signal-panel" data-reveal data-reveal-x="22" data-reveal-delay="80">
           <div class="panel-head"><strong>能力覆盖强度</strong><span>${products.length} Products</span></div>
           <div class="coverage-list signal-coverage">
             ${topCapabilities
@@ -171,7 +171,7 @@ function renderHome() {
             .slice(0, 6)
             .map(
               (item) => `
-                <li>
+                <li data-reveal data-reveal-y="18" data-reveal-delay="${(item.id - 1) * 45}">
                   <span class="strategy-id">${String(item.id).padStart(2, "0")}</span>
                   <div><h3>${item.title}</h3><p>${item.judgment}</p></div>
                 </li>
@@ -191,7 +191,7 @@ function renderHome() {
           </div>
           <a class="primary-button" href="products.html">查看全部 ${products.length} 个产品</a>
         </div>
-        <div class="matrix-preview">
+        <div class="matrix-preview" data-reveal data-reveal-y="22">
           <div class="cluster-list route-list">
             ${[
               ["国外本地桌面 Agent", 2, "OpenAI Codex Desktop、Anthropic Claude Cowork。"],
@@ -765,9 +765,9 @@ function renderTimeline() {
         <div><p class="section-label">重大动态</p><h1>过滤噪音，只留下改变判断的事件</h1></div>
         <p class="lead">只收录会改变产品定位、核心能力、商业模式或行业格局的事件。普通日常更新不进入此时间线。</p>
         <div class="stats-row compact-stats">
-          <div class="stat"><strong>${majorUpdates.length}</strong><span>已审核重大事件</span></div>
-          <div class="stat"><strong>${new Set(majorUpdates.map((item) => item.productSlug)).size}</strong><span>涉及产品</span></div>
-          <div class="stat"><strong>${categories.length}</strong><span>事件类别</span></div>
+          <div class="stat"><strong data-count="${majorUpdates.length}">${majorUpdates.length}</strong><span>已审核重大事件</span></div>
+          <div class="stat"><strong data-count="${new Set(majorUpdates.map((item) => item.productSlug)).size}">${new Set(majorUpdates.map((item) => item.productSlug)).size}</strong><span>涉及产品</span></div>
+          <div class="stat"><strong data-count="${categories.length}">${categories.length}</strong><span>事件类别</span></div>
         </div>
       </div>
     </section>
@@ -820,9 +820,72 @@ function renderTimeline() {
   applyTimelineFilters();
 }
 
+function initCountUp() {
+  const counters = document.querySelectorAll("[data-count]");
+  if (!counters.length || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const formatter = new Intl.NumberFormat("en-US");
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const element = entry.target;
+        const target = Number(element.dataset.count);
+        const pad = Number(element.dataset.pad || 0);
+        const start = performance.now();
+        const duration = 1050;
+        function update(now) {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 4);
+          const value = Math.round(target * eased);
+          element.textContent = formatter.format(value).padStart(pad, "0");
+          if (progress < 1) requestAnimationFrame(update);
+        }
+        requestAnimationFrame(update);
+        observer.unobserve(element);
+      });
+    },
+    { threshold: 0.45 },
+  );
+  counters.forEach((counter) => observer.observe(counter));
+}
+
+function initSplitText() {
+  const heading = $(".split-heading");
+  if (!heading || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  heading.querySelectorAll(":scope > span").forEach((segment, index) => {
+    segment.style.setProperty("--split-delay", `${index * 90}ms`);
+  });
+  requestAnimationFrame(() => heading.classList.add("split-visible"));
+}
+
+function initAnimatedContent() {
+  const elements = document.querySelectorAll("[data-reveal]");
+  if (!elements.length || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  elements.forEach((element) => {
+    element.style.setProperty("--reveal-x", `${element.dataset.revealX || 0}px`);
+    element.style.setProperty("--reveal-y", `${element.dataset.revealY || 14}px`);
+    element.style.setProperty("--reveal-delay", `${element.dataset.revealDelay || 0}ms`);
+  });
+  document.documentElement.classList.add("motion-enabled");
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("reveal-visible");
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.12, rootMargin: "0px 0px -40px" },
+  );
+  elements.forEach((element) => observer.observe(element));
+}
+
 renderHeader();
 renderHome();
 renderProducts();
 renderProductDetail();
 renderTimeline();
 initCompetitionMap();
+initCountUp();
+initSplitText();
+initAnimatedContent();

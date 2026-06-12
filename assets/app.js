@@ -127,6 +127,9 @@ function renderHome() {
             <div class="stat"><strong data-count="${data.strategy.items.length}" data-pad="2">${String(data.strategy.items.length).padStart(2, "0")}</strong><span>Strategic Theses</span></div>
           </div>
         </div>
+        <div class="border-glow-card map-glow" data-glow-animated>
+        <span class="edge-light" aria-hidden="true"></span>
+        <div class="border-glow-inner">
         <aside class="competition-map" aria-label="Agent 竞争格局">
           <div class="map-head"><div><strong>Agent 竞争格局</strong><span>核心玩家按区域与执行形态分布</span></div><span class="radar-state"><i aria-hidden="true"></i>Live Sweep</span></div>
           <canvas id="radar-map" aria-hidden="true"></canvas>
@@ -153,6 +156,8 @@ function renderHome() {
             .join("")}
           <div class="map-legend"><span>核心竞争者</span><span>关联产品</span><span>生态连接</span></div>
         </aside>
+        </div>
+        </div>
       </div>
     </section>
 
@@ -935,7 +940,10 @@ function renderProductDetail() {
             ${externalLink(product.pricing, "查看定价")}
           </div>
         </div>
-        <aside class="fact-panel spotlight-surface">
+        <div class="border-glow-card fact-glow" data-glow-animated>
+        <span class="edge-light" aria-hidden="true"></span>
+        <div class="border-glow-inner">
+        <aside class="fact-panel">
           <div class="facts">
             ${[
               ["厂商", formatValue(product.vendor)],
@@ -948,6 +956,8 @@ function renderProductDetail() {
               .join("")}
           </div>
         </aside>
+        </div>
+        </div>
       </div>
     </section>
     <section>
@@ -1221,6 +1231,81 @@ function initScrollFocus(root = document) {
   items.forEach((item) => observer.observe(item));
 }
 
+// BorderGlow — vanilla port of the React Bits <BorderGlow /> pointer-reactive edge glow.
+// Colors are baked into CSS (amber/graphite); JS only feeds edge proximity + cursor angle.
+function initBorderGlow(root = document) {
+  const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const easeOutCubic = (x) => 1 - Math.pow(1 - x, 3);
+  const easeInCubic = (x) => x * x * x;
+
+  function animateValue({ start = 0, end = 100, duration = 1000, delay = 0, ease = easeOutCubic, onUpdate, onEnd }) {
+    setTimeout(() => {
+      const t0 = performance.now();
+      (function tick() {
+        const t = Math.min((performance.now() - t0) / duration, 1);
+        onUpdate(start + (end - start) * ease(t));
+        if (t < 1) requestAnimationFrame(tick);
+        else if (onEnd) onEnd();
+      })();
+    }, delay);
+  }
+
+  root.querySelectorAll(".border-glow-card").forEach((card) => {
+    if (card.dataset.glowInit) return;
+    card.dataset.glowInit = "1";
+
+    card.addEventListener("pointermove", (event) => {
+      const rect = card.getBoundingClientRect();
+      const cx = rect.width / 2;
+      const cy = rect.height / 2;
+      const dx = event.clientX - rect.left - cx;
+      const dy = event.clientY - rect.top - cy;
+      let kx = Infinity;
+      let ky = Infinity;
+      if (dx !== 0) kx = cx / Math.abs(dx);
+      if (dy !== 0) ky = cy / Math.abs(dy);
+      const edge = Math.min(Math.max(1 / Math.min(kx, ky), 0), 1);
+      let angle = 0;
+      if (dx !== 0 || dy !== 0) {
+        angle = Math.atan2(dy, dx) * (180 / Math.PI) + 90;
+        if (angle < 0) angle += 360;
+      }
+      card.style.setProperty("--edge-proximity", (edge * 100).toFixed(3));
+      card.style.setProperty("--cursor-angle", `${angle.toFixed(3)}deg`);
+    });
+
+    // Intro sweep once, when the card first scrolls into view.
+    if (card.hasAttribute("data-glow-animated") && !reducedMotion) {
+      const angleStart = 110;
+      const angleEnd = 465;
+      const setAngle = (v) => card.style.setProperty("--cursor-angle", `${(angleEnd - angleStart) * (v / 100) + angleStart}deg`);
+      const sweep = () => {
+        card.classList.add("sweep-active");
+        card.style.setProperty("--cursor-angle", `${angleStart}deg`);
+        animateValue({ duration: 500, onUpdate: (v) => card.style.setProperty("--edge-proximity", v) });
+        animateValue({ ease: easeInCubic, duration: 1500, end: 50, onUpdate: setAngle });
+        animateValue({ ease: easeOutCubic, delay: 1500, duration: 2250, start: 50, end: 100, onUpdate: setAngle });
+        animateValue({
+          ease: easeInCubic,
+          delay: 2500,
+          duration: 1500,
+          start: 100,
+          end: 0,
+          onUpdate: (v) => card.style.setProperty("--edge-proximity", v),
+          onEnd: () => card.classList.remove("sweep-active"),
+        });
+      };
+      const io = new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting) {
+          io.disconnect();
+          sweep();
+        }
+      }, { threshold: 0.35 });
+      io.observe(card);
+    }
+  });
+}
+
 renderHeader();
 renderHome();
 renderProducts();
@@ -1235,3 +1320,4 @@ initNavGlider();
 initPageProgress();
 initSpotlightSurfaces();
 initScrollFocus();
+initBorderGlow();

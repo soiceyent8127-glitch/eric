@@ -1,6 +1,7 @@
 const data = window.RESEARCH_DATA;
 const products = data.products;
 const majorUpdates = window.MAJOR_UPDATES || [];
+const productVisuals = window.PRODUCT_VISUALS || {};
 const groupOrder = ["国内", "国外", "核心友商", "模型厂商", "其他厂商", "手机厂商"];
 const typeOrder = ["类 Cowork", "类 OpenClaw"];
 
@@ -27,6 +28,22 @@ function externalLink(url, label) {
 
 function tag(label, tone = "") {
   return `<span class="tag ${tone}">${label}</span>`;
+}
+
+function productInitials(product) {
+  const name = product.name.split("（")[0].trim();
+  const words = name.match(/[A-Za-z0-9]+/g);
+  if (words?.length > 1) return words.slice(0, 2).map((word) => word[0]).join("").toUpperCase();
+  if (words?.length === 1) return words[0].slice(0, 2).toUpperCase();
+  return Array.from(name).slice(0, 2).join("");
+}
+
+function productMark(product, size = "") {
+  const visual = productVisuals[product.slug];
+  const image = visual?.icon
+    ? `<img src="${visual.icon}" alt="" loading="lazy" decoding="async" onerror="this.remove()">`
+    : "";
+  return `<span class="product-mark ${size}" aria-hidden="true"><span>${productInitials(product)}</span>${image}</span>`;
 }
 
 function setActiveNav() {
@@ -223,7 +240,7 @@ function renderHome() {
                   .map(
                     (product) => `
                       <tr>
-                        <td><a href="${productUrl(product)}"><strong>${product.name}</strong></a><br><span class="product-meta">${formatValue(product.vendor)}</span></td>
+                        <td><a class="table-product" href="${productUrl(product)}">${productMark(product, "small")}<span><strong>${product.name}</strong><small>${formatValue(product.vendor)}</small></span></a></td>
                         <td>${product.type}</td>
                         <td><div class="tag-row">${product.capabilities.slice(0, 3).map((item) => tag(item, "teal")).join("")}</div></td>
                         <td>${externalLink(product.website, "官网")} ${externalLink(product.pricing, "定价")}</td>
@@ -725,9 +742,12 @@ function productCard(product) {
   return `
     <article class="product-card spotlight-surface" data-reveal data-reveal-y="10">
       <div class="card-top">
-        <div>
-          <h3><a href="${productUrl(product)}">${product.name}</a></h3>
-          <div class="product-meta">${formatValue(product.vendor)}<span>${formatValue(product.launchDate, "上线时间未标明")}</span></div>
+        <div class="product-identity">
+          ${productMark(product)}
+          <div>
+            <h3><a href="${productUrl(product)}">${product.name}</a></h3>
+            <div class="product-meta">${formatValue(product.vendor)}<span>${formatValue(product.launchDate, "上线时间未标明")}</span></div>
+          </div>
         </div>
         ${tag(product.type, tone)}
       </div>
@@ -907,7 +927,7 @@ function renderProductDetail() {
       <div class="wrap detail-hero" data-reveal data-reveal-y="14">
         <div class="detail-title">
           <p class="breadcrumb"><a href="products.html">产品索引</a><span>/</span>${product.type}<span>/</span>${formatValue(product.group)}</p>
-          <h1>${product.name}</h1>
+          <div class="detail-heading-row">${productMark(product, "large")}<h1>${product.name}</h1></div>
           <p>${product.summary}</p>
           <div class="hero-actions">
             <a class="ghost-button" href="products.html">返回矩阵</a>
@@ -979,7 +999,7 @@ function renderProductDetail() {
                 .map(
                   (item) => `
                     <a class="cluster-item" href="${productUrl(item)}">
-                      <div class="cluster-number">${item.type.includes("Cowork") ? "CW" : "OC"}</div>
+                      ${productMark(item, "small")}
                       <div><strong>${item.name}</strong><p>${formatValue(item.vendor)}</p></div>
                     </a>
                   `,
@@ -1007,9 +1027,12 @@ function timelineCard(item, showProduct = true) {
     <article class="timeline-card scroll-focus spotlight-surface">
       <div class="timeline-date">${formatDate(item.date)}</div>
       <div class="timeline-body">
-        <div class="tag-row">
-          ${tag(item.category, "teal")}
-          ${showProduct && product ? tag(product.name, "gold") : ""}
+        <div class="timeline-product-line">
+          ${product ? productMark(product, "small") : ""}
+          <div class="tag-row">
+            ${tag(item.category, "teal")}
+            ${showProduct && product ? tag(product.name, "gold") : ""}
+          </div>
         </div>
         <h3>${item.title}</h3>
         <p>${item.summary}</p>

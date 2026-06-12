@@ -224,6 +224,15 @@ a.cluster-item:hover { background: var(--surface); }
 .product-card { display: flex; flex-direction: column; min-height: 296px; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface); transition: transform 180ms var(--ease-out), border-color 180ms var(--ease-out), box-shadow 180ms var(--ease-out); }
 .product-card:hover { transform: translateY(-2px); border-color: color-mix(in oklch, var(--accent) 55%, var(--line)); box-shadow: 0 4px 8px color-mix(in oklch, var(--accent-strong) 12%, transparent); }
 .card-top { display: flex; align-items: start; justify-content: space-between; gap: 14px; }
+.product-identity, .detail-heading-row, .timeline-product-line, .table-product { display: flex; align-items: center; gap: 12px; }
+.product-identity { align-items: start; min-width: 0; }
+.product-identity > div { min-width: 0; }
+.product-mark { position: relative; display: inline-grid; flex: 0 0 42px; width: 42px; height: 42px; place-items: center; overflow: hidden; border: 1px solid var(--line-strong); border-radius: 10px; color: var(--accent-strong); background: color-mix(in oklch, var(--surface-2) 88%, var(--accent-soft)); font: 700 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: -.04em; }
+.product-mark img { position: absolute; inset: 0; width: 100%; height: 100%; padding: 5px; object-fit: contain; background: color-mix(in oklch, var(--surface-2) 94%, transparent); }
+.product-mark.small { flex-basis: 30px; width: 30px; height: 30px; border-radius: 7px; font-size: 8px; }
+.product-mark.small img { padding: 4px; }
+.product-mark.large { flex-basis: 76px; width: 76px; height: 76px; border-radius: 15px; font-size: 18px; }
+.product-mark.large img { padding: 9px; }
 .product-card h3 { max-width: 320px; font-size: 21px; }
 .product-card h3 a:hover { color: var(--accent-strong); }
 .product-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; color: var(--muted); font-size: 12px; }
@@ -244,6 +253,8 @@ a.cluster-item:hover { background: var(--surface); }
 .empty-state span { font-size: 14px; }
 
 .detail-hero { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr); align-items: end; gap: 64px; }
+.detail-heading-row { align-items: center; margin-top: 20px; }
+.detail-heading-row h1 { margin: 0; }
 .detail-title > p:not(.breadcrumb) { max-width: 70ch; margin: 24px 0 0; color: var(--ink-2); font-size: 17px; line-height: 1.75; }
 .fact-panel, .side-panel { padding: 20px; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface-2); }
 .facts { display: grid; gap: 4px; }
@@ -270,12 +281,16 @@ summary { padding: 16px 18px; cursor: pointer; font-size: 14px; font-weight: 750
 .timeline-date { padding-top: 5px; color: var(--muted); font: 650 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
 .timeline-card::before { content: ""; position: absolute; left: 115px; top: 6px; z-index: 2; width: 9px; height: 9px; border: 2px solid var(--bg); border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 .timeline-body { padding: 0 0 34px; border-bottom: 1px solid var(--line); }
+.timeline-product-line { min-height: 30px; }
 .timeline-body h3 { max-width: 780px; margin-top: 15px; font-size: 24px; }
 .timeline-body > p { max-width: 74ch; margin: 14px 0 0; color: var(--ink-2); font-size: 15px; line-height: 1.75; text-wrap: pretty; }
 .impact-note { display: grid; gap: 5px; margin-top: 20px; padding: 14px 16px; border: 1px solid color-mix(in oklch, var(--accent) 35%, var(--line)); border-radius: var(--radius-control); background: var(--accent-soft); color: var(--ink-2); font-size: 14px; }
 .impact-note strong { color: var(--accent-strong); font-size: 13px; }
 .timeline-links { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; color: var(--muted); font-size: 12px; }
 .timeline-links > a:not(.link-button) { color: var(--accent-strong); font-weight: 750; text-decoration: underline; text-underline-offset: 4px; }
+.table-product { color: var(--ink); }
+.table-product span:last-child { display: grid; gap: 3px; }
+.table-product small { color: var(--muted); font-size: 11px; }
 
 .footer { display: flex; justify-content: space-between; gap: 20px; padding-top: 24px; padding-bottom: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 

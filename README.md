@@ -14,6 +14,7 @@ npm run validate
 npm run discover
 npm run auto-review
 npm run weekly:auto
+npm run collect:icons
 npm run promote -- <candidate-id>
 npm run serve
 ```
@@ -22,6 +23,9 @@ npm run serve
 - `data/major-updates.js`：已审核并公开展示的重大动态
 - `data/candidates.json`：自动发现、尚未公开的候选
 - `data/product-candidates.json`：尚未入库的新产品候选
+- `data/product-visuals.js`：产品图标本地资源清单
+
+`npm run collect:icons` 会从产品官网优先采集 Apple Touch Icon 与 favicon，下载到 `assets/product-icons/`。没有可靠图标的产品会在页面中自动使用文字缩写，不会出现破图。
 - `data/source-overrides.json`：额外搜索词、官方 RSS 和 GitHub Release 信源
 - `reviews/latest-auto-review.md`：最近一次自动审核记录
 - `EDITORIAL_RULES.md`：正式收录标准

@@ -10,12 +10,28 @@ async function loadWindowData(path, key) {
 }
 
 const research = await loadWindowData("data/site-data.js", "RESEARCH_DATA");
+const visuals = await loadWindowData("data/product-visuals.js", "PRODUCT_VISUALS");
 const updates = await loadWindowData("data/major-updates.js", "MAJOR_UPDATES");
 const candidates = JSON.parse(await fs.readFile(new URL("data/candidates.json", root), "utf8"));
 const productCandidates = JSON.parse(await fs.readFile(new URL("data/product-candidates.json", root), "utf8"));
 const slugs = new Set(research.products.map((product) => product.slug));
 const ids = new Set();
 const errors = [];
+
+for (const product of research.products) {
+  const visual = visuals[product.slug];
+  if (!visual) {
+    errors.push(`产品视觉清单缺少：${product.slug}`);
+    continue;
+  }
+  if (visual.icon) {
+    try {
+      await fs.access(new URL(visual.icon, root));
+    } catch {
+      errors.push(`产品图标文件不存在：${visual.icon}`);
+    }
+  }
+}
 
 for (const update of updates) {
   if (!update.id || ids.has(update.id)) errors.push(`重大动态 ID 缺失或重复：${update.id}`);

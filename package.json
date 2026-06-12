@@ -5,7 +5,8 @@
   "scripts": {
     "discover": "node scripts/discover-major-updates.mjs && node scripts/discover-new-products.mjs && node scripts/discover-from-aihot.mjs",
     "auto-review": "node scripts/auto-review-and-publish.mjs",
-    "weekly:auto": "npm run discover && npm run auto-review && npm run validate",
+    "weekly:auto": "npm run discover && npm run auto-review && npm run collect:icons && npm run validate",
+    "collect:icons": "node scripts/collect-product-icons.mjs",
     "promote": "node scripts/promote-candidate.mjs",
     "validate": "node scripts/validate-data.mjs",
     "serve": "python3 -m http.server 4173"

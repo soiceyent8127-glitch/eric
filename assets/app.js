@@ -262,23 +262,23 @@ function initRadarMap(canvas, map) {
       float dist = length(st);
       float theta = atan(st.y, st.x);
       float mask = 1.0 - smoothstep(0.875, 0.9, dist);
-      float ringPhase = abs(fract(dist * 5.0 + 0.5) - 0.5);
-      float rings = (1.0 - smoothstep(0.0, 0.013, ringPhase)) * mask;
-      float outer = 1.0 - smoothstep(0.0, 0.012, abs(dist - 0.89));
-      float crosshair = max(1.0 - smoothstep(0.0, 0.004, abs(st.x)), 1.0 - smoothstep(0.0, 0.004, abs(st.y))) * mask;
+      float ringPhase = abs(fract(dist * 6.0 + 0.5) - 0.5);
+      float rings = (1.0 - smoothstep(0.0, 0.017, ringPhase)) * mask;
+      float outer = 1.0 - smoothstep(0.0, 0.006, abs(dist - 0.89));
+      float crosshair = max(1.0 - smoothstep(0.0, 0.005, abs(st.x)), 1.0 - smoothstep(0.0, 0.005, abs(st.y))) * mask;
       float spokeAngle = abs(fract(theta * 12.0 / TAU + 0.5) - 0.5) * TAU / 12.0;
-      float spokes = (1.0 - smoothstep(0.0, 0.004, spokeAngle * dist)) * smoothstep(0.12, 0.2, dist) * mask;
+      float spokes = (1.0 - smoothstep(0.0, 0.006, spokeAngle * dist)) * smoothstep(0.12, 0.2, dist) * mask;
       float ticks = (1.0 - smoothstep(0.0, 0.08, abs(fract(theta * 36.0 / TAU + 0.5) - 0.5))) * smoothstep(0.82, 0.84, dist) * (1.0 - smoothstep(0.88, 0.9, dist));
       float center = 1.0 - smoothstep(0.018, 0.03, dist);
 
       float sweepAngle = mod(uTime * 0.48, TAU) - PI;
       float delta = mod(theta - sweepAngle + TAU, TAU);
       float beamDistance = min(delta, TAU - delta) * dist;
-      float beam = (1.0 - smoothstep(0.0, 0.012, beamDistance)) * mask;
-      float trail = exp(-delta * 3.2) * step(delta, 1.15) * mask;
+      float beam = (1.0 - smoothstep(0.0, 0.014, beamDistance)) * mask;
+      float trail = exp(-delta * 2.35) * step(delta, 1.35) * mask;
 
-      float structure = rings * 0.34 + outer * 0.75 + crosshair * 0.22 + spokes * 0.18 + ticks * 0.55 + center * 0.9;
-      float intensity = structure + trail * 0.38 + beam * 1.15;
+      float structure = rings * 0.62 + outer * 0.16 + crosshair * 0.28 + spokes * 0.35 + ticks * 0.12 + center * 0.85;
+      float intensity = structure + trail * 0.54 + beam * 1.05;
       vec3 amber = vec3(1.0, 0.52, 0.16);
       gl_FragColor = vec4(amber * intensity, clamp(intensity * 0.9, 0.0, 0.72));
     }

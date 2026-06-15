@@ -6,7 +6,7 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/db97329dde626ca0c746ebf0bbcd020fcfed73a7/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/54c8396237061886eab7518c783aa7cab57905d1/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
@@ -30,12 +30,14 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p10-krowork": {
-    "source": "https://krowork.com/",
-    "status": "fallback"
+    "icon": "assets/product-icons/p10-krowork.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fkrowork.com%2F&sz=128",
+    "status": "collected"
   },
   "p13-lantay": {
-    "source": "https://lantay.modelbest.cn/",
-    "status": "fallback"
+    "icon": "assets/product-icons/p13-lantay.ico",
+    "source": "https://lantay.modelbest.cn/favicon.ico",
+    "status": "collected"
   },
   "p06-openwork-different-ai": {
     "icon": "assets/product-icons/p06-openwork-different-ai.png",
@@ -53,13 +55,14 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p11-amazon-quick-aws": {
-    "icon": "assets/product-icons/p11-amazon-quick-aws.ico",
-    "source": "https://aws.amazon.com/favicon.ico",
+    "icon": "assets/product-icons/p11-amazon-quick-aws.png",
+    "source": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png",
     "status": "collected"
   },
   "p12-codex-open-ai": {
-    "source": "https://openai.com/codex/",
-    "status": "fallback"
+    "icon": "assets/product-icons/p12-codex-open-ai.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fopenai.com%2Fcodex%2F&sz=128",
+    "status": "collected"
   },
   "p14-qclaw": {
     "icon": "assets/product-icons/p14-qclaw.png",
@@ -72,8 +75,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p16-product": {
-    "icon": "assets/product-icons/p16-product.ico",
-    "source": "https://www.dingtalk.com/favicon.ico",
+    "icon": "assets/product-icons/p16-product.png",
+    "source": "https://img.alicdn.com/imgextra/i2/O1CN01DyN8OO1Bzprc46cXu_!!6000000000017-2-tps-128-128.png",
     "status": "collected"
   },
   "p17-copaw": {
@@ -87,8 +90,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p19-jvs-claw": {
-    "icon": "assets/product-icons/p19-jvs-claw.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fjvsclaw.aliyun.com%2F&sz=128",
+    "icon": "assets/product-icons/p19-jvs-claw.ico",
+    "source": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
     "status": "collected"
   },
   "p35-qbotclaw": {
@@ -102,8 +105,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p20-kimi-claw": {
-    "source": "https://www.kimi.com/resources/kimi-claw-introduction",
-    "status": "fallback"
+    "icon": "assets/product-icons/p20-kimi-claw.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.kimi.com%2Fresources%2Fkimi-claw-introduction&sz=128",
+    "status": "collected"
   },
   "p21-autoclaw": {
     "icon": "assets/product-icons/p21-autoclaw.svg",
@@ -111,16 +115,18 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p22-maxclaw-minimax": {
-    "source": "https://maxclaw.ai/zh/",
-    "status": "fallback"
+    "icon": "assets/product-icons/p22-maxclaw-minimax.ico",
+    "source": "https://trapilot.ai/favicon.ico",
+    "status": "collected"
   },
   "p23-stepclaw": {
-    "source": "https://www.stepfun.com/download",
-    "status": "fallback"
+    "icon": "assets/product-icons/p23-stepclaw.svg",
+    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "status": "collected"
   },
   "p24-skyclaw": {
-    "icon": "assets/product-icons/p24-skyclaw.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fskywork.ai%2Fskyclaw&sz=128",
+    "icon": "assets/product-icons/p24-skyclaw.ico",
+    "source": "https://static-s3.skyworkcdn.com/prod-skywork-web-homepage-bundle/favicon.ico",
     "status": "collected"
   },
   "p33-maxhermes-minimax": {
@@ -134,16 +140,19 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p26-molili": {
-    "source": "https://www.molili.com.cn/",
-    "status": "fallback"
+    "icon": "assets/product-icons/p26-molili.ico",
+    "source": "https://www.molili.com.cn/favicon.ico",
+    "status": "collected"
   },
   "p27-easyclaw": {
-    "source": "https://easyclaw.com/zh-cn",
-    "status": "fallback"
+    "icon": "assets/product-icons/p27-easyclaw.png",
+    "source": "https://easyclaw.com/favicon.png",
+    "status": "collected"
   },
   "p28-nemoclaw-nvidia": {
-    "source": "https://docs.nvidia.com/nemoclaw/latest/index.html",
-    "status": "fallback"
+    "icon": "assets/product-icons/p28-nemoclaw-nvidia.svg",
+    "source": "https://docs.nvidia.com/nemoclaw/api/fern-docs/favicon.ico",
+    "status": "collected"
   },
   "p37-ai-claw": {
     "icon": "assets/product-icons/p37-ai-claw.ico",
@@ -152,21 +161,22 @@ window.PRODUCT_VISUALS = {
   },
   "p38-wps-claw": {
     "icon": "assets/product-icons/p38-wps-claw.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Flingxi.wps.cn%2Fclaw%2F&sz=128",
+    "source": "https://qn.cache.wpscdn.cn/copilot-cdn/images/copilot/lingxi_logo_64_v1.png",
     "status": "collected"
   },
   "p39-astronclaw": {
-    "source": "https://www.xfyun.cn/doc/spark/Agent-AstronClaw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html#%E7%9B%AE%E5%BD%95",
-    "status": "fallback"
+    "icon": "assets/product-icons/p39-astronclaw.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.xfyun.cn%2Fdoc%2Fspark%2FAgent-AstronClaw%25E4%25BD%25BF%25E7%2594%25A8%25E6%258C%2587%25E5%258D%2597.html%23%25E7%259B%25AE%25E5%25BD%2595&sz=128",
+    "status": "collected"
   },
   "p40-loomy": {
     "icon": "assets/product-icons/p40-loomy.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Floomy.xunfei.cn%2F&sz=128",
+    "source": "https://loomy.xunfei.cn/icon.png?ce83e803068bc403",
     "status": "collected"
   },
   "p31-gemini-spark-google": {
-    "icon": "assets/product-icons/p31-gemini-spark-google.ico",
-    "source": "https://gemini.google/favicon.ico",
+    "icon": "assets/product-icons/p31-gemini-spark-google.png",
+    "source": "https://gemini.google/images/spark_4c.png",
     "status": "collected"
   },
   "p34-yoyo-claw": {

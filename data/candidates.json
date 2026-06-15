@@ -1,5 +1,97 @@
 [
   {
+    "id": "p29-claw-20d5dc3d",
+    "productSlug": "p29-claw",
+    "productName": "小艺Claw（华为）",
+    "title": "华为鸿蒙7首次亮相 鸿蒙7开发者Beta正式发布 - Sohu",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4aDcxUzJ0M2pmR251eXNER2VQQkUtM1J0aXJKYXFLeFZUazhBZzFuRVJob3VycXlYV242VUNSNFZmd0xiWTZfZGZZTEZiTkJ1VEE?oc=5",
+    "sourceLabel": "Sohu",
+    "sourceType": "media",
+    "publishedAt": "2026-06-12T16:08:00.000Z",
+    "discoveredAt": "2026-06-15T07:34:15.335Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或公司级事件 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-15",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p42-hermes-agent-4563dca1",
+    "productSlug": "p42-hermes-agent",
+    "productName": "Hermes Agent（Nous Research）",
+    "title": "Hermes Agent 桌面版正式发布！Windows / macOS / Linux 全平台支持，小白也能轻松上手！ - 黑海洋Wiki",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BS01xNjllTk54T3ZJaE92cHJEa0JyZXFCRzNJOGg2cHd3VS1sbDF4TmdIOWxKMWZOZnJqMXdNOFFtdkRUcEwzZXZRNFFZcWhMNlJlR3dyX0JEN0hSeWJZSXBPZmw?oc=5",
+    "sourceLabel": "黑海洋Wiki",
+    "sourceType": "media",
+    "publishedAt": "2026-06-12T11:14:18.000Z",
+    "discoveredAt": "2026-06-15T07:34:15.751Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或公司级事件 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-15",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p08-manus-manus-9d60f7c3",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "北京搅黄并购案 Meta和Manus现状被曝 - 万维读者网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqOG1wMzliQ1RXSW9WNGJ4UkY3QUgwcE5vT29vOHdFYWxFX3RQZGRhSk12aUkwOTE5VVIwRG5pX2FQMmJ4LTNXODQya2luNDZLNk5aeW5hQ2p6U3R3Z2JUV3pRcjU1dw?oc=5",
+    "sourceLabel": "万维读者网",
+    "sourceType": "media",
+    "publishedAt": "2026-06-15T03:31:45.000Z",
+    "discoveredAt": "2026-06-15T07:34:14.044Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或公司级事件 +6"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-15",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p08-manus-manus-28bc48a9",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+    "sourceUrl": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+    "sourceLabel": "TechCrunch：AI（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-14T00:03:49.000Z",
+    "discoveredAt": "2026-06-15T07:34:21.161Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或公司级事件 +6"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-15",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-b1d75c1a",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 将收购 Ona",
+    "sourceUrl": "https://openai.com/index/openai-to-acquire-ona",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "discoveredAt": "2026-06-15T07:34:21.619Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或公司级事件 +6"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-15",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
     "id": "p04-minimax-agent-minimax-480e6baa",
     "productSlug": "p04-minimax-agent-minimax",
     "productName": "MiniMax Agent（MiniMax）",
@@ -52,6 +144,44 @@
     ],
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-ca2577b5",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+    "sourceUrl": "https://openai.com/index/introducing-openai-partner-network",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-14T17:00:00.000Z",
+    "discoveredAt": "2026-06-15T07:34:21.619Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-15",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p02-workbuddy-98196d44",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "值得买科技与腾讯云深化“AI+消费”合作，首个消费决策Skills上线腾讯WorkBuddy - Sohu",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSTJoSm9zTFIwYUEzWlBGaUl3ZlY5bUdDcVViLXg0OS12SFhPeTFhRGZiYnFIRkRXQmZqRDd0OGpxNXZGdk5paV93NmhheUV3aFcyajV3bUU3d0lMUWROZ29zeUhhS1FLZDhJRDNsakpSSkZCNV9jWHFYMFc5dVd2X2E2SGlqbGpP?oc=5",
+    "sourceLabel": "Sohu",
+    "sourceType": "media",
+    "publishedAt": "2026-06-13T08:36:17.000Z",
+    "discoveredAt": "2026-06-15T07:34:13.498Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-15",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {

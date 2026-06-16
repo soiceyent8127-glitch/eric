@@ -352,6 +352,22 @@ h3 {
   padding: 18px;
 }
 
+.floating-lines-layer {
+  position: absolute;
+  inset: -18px;
+  z-index: 0;
+  pointer-events: auto;
+  opacity: 0.62;
+  mix-blend-mode: screen;
+  mask-image: radial-gradient(ellipse 82% 72% at 62% 38%, black 0%, black 42%, transparent 100%);
+}
+
+.floating-lines-layer canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .briefing-console::before,
 .arena-card::before {
   content: "";
@@ -361,6 +377,11 @@ h3 {
   border-radius: inherit;
   background: radial-gradient(circle at var(--mx, 50%) var(--my, 20%), oklch(0.83 0.14 68 / 0.2), transparent 34%);
   opacity: 0.8;
+}
+
+.briefing-console > :not(.floating-lines-layer) {
+  position: relative;
+  z-index: 1;
 }
 
 .console-top,

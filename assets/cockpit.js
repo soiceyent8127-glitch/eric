@@ -31,11 +31,11 @@ const radarNodes = [
   ["Anthropic", "Claude Cowork", "", 38, 21],
   ["AWS", "Amazon Quick", "p11-amazon-quick-aws", 73, 26],
   ["Google", "Gemini Spark", "p31-gemini-spark-google", 82, 34],
-  ["腾讯", "WorkBuddy", "p02-workbuddy", 32, 69],
-  ["阿里", "QoderWork", "p01-qoderwork", 43, 77],
-  ["字节", "Coze / ArkClaw", "p36-2.5", 58, 72],
-  ["MiniMax", "Agent / MaxClaw", "p04-minimax-agent-minimax", 69, 83],
-  ["阶跃", "StepClaw", "p03-ai", 78, 76],
+  ["腾讯", "WorkBuddy", "p02-workbuddy", 32, 66],
+  ["阿里", "QoderWork", "p01-qoderwork", 28, 80],
+  ["字节", "Coze / ArkClaw", "p36-2.5", 40, 92],
+  ["MiniMax", "Agent / MaxClaw", "p04-minimax-agent-minimax", 72, 70],
+  ["阶跃", "StepClaw", "p03-ai", 76, 84],
 ];
 
 function $(selector, root = document) {
@@ -77,8 +77,6 @@ function markFor(productOrSlug, label = "") {
 }
 
 function renderMetrics() {
-  const heroCount = $("#hero-product-count");
-  if (heroCount) heroCount.textContent = `${products.length} 个 Agent`;
   const groups = new Set(products.map((product) => product.group).filter(Boolean)).size;
   const metrics = [
     [products.length, "追踪产品"],
@@ -117,8 +115,8 @@ function renderRadar() {
   const zones = [
     ["国外 · 本地桌面", "个人工作环境入口", 16, 14],
     ["国外 · 云端企业", "组织级工作流入口", 64, 13],
-    ["国内 · 三大厂", "IM + 混合执行", 18, 80],
-    ["模型厂商", "模型能力产品化", 66, 81],
+    ["国内 · 三大厂", "IM + 混合执行", 3, 52],
+    ["模型厂商", "模型能力产品化", 62, 52],
   ];
 
   stage.innerHTML = `
@@ -308,6 +306,7 @@ function init() {
   bindSpotlight();
   observeReveals();
   initGlobalGalaxy(); // shared amber WebGL star field (same as the rest of the site)
+  initFloatingLines();
 }
 
 document.addEventListener("DOMContentLoaded", init);

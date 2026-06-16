@@ -4,6 +4,11 @@
   },
   "officialRss": {},
   "extraQueries": {
+    "p01-qoderwork": [
+      "QoderWork 意识功能",
+      "QoderWork 记忆 反思 成长",
+      "阿里 QoderWork 意识"
+    ],
     "p12-codex-open-ai": ["OpenAI Codex app"],
     "p07-microsoft-copilot-cowork-microsoft": ["Microsoft Copilot Cowork"],
     "p31-gemini-spark-google": ["Google Gemini Spark agent"],

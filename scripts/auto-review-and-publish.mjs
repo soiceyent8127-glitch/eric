@@ -3,7 +3,7 @@ import vm from "node:vm";
 
 const root = new URL("../", import.meta.url);
 const timezone = "Asia/Shanghai";
-const trustedMediaPattern = /36氪|新浪科技|新浪财经|东方财富|财联社|界面新闻|晚点|机器之心|量子位|TechCrunch|The Verge|VentureBeat|Reuters|Bloomberg/iu;
+const trustedMediaPattern = /36氪|第一财经|一财|新浪科技|新浪财经|东方财富|财联社|界面新闻|晚点|机器之心|量子位|钛媒体|极客公园|InfoQ|TechCrunch|The Verge|VentureBeat|Reuters|Bloomberg/iu;
 const lowSignalPattern = /评论|盘点|回顾|传闻|或将|可能|概念股|ETF|股价|教程|测评|bug fixes?|minor update|优化|修复|小幅改进|日常更新/iu;
 
 function localDate(date = new Date()) {
@@ -44,7 +44,7 @@ function stripPublisher(title) {
 function inferCategory(title) {
   if (/收购|并购|融资|定价|订阅|停止运营|停服|acquir|funding|pricing|shutdown/iu.test(title)) return "商业变化";
   if (/合作|生态|伙伴|partnership|integrat/iu.test(title)) return "生态合作";
-  if (/多.?agent|multi.?agent|computer use|长期记忆|企业治理|远程控制|跨端|审批|审计/iu.test(title)) return "核心能力";
+  if (/多.?agent|multi.?agent|computer use|长期记忆|记忆|反思|意识功能|意识能力|技能进化|自我进化|成长|企业治理|远程控制|跨端|审批|审计/iu.test(title)) return "核心能力";
   if (/发布|推出|上线|launch|unveil|release/iu.test(title)) return "重大版本";
   return "重大动态";
 }

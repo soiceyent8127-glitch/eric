@@ -294,69 +294,6 @@ function animateCount(element) {
   requestAnimationFrame(tick);
 }
 
-function initFieldCanvas() {
-  const canvas = $("#field-canvas");
-  const ctx = canvas.getContext("2d");
-  let width = 0;
-  let height = 0;
-  let points = [];
-  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  function resize() {
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    width = window.innerWidth;
-    height = window.innerHeight;
-    canvas.width = Math.floor(width * dpr);
-    canvas.height = Math.floor(height * dpr);
-    canvas.style.width = `${width}px`;
-    canvas.style.height = `${height}px`;
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    points = Array.from({ length: Math.round(Math.min(120, Math.max(58, width / 13))) }, (_, index) => ({
-      x: Math.random() * width,
-      y: Math.random() * height,
-      r: index % 9 === 0 ? 2 : 1.15,
-      vx: (Math.random() - 0.5) * 0.22,
-      vy: (Math.random() - 0.5) * 0.18,
-    }));
-  }
-
-  function frame() {
-    ctx.clearRect(0, 0, width, height);
-    ctx.fillStyle = "rgba(242, 178, 72, 0.78)";
-    ctx.strokeStyle = "rgba(242, 178, 72, 0.14)";
-    points.forEach((point, index) => {
-      if (!reduce) {
-        point.x += point.vx;
-        point.y += point.vy;
-        if (point.x < 0 || point.x > width) point.vx *= -1;
-        if (point.y < 0 || point.y > height) point.vy *= -1;
-      }
-      ctx.beginPath();
-      ctx.arc(point.x, point.y, point.r, 0, Math.PI * 2);
-      ctx.fill();
-      for (let next = index + 1; next < points.length; next += 1) {
-        const other = points[next];
-        const dx = point.x - other.x;
-        const dy = point.y - other.y;
-        const dist = Math.hypot(dx, dy);
-        if (dist < 132) {
-          ctx.globalAlpha = Math.max(0.18, 1 - dist / 132);
-          ctx.beginPath();
-          ctx.moveTo(point.x, point.y);
-          ctx.lineTo(other.x, other.y);
-          ctx.stroke();
-          ctx.globalAlpha = 1;
-        }
-      }
-    });
-    if (!reduce) requestAnimationFrame(frame);
-  }
-
-  resize();
-  frame();
-  window.addEventListener("resize", resize);
-}
-
 function init() {
   renderMetrics();
   renderLatest();
@@ -368,7 +305,7 @@ function init() {
   bindProducts();
   bindSpotlight();
   observeReveals();
-  initFieldCanvas();
+  initGlobalGalaxy(); // shared amber WebGL star field (same as the rest of the site)
 }
 
 document.addEventListener("DOMContentLoaded", init);

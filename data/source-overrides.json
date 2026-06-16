@@ -4,7 +4,10 @@
   },
   "officialRss": {},
   "cnNews": {
-    "enabledSources": ["AIBase", "AI工具集"],
+    "enabledSources": [
+      "AIBase",
+      "AI工具集"
+    ],
     "aiBaseMaxPages": 40,
     "aiBotDays": 7,
     "wechatWeread": {
@@ -17,12 +20,30 @@
     "p01-qoderwork": [
       "QoderWork 意识功能",
       "QoderWork 记忆 反思 成长",
-      "阿里 QoderWork 意识"
+      "阿里 QoderWork 意识",
+      "Qoder Cloud Agents",
+      "QoderWake 多角色协作 跨会话记忆 定时自动执行"
     ],
-    "p12-codex-open-ai": ["OpenAI Codex app"],
-    "p07-microsoft-copilot-cowork-microsoft": ["Microsoft Copilot Cowork"],
-    "p31-gemini-spark-google": ["Google Gemini Spark agent"],
-    "p41-microsoft-scout": ["Microsoft Scout Autopilot personal agent"],
-    "p42-hermes-agent": ["Nous Research Hermes Agent Desktop"]
+    "p12-codex-open-ai": [
+      "OpenAI Codex app"
+    ],
+    "p07-microsoft-copilot-cowork-microsoft": [
+      "Microsoft Copilot Cowork"
+    ],
+    "p31-gemini-spark-google": [
+      "Google Gemini Spark agent"
+    ],
+    "p41-microsoft-scout": [
+      "Microsoft Scout Autopilot personal agent"
+    ],
+    "p42-hermes-agent": [
+      "Nous Research Hermes Agent Desktop"
+    ],
+    "p45-qoder-cloud-agents": [
+      "Qoder Cloud Agents",
+      "Qoder Cloud Agents CN",
+      "Cloud Agents 多角色协作 跨会话记忆 定时自动执行",
+      "阿里 Qoder Cloud Agents"
+    ]
   }
 }

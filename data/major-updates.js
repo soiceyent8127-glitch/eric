@@ -12,6 +12,18 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-06-16"
   },
   {
+    "id": "2026-06-06-qoder-cloud-agents-system",
+    "productSlug": "p45-qoder-cloud-agents",
+    "date": "2026-06-06",
+    "category": "云端 Agent",
+    "title": "Cloud Agents 形成云端 Agent 运行体系",
+    "summary": "Qoder Cloud Agents 提供全托管 Agent 运行平台，可通过 API 定义 Agent、启动云端 Session，并覆盖多角色/多 Session 协作、跨会话上下文管理和定时自动执行等场景。",
+    "impact": "Qoder 从桌面工作台扩展到云端托管 Agent 底座，补齐企业自动化和系统集成入口",
+    "sourceUrl": "https://docs.qoder.com/zh/cloud-agents/overview",
+    "sourceLabel": "Qoder Cloud Agents 官方文档",
+    "verifiedAt": "2026-06-16"
+  },
+  {
     "id": "2026-06-05-workbuddy-enterprise",
     "productSlug": "p02-workbuddy",
     "date": "2026-06-05",

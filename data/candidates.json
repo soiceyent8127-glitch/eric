@@ -1,5 +1,26 @@
 [
   {
+    "id": "p45-qoder-cloud-agents-manual-2026-06-06",
+    "productSlug": "p45-qoder-cloud-agents",
+    "productName": "Qoder Cloud Agents（阿里巴巴）",
+    "title": "Qoder Cloud Agents 新能力发布：多角色协作、跨会话记忆与定时自动执行",
+    "sourceUrl": "https://docs.qoder.com/zh/cloud-agents/overview",
+    "sourceLabel": "Qoder Cloud Agents 官方文档",
+    "sourceType": "official",
+    "discoverySource": "manual",
+    "publishedAt": "2026-06-06T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T08:32:04.531Z",
+    "score": 10,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2",
+      "官方一手信源 +4"
+    ],
+    "status": "accepted_manual",
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
+  },
+  {
     "id": "p29-claw-20d5dc3d",
     "productSlug": "p29-claw",
     "productName": "小艺Claw（华为）",

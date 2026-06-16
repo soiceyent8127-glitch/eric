@@ -77,6 +77,8 @@ function markFor(productOrSlug, label = "") {
 }
 
 function renderMetrics() {
+  const heroCount = $("#hero-product-count");
+  if (heroCount) heroCount.textContent = `${products.length} 个 Agent`;
   const groups = new Set(products.map((product) => product.group).filter(Boolean)).size;
   const metrics = [
     [products.length, "追踪产品"],

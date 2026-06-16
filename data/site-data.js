@@ -3,7 +3,7 @@ window.RESEARCH_DATA = {
     "title": "类 OpenClaw 和类 Claude Cowork 竞品调研",
     "source": "类OpenClaw&类ClaudeCowork竞品调研.docx",
     "generatedAt": "2026-06-08",
-    "productCount": 44
+    "productCount": 45
   },
   "strategy": {
     "overview": "海外正在分化为两条路线：OpenAI / Anthropic 抢本地桌面 Agent 和个人生产力入口，Google / AWS / Microsoft 抢云端常驻 Agent 和企业工作流入口；国内则围绕 OpenClaw 生态做产品化封装，竞争核心是 IM 分发、混合执行环境、Skill 生态、办公场景交付和企业化治理。",
@@ -1895,6 +1895,46 @@ window.RESEARCH_DATA = {
         "自动化任务"
       ],
       "slug": "p44-openclaw"
+    },
+    {
+      "name": "Qoder Cloud Agents（阿里巴巴）",
+      "type": "云端 Agent 平台",
+      "group": "模型厂商",
+      "region": "国内",
+      "vendor": "阿里巴巴 / Qoder",
+      "launchDate": "2026-05-28",
+      "updatedAt": "2026-06-06",
+      "deployment": "云端托管沙箱 / API 调用",
+      "businessModel": "未找到独立公开定价页；通过 Qoder / 阿里云账号体系使用",
+      "features": "全托管 AI Agent 运行平台，通过 API 定义 Agent、配置云端环境、启动 Session，并通过事件流接收复杂任务执行结果。",
+      "ecosystem": "属于 Qoder 产品体系中的云端 Agent 底座，与 Qoder CLI、QoderWork、QoderWake 形成本地交互、桌面工作台和云端托管运行的组合。",
+      "partnership": "",
+      "website": "https://qoder.com/zh/cloud-agents",
+      "pricing": "未找到独立公开定价页",
+      "updates": "2026-05-28 阿里 Qoder 上线 Cloud Agents；2026-06 官方文档补充 Cloud Agents CN、Agent 定义、Session、持久化记忆等使用路径。",
+      "summary": "Qoder 面向企业和开发者的全托管云端 Agent 运行平台，把 Agent 模板、云端环境、Session 执行和事件流封装为 API。",
+      "featureBullets": [
+        "通过 API 定义可复用 Agent，并绑定云端运行环境启动 Session",
+        "支持长时间异步任务、批量处理、后端 API 集成和周期性任务",
+        "文档体系包含 Agent 上下文管理、文件挂载、持久化记忆、Vaults 与 Skills 等模块"
+      ],
+      "ecosystemBullets": [
+        "与 Qoder CLI 互补：CLI 偏本地交互开发，Cloud Agents 偏自动化和系统集成",
+        "与 QoderWork / QoderWake 共同构成 Qoder 的桌面、数字员工和云端托管 Agent 产品线"
+      ],
+      "updateBullets": [
+        "2026-05-28 阿里 Qoder 上线 Cloud Agents，定位全托管 AI Agent 运行平台",
+        "官方文档显示 Cloud Agents 可通过 Agent、Environment、Session、Event 流程在云端运行复杂任务",
+        "适用场景包括长时间异步任务、批量 Session、API 集成和定时任务"
+      ],
+      "capabilities": [
+        "云端沙箱",
+        "多 Agent",
+        "长期记忆",
+        "自动化任务",
+        "API 集成"
+      ],
+      "slug": "p45-qoder-cloud-agents"
     }
   ]
 };

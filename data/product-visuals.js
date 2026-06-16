@@ -217,5 +217,10 @@ window.PRODUCT_VISUALS = {
   "p44-openclaw": {
     "source": "https://x.com/openclaw",
     "status": "pending"
+  },
+  "p45-qoder-cloud-agents": {
+    "icon": "assets/product-icons/p01-qoderwork.png",
+    "source": "https://qoder.com/zh/cloud-agents",
+    "status": "reused"
   }
 };

@@ -478,30 +478,58 @@ h3 {
 }
 
 .timeline-home-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.timeline-home-card {
   position: relative;
-  overflow: hidden;
-  display: grid;
-  gap: 12px;
-  min-height: 245px;
-  padding: 18px;
+  display: flex;
+  flex-direction: column;
 }
 
-.timeline-home-card::before {
+.timeline-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  gap: 16px;
+  padding-bottom: 26px;
+}
+
+.timeline-row:last-child {
+  padding-bottom: 0;
+}
+
+/* continuous vertical rail, trimmed to run from the first dot to the last */
+.timeline-row::before {
   content: "";
   position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at var(--mx, 50%) var(--my, 0%), oklch(0.83 0.14 68 / 0.12), transparent 38%);
-  pointer-events: none;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--line);
 }
 
-.timeline-home-card > * {
+.timeline-row:first-child::before {
+  top: 7px;
+}
+
+.timeline-row:last-child::before {
+  bottom: auto;
+  height: 14px;
+}
+
+.timeline-dot {
   position: relative;
+  z-index: 1;
+  margin-top: 4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px oklch(0.83 0.14 68 / 0.16);
+}
+
+.timeline-row-body {
+  display: grid;
+  gap: 8px;
+  padding-bottom: 2px;
 }
 
 .timeline-home-date {
@@ -510,16 +538,16 @@ h3 {
   letter-spacing: 0.08em;
 }
 
-.timeline-home-card h3 {
-  font-size: 20px;
-  line-height: 1.22;
+.timeline-row-body h3 {
+  font-size: 18px;
+  line-height: 1.25;
 }
 
-.timeline-home-card p {
+.timeline-row-body p {
   margin: 0;
   color: var(--ink-2);
   font-size: 14px;
-  line-height: 1.68;
+  line-height: 1.66;
 }
 
 .timeline-home-meta {

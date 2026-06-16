@@ -124,14 +124,17 @@ function renderTimelineHome() {
       const product = products.find((entry) => entry.slug === item.productSlug);
       const href = product ? productUrl(product) : item.sourceUrl || "#timeline";
       return `
-        <article class="timeline-home-card reveal">
-          <time class="timeline-home-date">${formatDate(item.date)}</time>
-          <h3>${escapeHtml(item.title)}</h3>
-          <p>${escapeHtml(item.impact || item.summary || "值得持续追踪的产品变化")}</p>
-          <div class="timeline-home-meta">
-            ${product ? `<span class="tag">${escapeHtml(product.name.replace(/[（(].*?[）)]/g, ""))}</span>` : ""}
-            <span class="tag">${escapeHtml(item.category || "重大动态")}</span>
-            <a class="tag" href="${href}">查看</a>
+        <article class="timeline-row reveal">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-row-body">
+            <time class="timeline-home-date">${formatDate(item.date)}</time>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.impact || item.summary || "值得持续追踪的产品变化")}</p>
+            <div class="timeline-home-meta">
+              ${product ? `<span class="tag">${escapeHtml(product.name.replace(/[（(].*?[）)]/g, ""))}</span>` : ""}
+              <span class="tag">${escapeHtml(item.category || "重大动态")}</span>
+              <a class="tag" href="${href}">查看</a>
+            </div>
           </div>
         </article>
       `;

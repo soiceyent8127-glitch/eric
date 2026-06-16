@@ -800,6 +800,7 @@ h3 {
   position: relative;
   overflow: hidden;
   padding: 22px;
+  perspective: 950px;
 }
 
 .universe-panel::before {
@@ -810,8 +811,51 @@ h3 {
   pointer-events: none;
 }
 
-.universe-panel > * {
+.universe-panel > *,
+.universe-tilt-card > * {
   position: relative;
+}
+
+.universe-tilt-card {
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  --tilt-glow-x: 50%;
+  --tilt-glow-y: 20%;
+  position: relative;
+  min-height: 100%;
+  padding: 2px;
+  transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) translateZ(0);
+  transform-style: preserve-3d;
+  transition: transform 180ms var(--ease);
+  will-change: transform;
+}
+
+.universe-tilt-card::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  border-radius: calc(var(--radius) + 12px);
+  background:
+    radial-gradient(260px circle at var(--tilt-glow-x) var(--tilt-glow-y), oklch(0.83 0.14 68 / 0.2), transparent 62%),
+    linear-gradient(135deg, oklch(1 0 0 / 0.12), transparent 34%, oklch(0.83 0.14 68 / 0.08));
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms var(--ease);
+  transform: translateZ(-1px);
+}
+
+.universe-tilt-card.is-tilting::before {
+  opacity: 1;
+}
+
+.universe-tilt-card .universe-title,
+.universe-tilt-card .universe-actions {
+  transform: translateZ(24px);
+}
+
+.universe-tilt-card .universe-meta,
+.universe-tilt-card > p {
+  transform: translateZ(14px);
 }
 
 .universe-kicker {

@@ -188,22 +188,24 @@ function renderUniversePanel(product) {
   const panel = $("#universe-panel");
   if (!panel || !product) return;
   panel.innerHTML = `
-    <p class="universe-kicker">Selected Product</p>
-    <div class="universe-title">
-      ${markFor(product)}
-      <span><h3>${escapeHtml(product.name)}</h3><small>${escapeHtml(product.vendor || product.group || "未标明厂商")}</small></span>
-    </div>
-    <p>${escapeHtml(product.summary || product.features || "暂无摘要")}</p>
-    <div class="universe-meta">
-      <div class="tag-row">
-        <span class="tag">${escapeHtml(product.type || "未分类")}</span>
-        <span class="tag">${escapeHtml(product.group || "未分组")}</span>
-        ${(product.capabilities || []).slice(0, 4).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+    <div class="universe-tilt-card">
+      <p class="universe-kicker">Selected Product</p>
+      <div class="universe-title">
+        ${markFor(product)}
+        <span><h3>${escapeHtml(product.name)}</h3><small>${escapeHtml(product.vendor || product.group || "未标明厂商")}</small></span>
       </div>
-    </div>
-    <div class="universe-actions">
-      <a class="button primary" href="${productUrl(product)}">打开研究档案</a>
-      ${product.website ? `<a class="button ghost" href="${escapeHtml(product.website)}" target="_blank" rel="noreferrer">官网信源</a>` : ""}
+      <p>${escapeHtml(product.summary || product.features || "暂无摘要")}</p>
+      <div class="universe-meta">
+        <div class="tag-row">
+          <span class="tag">${escapeHtml(product.type || "未分类")}</span>
+          <span class="tag">${escapeHtml(product.group || "未分组")}</span>
+          ${(product.capabilities || []).slice(0, 4).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+        </div>
+      </div>
+      <div class="universe-actions">
+        <a class="button primary" href="${productUrl(product)}">打开研究档案</a>
+        ${product.website ? `<a class="button ghost" href="${escapeHtml(product.website)}" target="_blank" rel="noreferrer">官网信源</a>` : ""}
+      </div>
     </div>
   `;
 }
@@ -446,6 +448,44 @@ function bindSpotlight() {
   });
 }
 
+function bindTiltCards() {
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const coarse = window.matchMedia("(pointer: coarse)").matches;
+  if (reduce || coarse) return;
+
+  const tilt = (event) => {
+    const panel = event.target.closest?.(".universe-panel");
+    if (!panel) return;
+    const card = panel.querySelector(".universe-tilt-card");
+    if (!card) return;
+    const rect = panel.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+    const rotateY = ((x / rect.width) - 0.5) * 11;
+    const rotateX = ((y / rect.height) - 0.5) * -9;
+    card.style.setProperty("--tilt-x", `${rotateX.toFixed(2)}deg`);
+    card.style.setProperty("--tilt-y", `${rotateY.toFixed(2)}deg`);
+    card.style.setProperty("--tilt-glow-x", `${x}px`);
+    card.style.setProperty("--tilt-glow-y", `${y}px`);
+    card.classList.add("is-tilting");
+  };
+
+  const untilt = (event) => {
+    const panel = event.target.closest?.(".universe-panel");
+    if (!panel || panel.contains(event.relatedTarget)) return;
+    const card = panel.querySelector(".universe-tilt-card");
+    if (!card) return;
+    card.classList.remove("is-tilting");
+    card.style.setProperty("--tilt-x", "0deg");
+    card.style.setProperty("--tilt-y", "0deg");
+  };
+
+  document.addEventListener("pointermove", tilt);
+  document.addEventListener("mousemove", tilt);
+  document.addEventListener("pointerout", untilt);
+  document.addEventListener("mouseout", untilt);
+}
+
 function observeReveals() {
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const items = $all(".reveal:not(.is-visible)");
@@ -492,6 +532,7 @@ function init() {
   renderProducts();
   bindProducts();
   bindSpotlight();
+  bindTiltCards();
   observeReveals();
   initGlobalGalaxy(); // shared amber WebGL star field (same as the rest of the site)
 }

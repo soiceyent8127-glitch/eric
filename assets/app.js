@@ -980,8 +980,8 @@ function renderProductDetail() {
             }
           </section>
           <section id="raw-research" class="content-section" data-reveal data-reveal-y="16">
-            <details>
-              <summary>查看原始调研更新记录</summary>
+            <details open>
+              <summary>原始调研更新记录</summary>
               <div class="legacy-updates">
                 ${product.updateBullets.length ? `<ul class="bullet-list">${product.updateBullets.map((item) => `<li>${item}</li>`).join("")}</ul>` : `<p>${formatValue(product.updates, "暂无整理出的更新记录")}</p>`}
               </div>

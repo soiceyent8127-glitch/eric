@@ -3,17 +3,129 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>类 OpenClaw 和类 Claude Cowork 竞品调研</title>
-    <meta name="description" content="围绕类 OpenClaw 和类 Claude Cowork 产品的战略判断、产品逐个拆解、产品详情和公开链接。">
-    <link rel="stylesheet" href="assets/styles.css">
+    <title>Agent Index | AI Agent 产品情报库</title>
+    <meta name="description" content="持续追踪 AI Agent 产品、竞争格局、重大动态与原始信源的产品情报库。">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23080b10'/%3E%3Cpath d='M18 22h28M18 32h20M18 42h28' stroke='%23f2aa48' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="assets/cockpit.css">
   </head>
   <body>
-    <header id="site-header" class="site-header"></header>
-    <main id="home-root"></main>
-    <footer class="wrap footer"><span>Agent Index 产品情报库</span><span>每周一自动更新，只收录重大动态</span></footer>
+    <canvas id="field-canvas" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="返回 Agent Index 首页">
+        <span class="brand-glyph" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span>
+          <strong>Agent Index</strong>
+          <small>Agent Market Intelligence</small>
+        </span>
+      </a>
+      <nav class="nav-pills" aria-label="首页导航">
+        <a href="#briefing">简报</a>
+        <a href="#map">竞争星图</a>
+        <a href="#strategy">战略判断</a>
+        <a href="#products">产品索引</a>
+      </nav>
+      <a class="deploy-state" href="timeline.html"><i aria-hidden="true"></i>每周一自动更新</a>
+    </header>
+
+    <main>
+      <section id="briefing" class="hero">
+        <div class="hero-copy">
+          <p class="system-line">Week 25 · Agent Market Intelligence</p>
+          <h1><span>把 42 个 Agent 产品</span><span>压进一张可追踪的</span><span>竞争图谱</span></h1>
+          <p class="hero-lede">自动发现市场信号，编辑规则筛掉噪音，只把足以改变判断的产品、能力和生态变化推到前台。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#products">进入索引</a>
+            <a class="button ghost" href="timeline.html">查看重大动态</a>
+          </div>
+          <div class="signal-strip" aria-label="情报处理流程">
+            <span>发现</span>
+            <i></i>
+            <span>核验</span>
+            <i></i>
+            <span>过滤噪音</span>
+            <i></i>
+            <span>发布重大更新</span>
+          </div>
+        </div>
+
+        <aside class="briefing-console" aria-label="本周情报简报">
+          <div class="console-top">
+            <span>Briefing Status</span>
+            <b>Reviewed · 2026/06/15</b>
+          </div>
+          <div class="metric-grid" id="metric-grid"></div>
+          <div class="latest-stack" id="latest-stack"></div>
+        </aside>
+      </section>
+
+      <section id="map" class="section arena-section">
+        <div class="section-heading">
+          <div>
+            <p class="system-line">Competitive Field</p>
+            <h2>Agent 产品竞争格局</h2>
+          </div>
+          <p>国外按本地桌面与云端企业路线分叉，国内围绕 IM 入口、混合执行和 Skill 生态打主战。</p>
+        </div>
+        <div class="arena-grid">
+          <div class="arena-card">
+            <div class="radar-stage" id="radar-stage" aria-label="Agent 产品竞争星图"></div>
+          </div>
+          <div class="route-panel" id="route-panel"></div>
+        </div>
+      </section>
+
+      <section id="strategy" class="section thesis-section">
+        <div class="section-heading">
+          <div>
+            <p class="system-line">Strategic Read</p>
+            <h2>九条战略判断</h2>
+          </div>
+          <p>围绕入口、执行环境、Skill 生态、企业治理和成本复用，提炼当前 Agent 产品竞争的关键方向。</p>
+        </div>
+        <div class="thesis-grid" id="thesis-grid"></div>
+      </section>
+
+      <section id="products" class="section products-section">
+        <div class="section-heading product-heading">
+          <div>
+            <p class="system-line">Product Index</p>
+            <h2>产品索引与对比视图</h2>
+          </div>
+          <div class="view-toggle" aria-label="切换视图">
+            <button type="button" class="active" data-view="cards">卡片</button>
+            <button type="button" data-view="table">表格</button>
+          </div>
+        </div>
+
+        <div class="command-bar">
+          <label>
+            <span>搜索产品、厂商或能力</span>
+            <input id="product-search" type="search" placeholder="例如 OpenAI、腾讯、Skill、云端沙箱">
+          </label>
+          <label>
+            <span>产品类型</span>
+            <select id="type-filter"></select>
+          </label>
+          <label>
+            <span>竞争分组</span>
+            <select id="group-filter"></select>
+          </label>
+          <button type="button" id="clear-filters">清除筛选</button>
+        </div>
+
+        <div class="result-meta" id="result-meta"></div>
+        <div class="product-cards" id="product-cards"></div>
+        <div class="product-table-wrap hidden" id="product-table-wrap"></div>
+      </section>
+    </main>
+
     <script src="data/site-data.js"></script>
-    <script src="data/product-visuals.js"></script>
     <script src="data/major-updates.js"></script>
-    <script src="assets/app.js"></script>
+    <script src="data/product-visuals.js"></script>
+    <script src="assets/cockpit.js"></script>
   </body>
 </html>

@@ -336,6 +336,7 @@ h3 {
 .briefing-console,
 .arena-card,
 .route-card,
+.timeline-home-card,
 .universe-stage,
 .universe-panel,
 .thesis-card,
@@ -446,6 +447,86 @@ h3 {
   margin-top: 5px;
   color: var(--muted);
   font-size: 13px;
+}
+
+.timeline-home-head {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.timeline-stat {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: oklch(0.09 0.014 250 / 0.52);
+}
+
+.timeline-stat strong {
+  display: block;
+  color: var(--ink);
+  font-size: 34px;
+  line-height: 1;
+}
+
+.timeline-stat span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.timeline-home-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.timeline-home-card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  gap: 12px;
+  min-height: 245px;
+  padding: 18px;
+}
+
+.timeline-home-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mx, 50%) var(--my, 0%), oklch(0.83 0.14 68 / 0.12), transparent 38%);
+  pointer-events: none;
+}
+
+.timeline-home-card > * {
+  position: relative;
+}
+
+.timeline-home-date {
+  color: var(--accent);
+  font: 800 13px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+
+.timeline-home-card h3 {
+  font-size: 20px;
+  line-height: 1.22;
+}
+
+.timeline-home-card p {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.68;
+}
+
+.timeline-home-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
 }
 
 .section {
@@ -1075,6 +1156,10 @@ h3 {
   .command-bar {
     grid-template-columns: 1fr 1fr;
   }
+
+  .timeline-home-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 720px) {
@@ -1127,6 +1212,8 @@ h3 {
   }
 
   .metric-grid,
+  .timeline-home-head,
+  .timeline-home-list,
   .thesis-grid,
   .command-bar {
     grid-template-columns: 1fr;

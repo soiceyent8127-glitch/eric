@@ -95,10 +95,45 @@ function renderLatest() {
     .map((item) => {
       const product = products.find((entry) => entry.slug === item.productSlug);
       return `
-        <a class="latest-item reveal" href="${product ? productUrl(product) : "timeline.html"}">
+        <a class="latest-item reveal" href="${product ? productUrl(product) : "#timeline"}">
           <time>${formatDate(item.date)}</time>
           <span><b>${escapeHtml(item.title)}</b><span>${escapeHtml(item.impact || item.category || "重大动态")}</span></span>
         </a>
+      `;
+    })
+    .join("");
+}
+
+function renderTimelineHome() {
+  const head = $("#timeline-home-head");
+  const list = $("#timeline-home-list");
+  if (!head || !list) return;
+  const sorted = [...majorUpdates].sort((a, b) => b.date.localeCompare(a.date));
+  const productCount = new Set(sorted.map((item) => item.productSlug).filter(Boolean)).size;
+  const categoryCount = new Set(sorted.map((item) => item.category).filter(Boolean)).size;
+  head.innerHTML = [
+    [sorted.length, "已审核重大事件"],
+    [productCount, "涉及产品"],
+    [categoryCount, "事件类别"],
+  ]
+    .map(([value, label]) => `<div class="timeline-stat reveal"><strong>${value}</strong><span>${label}</span></div>`)
+    .join("");
+
+  list.innerHTML = sorted
+    .map((item) => {
+      const product = products.find((entry) => entry.slug === item.productSlug);
+      const href = product ? productUrl(product) : item.sourceUrl || "#timeline";
+      return `
+        <article class="timeline-home-card reveal">
+          <time class="timeline-home-date">${formatDate(item.date)}</time>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.impact || item.summary || "值得持续追踪的产品变化")}</p>
+          <div class="timeline-home-meta">
+            ${product ? `<span class="tag">${escapeHtml(product.name.replace(/[（(].*?[）)]/g, ""))}</span>` : ""}
+            <span class="tag">${escapeHtml(item.category || "重大动态")}</span>
+            <a class="tag" href="${href}">查看</a>
+          </div>
+        </article>
       `;
     })
     .join("");
@@ -402,7 +437,7 @@ function bindProducts() {
 }
 
 function bindSpotlight() {
-  $all(".briefing-console, .arena-card, .universe-stage, .universe-panel, .product-card").forEach((element) => {
+  $all(".briefing-console, .arena-card, .timeline-home-card, .universe-stage, .universe-panel, .product-card").forEach((element) => {
     element.addEventListener("pointermove", (event) => {
       const rect = element.getBoundingClientRect();
       element.style.setProperty("--mx", `${event.clientX - rect.left}px`);
@@ -448,6 +483,7 @@ function animateCount(element) {
 function init() {
   renderMetrics();
   renderLatest();
+  renderTimelineHome();
   renderRadar();
   renderRoutes();
   renderUniverse();

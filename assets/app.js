@@ -74,11 +74,11 @@ function renderHeader() {
       </a>
       <nav class="nav-links" aria-label="主导航">
         <i class="nav-glider" aria-hidden="true"></i>
-        <a data-nav href="index.html">战略判断</a>
-        <a data-nav href="products.html">产品索引</a>
-        <a data-nav href="timeline.html">重大动态</a>
+        <a data-nav href="index.html#strategy">战略判断</a>
+        <a data-nav href="index.html#products">产品索引</a>
+        <a data-nav href="index.html#timeline">重大动态</a>
       </nav>
-      <a class="live-indicator" href="timeline.html"><i aria-hidden="true"></i>每周一更新</a>
+      <a class="live-indicator" href="index.html#timeline"><i aria-hidden="true"></i>每周一更新</a>
     </div>
   `;
   setActiveNav();
@@ -118,8 +118,8 @@ function renderHome() {
           <h1 class="split-heading" aria-label="看清 Agent 产品，正在往哪里走"><span>看清 Agent</span><span>产品，<em>正在</em></span><span><em>往哪里走</em></span></h1>
           <p class="lead">追踪类 Cowork 与类 OpenClaw 产品，只保留足以改变竞争判断的更新与信源。</p>
           <div class="hero-actions">
-            <a class="primary-button" href="products.html">浏览产品索引</a>
-            <a class="ghost-button" href="timeline.html">查看最新动态</a>
+            <a class="primary-button" href="index.html#products">浏览产品索引</a>
+            <a class="ghost-button" href="index.html#timeline">查看最新动态</a>
           </div>
           <div class="stats-row">
             <div class="stat"><strong data-count="${products.length}">${products.length}</strong><span>Products Tracked</span></div>
@@ -169,7 +169,7 @@ function renderHome() {
             ${latest
               .map((item) => {
                 const product = products.find((entry) => entry.slug === item.productSlug);
-                return `<a class="event-row" href="${product ? productUrl(product) : "timeline.html"}"><time>${item.date.slice(5).replace("-", "/")}</time><div><b>${item.title}</b><span>${item.impact}</span></div>${tag(item.category, "teal")}</a>`;
+                return `<a class="event-row" href="${product ? productUrl(product) : "index.html#timeline"}"><time>${item.date.slice(5).replace("-", "/")}</time><div><b>${item.title}</b><span>${item.impact}</span></div>${tag(item.category, "teal")}</a>`;
               })
               .join("")}
           </div>
@@ -178,7 +178,7 @@ function renderHome() {
           <div class="panel-head"><strong>能力覆盖强度</strong><span>${products.length} Products</span></div>
           <div class="coverage-list signal-coverage">
             ${topCapabilities
-              .map(([label, count]) => `<a class="coverage-row" href="products.html"><strong>${label}</strong><i><span style="width:${(count / topCapabilities[0][1]) * 100}%"></span></i><b>${count}</b></a>`)
+              .map(([label, count]) => `<a class="coverage-row" href="index.html#products"><strong>${label}</strong><i><span style="width:${(count / topCapabilities[0][1]) * 100}%"></span></i><b>${count}</b></a>`)
               .join("")}
           </div>
         </article>
@@ -192,7 +192,7 @@ function renderHome() {
             <p class="section-label">战略判断</p>
             <h2>竞争正在从模型能力，迁移到入口、执行与治理</h2>
           </div>
-          <a class="ghost-button" href="products.html">产品拆解</a>
+          <a class="ghost-button" href="index.html#products">产品拆解</a>
         </div>
         <ol class="strategy-list">
           ${data.strategy.items
@@ -217,7 +217,7 @@ function renderHome() {
             <p class="section-label">产品矩阵</p>
             <h2>${products.length} 个产品，放进同一套坐标系</h2>
           </div>
-          <a class="primary-button" href="products.html">查看全部 ${products.length} 个产品</a>
+          <a class="primary-button" href="index.html#products">查看全部 ${products.length} 个产品</a>
         </div>
         <div class="matrix-preview" data-reveal data-reveal-y="22">
           <div class="cluster-list route-list">
@@ -688,11 +688,11 @@ function renderProductDetail() {
     <section class="page-intro">
       <div class="wrap detail-hero" data-reveal data-reveal-y="14">
         <div class="detail-title">
-          <p class="breadcrumb"><a href="products.html">产品索引</a><span>/</span>${product.type}<span>/</span>${formatValue(product.group)}</p>
+          <p class="breadcrumb"><a href="index.html#products">产品索引</a><span>/</span>${product.type}<span>/</span>${formatValue(product.group)}</p>
           <div class="detail-heading-row">${productMark(product, "large")}<h1>${product.name}</h1></div>
           <p>${product.summary}</p>
           <div class="hero-actions">
-            <a class="ghost-button" href="products.html">返回矩阵</a>
+            <a class="ghost-button" href="index.html#products">返回矩阵</a>
             ${externalLink(product.website, "访问官网")}
             ${externalLink(product.pricing, "查看定价")}
           </div>

@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "discover": "node scripts/discover-major-updates.mjs && node scripts/discover-new-products.mjs && node scripts/discover-from-aihot.mjs",
+    "discover": "node scripts/discover-major-updates.mjs && node scripts/discover-new-products.mjs && node scripts/discover-from-aihot.mjs && node scripts/discover-from-cn-news.mjs",
     "auto-review": "node scripts/auto-review-and-publish.mjs",
     "weekly:auto": "npm run discover && npm run auto-review && npm run collect:icons && npm run validate",
     "collect:icons": "node scripts/collect-product-icons.mjs",

@@ -3,6 +3,16 @@
     "p42-hermes-agent": "NousResearch/hermes-agent"
   },
   "officialRss": {},
+  "cnNews": {
+    "enabledSources": ["AIBase", "AI工具集"],
+    "aiBasePages": 5,
+    "aiBotDays": 7,
+    "wechatWeread": {
+      "enabled": false,
+      "accounts": [],
+      "note": "微信公众号文章需要微信读书登录态和浏览器会话，不能在 GitHub Actions 无人环境中稳定运行；可在本地采集后把结果导入候选池。"
+    }
+  },
   "extraQueries": {
     "p01-qoderwork": [
       "QoderWork 意识功能",

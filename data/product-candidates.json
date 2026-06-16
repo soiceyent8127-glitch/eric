@@ -18,6 +18,40 @@
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
+    "id": "new-product-b78d3d24",
+    "title": "支付宝秘密内测“AI版”:代号“宝计划”，首推AI助手“阿宝”",
+    "sourceUrl": "https://news.aibase.com/zh/news/28940",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-16T01:43:25.000Z",
+    "discoveredAt": "2026-06-16T07:43:46.798Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-d4d9afb",
+    "title": "蚂蚁支付宝推出超级生活 AI 助手「AI版支付宝」",
+    "sourceUrl": "https://mp.weixin.qq.com/s/bG3id7bNvBOPfZF811T6Jw",
+    "sourceLabel": "AI工具集 / 支付宝",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-16T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T07:43:46.806Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-c22817be",
     "title": "苹果或终将推出跨平台的OpenClaw竞争产品，以灵活定价提供个性化AI智能体-AI云资讯 - icloudnews.net",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZTzNkSkE5d2Z6d0pJSzIzWkd0OV9Lc2ZnNWxqQkZ5MWk3N2ZTR0thWUJxTlVfQk5rX29HLU5zTEtfS2J3RnBsckpwWmViaXc2MUE?oc=5",
@@ -88,6 +122,40 @@
     ],
     "reviewedAt": "2026-06-15",
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-221dc80e",
+    "title": "追觅生态品牌Eclix将于9月发布首款无App AI手机，定价5000元以上",
+    "sourceUrl": "https://news.aibase.com/zh/news/28876",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-12T02:24:19.000Z",
+    "discoveredAt": "2026-06-16T07:43:46.804Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-251dccc7",
+    "title": "让小店用上大连锁的智能大脑，高德问店上线AI能力开放调用",
+    "sourceUrl": "https://news.aibase.com/zh/news/28871",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-12T01:44:07.000Z",
+    "discoveredAt": "2026-06-16T07:43:46.804Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
   },
   {
     "id": "new-product-b12398bc",
@@ -162,6 +230,40 @@
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
+    "id": "new-product-1176039f",
+    "title": "科大讯飞推出智慧空间Agentic架构 SpaceMind",
+    "sourceUrl": "https://mp.weixin.qq.com/s/VTxedVFb7dEMG1vWBnrq7A",
+    "sourceLabel": "AI工具集 / 讯飞开放平台",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T07:43:46.808Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-82782387",
+    "title": "阿里秒悟Meoo推出开源命令行工具 Meoo CLI",
+    "sourceUrl": "https://mp.weixin.qq.com/s/lHIkas573yCCXa60Hn7WXA",
+    "sourceLabel": "AI工具集 / 阿里云",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T07:47:26.936Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-e747e523",
     "title": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议",
     "sourceUrl": "https://mp.weixin.qq.com/s/WkMPz-eBK2Hz0ZTQEwtx6w",
@@ -214,6 +316,23 @@
     ],
     "reviewedAt": "2026-06-15",
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-c2e13d63",
+    "title": "阿里千问推出国内首个全周期高考志愿填报Agent",
+    "sourceUrl": "https://mp.weixin.qq.com/s/ocE80lRyRyQ1g-AfCTGmxw",
+    "sourceLabel": "AI工具集 / 千问APP",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-10T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T07:43:46.808Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
   },
   {
     "id": "new-product-89833438",

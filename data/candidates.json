@@ -57,6 +57,24 @@
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
+    "id": "p01-qoderwork-dee3ff10",
+    "productSlug": "p01-qoderwork",
+    "productName": "QoderWork（阿里巴巴）",
+    "title": "阿里云QoderWork上线“意识”功能，实现AI自主记忆与技能进化",
+    "sourceUrl": "https://news.aibase.com/zh/news/28951",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-16T06:24:39.000Z",
+    "discoveredAt": "2026-06-16T07:47:26.920Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
     "id": "p08-manus-manus-badbd7",
     "productSlug": "p08-manus-manus",
     "productName": "Manus桌面版（Manus）",
@@ -109,6 +127,23 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-15",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-bc988124",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 补齐基础设施短板：收购 Ona 强化 Codex 云端能力",
+    "sourceUrl": "https://news.aibase.com/zh/news/28862",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-12T00:53:06.000Z",
+    "discoveredAt": "2026-06-16T07:47:26.933Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或公司级事件 +6"
+    ],
+    "status": "pending"
   },
   {
     "id": "p12-codex-open-ai-b1d75c1a",

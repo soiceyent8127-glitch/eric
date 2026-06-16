@@ -3,7 +3,7 @@ import vm from "node:vm";
 
 const root = new URL("../", import.meta.url);
 const timezone = "Asia/Shanghai";
-const trustedMediaPattern = /36氪|第一财经|一财|新浪科技|新浪财经|东方财富|财联社|界面新闻|晚点|机器之心|量子位|钛媒体|极客公园|InfoQ|TechCrunch|The Verge|VentureBeat|Reuters|Bloomberg/iu;
+const trustedMediaPattern = /36氪|第一财经|一财|新浪科技|新浪财经|东方财富|财联社|界面新闻|晚点|机器之心|量子位|钛媒体|极客公园|InfoQ|AIBase|AI工具集|TechCrunch|The Verge|VentureBeat|Reuters|Bloomberg/iu;
 const lowSignalPattern = /评论|盘点|回顾|传闻|或将|可能|概念股|ETF|股价|教程|测评|bug fixes?|minor update|优化|修复|小幅改进|日常更新/iu;
 
 function localDate(date = new Date()) {
@@ -25,15 +25,22 @@ function normalize(value = "") {
 
 function productMatchesTitle(product, title) {
   const normalizedTitle = normalize(title);
+  const vendor = normalize(product.vendor || "");
+  const blockedAliases = new Set(["ai", "agent", "assistant", "desktop", "claw", "智能体", "助手", "桌面版", "工作台", vendor].filter(Boolean));
   const nameVariants = [product.name, ...(product.aliases || [])].flatMap((name) => [
     name,
     name.replace(/[（(].*?[）)]/g, ""),
-    ...[...name.matchAll(/[（(](.*?)[）)]/g)].map((match) => match[1]),
-    ...name.split(/[\s/·（()）]+/u),
+    ...name
+      .split(/[\s/·（()）]+/u)
+      .filter((part) => {
+        const normalized = normalize(part);
+        return normalized.length >= 3 && !blockedAliases.has(normalized);
+      }),
   ]);
   const aliases = nameVariants
     .map(normalize)
-    .filter((alias) => alias.length >= 2);
+    .filter((alias) => alias.length >= 3)
+    .filter((alias) => !blockedAliases.has(alias));
   return aliases.some((alias) => normalizedTitle.includes(alias));
 }
 
@@ -47,6 +54,43 @@ function inferCategory(title) {
   if (/多.?agent|multi.?agent|computer use|长期记忆|记忆|反思|意识功能|意识能力|技能进化|自我进化|成长|企业治理|远程控制|跨端|审批|审计/iu.test(title)) return "核心能力";
   if (/发布|推出|上线|launch|unveil|release/iu.test(title)) return "重大版本";
   return "重大动态";
+}
+
+function hasCoreAbilitySignal(candidate) {
+  return candidate.reasons?.some((reason) => reason.includes("关键能力变化")) || false;
+}
+
+function duplicateSignalTerms(text = "") {
+  return [
+    "意识功能",
+    "意识能力",
+    "意识",
+    "长期记忆",
+    "记忆",
+    "反思",
+    "技能进化",
+    "自我进化",
+    "多智能体",
+    "多 Agent",
+    "Agent Teams",
+    "Computer Use",
+    "云端能力",
+    "本地执行",
+    "企业治理",
+    "审批",
+    "审计",
+  ].filter((term) => new RegExp(term.replace(/\s+/g, "\\s*"), "iu").test(text));
+}
+
+function isDuplicateEvent(candidate, updates) {
+  const candidateText = `${candidate.title} ${candidate.productName || ""}`;
+  const candidateTerms = duplicateSignalTerms(candidateText);
+  if (!candidateTerms.length) return false;
+  return updates.some((update) => {
+    if (update.productSlug !== candidate.productSlug) return false;
+    const existingText = `${update.title} ${update.summary || ""} ${update.impact || ""}`;
+    return candidateTerms.some((term) => new RegExp(term.replace(/\s+/g, "\\s*"), "iu").test(existingText));
+  });
 }
 
 function makeSummary(product, candidate) {
@@ -89,7 +133,11 @@ for (const candidate of candidates.filter((item) => item.status === "pending")) 
   const exactMatch = productMatchesTitle(product, candidate.title);
   const trustedMedia = trustedMediaPattern.test(candidate.sourceLabel || "");
   const noisy = lowSignalPattern.test(candidate.title) || candidate.reasons?.some((reason) => reason.includes("疑似日常更新"));
-  const publishable = !noisy && ((official && candidate.score >= 6) || (exactMatch && trustedMedia && candidate.score >= 9));
+  const publishable =
+    !noisy &&
+    ((official && candidate.score >= 6) ||
+      (exactMatch && trustedMedia && candidate.score >= 9) ||
+      (exactMatch && trustedMedia && hasCoreAbilitySignal(candidate) && candidate.score >= 6));
 
   if (noisy || (!official && !exactMatch)) {
     candidate.status = "rejected_auto";
@@ -112,7 +160,7 @@ for (const candidate of candidates.filter((item) => item.status === "pending")) 
   candidate.reviewReason = official ? "自动审核：官方一手信源且达到重大事件阈值" : "自动审核：可信媒体、高事件得分且产品名称明确匹配";
   accepted.push(candidate);
 
-  if (existingSources.has(candidate.sourceUrl)) continue;
+  if (existingSources.has(candidate.sourceUrl) || isDuplicateEvent(candidate, updates)) continue;
   const date = candidate.publishedAt?.slice(0, 10) || reviewedAt;
   updates.push({
     id: `${date}-${candidate.id}`,

@@ -143,7 +143,9 @@
     "reasons": [
       "产品发布或公司级事件 +6"
     ],
-    "status": "pending"
+    "status": "rejected_manual",
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：收购/战略/资本动作，不是明确 Agent 产品或能力更新，不进入正式时间线"
   },
   {
     "id": "p12-codex-open-ai-b1d75c1a",
@@ -159,9 +161,9 @@
     "reasons": [
       "产品发布或公司级事件 +6"
     ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-06-15",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "status": "rejected_manual",
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：收购/战略/资本动作，不是明确 Agent 产品或能力更新，不进入正式时间线"
   },
   {
     "id": "p04-minimax-agent-minimax-480e6baa",
@@ -198,7 +200,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "pending"
+    "status": "accepted_manual",
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：WorkBuddy 企业版属于明确 Agent 产品版本，已补入重大动态"
   },
   {
     "id": "p08-manus-manus-27ab28e",

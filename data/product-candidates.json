@@ -26,13 +26,15 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-06-16T01:43:25.000Z",
     "discoveredAt": "2026-06-16T07:43:46.798Z",
-    "status": "pending",
+    "status": "deferred_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：更像超级 App 内生活服务 Agent，暂不纳入桌面/Cowork 主表"
   },
   {
     "id": "new-product-d4d9afb",
@@ -43,13 +45,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-16T00:00:00.000Z",
     "discoveredAt": "2026-06-16T07:43:46.806Z",
-    "status": "pending",
+    "status": "deferred_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：更像超级 App 内生活服务 Agent，暂不纳入桌面/Cowork 主表"
   },
   {
     "id": "new-product-c22817be",
@@ -255,13 +259,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-11T00:00:00.000Z",
     "discoveredAt": "2026-06-16T07:47:26.936Z",
-    "status": "pending",
+    "status": "rejected_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：偏开发/部署 CLI，不属于类 Cowork/OpenClaw 桌面 Agent 主表"
   },
   {
     "id": "new-product-e747e523",
@@ -518,13 +524,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-04T00:00:00.000Z",
     "discoveredAt": "2026-06-16T08:05:16.348Z",
-    "status": "pending",
+    "status": "accepted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：Kimi Work 属于本地桌面 Agent / 类 Cowork 产品，已补入产品库"
   },
   {
     "id": "new-product-d5a31e4e",
@@ -551,15 +559,15 @@
     "sourceType": "media",
     "publishedAt": "2026-06-03T21:40:49.000Z",
     "discoveredAt": "2026-06-08T13:21:31.529Z",
-    "status": "deferred_auto",
+    "status": "accepted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-09",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：OpenClaw 作为类 Claw 生态基准产品和执行底座，已补入产品库与重大动态"
   },
   {
     "id": "new-product-cbe5b6f2",
@@ -605,15 +613,15 @@
     "sourceType": "media",
     "publishedAt": "2026-06-03T13:30:07.000Z",
     "discoveredAt": "2026-06-09T07:35:39.339Z",
-    "status": "deferred_auto",
+    "status": "accepted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-09",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "人工审核：Kimi Work 属于本地桌面 Agent / 类 Cowork 产品，已补入产品库"
   },
   {
     "id": "new-product-95a3df6c",

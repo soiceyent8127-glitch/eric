@@ -208,5 +208,14 @@ window.PRODUCT_VISUALS = {
     "icon": "assets/product-icons/p42-hermes-agent.ico",
     "source": "https://hermes-agent.nousresearch.com/docs/img/favicon.ico",
     "status": "collected"
+  },
+  "p43-kimi-work": {
+    "icon": "assets/product-icons/p20-kimi-claw.png",
+    "source": "https://www.kimi.com/",
+    "status": "reused"
+  },
+  "p44-openclaw": {
+    "source": "https://x.com/openclaw",
+    "status": "pending"
   }
 };

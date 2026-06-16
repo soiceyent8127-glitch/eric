@@ -12,6 +12,30 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-06-16"
   },
   {
+    "id": "2026-06-05-workbuddy-enterprise",
+    "productSlug": "p02-workbuddy",
+    "date": "2026-06-05",
+    "category": "企业版本",
+    "title": "推出 WorkBuddy 企业版，升级企业级 AI 智能工作台",
+    "summary": "腾讯推出 WorkBuddy 企业版，面向企业级 AI 智能工作台场景，强化团队和企业部署语境。",
+    "impact": "把 WorkBuddy 从个人和团队桌面 Agent 进一步推向企业级办公入口",
+    "sourceUrl": "https://mp.weixin.qq.com/s/P5AtG2aD8HxXw2BSRnsaEQ",
+    "sourceLabel": "AI工具集 / 腾讯WorkBuddy",
+    "verifiedAt": "2026-06-16"
+  },
+  {
+    "id": "2026-06-04-kimi-work-beta",
+    "productSlug": "p43-kimi-work",
+    "date": "2026-06-04",
+    "category": "产品发布",
+    "title": "Kimi Work Beta 版发布，进入本地桌面 Agent 赛道",
+    "summary": "月之暗面推出通用型本地 Agent「Kimi Work」Beta 版，定位知识工作者的桌面工作台。",
+    "impact": "国内模型厂商开始以独立桌面 Agent 工作台形态进入类 Cowork / OpenClaw 竞争格局",
+    "sourceUrl": "https://mp.weixin.qq.com/s/guE7g4kpu_PdrDT0a7DhzA",
+    "sourceLabel": "AI工具集 / 月之暗面Kimi",
+    "verifiedAt": "2026-06-16"
+  },
+  {
     "id": "2026-06-04-hermes-desktop",
     "productSlug": "p42-hermes-agent",
     "date": "2026-06-04",
@@ -34,6 +58,18 @@ window.MAJOR_UPDATES = [
     "sourceUrl": "https://finance.sina.com.cn/tech/mobile/n/n/2026-06-05/doc-iniakrwk8193819.shtml",
     "sourceLabel": "新浪科技：中兴与腾讯正式合作报道",
     "verifiedAt": "2026-06-08"
+  },
+  {
+    "id": "2026-06-03-openclaw-2026-6-1",
+    "productSlug": "p44-openclaw",
+    "date": "2026-06-03",
+    "category": "生态基准",
+    "title": "OpenClaw 2026.6.1 发布，补齐 Windows 节点与技能工坊",
+    "summary": "OpenClaw 发布 2026.6.1，新增 Windows 节点、技能工坊与多 Agent 编排相关能力，是类 Claw 生态的重要基准事件。",
+    "impact": "提高 OpenClaw 作为本地执行底座和 Skill 生态参照物的产品化程度",
+    "sourceUrl": "https://x.com/openclaw/status/2062288421406785710",
+    "sourceLabel": "X：OpenClaw (@openclaw)",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "2026-06-02-microsoft-scout-launch",
@@ -60,18 +96,6 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-06-08"
   },
   {
-    "id": "2026-05-27-qoderwork-workspaces",
-    "productSlug": "p01-qoderwork",
-    "date": "2026-05-27",
-    "category": "核心能力",
-    "title": "首发设计、PPT 与写作三大领域工作台",
-    "summary": "QoderWork 从通用桌面 Agent 向高频办公场景工作台延伸，覆盖设计、演示稿和写作交付。",
-    "impact": "改变产品定位或核心使用方式",
-    "sourceUrl": "https://qoder.com/en/qoderwork",
-    "sourceLabel": "QoderWork 官方产品页",
-    "verifiedAt": "2026-05-28"
-  },
-  {
     "id": "2026-05-27-workbuddy-expert-teams",
     "productSlug": "p02-workbuddy",
     "date": "2026-05-27",
@@ -81,6 +105,18 @@ window.MAJOR_UPDATES = [
     "impact": "形成新的产品工作模式",
     "sourceUrl": "https://www.codebuddy.cn/work/",
     "sourceLabel": "WorkBuddy 官方产品页",
+    "verifiedAt": "2026-05-28"
+  },
+  {
+    "id": "2026-05-27-qoderwork-workspaces",
+    "productSlug": "p01-qoderwork",
+    "date": "2026-05-27",
+    "category": "核心能力",
+    "title": "首发设计、PPT 与写作三大领域工作台",
+    "summary": "QoderWork 从通用桌面 Agent 向高频办公场景工作台延伸，覆盖设计、演示稿和写作交付。",
+    "impact": "改变产品定位或核心使用方式",
+    "sourceUrl": "https://qoder.com/en/qoderwork",
+    "sourceLabel": "QoderWork 官方产品页",
     "verifiedAt": "2026-05-28"
   },
   {

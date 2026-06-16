@@ -3,7 +3,7 @@ window.RESEARCH_DATA = {
     "title": "类 OpenClaw 和类 Claude Cowork 竞品调研",
     "source": "类OpenClaw&类ClaudeCowork竞品调研.docx",
     "generatedAt": "2026-06-08",
-    "productCount": 42
+    "productCount": 44
   },
   "strategy": {
     "overview": "海外正在分化为两条路线：OpenAI / Anthropic 抢本地桌面 Agent 和个人生产力入口，Google / AWS / Microsoft 抢云端常驻 Agent 和企业工作流入口；国内则围绕 OpenClaw 生态做产品化封装，竞争核心是 IM 分发、混合执行环境、Skill 生态、办公场景交付和企业化治理。",
@@ -1820,6 +1820,81 @@ window.RESEARCH_DATA = {
         "自动化任务"
       ],
       "slug": "p42-hermes-agent"
+    },
+    {
+      "name": "Kimi Work（月之暗面）",
+      "type": "类 Cowork",
+      "group": "模型厂商",
+      "region": "国内",
+      "vendor": "月之暗面",
+      "launchDate": "2026-06-03",
+      "updatedAt": "2026-06-04",
+      "deployment": "本地桌面",
+      "businessModel": "Beta 版；未找到独立公开定价页",
+      "features": "通用型本地 Agent / 桌面工作台，面向知识工作者的长任务执行、文件处理与多步骤办公场景。",
+      "ecosystem": "延续 Kimi 模型与月之暗面产品体系；当前以本地桌面 Agent 形态进入类 Cowork / OpenClaw 赛道。",
+      "partnership": "",
+      "website": "https://www.kimi.com/",
+      "pricing": "未找到独立公开定价页",
+      "updates": "2026-06-03/04 Kimi Work Beta 版发布，定位通用型本地 Agent / 桌面工作台。",
+      "summary": "月之暗面推出的本地桌面 Agent 工作台，定位知识工作者的可执行 AI 助手。",
+      "featureBullets": [
+        "本地桌面 Agent 工作台，强调在用户电脑环境中完成多步骤任务",
+        "面向文档、研究、办公交付等知识工作场景",
+        "Beta 阶段，适合作为国内模型厂商进入类 Cowork 赛道的观察样本"
+      ],
+      "ecosystemBullets": [
+        "依托 Kimi / 月之暗面模型与产品体系",
+        "与 Kimi Claw 形成“云端 OpenClaw 封装 + 本地桌面工作台”的双线产品观察点"
+      ],
+      "updateBullets": [
+        "2026-06-04 AI工具集报道月之暗面推出通用型本地 Agent「Kimi Work」Beta 版",
+        "2026-06-03 月之暗面公众号发布 Kimi Work Beta 版相关信息"
+      ],
+      "capabilities": [
+        "本地执行",
+        "多 Agent",
+        "自动化任务",
+        "桌面操控"
+      ],
+      "slug": "p43-kimi-work"
+    },
+    {
+      "name": "OpenClaw",
+      "type": "开源执行底座",
+      "group": "其他厂商",
+      "region": "国外",
+      "vendor": "OpenClaw 社区",
+      "launchDate": "2025",
+      "updatedAt": "2026-06-03",
+      "deployment": "本地 / 自托管",
+      "businessModel": "开源；模型与基础设施成本取决于部署方式",
+      "features": "面向本地和自托管执行的开源 Agent 底座，围绕节点、技能与多 Agent 编排能力持续演进。",
+      "ecosystem": "大量类 Claw 产品把 OpenClaw 作为执行底座或兼容目标，Skill 生态与多 Agent 编排是核心观察点。",
+      "partnership": "",
+      "website": "https://x.com/openclaw",
+      "pricing": "开源；未找到独立商业定价页",
+      "updates": "2026-06-03 OpenClaw 2026.6.1 发布，新增 Windows 节点、技能工坊与多 Agent 编排相关能力。",
+      "summary": "OpenClaw 是类 Claw 赛道的重要开源执行底座，也是国内外产品封装和生态兼容的基准样本。",
+      "featureBullets": [
+        "开源 Agent 执行底座，支撑本地和自托管形态",
+        "围绕节点、技能工坊和多 Agent 编排扩展生态能力",
+        "作为多个类 Claw 产品的兼容对象和能力参照"
+      ],
+      "ecosystemBullets": [
+        "Skill 生态是核心扩展方式",
+        "与国内大量类 OpenClaw 产品形成生态和产品化封装关系"
+      ],
+      "updateBullets": [
+        "2026-06-03 OpenClaw 2026.6.1 发布，新增 Windows 节点、技能工坊和多 Agent 编排相关能力"
+      ],
+      "capabilities": [
+        "本地执行",
+        "Skill 生态",
+        "多 Agent",
+        "自动化任务"
+      ],
+      "slug": "p44-openclaw"
     }
   ]
 };

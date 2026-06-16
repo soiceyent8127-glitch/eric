@@ -21,13 +21,13 @@ const userAgent =
   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 AgentProductIntelligence/1.0";
 
 const highImpactPatterns = [
-  [/\b(acquire[ds]?|acquisition|shut down|shutdown|discontinue[ds]?|launch(?:es|ed)?)\b|收购|并购|停止运营|停服|正式发布|全新发布/iu, 6, "产品发布或公司级事件"],
+  [/\b(shut down|shutdown|discontinue[ds]?|launch(?:es|ed)?)\b|停止运营|停服|正式发布|全新发布/iu, 6, "产品发布或停止运营"],
   [/computer use|multi[- ]?agent|agent teams?|long[- ]?term memory|remote control|enterprise governance|长期记忆|多智能体|多 Agent|远程控制|企业治理|审批|审计|意识功能|意识能力|记忆|反思|技能进化|自我进化|成长/iu, 4, "关键能力变化"],
-  [/pricing|subscription|funding|raised|partnership|available to|定价|订阅|融资|合作|开放使用|全面开放|开源|免费|邀测|公测|内测/iu, 3, "商业或开放范围变化"],
+  [/pricing|subscription|partnership|available to|定价|订阅|合作|开放使用|全面开放|开源|免费|邀测|公测|内测/iu, 3, "商业或开放范围变化"],
   [/\b(announce[sd]?|introduc(?:e[ds]?|ing)|release[sd]?|unveil[sd]?)\b|发布|上线|推出|宣布|首发|升级|接入|打通|开放/iu, 2, "明确事件词"],
 ];
 
-const lowSignalPattern = /bug fixes?|minor update|performance improvement|优化体验|修复|小幅改进|例行更新|日常更新|教程|盘点|合集/iu;
+const lowSignalPattern = /bug fixes?|minor update|performance improvement|优化体验|修复|小幅改进|例行更新|日常更新|教程|盘点|合集|收购|并购|融资|估值|股价|财报|IPO|acquir|acquisition|funding|raised|valuation|earnings|shares?/iu;
 const productCandidatePattern = /agent|cowork|computer use|openclaw|copilot|assistant|智能体|工作台|助手|桌面伙伴|桌面AI|AI版/iu;
 const launchPattern = /\b(launch(?:es|ed)?|unveil[sd]?|announce[sd]?|release[sd]?)\b|发布|上线|推出|首发|开放|内测|公测/iu;
 

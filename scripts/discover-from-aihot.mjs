@@ -19,13 +19,13 @@ const userAgent =
   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 aihot-skill/0.2.0";
 
 const highImpactPatterns = [
-  [/\b(acquire[ds]?|acquisition|shut down|shutdown|discontinue[ds]?|launch(?:es|ed)?)\b|收购|并购|停止运营|停服|正式发布|全新发布/iu, 6, "产品发布或公司级事件"],
+  [/\b(shut down|shutdown|discontinue[ds]?|launch(?:es|ed)?)\b|停止运营|停服|正式发布|全新发布/iu, 6, "产品发布或停止运营"],
   [/computer use|multi[- ]?agent|agent teams?|long[- ]?term memory|remote control|enterprise governance|长期记忆|多智能体|多 Agent|远程控制|企业治理|审批|审计|意识功能|意识能力|记忆|反思|技能进化|自我进化|成长/iu, 4, "关键能力变化"],
-  [/pricing|subscription|funding|raised|partnership|available to|定价|订阅|融资|合作|开放使用|全面开放/iu, 3, "商业或开放范围变化"],
+  [/pricing|subscription|partnership|available to|定价|订阅|合作|开放使用|全面开放/iu, 3, "商业或开放范围变化"],
   [/\b(announce[sd]?|introduc(?:e[ds]?|ing)|release[sd]?|unveil[sd]?)\b|发布|上线|推出|宣布|首发|升级/iu, 2, "明确事件词"],
 ];
 
-const lowSignalPattern = /bug fixes?|minor update|performance improvement|优化体验|修复|小幅改进|例行更新|日常更新/iu;
+const lowSignalPattern = /bug fixes?|minor update|performance improvement|优化体验|修复|小幅改进|例行更新|日常更新|收购|并购|融资|估值|股价|财报|IPO|acquir|acquisition|funding|raised|valuation|earnings|shares?/iu;
 
 function scoreTitle(title) {
   let score = 0;

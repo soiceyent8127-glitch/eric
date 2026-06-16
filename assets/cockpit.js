@@ -306,7 +306,6 @@ function init() {
   bindSpotlight();
   observeReveals();
   initGlobalGalaxy(); // shared amber WebGL star field (same as the rest of the site)
-  initFloatingLines();
 }
 
 document.addEventListener("DOMContentLoaded", init);

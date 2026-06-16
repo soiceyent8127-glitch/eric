@@ -5,7 +5,7 @@
   "officialRss": {},
   "cnNews": {
     "enabledSources": ["AIBase", "AI工具集"],
-    "aiBasePages": 5,
+    "aiBaseMaxPages": 40,
     "aiBotDays": 7,
     "wechatWeread": {
       "enabled": false,

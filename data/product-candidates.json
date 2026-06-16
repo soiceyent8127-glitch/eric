@@ -458,6 +458,23 @@
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
+    "id": "new-product-d2a153e5",
+    "title": "谷歌推出本地实时 AI 音乐模型 Magenta RealTime 2",
+    "sourceUrl": "https://www.ithome.com/0/960/419.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-05T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T08:05:16.348Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-4ec95ed7",
     "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
     "sourceUrl": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag",
@@ -491,6 +508,40 @@
     ],
     "reviewedAt": "2026-06-08",
     "reviewReason": "既有 QoderWork 的营销活动，不是新产品或重大能力更新"
+  },
+  {
+    "id": "new-product-a8353438",
+    "title": "月之暗面推出通用型本地 Agent「Kimi Work」Beta版",
+    "sourceUrl": "https://mp.weixin.qq.com/s/guE7g4kpu_PdrDT0a7DhzA",
+    "sourceLabel": "AI工具集 / 月之暗面Kimi",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-04T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T08:05:16.348Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-d5a31e4e",
+    "title": "Nous Research 推出 Hermes 官方桌面端 Hermes Desktop",
+    "sourceUrl": "https://ai-bot.cn/nous-research-hermes-desktop/",
+    "sourceLabel": "AI工具集",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-04T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T08:05:16.348Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
   },
   {
     "id": "new-product-dd9832b8",
@@ -599,6 +650,23 @@
     "reviewReason": "确认 Microsoft Scout 为独立企业级常驻个人 Agent，新增产品并进入正式时间线"
   },
   {
+    "id": "new-product-ba403456",
+    "title": "千问App向第三方Agent、Skill全面开放",
+    "sourceUrl": "https://mp.weixin.qq.com/s/rUcQ-QxC3xmKfrK18fV0Yw",
+    "sourceLabel": "AI工具集 / 千问APP",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-03T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T08:05:16.349Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-3b11d632",
     "title": "微软首席执行官宣布推出新技术 助力OpenClaw在Windows上流畅运行 - 东方财富",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83ZUJhMm9VUU5Ydy1Wci1FdzAzV3hMV2M3aUJxbmJtMG82eHVRUEk5cG5mMDdFd21xWVFVRnFqUjFSNlJ6VzNIaXkxc29PNmpRVUh3aFdYbWVlSThwMUhXYw?oc=5",
@@ -649,5 +717,22 @@
     ],
     "reviewedAt": "2026-06-08",
     "reviewReason": "确认 Coze 3.0 为既有扣子的重大版本，进入正式时间线但不新增产品"
+  },
+  {
+    "id": "new-product-4dcbca1",
+    "title": "扣子 3.0 正式上线",
+    "sourceUrl": "https://mp.weixin.qq.com/s/Pn4N5KdIKUmIpXv7Dl3aSA",
+    "sourceLabel": "AI工具集 / 扣子Coze",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-01T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T08:05:16.350Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
   }
 ]

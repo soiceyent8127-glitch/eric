@@ -11,9 +11,10 @@ const root = new URL("../", import.meta.url);
 let days = Number(process.env.DISCOVERY_DAYS || 7);
 const maxProducts = Number(process.env.MAX_PRODUCTS || 0);
 const minScore = Number(process.env.MIN_SIGNAL_SCORE || 5);
-let aiBasePages = Number(process.env.AIBASE_PAGES || 5);
-const aiBotMaxItems = Number(process.env.AIBOT_MAX_ITEMS || 120);
+let aiBaseMaxPages = Number(process.env.AIBASE_MAX_PAGES || process.env.AIBASE_PAGES || 40);
+const aiBotMaxItems = Number(process.env.AIBOT_MAX_ITEMS || 1000);
 const dryRun = process.env.CN_NEWS_DRY_RUN === "1";
+const sinceDate = process.env.DISCOVERY_SINCE ? new Date(`${process.env.DISCOVERY_SINCE}T00:00:00+08:00`) : null;
 
 const userAgent =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
@@ -138,7 +139,8 @@ function dateToIso(value) {
 function isRecent(value) {
   const date = makeDate(value);
   if (!date) return true;
-  return date.getTime() >= Date.now() - days * 24 * 60 * 60 * 1000;
+  const start = sinceDate || new Date(Date.now() - days * 24 * 60 * 60 * 1000);
+  return date.getTime() >= start.getTime();
 }
 
 function productAliases(product, extraQueries = []) {
@@ -164,7 +166,7 @@ async function discoverAIBase() {
   const payloadText = await fetchText("https://news.aibase.com/zh/news/_payload.json");
   const rootData = reviveNuxtPayload(JSON.parse(payloadText));
   const firstPage = rootData.data?.getAINewsList?.data?.list || [];
-  const targetCount = aiBasePages * 20;
+  const maxItems = aiBaseMaxPages * 20;
   const items = firstPage.map((item) => ({
     title: item.title,
     description: stripHtml(item.description || item.subtitle || ""),
@@ -177,29 +179,41 @@ async function discoverAIBase() {
 
   let nextId = Math.min(...firstPage.map((item) => item.oid).filter(Boolean)) - 1;
   let misses = 0;
-  while (items.length < targetCount && nextId > 0 && misses < 20) {
-    try {
-      const detailText = await fetchText(`https://news.aibase.com/zh/news/${nextId}/_payload.json`);
-      const detailRoot = reviveNuxtPayload(JSON.parse(detailText));
-      const detail = detailRoot.data?.getAIDetail?.data;
-      if (detail?.title) {
+  let seenOlderThanWindow = firstPage.some((item) => item.createTime && !isRecent(dateToIso(item.createTime)));
+  while (!seenOlderThanWindow && items.length < maxItems && nextId > 0 && misses < 20) {
+    const batchIds = Array.from({ length: Math.min(20, maxItems - items.length) }, (_, index) => nextId - index).filter((id) => id > 0);
+    const batch = await Promise.all(
+      batchIds.map(async (id) => {
+        try {
+          const detailText = await fetchText(`https://news.aibase.com/zh/news/${id}/_payload.json`);
+          const detailRoot = reviveNuxtPayload(JSON.parse(detailText));
+          const detail = detailRoot.data?.getAIDetail?.data;
+          return detail?.title ? { id, detail } : null;
+        } catch {
+          return null;
+        }
+      }),
+    );
+    const validItems = batch.filter(Boolean).sort((a, b) => b.id - a.id);
+    if (!validItems.length) {
+      misses += batchIds.length;
+    } else {
+      misses = 0;
+      for (const { id, detail } of validItems) {
+        const publishedAt = dateToIso(detail.createTime);
         items.push({
           title: detail.title,
           description: stripHtml(detail.description || detail.summary || ""),
-          link: `https://news.aibase.com/zh/news/${nextId}`,
+          link: `https://news.aibase.com/zh/news/${id}`,
           sourceLabel: detail.sourceName || "AIBase",
           sourceHub: "AIBase",
-          publishedAt: dateToIso(detail.createTime),
-          oid: nextId,
+          publishedAt,
+          oid: id,
         });
-        misses = 0;
-      } else {
-        misses += 1;
+        if (publishedAt && !isRecent(publishedAt)) seenOlderThanWindow = true;
       }
-    } catch {
-      misses += 1;
     }
-    nextId -= 1;
+    nextId -= batchIds.length;
   }
 
   return items.filter((item) => isRecent(item.publishedAt));
@@ -287,7 +301,9 @@ function makeProductCandidate(item) {
 const research = await loadWindowData("data/site-data.js", "RESEARCH_DATA");
 const overrides = JSON.parse(await fs.readFile(new URL("data/source-overrides.json", root), "utf8"));
 const cnNewsConfig = overrides.cnNews || {};
-if (!process.env.AIBASE_PAGES && cnNewsConfig.aiBasePages) aiBasePages = Number(cnNewsConfig.aiBasePages);
+if (!process.env.AIBASE_MAX_PAGES && !process.env.AIBASE_PAGES && (cnNewsConfig.aiBaseMaxPages || cnNewsConfig.aiBasePages)) {
+  aiBaseMaxPages = Number(cnNewsConfig.aiBaseMaxPages || cnNewsConfig.aiBasePages);
+}
 if (!process.env.DISCOVERY_DAYS && cnNewsConfig.aiBotDays) days = Number(cnNewsConfig.aiBotDays);
 const selectedProducts = maxProducts ? research.products.slice(0, maxProducts) : research.products;
 const extraQueries = overrides.extraQueries || {};

@@ -183,6 +183,24 @@
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {
+    "id": "p02-workbuddy-6ab06d97",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯推出企业级AI智能工作台WorkBuddy企业版",
+    "sourceUrl": "https://mp.weixin.qq.com/s/P5AtG2aD8HxXw2BSRnsaEQ",
+    "sourceLabel": "AI工具集 / 腾讯WorkBuddy",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-05T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T08:05:16.347Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
     "id": "p08-manus-manus-27ab28e",
     "productSlug": "p08-manus-manus",
     "productName": "Manus桌面版（Manus）",

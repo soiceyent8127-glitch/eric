@@ -38,6 +38,43 @@
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {
+    "id": "p12-codex-open-ai-3f953c5",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "早报｜微软发布Windows「梦中神机」/腾讯云DeepSeek-V4最高降价97.5%/徕卡相机或被中国资本收购 - 爱范儿",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5fbVVsVW5WVHJkYTdXdTQ3aENrUEtZdzkydGZJTFZzdDdnZUVTTHR6Mk0tNzV3VmlDWW9iVDhrd0VUc0k?oc=5",
+    "sourceLabel": "爱范儿",
+    "sourceType": "media",
+    "publishedAt": "2026-06-11T09:38:47.000Z",
+    "discoveredAt": "2026-06-16T06:52:02.079Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或公司级事件 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p08-manus-manus-badbd7",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "北京搅黄并购案 Meta和Manus现状被曝_无忧资讯评论 - 无忧资讯",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1waFgtUDF6SHJxQ2tDdVRhdEFUTGZBQzNZZlRDWlkwMWhFVGhYeUxnVEhTc1NYM3NfOEplalVKUWNBbk1jT2hOeEUzRUxWVDBBTDdqQU4ydk9zdGJpa05fdjVlcWZKbEdTNW55Zg?oc=5",
+    "sourceLabel": "无忧资讯",
+    "sourceType": "media",
+    "publishedAt": "2026-06-15T04:30:30.000Z",
+    "discoveredAt": "2026-06-16T06:52:01.999Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或公司级事件 +6"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "自动审核：标题属于评论、传闻、市场噪音或日常更新"
+  },
+  {
     "id": "p08-manus-manus-9d60f7c3",
     "productSlug": "p08-manus-manus",
     "productName": "Manus桌面版（Manus）",

@@ -1,5 +1,17 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-06-16-qoderwork-consciousness",
+    "productSlug": "p01-qoderwork",
+    "date": "2026-06-16",
+    "category": "核心能力",
+    "title": "上线“意识”功能，集成记忆、反思与技能进化",
+    "summary": "QoderWork 新增“意识”能力，在保存对话的基础上主动整理和淘汰冗余信息，并将高频任务沉淀为可复用 Skills。",
+    "impact": "从任务执行工具进一步走向可持续成长的长期工作伙伴",
+    "sourceUrl": "https://www.yicai.com/news/103232213.html",
+    "sourceLabel": "第一财经：阿里QoderWork上线“意识”功能",
+    "verifiedAt": "2026-06-16"
+  },
+  {
     "id": "2026-06-04-hermes-desktop",
     "productSlug": "p42-hermes-agent",
     "date": "2026-06-04",

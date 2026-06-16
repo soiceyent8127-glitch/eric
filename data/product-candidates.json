@@ -1,5 +1,23 @@
 [
   {
+    "id": "new-product-2895bad0",
+    "title": "芯晟汇重磅发布AI私人助理「小慧」：内置OpenClaw引擎+全栈Skill技能，开启人人专属智能助理时代 - 中华网生活",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ybkI4TWpJOXFQcUNQVzY2OUVTbFNBTVdXdW9ocFNub3BwS0hDQ1NNYnlDalE5c2V4WS1zc0didEpHcWJhWl96T3JSWmRnaVhRdzgwM2I2REV4cm1VWjE4OWdLVQ?oc=5",
+    "sourceLabel": "中华网生活",
+    "sourceType": "media",
+    "publishedAt": "2026-06-16T02:38:16.000Z",
+    "discoveredAt": "2026-06-16T06:52:09.705Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-16",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-c22817be",
     "title": "苹果或终将推出跨平台的OpenClaw竞争产品，以灵活定价提供个性化AI智能体-AI云资讯 - icloudnews.net",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZTzNkSkE5d2Z6d0pJSzIzWkd0OV9Lc2ZnNWxqQkZ5MWk3N2ZTR0thWUJxTlVfQk5rX29HLU5zTEtfS2J3RnBsckpwWmViaXc2MUE?oc=5",
@@ -15,6 +33,24 @@
       "补充厂商、类型与官网"
     ],
     "reviewedAt": "2026-06-15",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-6fe67b63",
+    "title": "Grok Build 推出 Agent Dashboard 管理多个编码会话",
+    "sourceUrl": "https://x.ai/news/agent-dashboard",
+    "sourceLabel": "xAI：News（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-15T00:00:00.000Z",
+    "discoveredAt": "2026-06-16T06:52:30.102Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-16",
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {

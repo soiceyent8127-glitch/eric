@@ -336,6 +336,8 @@ h3 {
 .briefing-console,
 .arena-card,
 .route-card,
+.universe-stage,
+.universe-panel,
 .thesis-card,
 .command-bar,
 .product-card,
@@ -622,6 +624,158 @@ h3 {
   margin-top: 14px;
 }
 
+.universe-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.universe-stage {
+  position: relative;
+  overflow: hidden;
+  min-height: 670px;
+  touch-action: none;
+  background:
+    radial-gradient(circle at 50% 50%, oklch(0.83 0.14 68 / 0.16), transparent 9rem),
+    radial-gradient(circle at 50% 50%, transparent 0 31%, oklch(1 0 0 / 0.052) 31.2% 31.5%, transparent 31.8% 51%, oklch(1 0 0 / 0.034) 51.2% 51.5%, transparent 51.8%),
+    linear-gradient(145deg, oklch(0.11 0.016 250 / 0.86), oklch(0.07 0.012 250 / 0.92));
+}
+
+.universe-stage::before {
+  content: "";
+  position: absolute;
+  inset: 22px;
+  border: 1px solid oklch(0.83 0.14 68 / 0.12);
+  border-radius: 16px;
+  pointer-events: none;
+}
+
+.universe-stage::after {
+  content: "DRAG TO ROTATE";
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  color: var(--muted);
+  font: 780 10px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.1em;
+}
+
+.universe-node {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: var(--depth, 1);
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 174px;
+  min-height: 58px;
+  padding: 9px;
+  border: 1px solid oklch(1 0 0 / 0.13);
+  border-radius: 18px;
+  color: var(--ink);
+  background: oklch(0.11 0.016 250 / 0.78);
+  box-shadow: 0 10px 30px oklch(0 0 0 / 0.16), inset 0 1px 0 oklch(1 0 0 / 0.07);
+  backdrop-filter: blur(14px);
+  will-change: transform, opacity;
+}
+
+.universe-node:hover,
+.universe-node.is-active {
+  border-color: color-mix(in oklch, var(--accent) 70%, white 4%);
+  background: oklch(0.18 0.022 250 / 0.88);
+}
+
+.universe-node .mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+}
+
+.universe-node strong {
+  display: block;
+  overflow: hidden;
+  max-width: 106px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 1.15;
+}
+
+.universe-node span span {
+  display: block;
+  overflow: hidden;
+  max-width: 106px;
+  margin-top: 4px;
+  color: var(--muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+}
+
+.universe-panel {
+  position: relative;
+  overflow: hidden;
+  padding: 22px;
+}
+
+.universe-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 70% 10%, oklch(0.83 0.14 68 / 0.16), transparent 42%);
+  pointer-events: none;
+}
+
+.universe-panel > * {
+  position: relative;
+}
+
+.universe-kicker {
+  margin: 0 0 14px;
+  color: var(--accent);
+  font: 760 11px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.universe-title {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+}
+
+.universe-title .mark {
+  width: 52px;
+  height: 52px;
+}
+
+.universe-title h3 {
+  overflow-wrap: anywhere;
+}
+
+.universe-panel p {
+  margin: 18px 0 0;
+  color: var(--ink-2);
+  line-height: 1.74;
+}
+
+.universe-meta {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.universe-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
 .tag {
   display: inline-flex;
   align-items: center;
@@ -900,7 +1054,17 @@ h3 {
 
   .hero,
   .arena-grid,
-  .arena-card {
+  .universe-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 56px 0;
+  }
+
+  .arena-card,
+  .universe-stage {
     min-height: 560px;
   }
 
@@ -926,15 +1090,40 @@ h3 {
     overflow-x: auto;
     justify-content: flex-start;
     width: 100%;
+    scrollbar-width: none;
+  }
+
+  .nav-pills::-webkit-scrollbar {
+    display: none;
   }
 
   .hero {
     min-height: auto;
-    padding-top: 42px;
+    gap: 26px;
+    padding: 38px 0 48px;
   }
 
   h1 {
-    font-size: clamp(40px, 12vw, 56px);
+    font-size: clamp(34px, 10.8vw, 46px);
+    line-height: 1.03;
+  }
+
+  .hero-lede {
+    font-size: 16px;
+  }
+
+  .signal-strip {
+    align-items: flex-start;
+    border-radius: 18px;
+  }
+
+  .signal-strip i {
+    width: 16px;
+    margin-top: 6px;
+  }
+
+  .briefing-console {
+    padding: 14px;
   }
 
   .metric-grid,
@@ -950,6 +1139,52 @@ h3 {
 
   .arena-card {
     min-height: 680px;
+  }
+
+  .universe-stage {
+    display: grid;
+    grid-auto-columns: minmax(226px, 72vw);
+    grid-auto-flow: column;
+    gap: 12px;
+    min-height: 0;
+    padding: 16px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: x mandatory;
+    touch-action: pan-x;
+  }
+
+  .universe-stage::before,
+  .universe-stage::after {
+    display: none;
+  }
+
+  .universe-node {
+    position: relative;
+    left: auto;
+    top: auto;
+    grid-template-columns: 44px minmax(0, 1fr);
+    align-content: start;
+    width: auto;
+    min-height: 138px;
+    padding: 14px;
+    scroll-snap-align: start;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  .universe-node .mark {
+    width: 44px;
+    height: 44px;
+  }
+
+  .universe-node strong,
+  .universe-node span span {
+    max-width: none;
+  }
+
+  .universe-panel {
+    display: none;
   }
 
   .radar-node {

@@ -149,6 +149,157 @@ function renderRoutes() {
     .join("");
 }
 
+function renderUniversePanel(product) {
+  const panel = $("#universe-panel");
+  if (!panel || !product) return;
+  panel.innerHTML = `
+    <p class="universe-kicker">Selected Product</p>
+    <div class="universe-title">
+      ${markFor(product)}
+      <span><h3>${escapeHtml(product.name)}</h3><small>${escapeHtml(product.vendor || product.group || "未标明厂商")}</small></span>
+    </div>
+    <p>${escapeHtml(product.summary || product.features || "暂无摘要")}</p>
+    <div class="universe-meta">
+      <div class="tag-row">
+        <span class="tag">${escapeHtml(product.type || "未分类")}</span>
+        <span class="tag">${escapeHtml(product.group || "未分组")}</span>
+        ${(product.capabilities || []).slice(0, 4).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+      </div>
+    </div>
+    <div class="universe-actions">
+      <a class="button primary" href="${productUrl(product)}">打开研究档案</a>
+      ${product.website ? `<a class="button ghost" href="${escapeHtml(product.website)}" target="_blank" rel="noreferrer">官网信源</a>` : ""}
+    </div>
+  `;
+}
+
+function renderUniverse() {
+  const stage = $("#universe-stage");
+  if (!stage) return;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const mobile = window.matchMedia("(max-width: 720px)").matches;
+  const ordered = [...products].sort((a, b) => String(a.group).localeCompare(String(b.group), "zh-CN") || a.name.localeCompare(b.name, "zh-CN"));
+  let activeProduct = ordered[0];
+
+  stage.innerHTML = ordered
+    .map((product, index) => `
+      <a class="universe-node reveal${index === 0 ? " is-active" : ""}" href="${productUrl(product)}" data-index="${index}">
+        ${markFor(product)}
+        <span><strong>${escapeHtml(product.name)}</strong><span>${escapeHtml(product.type || product.group || "Agent 产品")}</span></span>
+      </a>
+    `)
+    .join("");
+  renderUniversePanel(activeProduct);
+
+  const nodes = $all(".universe-node", stage);
+  nodes.forEach((node) => {
+    const product = ordered[Number(node.dataset.index)];
+    node.addEventListener("mouseenter", () => {
+      activeProduct = product;
+      nodes.forEach((entry) => entry.classList.toggle("is-active", entry === node));
+      renderUniversePanel(product);
+    });
+    node.addEventListener("focus", () => {
+      activeProduct = product;
+      nodes.forEach((entry) => entry.classList.toggle("is-active", entry === node));
+      renderUniversePanel(product);
+    });
+  });
+
+  if (mobile || reduce) return;
+
+  const points = ordered.map((_, index) => {
+    const y = 1 - (index / Math.max(ordered.length - 1, 1)) * 2;
+    const radius = Math.sqrt(Math.max(0, 1 - y * y));
+    const theta = index * Math.PI * (3 - Math.sqrt(5));
+    return {
+      x: Math.cos(theta) * radius,
+      y,
+      z: Math.sin(theta) * radius,
+    };
+  });
+
+  let rotX = -0.08;
+  let rotY = 0;
+  let velocityX = 0;
+  let velocityY = 0.0022;
+  let dragging = false;
+  let lastX = 0;
+  let lastY = 0;
+  let frame = 0;
+
+  function place() {
+    const rect = stage.getBoundingClientRect();
+    const radius = Math.min(rect.width, rect.height) * 0.36;
+    const cx = rect.width / 2;
+    const cy = rect.height / 2;
+    const cosX = Math.cos(rotX);
+    const sinX = Math.sin(rotX);
+    const cosY = Math.cos(rotY);
+    const sinY = Math.sin(rotY);
+
+    points.forEach((point, index) => {
+      const x1 = point.x * cosY - point.z * sinY;
+      const z1 = point.x * sinY + point.z * cosY;
+      const y1 = point.y * cosX - z1 * sinX;
+      const z2 = point.y * sinX + z1 * cosX;
+      const depth = (z2 + 1) / 2;
+      const scale = 0.56 + depth * 0.56;
+      const node = nodes[index];
+      node.style.setProperty("--depth", String(Math.round(depth * 1000)));
+      node.style.opacity = String(0.28 + depth * 0.72);
+      node.style.transform = `translate(-50%, -50%) translate3d(${x1 * radius + cx - rect.width / 2}px, ${y1 * radius + cy - rect.height / 2}px, 0) scale(${scale})`;
+    });
+  }
+
+  function tick() {
+    if (!dragging) {
+      rotY += velocityY;
+      rotX += velocityX;
+      velocityX *= 0.985;
+      velocityY = velocityY * 0.985 + 0.0022 * 0.015;
+    }
+    place();
+    frame = requestAnimationFrame(tick);
+  }
+
+  stage.addEventListener("pointerdown", (event) => {
+    dragging = true;
+    lastX = event.clientX;
+    lastY = event.clientY;
+    stage.setPointerCapture(event.pointerId);
+  });
+
+  stage.addEventListener("pointermove", (event) => {
+    if (!dragging) return;
+    const dx = event.clientX - lastX;
+    const dy = event.clientY - lastY;
+    lastX = event.clientX;
+    lastY = event.clientY;
+    velocityY = dx * 0.0028;
+    velocityX = -dy * 0.0022;
+    rotY += velocityY;
+    rotX += velocityX;
+    place();
+  });
+
+  stage.addEventListener("pointerup", (event) => {
+    dragging = false;
+    stage.releasePointerCapture(event.pointerId);
+  });
+
+  stage.addEventListener("pointercancel", () => {
+    dragging = false;
+  });
+
+  addEventListener("resize", place);
+  tick();
+  document.addEventListener("visibilitychange", () => {
+    cancelAnimationFrame(frame);
+    if (!document.hidden) frame = requestAnimationFrame(tick);
+  });
+}
+
 function renderTheses() {
   $("#thesis-grid").innerHTML = researchData.strategy.items
     .slice(0, 6)
@@ -251,7 +402,7 @@ function bindProducts() {
 }
 
 function bindSpotlight() {
-  $all(".briefing-console, .arena-card, .product-card").forEach((element) => {
+  $all(".briefing-console, .arena-card, .universe-stage, .universe-panel, .product-card").forEach((element) => {
     element.addEventListener("pointermove", (event) => {
       const rect = element.getBoundingClientRect();
       element.style.setProperty("--mx", `${event.clientX - rect.left}px`);
@@ -299,6 +450,7 @@ function init() {
   renderLatest();
   renderRadar();
   renderRoutes();
+  renderUniverse();
   renderTheses();
   renderFilters();
   renderProducts();

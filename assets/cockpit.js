@@ -37,6 +37,18 @@ function markFor(productOrSlug, label = "") {
   return `<span class="mark" aria-hidden="true">${icon ? `<img src="${icon}" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : escapeHtml(initials(text))}</span>`;
 }
 
+function promoFor(product, className = "") {
+  const visual = visuals[product.slug];
+  if (!visual?.promo) return "";
+  const source = visual.promoSource || visual.source || product.website || "";
+  return `
+    <a class="product-promo ${className}" href="${escapeHtml(source)}" target="_blank" rel="noreferrer" aria-label="查看 ${escapeHtml(product.name)} 官方宣传图来源">
+      <img src="${escapeHtml(visual.promo)}" alt="${escapeHtml(product.name)} 官方宣传图" loading="lazy" decoding="async">
+      <span>官方宣传图</span>
+    </a>
+  `;
+}
+
 function renderMetrics() {
   const groups = new Set(products.map((product) => product.group).filter(Boolean)).size;
   const metrics = [
@@ -113,6 +125,7 @@ function renderUniversePanel(product) {
         ${markFor(product)}
         <span><h3>${escapeHtml(product.name)}</h3><small>${escapeHtml(product.vendor || product.group || "未标明厂商")}</small></span>
       </div>
+      ${promoFor(product, "universe-promo")}
       <p>${escapeHtml(product.summary || product.features || "暂无摘要")}</p>
       <div class="universe-meta">
         <div class="tag-row">
@@ -302,6 +315,7 @@ function renderProducts() {
           ${markFor(product)}
           <span><h3>${escapeHtml(product.name)}</h3><small>${escapeHtml(product.vendor || product.group || "未标明厂商")}</small></span>
         </a>
+        ${promoFor(product)}
         <div class="tag-row">
           <span class="tag">${escapeHtml(product.type)}</span>
           <span class="tag">${escapeHtml(product.group)}</span>

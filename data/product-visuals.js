@@ -10,9 +10,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
-    "status": "collected"
+    "promo": "assets/product-promos/p03-ai.webp",
+    "source": "https://www.stepfun.com/chats/new",
+    "promoSource": "https://chat.stepfun.com/img/opengraph-image.png",
+    "status": "official-promo"
   },
   "p04-minimax-agent-minimax": {
     "icon": "assets/product-icons/p04-minimax-agent-minimax.png",
@@ -55,9 +56,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p11-amazon-quick-aws": {
-    "icon": "assets/product-icons/p11-amazon-quick-aws.png",
-    "source": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png",
-    "status": "collected"
+    "promo": "assets/product-promos/p11-amazon-quick-aws.webp",
+    "source": "https://aws.amazon.com/quick/",
+    "promoSource": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/product-categories/ai-ml/artificial-intelligence/approved/images/Quick%20desktop.eadc88f22d9013b3fe86568667b96eeda82b8747.png",
+    "status": "official-promo"
   },
   "p12-codex-open-ai": {
     "icon": "assets/product-icons/p12-codex-open-ai.png",
@@ -80,9 +82,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p17-copaw": {
-    "icon": "assets/product-icons/p17-copaw.svg",
-    "source": "https://clawbot.ai/copaw/favicon.svg",
-    "status": "collected"
+    "promo": "assets/product-promos/p17-copaw.webp",
+    "source": "https://clawbot.ai/copaw",
+    "promoSource": "https://clawbot.ai/copaw",
+    "status": "official-page-shot"
   },
   "p18-hiclaw": {
     "icon": "assets/product-icons/p18-hiclaw.png",
@@ -90,9 +93,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p19-jvs-claw": {
-    "icon": "assets/product-icons/p19-jvs-claw.ico",
-    "source": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
-    "status": "collected"
+    "promo": "assets/product-promos/p19-jvs-claw.webp",
+    "source": "https://jvsclaw.aliyun.com/",
+    "promoSource": "https://jvsclaw.aliyun.com/",
+    "status": "official-page-shot"
   },
   "p35-qbotclaw": {
     "icon": "assets/product-icons/p35-qbotclaw.ico",
@@ -110,19 +114,22 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p21-autoclaw": {
-    "icon": "assets/product-icons/p21-autoclaw.svg",
-    "source": "https://autoclaws.org/favicon.svg",
-    "status": "collected"
+    "promo": "assets/product-promos/p21-autoclaw.webp",
+    "source": "https://autoclaws.org/zh/",
+    "promoSource": "https://autoclaws.org/zh/",
+    "status": "official-page-shot"
   },
   "p22-maxclaw-minimax": {
-    "icon": "assets/product-icons/p22-maxclaw-minimax.ico",
-    "source": "https://trapilot.ai/favicon.ico",
-    "status": "collected"
+    "promo": "assets/product-promos/p22-maxclaw-minimax.webp",
+    "source": "https://maxclaw.ai/zh/",
+    "promoSource": "https://trapilot.ai/claws/maxclaw/maxclaw-banner.webp",
+    "status": "official-promo"
   },
   "p23-stepclaw": {
-    "icon": "assets/product-icons/p23-stepclaw.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
-    "status": "collected"
+    "promo": "assets/product-promos/p23-stepclaw.webp",
+    "source": "https://www.stepfun.com/download",
+    "promoSource": "https://chat.stepfun.com/download",
+    "status": "official-page-shot"
   },
   "p24-skyclaw": {
     "icon": "assets/product-icons/p24-skyclaw.ico",
@@ -135,9 +142,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p25-lobsterai": {
-    "icon": "assets/product-icons/p25-lobsterai.ico",
-    "source": "https://shared.ydstatic.com/images/favicon.ico",
-    "status": "collected"
+    "promo": "assets/product-promos/p25-lobsterai.webp",
+    "source": "https://lobsterai.youdao.com/",
+    "promoSource": "https://ydhardwarecommon.nosdn.127.net/85ca628b73b3d3ddab9394f9f85e9ced.jpg",
+    "status": "official-promo"
   },
   "p26-molili": {
     "icon": "assets/product-icons/p26-molili.ico",
@@ -155,9 +163,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p37-ai-claw": {
-    "icon": "assets/product-icons/p37-ai-claw.ico",
-    "source": "https://brand.lenovo.com.cn/favicon.ico",
-    "status": "collected"
+    "promo": "assets/product-promos/p37-ai-claw.webp",
+    "source": "https://brand.lenovo.com.cn/brand/ppn03698.html",
+    "promoSource": "https://brand.lenovo.com.cn/brand/ppn03698.html",
+    "status": "official-page-shot"
   },
   "p38-wps-claw": {
     "icon": "assets/product-icons/p38-wps-claw.png",
@@ -180,9 +189,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p34-yoyo-claw": {
-    "icon": "assets/product-icons/p34-yoyo-claw.webp",
-    "source": "https://www.honor.com/etc/designs/honor-site/assets/apple-icon.png",
-    "status": "collected"
+    "promo": "assets/product-promos/p34-yoyo-claw.webp",
+    "source": "https://www.honor.com/cn/news/honor-magicbook-pro-lanunch/",
+    "promoSource": "https://www.honor.com/content/dam/honor/cn/news/2026/honor-magicbook-pro-lanunch/image-mb.jpg",
+    "status": "official-promo"
   },
   "p29-claw": {
     "icon": "assets/product-icons/p29-claw.png",
@@ -190,9 +200,10 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p30-xiaomi-miclaw": {
-    "icon": "assets/product-icons/p30-xiaomi-miclaw.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fdev.mi.com%2Fxiaomihyperos%2Fannouncement%2Fdetail%3Fid%3D41&sz=128",
-    "status": "collected"
+    "promo": "assets/product-promos/p30-xiaomi-miclaw.webp",
+    "source": "https://dev.mi.com/xiaomihyperos/announcement/detail?id=41",
+    "promoSource": "https://dev.mi.com/xiaomihyperos/announcement/detail?id=41",
+    "status": "official-page-shot"
   },
   "p32-officeclaw": {
     "icon": "assets/product-icons/p32-officeclaw.ico",

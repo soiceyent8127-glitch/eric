@@ -46,18 +46,6 @@ function productMark(product, size = "") {
   return `<span class="product-mark ${size}" aria-hidden="true"><span>${productInitials(product)}</span>${image}</span>`;
 }
 
-function productPromo(product, className = "") {
-  const visual = productVisuals[product.slug];
-  if (!visual?.promo) return "";
-  const source = visual.promoSource || visual.source || product.website || "";
-  return `
-    <a class="product-promo ${className}" href="${source}" target="_blank" rel="noreferrer" aria-label="查看 ${product.name} 官方宣传图来源">
-      <img src="${visual.promo}" alt="${product.name} 官方宣传图" loading="lazy" decoding="async">
-      <span>官方宣传图</span>
-    </a>
-  `;
-}
-
 function setActiveNav() {
   const path = location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll("[data-nav]").forEach((link) => {
@@ -525,7 +513,6 @@ function productCard(product) {
         </div>
         ${tag(product.type, tone)}
       </div>
-      ${productPromo(product)}
       <p>${product.summary}</p>
       <div class="tag-row">
         ${tag(formatValue(product.group), "gold")}
@@ -704,7 +691,6 @@ function renderProductDetail() {
           <p class="breadcrumb"><a href="products.html">产品索引</a><span>/</span>${product.type}<span>/</span>${formatValue(product.group)}</p>
           <div class="detail-heading-row">${productMark(product, "large")}<h1>${product.name}</h1></div>
           <p>${product.summary}</p>
-          ${productPromo(product, "detail-promo")}
           <div class="hero-actions">
             <a class="ghost-button" href="products.html">返回矩阵</a>
             ${externalLink(product.website, "访问官网")}

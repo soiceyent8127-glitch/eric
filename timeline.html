@@ -3,12 +3,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="0; url=index.html">
     <title>重大动态 | Agent Index</title>
-    <link rel="canonical" href="index.html">
-    <script>location.replace("index.html");</script>
+    <meta name="description" content="只收录会改变产品定位、核心能力、商业模式或竞争判断的 Agent 重大动态，按时间轴呈现。">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23080b10'/%3E%3Cpath d='M18 22h28M18 32h20M18 42h28' stroke='%23f2aa48' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="assets/cockpit.css">
   </head>
   <body>
-    <p><a href="index.html">重大动态已合并到首页，点击前往。</a></p>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="返回 Agent Index 首页">
+        <span class="brand-glyph" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span>
+          <strong>Agent Index</strong>
+          <small>Agent Market Intelligence</small>
+        </span>
+      </a>
+      <nav class="nav-pills" aria-label="主导航">
+        <a href="index.html#briefing">简报</a>
+        <a href="index.html#strategy">战略判断</a>
+        <a href="index.html#universe">产品宇宙</a>
+        <a href="timeline.html" aria-current="page">重大动态</a>
+        <a href="products.html">产品索引</a>
+      </nav>
+      <a class="deploy-state" href="timeline.html"><i aria-hidden="true"></i>每周一自动更新</a>
+    </header>
+
+    <main>
+      <section id="timeline" class="section timeline-section">
+        <div class="section-heading">
+          <div>
+            <p class="system-line">Verified Signals</p>
+            <h2>重大动态</h2>
+          </div>
+          <p>只收录会改变产品定位、核心能力、商业模式或竞争判断的事件；日常更新和资本噪音不进正式页。</p>
+        </div>
+        <div class="timeline-home-head" id="timeline-home-head"></div>
+        <div class="timeline-home-list" id="timeline-home-list"></div>
+      </section>
+    </main>
+
+    <script src="data/site-data.js"></script>
+    <script src="data/major-updates.js"></script>
+    <script src="data/product-visuals.js"></script>
+    <script src="assets/global-galaxy.js"></script>
+    <script src="assets/cockpit.js"></script>
   </body>
 </html>

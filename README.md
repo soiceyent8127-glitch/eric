@@ -5,7 +5,7 @@
 ## 线上入口
 
 - 网站：https://agent-index-intelligence.pages.dev/
-- 重大动态：https://agent-index-intelligence.pages.dev/#timeline
+- 重大动态：https://agent-index-intelligence.pages.dev/timeline.html
 
 ## 日常维护
 

@@ -3,41 +3,6 @@ const products = researchData.products || [];
 const majorUpdates = window.MAJOR_UPDATES || [];
 const visuals = window.PRODUCT_VISUALS || {};
 
-const routes = [
-  {
-    title: "国外本地桌面 Agent",
-    desc: "OpenAI 和 Anthropic 更像在抢个人工作环境入口，重点是浏览器、代码库、本机任务和跨端接续。",
-    products: ["Codex桌面版（Open AI）", "Anthropic Claude Cowork"],
-  },
-  {
-    title: "国外云端企业 Agent",
-    desc: "AWS、Google 更偏企业工作流，优势在数据连接、权限体系、组织知识和云端长期任务。",
-    products: ["Amazon Quick（AWS）", "Gemini Spark（Google）"],
-  },
-  {
-    title: "国内三大厂主战场",
-    desc: "腾讯、阿里、字节围绕 IM 分发、混合执行、Skill 市场和办公场景交付展开竞争。",
-    products: ["WorkBuddy（腾讯）", "QoderWork（阿里巴巴）", "Coze 2.5（字节跳动）"],
-  },
-  {
-    title: "模型厂商卫星区",
-    desc: "MiniMax、阶跃等模型厂商把模型能力包装成桌面伙伴、专家团队和 OpenClaw 兼容生态。",
-    products: ["MiniMax Agent（MiniMax）", "阶跃 AI 桌面伙伴（阶跃星辰）", "StepClaw（阶跃星辰）"],
-  },
-];
-
-const radarNodes = [
-  ["OpenAI", "Codex Desktop", "p12-codex-open-ai", 29, 27],
-  ["Anthropic", "Claude Cowork", "", 38, 21],
-  ["AWS", "Amazon Quick", "p11-amazon-quick-aws", 73, 26],
-  ["Google", "Gemini Spark", "p31-gemini-spark-google", 82, 34],
-  ["腾讯", "WorkBuddy", "p02-workbuddy", 32, 66],
-  ["阿里", "QoderWork", "p01-qoderwork", 28, 80],
-  ["字节", "Coze / ArkClaw", "p36-2.5", 40, 92],
-  ["MiniMax", "Agent / MaxClaw", "p04-minimax-agent-minimax", 72, 70],
-  ["阶跃", "StepClaw", "p03-ai", 76, 84],
-];
-
 function $(selector, root = document) {
   return root.querySelector(selector);
 }
@@ -56,10 +21,6 @@ function productUrl(product) {
 
 function formatDate(date) {
   return date ? date.slice(5).replace("-", "/") : "待核验";
-}
-
-function findProductByName(name) {
-  return products.find((product) => product.name === name || product.name.includes(name) || name.includes(product.name.split("（")[0]));
 }
 
 function initials(label) {
@@ -95,7 +56,7 @@ function renderLatest() {
     .map((item) => {
       const product = products.find((entry) => entry.slug === item.productSlug);
       return `
-        <a class="latest-item reveal" href="${product ? productUrl(product) : "#timeline"}">
+        <a class="latest-item reveal" href="${product ? productUrl(product) : "timeline.html"}">
           <time>${formatDate(item.date)}</time>
           <span><b>${escapeHtml(item.title)}</b><span>${escapeHtml(item.impact || item.category || "重大动态")}</span></span>
         </a>
@@ -122,7 +83,7 @@ function renderTimelineHome() {
   list.innerHTML = sorted
     .map((item) => {
       const product = products.find((entry) => entry.slug === item.productSlug);
-      const href = product ? productUrl(product) : item.sourceUrl || "#timeline";
+      const href = product ? productUrl(product) : item.sourceUrl || "timeline.html";
       return `
         <article class="timeline-row reveal">
           <span class="timeline-dot" aria-hidden="true"></span>
@@ -139,51 +100,6 @@ function renderTimelineHome() {
         </article>
       `;
     })
-    .join("");
-}
-
-function renderRadar() {
-  const stage = $("#radar-stage");
-  const labels = [
-    ["top", "Foreign"],
-    ["bottom", "China"],
-    ["left", "Local Desktop"],
-    ["right", "Cloud Workflow"],
-  ];
-  const zones = [
-    ["国外 · 本地桌面", "个人工作环境入口", 16, 14],
-    ["国外 · 云端企业", "组织级工作流入口", 64, 13],
-    ["国内 · 三大厂", "IM + 混合执行", 3, 52],
-    ["模型厂商", "模型能力产品化", 62, 52],
-  ];
-
-  stage.innerHTML = `
-    ${labels.map(([pos, text]) => `<span class="axis-label ${pos}">${text}</span>`).join("")}
-    ${zones.map(([title, desc, left, top]) => `<div class="map-label" style="left:${left}%;top:${top}%"><b>${title}</b><span>${desc}</span></div>`).join("")}
-    ${radarNodes
-      .map(([name, desc, slug, left, top]) => {
-        const product = slug ? products.find((item) => item.slug === slug) : null;
-        const href = product ? productUrl(product) : "#products";
-        return `
-          <a class="radar-node reveal" href="${href}" style="left:${left}%;top:${top}%">
-            ${product ? markFor(product) : `<span class="mark">${escapeHtml(initials(name))}</span>`}
-            <span><b>${escapeHtml(name)}</b><span>${escapeHtml(desc)}</span></span>
-          </a>
-        `;
-      })
-      .join("")}
-  `;
-}
-
-function renderRoutes() {
-  $("#route-panel").innerHTML = routes
-    .map((route) => `
-      <article class="route-card reveal">
-        <strong>${escapeHtml(route.title)}</strong>
-        <p>${escapeHtml(route.desc)}</p>
-        <div class="route-products">${route.products.map((name) => `<span class="tag">${escapeHtml(name)}</span>`).join("")}</div>
-      </article>
-    `)
     .join("");
 }
 
@@ -524,20 +440,28 @@ function animateCount(element) {
 }
 
 function init() {
-  renderMetrics();
-  renderLatest();
-  renderTimelineHome();
-  renderRadar();
-  renderRoutes();
-  renderUniverse();
-  renderTheses();
-  renderFilters();
-  renderProducts();
-  bindProducts();
-  bindSpotlight();
-  bindTiltCards();
-  observeReveals();
-  initGlobalGalaxy(); // shared amber WebGL star field (same as the rest of the site)
+  // Each step renders only if its container exists on the current page, so the
+  // same cockpit.js drives the homepage and the standalone products / timeline pages.
+  [
+    renderMetrics,
+    renderLatest,
+    renderTimelineHome,
+    renderUniverse,
+    renderTheses,
+    renderFilters,
+    renderProducts,
+    bindProducts,
+    bindSpotlight,
+    bindTiltCards,
+    observeReveals,
+    initGlobalGalaxy, // shared amber WebGL star field (same as the rest of the site)
+  ].forEach((step) => {
+    try {
+      step();
+    } catch {
+      /* section not present on this page */
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);

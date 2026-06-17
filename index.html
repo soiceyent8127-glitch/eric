@@ -21,15 +21,14 @@
           <small>Agent Market Intelligence</small>
         </span>
       </a>
-      <nav class="nav-pills" aria-label="首页导航">
-        <a href="#briefing">简报</a>
-        <a href="#timeline">重大动态</a>
-        <a href="#map">竞争星图</a>
-        <a href="#universe">产品宇宙</a>
-        <a href="#strategy">战略判断</a>
-        <a href="#products">产品索引</a>
+      <nav class="nav-pills" aria-label="主导航">
+        <a href="index.html#briefing">简报</a>
+        <a href="index.html#strategy">战略判断</a>
+        <a href="index.html#universe">产品宇宙</a>
+        <a href="timeline.html">重大动态</a>
+        <a href="products.html">产品索引</a>
       </nav>
-      <a class="deploy-state" href="#timeline"><i aria-hidden="true"></i>每周一自动更新</a>
+      <a class="deploy-state" href="timeline.html"><i aria-hidden="true"></i>每周一自动更新</a>
     </header>
 
     <main>
@@ -39,8 +38,8 @@
           <h1><span>把 Agent 产品</span><span>压进一张</span><span>可追踪竞争图谱</span></h1>
           <p class="hero-lede">自动发现市场信号，编辑规则筛掉噪音，只把足以改变判断的产品、能力和生态变化推到前台。</p>
           <div class="hero-actions">
-            <a class="button primary" href="#products">进入索引</a>
-            <a class="button ghost" href="#timeline">查看重大动态</a>
+            <a class="button primary" href="products.html">进入索引</a>
+            <a class="button ghost" href="timeline.html">查看重大动态</a>
           </div>
           <div class="signal-strip" aria-label="情报处理流程">
             <span>发现</span>
@@ -63,48 +62,6 @@
         </aside>
       </section>
 
-      <section id="timeline" class="section timeline-section">
-        <div class="section-heading">
-          <div>
-            <p class="system-line">Verified Signals</p>
-            <h2>重大动态</h2>
-          </div>
-          <p>只收录会改变产品定位、核心能力、商业模式或竞争判断的事件；日常更新和资本噪音不进正式页。</p>
-        </div>
-        <div class="timeline-home-head" id="timeline-home-head"></div>
-        <div class="timeline-home-list" id="timeline-home-list"></div>
-      </section>
-
-      <section id="map" class="section arena-section">
-        <div class="section-heading">
-          <div>
-            <p class="system-line">Competitive Field</p>
-            <h2>Agent 产品竞争格局</h2>
-          </div>
-          <p>国外按本地桌面与云端企业路线分叉，国内围绕 IM 入口、混合执行和 Skill 生态打主战。</p>
-        </div>
-        <div class="arena-grid">
-          <div class="arena-card">
-            <div class="radar-stage" id="radar-stage" aria-label="Agent 产品竞争星图"></div>
-          </div>
-          <div class="route-panel" id="route-panel"></div>
-        </div>
-      </section>
-
-      <section id="universe" class="section universe-section">
-        <div class="section-heading">
-          <div>
-            <p class="system-line">Product Universe</p>
-            <h2>全量产品宇宙</h2>
-          </div>
-          <p>把 45 个产品全部放进一个可拖拽的探索视图，按产品、厂商和能力标签快速切入详情。</p>
-        </div>
-        <div class="universe-shell">
-          <div class="universe-stage" id="universe-stage" aria-label="Agent 产品宇宙"></div>
-          <aside class="universe-panel" id="universe-panel" aria-live="polite"></aside>
-        </div>
-      </section>
-
       <section id="strategy" class="section thesis-section">
         <div class="section-heading">
           <div>
@@ -116,38 +73,20 @@
         <div class="thesis-grid" id="thesis-grid"></div>
       </section>
 
-      <section id="products" class="section products-section">
-        <div class="section-heading product-heading">
+      <section id="universe" class="section universe-section">
+        <div class="section-heading">
           <div>
-            <p class="system-line">Product Index</p>
-            <h2>产品索引与对比视图</h2>
+            <p class="system-line">Product Universe</p>
+            <h2>全量产品宇宙</h2>
           </div>
-          <div class="view-toggle" aria-label="切换视图">
-            <button type="button" class="active" data-view="cards">卡片</button>
-            <button type="button" data-view="table">表格</button>
-          </div>
+          <p>把全部产品放进一个可拖拽的探索视图，按产品、厂商和能力标签快速切入详情。</p>
         </div>
-
-        <div class="command-bar">
-          <label>
-            <span>搜索产品、厂商或能力</span>
-            <input id="product-search" type="search" placeholder="例如 OpenAI、腾讯、Skill、云端沙箱">
-          </label>
-          <label>
-            <span>产品类型</span>
-            <select id="type-filter"></select>
-          </label>
-          <label>
-            <span>竞争分组</span>
-            <select id="group-filter"></select>
-          </label>
-          <button type="button" id="clear-filters">清除筛选</button>
+        <div class="universe-shell">
+          <div class="universe-stage" id="universe-stage" aria-label="Agent 产品宇宙"></div>
+          <aside class="universe-panel" id="universe-panel" aria-live="polite"></aside>
         </div>
-
-        <div class="result-meta" id="result-meta"></div>
-        <div class="product-cards" id="product-cards"></div>
-        <div class="product-table-wrap hidden" id="product-table-wrap"></div>
       </section>
+
     </main>
 
     <script src="data/site-data.js"></script>

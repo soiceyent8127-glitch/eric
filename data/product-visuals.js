@@ -6,7 +6,7 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/54c8396237061886eab7518c783aa7cab57905d1/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/a2664fb39bad723468f2160e3262a66f4c97489b/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
@@ -55,9 +55,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p11-amazon-quick-aws": {
-    "icon": "assets/product-icons/p11-amazon-quick-aws-official-icon.webp",
-    "source": "https://aws.amazon.com/quick/",
-    "status": "official-crop"
+    "icon": "assets/product-icons/p11-amazon-quick-aws.png",
+    "source": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png",
+    "status": "collected"
   },
   "p12-codex-open-ai": {
     "icon": "assets/product-icons/p12-codex-open-ai.png",
@@ -90,9 +90,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p19-jvs-claw": {
-    "icon": "assets/product-icons/p19-jvs-claw-official-icon.webp",
-    "source": "https://jvsclaw.aliyun.com/",
-    "status": "official-crop"
+    "icon": "assets/product-icons/p19-jvs-claw.ico",
+    "source": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
+    "status": "collected"
   },
   "p35-qbotclaw": {
     "icon": "assets/product-icons/p35-qbotclaw.ico",
@@ -115,9 +115,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p22-maxclaw-minimax": {
-    "icon": "assets/product-icons/p22-maxclaw-minimax-official-icon.webp",
-    "source": "https://maxclaw.ai/zh/",
-    "status": "official-crop"
+    "icon": "assets/product-icons/p22-maxclaw-minimax.ico",
+    "source": "https://trapilot.ai/favicon.ico",
+    "status": "collected"
   },
   "p23-stepclaw": {
     "icon": "assets/product-icons/p23-stepclaw.svg",
@@ -135,9 +135,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p25-lobsterai": {
-    "icon": "assets/product-icons/p25-lobsterai-official-icon.webp",
-    "source": "https://lobsterai.youdao.com/",
-    "status": "official-crop"
+    "icon": "assets/product-icons/p25-lobsterai.ico",
+    "source": "https://shared.ydstatic.com/images/favicon.ico",
+    "status": "collected"
   },
   "p26-molili": {
     "icon": "assets/product-icons/p26-molili.ico",
@@ -155,9 +155,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p37-ai-claw": {
-    "icon": "assets/product-icons/p37-ai-claw-official-icon.webp",
-    "source": "https://brand.lenovo.com.cn/brand/ppn03698.html",
-    "status": "official-crop"
+    "icon": "assets/product-icons/p37-ai-claw.ico",
+    "source": "https://brand.lenovo.com.cn/favicon.ico",
+    "status": "collected"
   },
   "p38-wps-claw": {
     "icon": "assets/product-icons/p38-wps-claw.png",
@@ -180,9 +180,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p34-yoyo-claw": {
-    "icon": "assets/product-icons/p34-yoyo-claw-official-icon.webp",
-    "source": "https://www.honor.com/cn/news/honor-magicbook-pro-lanunch/",
-    "status": "official-crop"
+    "icon": "assets/product-icons/p34-yoyo-claw.webp",
+    "source": "https://www.honor.com/etc/designs/honor-site/assets/apple-icon.png",
+    "status": "collected"
   },
   "p29-claw": {
     "icon": "assets/product-icons/p29-claw.png",
@@ -191,7 +191,7 @@ window.PRODUCT_VISUALS = {
   },
   "p30-xiaomi-miclaw": {
     "icon": "assets/product-icons/p30-xiaomi-miclaw.png",
-    "source": "https://dev.mi.com/xiaomihyperos/announcement/detail?id=41",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fdev.mi.com%2Fxiaomihyperos%2Fannouncement%2Fdetail%3Fid%3D41&sz=128",
     "status": "collected"
   },
   "p32-officeclaw": {
@@ -210,17 +210,18 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p43-kimi-work": {
-    "icon": "assets/product-icons/p20-kimi-claw.png",
-    "source": "https://www.kimi.com/",
-    "status": "reused"
+    "icon": "assets/product-icons/p43-kimi-work.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.kimi.com%2F&sz=128",
+    "status": "collected"
   },
   "p44-openclaw": {
-    "source": "https://x.com/openclaw",
-    "status": "pending"
+    "icon": "assets/product-icons/p44-openclaw.ico",
+    "source": "https://x.com/favicon.ico",
+    "status": "collected"
   },
   "p45-qoder-cloud-agents": {
-    "icon": "assets/product-icons/p01-qoderwork.png",
-    "source": "https://qoder.com/zh/cloud-agents",
-    "status": "reused"
+    "icon": "assets/product-icons/p45-qoder-cloud-agents.png",
+    "source": "https://img.alicdn.com/imgextra/i4/O1CN01OQC0dn1xLcdAaRALo_!!6000000006427-2-tps-180-180.png",
+    "status": "collected"
   }
 };

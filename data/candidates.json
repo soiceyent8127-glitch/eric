@@ -21,6 +21,25 @@
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
   },
   {
+    "id": "p05-skywork-d638fbdb",
+    "productSlug": "p05-skywork",
+    "productName": "Skywork桌面版（昆仑万维）",
+    "title": "昆仑万维天工3.1正式发布 两大新能力推动AI成果从Demo走向商用落地 - 证券时报",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TUTg0SHFVX0dkSmZrZkFBSjFoWFA5YWZuZFl5ZHdIR25KaDV4cVJnLTM5OFRuYjIyU0J5VXVZYkZ3OXV3UkdTX0xtcXc4WElPUFlnSklSOGpKNU8w?oc=5",
+    "sourceLabel": "证券时报",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T10:36:00.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.216Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
     "id": "p29-claw-20d5dc3d",
     "productSlug": "p29-claw",
     "productName": "小艺Claw（华为）",
@@ -78,6 +97,119 @@
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
+    "id": "p05-skywork-783b0c46",
+    "productSlug": "p05-skywork",
+    "productName": "Skywork桌面版（昆仑万维）",
+    "title": "昆仑万维发布天工3.1: 上线全新画布设计与多 Agent 并行工作流 - MSN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgRBVV95cUxPaWxSeERsTjhtYnN1UTBPaUJjeVFRY2FnQlVYYzlZYVptejYwZTkweWc1NDVscjIyVmRpX1BrMW53SDE2dVVscFFxRDR2NW5oQTlKb2RDRzJaVGhEaURfV0RNQ3hsRTVxempuTmN1N1FHblhVN1p4c2hTSHdCaXU5dHY5NG4xTHNJd2JoVVVGX2xnMmwxak9SbmJ3dEZvVkFlZXBoeVdTaC12MmhUYzhqTHE2Y0NaTTdySTJoZDdOREdJaE9pS243UEZfMEdNRUFNZTFwbHdNLWRzUVBBLWhwNklVRHdhTVhzbGJpekNTRlZEei00RmQ3amhRbzJWenR5cF9GSlVSRFo5TnBXRWdSOTRXYmstYzlSVTlKNWFkdl9sN19tNl9BTVhFWHVOanVyVUd4bTY3V1NvU1JSNUd3RDFBcGpXUzQ2WTdUaEdkc1lDM3FoVW9fTFVla20wNmx1SHRtSWlQQU1MWnJQdmoxUEJRcngyNXJVVlg0eXg4YjFsamp5dUpCWXVLaFV6UkNJdExFTHJWNnE1UW1xSFMwUXB0LURZUWFuVUJyVDIzXzZJSW9lTGo4LVlMX1EwTHVKX2lWRmhWblpMeFlnSFFFaHZsNEFtT1ZiNnNoTlFBbzh2NE1ndVhrTmJTQzd5UG5SYWJPSFJqVWNUSjIxTkcwNDZubnlJRVdSMzJROVVRVTdDcFJ4NEE?oc=5",
+    "sourceLabel": "MSN",
+    "sourceType": "media",
+    "publishedAt": "2026-06-20T13:33:09.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.216Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p05-skywork-f24ac481",
+    "productSlug": "p05-skywork",
+    "productName": "Skywork桌面版（昆仑万维）",
+    "title": "昆仑万维天工 3.1 来了：上线设计画布与多智能体工作流，强化复杂项目交付能力 - Infoq.cn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkNUFHUGpaT3BDMnlSSFpDd2VPYlJIZDFJWVp6YTY5YmZhZnpSTnhRd1Rad1ltRE9mbVpnVUNBT1ZhTzJCNzFjeVk2b2pSM3RrOWUyQ25oU0hGUQ?oc=5",
+    "sourceLabel": "Infoq.cn",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T09:15:31.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.215Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p05-skywork-b4e7d804",
+    "productSlug": "p05-skywork",
+    "productName": "Skywork桌面版（昆仑万维）",
+    "title": "昆仑万维发布天工3.1:上线全新画布设计与多 Agent 并行工作流 - AIBase",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1odzJicU5qQjhJVVk2U2F6VDVQMng4VUZ2U1U2OUVMOEU1VFpNWG0yTXNlYzVEMVpPSGFrVTF3U1Y1cGcwR0pERTZMaEFRZw?oc=5",
+    "sourceLabel": "AIBase",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T06:52:00.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.216Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p02-workbuddy-7010ee8e",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "WeChat Pay officially launched its AI-exclusive card, which is now supported for use within WorkBuddy. - PANews",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Xb3JhSS1VN0h3eE93UUg2TVZYV1k2MFBDZlg2ZzVzd2Z0dlo3M1NFVHJtdnI5enFseElCd0g1dnVSdWk2Ym5JTC1PazFwNHdESlI3WnIySE9aSHFoU1cteWozTk1fVzlGbnJxNkpwdWZZaEMxanp1SURIZ1NPSlE?oc=5",
+    "sourceLabel": "PANews",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T06:38:32.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.331Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或停止运营 +6"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p01-qoderwork-5e1293be",
+    "productSlug": "p01-qoderwork",
+    "productName": "QoderWork（阿里巴巴）",
+    "title": "阿里云QoderWork上线“意识”功能，实现AI自主记忆与技能进化 - article.9466.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBISU16RlR3TXpkZHp2bGxJSzZzV2dxTDM3Y0FBNDBrTTJ1TDFmaVVYYmxRZzBaQTUzZU5Ic2wyMVJWaHdXT1BRZ3NfYUFWQVE?oc=5",
+    "sourceLabel": "article.9466.com",
+    "sourceType": "media",
+    "publishedAt": "2026-06-16T06:57:00.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.221Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p01-qoderwork-b6aa2ebb",
+    "productSlug": "p01-qoderwork",
+    "productName": "QoderWork（阿里巴巴）",
+    "title": "QoderWork上线“意识“功能：让AI学会记忆、反思和成长 - CSDN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MZ2M3bWlMdEVJdDdjYmd1WURoUDRjUW5xdzd1TU94WUUtc3RfTlFiU3FsZDdMcWcwZTF3dlRWemJQc09ZbXE2TXRvRG05TlRaelpFZlN1eWZRS1dIOUE?oc=5",
+    "sourceLabel": "CSDN",
+    "sourceType": "media",
+    "publishedAt": "2026-06-16T06:48:18.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.221Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
     "id": "p01-qoderwork-dee3ff10",
     "productSlug": "p01-qoderwork",
     "productName": "QoderWork（阿里巴巴）",
@@ -93,7 +225,28 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "pending"
+    "status": "accepted_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：可信媒体、高事件得分且产品名称明确匹配"
+  },
+  {
+    "id": "p01-qoderwork-fcaa82bd",
+    "productSlug": "p01-qoderwork",
+    "productName": "QoderWork（阿里巴巴）",
+    "title": "阿里云：QoderWork 上线“意识”功能，让 AI 学会记忆、反思和成长 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0MkVJX213WTBYd1phbjhSMGhYYkFuTXlvN1VqTWNiMF9kSHc2b1NJQ2dIdXRRNW1jcmoyLVVtcktjd1pkbDkySjRCbElSSzc2Q0g3OXZEd3hWQi1hZ3FLeWhNNzVEYzNCOFVrOUViaFh1QmtJMkdZTmVUdldQV2c?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-06-16T06:16:00.000Z",
+    "discoveredAt": "2026-06-22T07:37:19.221Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：可信媒体、高事件得分且产品名称明确匹配"
   },
   {
     "id": "p08-manus-manus-badbd7",
@@ -260,6 +413,25 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p44-openclaw-4499a17e",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
+    "sourceUrl": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
+    "sourceLabel": "公众号：小米 MiMo",
+    "sourceType": "media",
+    "publishedAt": "2026-06-16T13:32:48.000Z",
+    "discoveredAt": "2026-06-22T07:37:38.463Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
     "id": "p12-codex-open-ai-ca2577b5",

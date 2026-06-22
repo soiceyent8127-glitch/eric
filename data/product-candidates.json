@@ -1,5 +1,226 @@
 [
   {
+    "id": "new-product-59f2e4e3",
+    "title": "微信灰度上线原生AI助手，大模型全面激活国民级应用生态",
+    "sourceUrl": "https://news.aibase.com/zh/news/29043",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-22T02:55:21.000Z",
+    "discoveredAt": "2026-06-22T07:38:01.182Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-524b7a3",
+    "title": "Cloudflare 为 AI 智能体推出临时账户",
+    "sourceUrl": "https://blog.cloudflare.com/temporary-accounts",
+    "sourceLabel": "Cloudflare Blog",
+    "sourceType": "media",
+    "publishedAt": "2026-06-19T13:00:00.000Z",
+    "discoveredAt": "2026-06-22T07:37:39.722Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-760cc9f8",
+    "title": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
+    "sourceUrl": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T17:22:51.000Z",
+    "discoveredAt": "2026-06-22T07:37:39.722Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-cb08f01e",
+    "title": "Cloudflare 发布 Cloudflare One stack：智能体驱动的部署工具集",
+    "sourceUrl": "https://blog.cloudflare.com/cloudflare-one-stack",
+    "sourceLabel": "Cloudflare Blog",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T13:00:00.000Z",
+    "discoveredAt": "2026-06-22T07:37:39.722Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-5c210b42",
+    "title": "微信支付推出AI专属卡：Agent可一键下单，资金与主账户隔离 - 风闻",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XVVJKOGFhbHd2THhnQjdOa1hhZU0xelNDMmNSZ1ZTR3lyNXlLQjBXVEl6RmV1RzFPNFcxZ09FZDg1UnpMZEhrUXhiekRBZDhFOTlGYmxaS1ctakVKN3otRWUzWGlmMDFTeWtmQkhZVmFIbWxJ?oc=5",
+    "sourceLabel": "风闻",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T08:38:42.000Z",
+    "discoveredAt": "2026-06-22T07:37:23.454Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-a797b150",
+    "title": "昆仑万维发布天工3.1:上线全新画布设计与多 Agent 并行工作流",
+    "sourceUrl": "https://news.aibase.com/zh/news/28988",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-17T06:52:59.000Z",
+    "discoveredAt": "2026-06-22T07:38:01.192Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-b497c5c7",
+    "title": "降本近四成！微软重磅发布 Copilot Cowork 智能体，正面硬刚Claude ",
+    "sourceUrl": "https://news.aibase.com/zh/news/28985",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-17T06:17:10.000Z",
+    "discoveredAt": "2026-06-22T07:38:01.193Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-b397c434",
+    "title": "微信支付正式发布“AI专属卡”:支持Agent闭环消费，主账户完全隔离",
+    "sourceUrl": "https://news.aibase.com/zh/news/28984",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-17T06:10:54.000Z",
+    "discoveredAt": "2026-06-22T07:38:01.193Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-d891ee33",
+    "title": "全国首个！广东政务智能中枢湾擎上线，这个AI智能体接入 - 搜狐网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNb0VMNnRONTVTZHprZGhDaHhPTXNnVUVmVWRneWRHTWtVRzd6X3pfLTEwRjY4X29fMVBhUy1fSVhENExoWVFqdUFZQ2RBbFlSRzBVRmI2d3J2ckgwdjQ4V1N6aVQwVzhkY3E0NjVwQnUwUXFUUVNXQXF0UE1SenhwUjV0eVF3NDdIMWJTRjRhSEtBeWF2V05HTmV5dkJnUGNweFF2dWlQTVZVQ0VDamM2U0JlQmxQYVUyR0NSMDQxaFpjNDVlX3FIRld3YVFsUVZxNjRzXzNxSXcwNS1qSEt2OG50LU5LcnhYeXRFdDhRMGloWXV3ck0xcUR5b2JqTHFZa1pXaHhUeDBwZFFDbDVfX1otYi02NnBMNnpXUGNQODFrcG5NSTNINGItamVZdVhSNVlQNTQ4RmthQlNMTXlDZFNCMVhuUGcyaVRna2dR?oc=5",
+    "sourceLabel": "搜狐网",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T04:28:34.000Z",
+    "discoveredAt": "2026-06-22T07:37:23.454Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-5f75540f",
+    "title": "Wolfram 语言和 Mathematica 15 版发布：内置 AI 助手、符号音乐等新功能",
+    "sourceUrl": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality",
+    "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-17T03:25:14.439Z",
+    "discoveredAt": "2026-06-22T07:37:39.722Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-2c927281",
+    "title": "小米发布MiMo Claw正式版:支持千次连续工具调用，免费时长增至4小时",
+    "sourceUrl": "https://news.aibase.com/zh/news/28969",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-17T01:15:26.000Z",
+    "discoveredAt": "2026-06-22T07:38:01.197Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-75048d7a",
+    "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+    "sourceUrl": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-16T08:18:58.000Z",
+    "discoveredAt": "2026-06-22T07:37:39.722Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-2895bad0",
     "title": "芯晟汇重磅发布AI私人助理「小慧」：内置OpenClaw引擎+全栈Skill技能，开启人人专属智能助理时代 - 中华网生活",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ybkI4TWpJOXFQcUNQVzY2OUVTbFNBTVdXdW9ocFNub3BwS0hDQ1NNYnlDalE5c2V4WS1zc0didEpHcWJhWl96T3JSWmRnaVhRdzgwM2I2REV4cm1VWjE4OWdLVQ?oc=5",
@@ -136,13 +357,15 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-06-12T02:24:19.000Z",
     "discoveredAt": "2026-06-16T07:43:46.804Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
     "id": "new-product-251dccc7",
@@ -153,13 +376,15 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-06-12T01:44:07.000Z",
     "discoveredAt": "2026-06-16T07:43:46.804Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
     "id": "new-product-b12398bc",
@@ -242,13 +467,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-11T00:00:00.000Z",
     "discoveredAt": "2026-06-16T07:43:46.808Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
     "id": "new-product-82782387",
@@ -332,13 +559,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-10T00:00:00.000Z",
     "discoveredAt": "2026-06-16T07:43:46.808Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
     "id": "new-product-89833438",
@@ -472,13 +701,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-05T00:00:00.000Z",
     "discoveredAt": "2026-06-16T08:05:16.348Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
     "id": "new-product-4ec95ed7",
@@ -543,13 +774,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-04T00:00:00.000Z",
     "discoveredAt": "2026-06-16T08:05:16.348Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
     "id": "new-product-dd9832b8",
@@ -666,13 +899,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-03T00:00:00.000Z",
     "discoveredAt": "2026-06-16T08:05:16.349Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
     "id": "new-product-3b11d632",
@@ -735,12 +970,14 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-06-01T00:00:00.000Z",
     "discoveredAt": "2026-06-16T08:05:16.350Z",
-    "status": "pending",
+    "status": "deferred_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
-    ]
+    ],
+    "reviewedAt": "2026-06-22",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   }
 ]

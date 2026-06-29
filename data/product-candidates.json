@@ -1,5 +1,283 @@
 [
   {
+    "id": "new-product-7fc60fa6",
+    "title": "OpenAI 推出最新一代大语言模型系列 GPT-5.6",
+    "sourceUrl": "https://mp.weixin.qq.com/s/zHA3FpSLLVksg9ze9Ybg_g",
+    "sourceLabel": "AI工具集 / 机器之心",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-29T00:00:00.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.585Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-4d0883e0",
+    "title": "手机核心价值再丰富：vivo X Fold6折叠旗舰发布 打造“一套 AI 工作台” - 东方财富",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLekp3TzhUTl9FbmE0UWF4TDEybHVDaHJvT3EwaF8xbTFOR1IxX0FFN3NIdUdLWkRiQjZmMzAxbk1MYWlyeE1CLWh2dC10NTVCbWxaM0plMUkwU2dteXdwUFNkTlJHQQ?oc=5",
+    "sourceLabel": "东方财富",
+    "sourceType": "media",
+    "publishedAt": "2026-06-27T20:03:13.000Z",
+    "discoveredAt": "2026-06-29T07:02:06.818Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-688d63f4",
+    "title": "vivo X Fold6发布：AI折叠屏工作台就位 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NUFAwcHFPaUJZd2Fyd2lycnUzSkk0b1BGTTQ4WEprSUxuNXY5STZPRmx6NGlGaDFoWXFIVUpoaVUzdndrUW90ckhmQnRfd0RUSU9TWEhETm4tSzZwQjBDcFBhZERReC0tQVYyUzFPdzJZQ3ZHSkVNYXVXdFRVdw?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-06-27T15:36:43.000Z",
+    "discoveredAt": "2026-06-29T07:02:06.819Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-7aa72cad",
+    "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout - Infoq.cn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zVzZ6dXNaa3o4alFPSVN5SnhSZDZaa0pkLVJYaUt3UmctYkNacGxCQUNENXRUc2luRU1XZHRpNC03TXVKX0hNaG1UMTJrbE5FRFJrQ3FmMXkxNHppQ3c?oc=5",
+    "sourceLabel": "Infoq.cn",
+    "sourceType": "media",
+    "publishedAt": "2026-06-26T15:51:54.000Z",
+    "discoveredAt": "2026-06-29T07:02:07.085Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-edb6e790",
+    "title": "vivo X Fold6 发布 开启折叠屏 AI 工作台新时代 - 财富号",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QV3RRTXFrSXo4cGpKZ1BOd05MaWhhT3VIWHdxSUUtQ3RLZW9PSUY5M295VkNEOVgyanZWelJ4Y0tqbnhsbTJxMDBjVXpWc2MzR3dpYWZ1aDUyQ1hPMU9ZbnVIWEIyX0NUNG0w?oc=5",
+    "sourceLabel": "财富号",
+    "sourceType": "media",
+    "publishedAt": "2026-06-26T15:47:00.000Z",
+    "discoveredAt": "2026-06-29T07:02:06.818Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-4a91ba49",
+    "title": "苹果 Xcode 26.6 正式发布，编程助手迎来“谷歌 Gemini”强力外援",
+    "sourceUrl": "https://news.aibase.com/zh/news/29197",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-26T07:06:46.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.562Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-4cfce6ec",
+    "title": "Runway发布Agent 2.0",
+    "sourceUrl": "https://runwayml.com/news/introducing-agent-2",
+    "sourceLabel": "Runway：News（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-24T16:00:00.000Z",
+    "discoveredAt": "2026-06-29T07:02:22.020Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-e55d3487",
+    "title": "小湃科技发布ClawStation系列智能体终端 - 搜狐网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FeVgtaTNKTEJxNXJiXzItbUJEbUNMcnJsVjdDZ08xYjcyeHNGX3Nmd01YZ1ludURLa0tCQjIyOV9IaWtCQllTUlhxeV9BeGNoeW4yeEFB?oc=5",
+    "sourceLabel": "搜狐网",
+    "sourceType": "media",
+    "publishedAt": "2026-06-24T11:48:22.000Z",
+    "discoveredAt": "2026-06-29T07:02:07.085Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-4884eb30",
+    "title": "企业微信内测AI Agent“大圆”:打通企微生态，主打办公与客户经营提效",
+    "sourceUrl": "https://news.aibase.com/zh/news/29125",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-24T06:09:16.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.575Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-d87d7f1b",
+    "title": "免费志愿填报Agent上线：千问“降维打击”，千家机构迎来生死考",
+    "sourceUrl": "https://news.aibase.com/zh/news/29115",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-24T02:05:26.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.578Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-db7d83d4",
+    "title": "豆包正式上线三档付费订阅服务:最高500元/月，整体接入2.1系列大模型",
+    "sourceUrl": "https://news.aibase.com/zh/news/29110",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-24T01:09:46.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.578Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-3a2e7d8",
+    "title": "百川智能推出医疗增强大模型 Baichuan-M4",
+    "sourceUrl": "https://mp.weixin.qq.com/s/WBWQFRH5d8z1MBvCMHSWDQ",
+    "sourceLabel": "AI工具集 / 百川智能",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-24T00:00:00.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.587Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-dbfeea7c",
+    "title": "火山引擎发布豆包2.1Pro:日常功能确认免费，将推专业版办公模式",
+    "sourceUrl": "https://news.aibase.com/zh/news/29095",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-23T07:57:49.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.580Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-f1fcce87",
+    "title": "豆包大模型日均Token使用量突破180万亿 2.1Pro版本正式发布",
+    "sourceUrl": "https://news.aibase.com/zh/news/29083",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-23T02:48:25.000Z",
+    "discoveredAt": "2026-06-29T07:02:40.581Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-c4475efc",
+    "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+    "sourceUrl": "https://x.com/berryxia/status/2069090959938466298",
+    "sourceLabel": "X：Berry Xia (@berryxia)",
+    "sourceType": "media",
+    "publishedAt": "2026-06-22T16:11:41.000Z",
+    "discoveredAt": "2026-06-29T07:02:22.020Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-59f2e4e3",
     "title": "微信灰度上线原生AI助手，大模型全面激活国民级应用生态",
     "sourceUrl": "https://news.aibase.com/zh/news/29043",

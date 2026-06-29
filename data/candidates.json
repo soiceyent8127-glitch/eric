@@ -21,6 +21,25 @@
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
   },
   {
+    "id": "p44-openclaw-2f17dc4e",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "Seed2.1 正式发布，深入 AI 生产力",
+    "sourceUrl": "https://seed.bytedance.com/zh/blog/seed2-1-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83-%E6%B7%B1%E5%85%A5-ai-%E7%94%9F%E4%BA%A7%E5%8A%9B",
+    "sourceLabel": "字节 Seed：Research Feed（网页内嵌数据）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-23T00:02:42.000Z",
+    "discoveredAt": "2026-06-29T07:02:21.405Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
     "id": "p05-skywork-d638fbdb",
     "productSlug": "p05-skywork",
     "productName": "Skywork桌面版（昆仑万维）",
@@ -412,6 +431,63 @@
     ],
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-681d2304",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+    "sourceUrl": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+    "sourceLabel": "The Decoder：AI News（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-28T10:16:13.000Z",
+    "discoveredAt": "2026-06-29T07:02:11.990Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p12-codex-open-ai-a92fcc3",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenRouter MCP 服务器发布",
+    "sourceUrl": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+    "sourceLabel": "OpenRouter：Announcements（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-25T00:00:00.000Z",
+    "discoveredAt": "2026-06-29T07:02:11.990Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-b09db4b6",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 与 Broadcom 联合发布 LLM 推理芯片 Jalapeño",
+    "sourceUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-24T06:00:00.000Z",
+    "discoveredAt": "2026-06-29T07:02:11.990Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-06-29",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {

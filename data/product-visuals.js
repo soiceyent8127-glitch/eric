@@ -6,12 +6,12 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/a2664fb39bad723468f2160e3262a66f4c97489b/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/18955b08402b4b8f037682a377827a9c39a8e595/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p03-ai.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -120,8 +120,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p23-stepclaw": {
-    "icon": "assets/product-icons/p23-stepclaw.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p23-stepclaw.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fdownload&sz=128",
     "status": "collected"
   },
   "p24-skyclaw": {

@@ -21,6 +21,44 @@
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
   },
   {
+    "id": "p44-openclaw-c43894c5",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+    "sourceUrl": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
+    "sourceLabel": "公众号：龙猫LongCat（美团）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-01T02:24:00.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.320Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p36-2.5-e0da4b16",
+    "productSlug": "p36-2.5",
+    "productName": "扣子 Coze 3.0（字节）",
+    "title": "第四届【AI创新先锋—2026中国AI产业创新先锋榜单】正式发布！ - 腾讯新闻",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ScC1zQzJveVd2QTVuWldRMV8yZXRuekZUcDJnRnJXVGlQSDJtWDYwUHZkTE85YzVyVms1ekp1aFZybWVzelpfYUM1RER1ZUZQTzYzcFZR?oc=5",
+    "sourceLabel": "腾讯新闻",
+    "sourceType": "media",
+    "publishedAt": "2026-06-30T02:50:00.000Z",
+    "discoveredAt": "2026-07-06T06:45:27.786Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
     "id": "p44-openclaw-2f17dc4e",
     "productSlug": "p44-openclaw",
     "productName": "OpenClaw",
@@ -113,6 +151,63 @@
     ],
     "status": "rejected_auto",
     "reviewedAt": "2026-06-16",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p44-openclaw-80299b2c",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "Cursor和OpenClaw推出手机App，AI Agent进入移动审批与远程控制时代 - 虎嗅",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NSlk2Q1VmLUVzZDJXQVNRQVRtX0lUcGZsM2pvTTdSY2JUS0UtbkdsWjV1LU5QMU11NXdsWVlIVUlQc3hJNi1oWTR5N0lRWVQzQ0N5Sg?oc=5",
+    "sourceLabel": "虎嗅",
+    "sourceType": "media",
+    "publishedAt": "2026-07-01T04:45:41.000Z",
+    "discoveredAt": "2026-07-06T06:45:28.779Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p08-manus-manus-fe4656c9",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "Claude Science 科研工作台正式上线",
+    "sourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "sourceLabel": "Anthropic：Newsroom（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-29T16:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:45:34.608Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p12-codex-open-ai-f8da6189",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+    "sourceUrl": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-29T10:42:47.000Z",
+    "discoveredAt": "2026-07-06T06:45:35.231Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-06",
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
@@ -431,6 +526,106 @@
     ],
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p44-openclaw-da24549a",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "开源 AI 代理项目 OpenClaw 正式推出 iOS 与 Android 移动版应用",
+    "sourceUrl": "https://news.aibase.com/zh/news/29282",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-01T01:05:14.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.164Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p31-gemini-spark-google-85b13dfa",
+    "productSlug": "p31-gemini-spark-google",
+    "productName": "Gemini Spark（Google）",
+    "title": "谷歌 Gemini Spark 迎重大升级：接入 MCP 协议与第三方生态，支持实时主题跟踪",
+    "sourceUrl": "https://news.aibase.com/zh/news/29279",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-01T00:56:36.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.165Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-534f4770",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 进军硬件圈：携手 Work Louder 打造 Codex 专用快捷控制台",
+    "sourceUrl": "https://news.aibase.com/zh/news/29256",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-30T02:31:18.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.167Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p44-openclaw-512e0a4b",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "自托管AI迎来新便捷！开源代理OpenClaw原生iOS应用正式上架",
+    "sourceUrl": "https://news.aibase.com/zh/news/29241",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-30T00:51:36.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.169Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-3c867d0c",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 推出首款 AI 硬件，Codex 联名键盘",
+    "sourceUrl": "https://www.ithome.com/0/970/272.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-06-30T00:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.172Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-06",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {

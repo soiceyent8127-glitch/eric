@@ -1,5 +1,317 @@
 [
   {
+    "id": "new-product-d592537f",
+    "title": "Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台",
+    "sourceUrl": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-06T05:07:12.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-8b7f4c8e",
+    "title": "美团 LongCat-2.0 开源，同步开放国产卡推理代码",
+    "sourceUrl": "https://mp.weixin.qq.com/s/5YW7Z-lufAvu-4aNZ1lVGw",
+    "sourceLabel": "AI工具集 / 龙猫LongCat",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-06T00:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.170Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-50e47b35",
+    "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
+    "sourceUrl": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-02T20:51:39.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-3bea2cb5",
+    "title": "Kimi K2.7 Code 已在 GitHub Copilot 上正式发布",
+    "sourceUrl": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+    "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-02T08:24:53.347Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-715c0dac",
+    "title": "支付宝“阿宝”公测开启：告别菜单跳转，进入“对话式”办事新时代",
+    "sourceUrl": "https://news.aibase.com/zh/news/29330",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-02T03:27:10.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.154Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-5fa116de",
+    "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
+    "sourceUrl": "https://mp.weixin.qq.com/s/OqL6ID-mAel8XN-slYgXOA",
+    "sourceLabel": "公众号：昆仑万维（天工）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-02T02:53:26.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-28b016bc",
+    "title": "AI 版支付宝开放公测，无需邀请码即可体验",
+    "sourceUrl": "https://mp.weixin.qq.com/s/4sza7cwddXfoW2ZOPVfBdg",
+    "sourceLabel": "AI工具集 / 支付宝",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-02T00:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.171Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-6a506d02",
+    "title": "Cloudflare 推出全新AI流量管理选项：区分搜索、智能体与训练爬虫，保护广告页面",
+    "sourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options",
+    "sourceLabel": "Cloudflare Blog",
+    "sourceType": "media",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-587cd728",
+    "title": "Anthropic团队发布面向科学家的AI工作台Claude Science，多维集成的科研工具 - 搜狐网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkxVbXJlTWhxU094LUhtb1FNeFZaOTVVaEpZNnlzQ2JqYlA5YnBQSF9LT3BYcTRuREdRSjVUbjZ4b2RVQkZkaU9jV0pqZVN5b2pfNDkzWXU3QktzMFRXMG14aUJVamtVN0MtcFpDdnFwcWFMdWJDbGtCZmZnQ2hqbjJHTFhuYmpHb1E2RA?oc=5",
+    "sourceLabel": "搜狐网",
+    "sourceType": "media",
+    "publishedAt": "2026-07-01T05:29:11.000Z",
+    "discoveredAt": "2026-07-06T06:45:29.907Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-cc99ad52",
+    "title": "Anthropic发布Claude Science：专为科研研发的AI工作台 - 品玩",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JRGFrS3BrYnFXNEJLRFpuMGg5RmxiRUxQYlA5NTBxUHNnVDcyYTFFcC1Eb0p0NlVzdm52SUhlVGJPUS0zdzFHUw?oc=5",
+    "sourceLabel": "品玩",
+    "sourceType": "media",
+    "publishedAt": "2026-07-01T01:55:57.000Z",
+    "discoveredAt": "2026-07-06T06:45:29.907Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-e195c62f",
+    "title": "xAI 发布 Voice Agent Builder 测试版",
+    "sourceUrl": "https://x.ai/news/grok-voice-agent-builder",
+    "sourceLabel": "xAI：News（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-01T00:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-a04fa288",
+    "title": "Anthropic 推出 AI 科研工作平台 Claude Science",
+    "sourceUrl": "https://www.ithome.com/0/970/873.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-01T00:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.172Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-83744d93",
+    "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+    "sourceUrl": "https://developers.googleblog.com/announcing-adk-go-20",
+    "sourceLabel": "Google Developers Blog（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-30T17:17:40.302Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-97c440d4",
+    "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+    "sourceUrl": "https://x.com/op7418/status/2071816099986022650",
+    "sourceLabel": "X：歸藏 (@op7418)",
+    "sourceType": "media",
+    "publishedAt": "2026-06-30T04:40:25.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-9c4cbb6",
+    "title": "美团正式发布万亿参数开源大模型 LongCat-2.0，原生支持1M 超长上下文",
+    "sourceUrl": "https://news.aibase.com/zh/news/29259",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-30T02:57:01.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.167Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-70231a87",
+    "title": "Claude Science 科研工作台正式上线",
+    "sourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "sourceLabel": "Anthropic：Newsroom（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-06-29T16:00:00.000Z",
+    "discoveredAt": "2026-07-06T06:45:45.936Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-95d31fa4",
+    "title": "豆包内测社交功能:打通飞书账号，AI助手也要做熟人社交?",
+    "sourceUrl": "https://news.aibase.com/zh/news/29231",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-06-29T07:45:17.000Z",
+    "discoveredAt": "2026-07-06T06:46:36.170Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-06",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-7fc60fa6",
     "title": "OpenAI 推出最新一代大语言模型系列 GPT-5.6",
     "sourceUrl": "https://mp.weixin.qq.com/s/zHA3FpSLLVksg9ze9Ybg_g",

@@ -1,5 +1,155 @@
 [
   {
+    "id": "new-product-6bd06343",
+    "title": "中国移动推出新消息Claw：短信操控电脑端龙虾！无需额外下载App|远程控制|AI智能|运营商|Agent|服务_手机新浪网 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQMjVDeWFIdE5lM2tkdGhtYkMxUmVSRUFWVG55UnQ2N1hTLWFXQ0RrUE1OYThnaDhISE16V2FtYklOdl9DZGFFTTloRHZGQUk0OXZXQzlIYmFEX2QxNW9BWjVyUkd3WWgzZkVvcDZkU2xRMUE3U3lsRlMwVVl6QTdJM0ZMYjBCYzNLRWtnRXA4ZUtLblI2S1RrOEkxQVhMMExtWWdxcUhkaEZyMkdQSDQtTTFyUXFXejZtYWRBUUNUbGpMQ3RBZXdrYlotUTBnRTM0QzUtdk8wZWpmM3lLdU4zcWVkRXRjc1Q4RVFBR1Y3UzFVQ2VjUkE4ZGRSYk1iVlF6MkEyZmZTZ3dCcHBKNUVzbld4WEotTWpFTVU5R2RjQjZadVVRYTRQX3cyV3JhYlhSWDB3dFlCeE41cGc?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-07-10T13:41:03.000Z",
+    "discoveredAt": "2026-07-13T05:47:29.819Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-a23206ee",
+    "title": "​Anthropic推出\"AI镜子\"功能：让你的AI助手给你写一份\"使用体检报告\"",
+    "sourceUrl": "https://news.aibase.com/zh/news/29512",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-10T01:38:00.000Z",
+    "discoveredAt": "2026-07-13T05:47:58.731Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-a7344d64",
+    "title": "中国移动上线“新消息Claw”应用号，支持短信远程操控电脑端AI智能体",
+    "sourceUrl": "https://news.aibase.com/zh/news/29507",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-10T01:09:03.000Z",
+    "discoveredAt": "2026-07-13T05:47:58.732Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-5abcdc0a",
+    "title": "微软发布Flint：面向AI智能体的可视化语言",
+    "sourceUrl": "https://microsoft.github.io/flint-chart",
+    "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-09T21:46:19.253Z",
+    "discoveredAt": "2026-07-13T05:47:47.922Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-b9765ede",
+    "title": "阶跃星辰首款AI智能体手机即将发布，跑在OpenAI前面",
+    "sourceUrl": "https://news.aibase.com/zh/news/29497",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-09T06:36:54.000Z",
+    "discoveredAt": "2026-07-13T05:47:58.733Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-3b5b5507",
+    "title": "打破终端壁垒！支付宝 AI 开放平台上线，“阿宝”一键连接手机车机",
+    "sourceUrl": "https://news.aibase.com/zh/news/29421",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-07T02:27:36.000Z",
+    "discoveredAt": "2026-07-13T05:47:58.744Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-a8141cd1",
+    "title": "支付宝 AI 开放平台开放邀测",
+    "sourceUrl": "https://mp.weixin.qq.com/s/DIgQpqW_L3Pu__7Uxi61EA",
+    "sourceLabel": "AI工具集 / 支付宝",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-07T00:00:00.000Z",
+    "discoveredAt": "2026-07-13T05:47:58.749Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-265fb126",
+    "title": "腾讯混元Hy3发布：Agent能力和产品体验跃升",
+    "sourceUrl": "https://news.aibase.com/zh/news/29400",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-06T07:26:21.000Z",
+    "discoveredAt": "2026-07-13T05:47:58.746Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-d592537f",
     "title": "Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台",
     "sourceUrl": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research",

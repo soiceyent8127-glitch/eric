@@ -21,6 +21,63 @@
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
   },
   {
+    "id": "p44-openclaw-eb2ffae0",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "千问正式发布Qwen3.7-Max：将通过API提供服务|OpenClaw|Claude Code|Qwen 3|Claude|体协_手机新浪网 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOdWplQk1mNDVvZ0NoZVY2cUNNSHRkbkdJNDh3aVJBcFppMVJ5elJuZUdYY3NCZGpxOG81UVFoODJZQ0g0YUw3N3poaDQ1bnFFYWItWEZ2RHFOcDVGSGREVS1KUDZsVl9rcWdHNXBXZC1NRUhVdENxMHBmUkZjbEFPMTF6ZXJXUkd6cExnZ1BpTzNlNkowNmNHd2xfWHdicXM1cWh1U2dsZlZ0WDduN0o4X1FnbVZicU9SSGpzREVhTVMwTUhiUTFmbng4YWFoVElSVGpaZHQ2MUFpZkFUeEFKclNERkhEMVZDWDY5ZjhEenpWNTdJekdZbjJ1TVFsMDlNYlIyRnFOcDR1MTIyQ0MyNi0zcnVmbzFDb1ctSmxXbzRyWjB2dC1zOHhwdXVJYnRh?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-07-08T09:59:00.000Z",
+    "discoveredAt": "2026-07-13T05:47:28.276Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p02-workbuddy-33e91b7b",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯混元 Hy3 正式发布：智能体与产品体验显著提升",
+    "sourceUrl": "https://mp.weixin.qq.com/s/X2x1GF09bFbTzc3M1981BQ",
+    "sourceLabel": "公众号：腾讯混元",
+    "sourceType": "media",
+    "publishedAt": "2026-07-06T07:11:20.000Z",
+    "discoveredAt": "2026-07-13T05:47:30.908Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p09-marvis-40fe8029",
+    "productSlug": "p09-marvis",
+    "productName": "Marvis（腾讯）",
+    "title": "腾讯混元 Hy3 正式发布：智能体与产品体验显著提升",
+    "sourceUrl": "https://mp.weixin.qq.com/s/X2x1GF09bFbTzc3M1981BQ",
+    "sourceLabel": "公众号：腾讯混元",
+    "sourceType": "media",
+    "publishedAt": "2026-07-06T07:11:20.000Z",
+    "discoveredAt": "2026-07-13T05:47:32.303Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
     "id": "p44-openclaw-c43894c5",
     "productSlug": "p44-openclaw",
     "productName": "OpenClaw",

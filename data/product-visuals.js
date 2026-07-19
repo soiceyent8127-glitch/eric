@@ -6,7 +6,7 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/8a73e270c2fd9e6999cbbbf9981ec2d99509388c/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/cf6af313380574bd3c2c7fc12f56ac3e5ffa17a6/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {

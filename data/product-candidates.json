@@ -1,5 +1,228 @@
 [
   {
+    "id": "new-product-5444a8bc",
+    "title": "酒店行业进入 Agent 时代：订单来了 AI焕新发布，重构酒店经营新入口 - 新浪网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wYXVWUW1WVE9xcUZzUl94cGdxRmdSMlI4UlczRUdtQ2ljMVh3Mzd4ZThrM1lMVWsySXZDck1PandRRWJOUXNjNGQ4RHJGMzRBSUJnOGNfS3k0SXFVeXlBSU43c3dwMVlPMkJHLU9vMzhpWHZtU0ZXYVMwZTNiN0E?oc=5",
+    "sourceLabel": "新浪网",
+    "sourceType": "media",
+    "publishedAt": "2026-07-18T14:37:29.000Z",
+    "discoveredAt": "2026-07-19T14:58:58.387Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-9620fbc1",
+    "title": "订单来了焕新发布酒店 AI 操作系统，酒店民宿经营进入 Agent 执行时代 - 中华网科技频道",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aSkVJdDlseWhoa1VST3dJcnkxVlhvby1RTnZfWlNEXzhKNVNCVS1jdDNmeFhlWTVJWFEtclNYUm9GSXJmTUFhc2N2Q09OSUZTaFZzZTNNQk1MVWZDWHlQcWowWlN0QzU1ak52YV9B?oc=5",
+    "sourceLabel": "中华网科技频道",
+    "sourceType": "media",
+    "publishedAt": "2026-07-17T09:54:55.000Z",
+    "discoveredAt": "2026-07-19T14:58:58.388Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-e247ce5a",
+    "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本登顶 RTEB 检索基准",
+    "sourceUrl": "https://news.aibase.com/zh/news/29695",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-17T09:14:19.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.959Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-5f44c18a",
+    "title": "阶跃星辰发布STEPX Neo样机，全球首款大模型原生智能体手机亮相",
+    "sourceUrl": "https://news.aibase.com/zh/news/29686",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-17T06:53:57.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.962Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-4e426830",
+    "title": "京东推出京麦AI经营中心，开放22款AI工具助力商家智能经营",
+    "sourceUrl": "https://news.aibase.com/zh/news/29675",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-17T02:04:35.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.964Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-6bbbf8b9",
+    "title": "月之暗面推出最强开源 AI 大模型 Kimi K3",
+    "sourceUrl": "https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ",
+    "sourceLabel": "AI工具集 / 月之暗面 Kimi",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-17T00:00:00.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.998Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-9dba79f3",
+    "title": "百度文库网盘启动重大升级，GenFlow将面向金融等行业推出AI工作台 - article.9466.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WVThJSjZzUUVwVHNKVWUyX0RYXzh4TEJ1em1ESHNZam5BLWMzcklja0ZOWEUzbjlscnA1VDlfa0R6eE5VV2xhckRXbFc3aTg?oc=5",
+    "sourceLabel": "article.9466.com",
+    "sourceType": "media",
+    "publishedAt": "2026-07-16T06:16:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:58.388Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-e03aff41",
+    "title": "三星携手百度智能云，推出 “盖乐世 AI” 重磅备案！",
+    "sourceUrl": "https://news.aibase.com/zh/news/29647",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-16T05:52:16.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.969Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-1e682eaf",
+    "title": "天工短剧工作台发布\"Agent智能分镜+无限画布\"双轨创作模式",
+    "sourceUrl": "https://mp.weixin.qq.com/s/WlGAeogkF_N5122nHA0TtQ",
+    "sourceLabel": "公众号：昆仑万维（天工）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-16T02:00:00.000Z",
+    "discoveredAt": "2026-07-19T14:59:34.202Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-e3a1b85f",
+    "title": "开源编程智能体内存方案发布，通过 SSH 同步",
+    "sourceUrl": "https://github.com/vshulcz/deja-vu",
+    "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-15T22:49:15.715Z",
+    "discoveredAt": "2026-07-19T14:59:34.202Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-acebe5aa",
+    "title": "阶跃星辰推出首款大模型原生智能体手机 STEPX Neo",
+    "sourceUrl": "https://mp.weixin.qq.com/s/zJ85sWEPlmGKWSFfGIae1g",
+    "sourceLabel": "AI工具集 / 智东西",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-14T00:00:00.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.999Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-1a3bbe32",
+    "title": "《智能体个人信息保护自律公约》正式发布，腾讯百度等31家企业首批签署",
+    "sourceUrl": "https://news.aibase.com/zh/news/29552",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-13T08:56:44.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.980Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-6bd06343",
     "title": "中国移动推出新消息Claw：短信操控电脑端龙虾！无需额外下载App|远程控制|AI智能|运营商|Agent|服务_手机新浪网 - 新浪财经",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQMjVDeWFIdE5lM2tkdGhtYkMxUmVSRUFWVG55UnQ2N1hTLWFXQ0RrUE1OYThnaDhISE16V2FtYklOdl9DZGFFTTloRHZGQUk0OXZXQzlIYmFEX2QxNW9BWjVyUkd3WWgzZkVvcDZkU2xRMUE3U3lsRlMwVVl6QTdJM0ZMYjBCYzNLRWtnRXA4ZUtLblI2S1RrOEkxQVhMMExtWWdxcUhkaEZyMkdQSDQtTTFyUXFXejZtYWRBUUNUbGpMQ3RBZXdrYlotUTBnRTM0QzUtdk8wZWpmM3lLdU4zcWVkRXRjc1Q4RVFBR1Y3UzFVQ2VjUkE4ZGRSYk1iVlF6MkEyZmZTZ3dCcHBKNUVzbld4WEotTWpFTVU5R2RjQjZadVVRYTRQX3cyV3JhYlhSWDB3dFlCeE41cGc?oc=5",
@@ -93,6 +316,24 @@
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
+    "id": "new-product-7db436bc",
+    "title": "三维家发布AI工作台：家居行业首个能“干活”的AI - 驱动之家",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9tREpVWXNyUzJHd082dE81M3hRTFNuSUNMeDJYU2VWY3YzX2hFQTZ0bURQRlhhaGgyZU1RNGZsXzVvQk9DR05tQUc3V09TYVR4N19NSFdvNHo?oc=5",
+    "sourceLabel": "驱动之家",
+    "sourceType": "media",
+    "publishedAt": "2026-07-07T07:00:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:58.387Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-3b5b5507",
     "title": "打破终端壁垒！支付宝 AI 开放平台上线，“阿宝”一键连接手机车机",
     "sourceUrl": "https://news.aibase.com/zh/news/29421",
@@ -120,15 +361,15 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-07-07T00:00:00.000Z",
     "discoveredAt": "2026-07-13T05:47:58.749Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：支付宝官方一手信源确认 AI 开放平台上线；作为跨产品生态基础设施动态收录，暂不新增独立产品卡片"
   },
   {
     "id": "new-product-265fb126",
@@ -517,6 +758,24 @@
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
+    "id": "new-product-e7502afa",
+    "title": "手机核心价值再丰富：vivo X Fold6折叠旗舰发布 打造“一套 AI 工作台” - 广州日报新花城",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOejZ2cktsTmt6QUJId0VZbmZTMlpmOGNfSUUtYUZWTFFwV3lIU21XcjV2OThGdHpfTDFvN09vZlZEVmhFZ0JZaXVtOWhhb0ZtVXNxRDM1TlMwQkpjam1rVjJUUVUySWlQeXVvWEtNb2pxOUpucXROa29tT3ktSVFVZEs1cEkxOXVIU0E?oc=5",
+    "sourceLabel": "广州日报新花城",
+    "sourceType": "media",
+    "publishedAt": "2026-06-27T07:00:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:58.387Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
     "id": "new-product-7aa72cad",
     "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout - Infoq.cn",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zVzZ6dXNaa3o4alFPSVN5SnhSZDZaa0pkLVJYaUt3UmctYkNacGxCQUNENXRUc2luRU1XZHRpNC03TXVKX0hNaG1UMTJrbE5FRFJrQ3FmMXkxNHppQ3c?oc=5",
@@ -569,6 +828,42 @@
       "补充厂商、类型与官网"
     ],
     "reviewedAt": "2026-06-29",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-73ed222",
+    "title": "vivo X Fold6发布会|vivo x fold6|朱珠|发布会|ai工作台 - 新浪网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YVElETFFOVG5lbGhsUjB5ZjRYdFBLMG5jM3NHVzVvVUxURkRQdGNTSGVCR21HaDA3T1VhbmcxbUtfTU9seEdsU2NoZ0pRTzB1dWY5UUk2eE1uVDhyYm1WdlpGaw?oc=5",
+    "sourceLabel": "新浪网",
+    "sourceType": "media",
+    "publishedAt": "2026-06-26T07:00:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:58.388Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+  },
+  {
+    "id": "new-product-8201fe53",
+    "title": "vivo X Fold6和TWS5 Pro发布|vivo x fold6|vivo tws5 pro|ai工作台|hi-fi人声大师|多设备互联|深海降噪|蔡司联合研发|第五代骁龙8至尊版|7000mah|ipx8防水 - 新浪网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIdjZua01pemJNUHNiZXNDTXdySlJkVFp2UHpCZlNDNjZ0am5uMDhWTVdudnltWHZvcDVadVc4a0dKNll3UElOeHhuQkxTWVMwb1FYTGd4VXZEeFZET21aMWFXTQ?oc=5",
+    "sourceLabel": "新浪网",
+    "sourceType": "media",
+    "publishedAt": "2026-06-26T07:00:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:58.388Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "reviewedAt": "2026-07-19",
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   },
   {
@@ -1665,59 +1960,5 @@
     ],
     "reviewedAt": "2026-06-08",
     "reviewReason": "微软 OpenClaw 技术与 Scout 相关，但不是独立产品候选"
-  },
-  {
-    "id": "new-product-ad5a761b",
-    "title": "微软发布Scout，将OpenClaw框架的代理能力带入微软365 - mezha.net",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vN0JGQTJWcnpHcXRzSHJZMnRieEttRERybkdObDNoSnJwLU93MS1VUWp1V1YyMi1ZWVhXLTdmMzMyUVNHRm53bzJRemdLQXlKdDRhYVJMMmV0UndaNmdwZzJPSlNVVDlxUUl4d2pB?oc=5",
-    "sourceLabel": "mezha.net",
-    "sourceType": "media",
-    "publishedAt": "2026-06-02T13:18:00.000Z",
-    "discoveredAt": "2026-06-09T07:35:19.688Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-09",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-29b96520",
-    "title": "字节跳动AI Agent平台扣子Coze上线3.0版本：支持Openclaw、Claude Code一键接入 - 驱动之家",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kdG93dGZTRl9wZWUxQUFJMXFuUWRlcUtMbmNxZFhtVXBtYWNSM3FlZ0Zjd1dTRUtfQ3lJa05IUjR5cUlWckJfY0dpbEIybFdORHZFVmRUQ3I?oc=5",
-    "sourceLabel": "驱动之家",
-    "publishedAt": "2026-06-01T12:05:00.000Z",
-    "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "accepted_as_update",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-08",
-    "reviewReason": "确认 Coze 3.0 为既有扣子的重大版本，进入正式时间线但不新增产品"
-  },
-  {
-    "id": "new-product-4dcbca1",
-    "title": "扣子 3.0 正式上线",
-    "sourceUrl": "https://mp.weixin.qq.com/s/Pn4N5KdIKUmIpXv7Dl3aSA",
-    "sourceLabel": "AI工具集 / 扣子Coze",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-06-01T00:00:00.000Z",
-    "discoveredAt": "2026-06-16T08:05:16.350Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-22",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   }
 ]

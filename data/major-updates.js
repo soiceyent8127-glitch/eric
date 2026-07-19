@@ -1,5 +1,114 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-07-18-workbuddy-app-release",
+    "productSlug": "p02-workbuddy",
+    "date": "2026-07-18",
+    "category": "跨端入口",
+    "title": "WorkBuddy 正式版 App 上线安卓、iOS 与鸿蒙",
+    "summary": "腾讯发布 WorkBuddy 独立移动 App，安卓、iOS、鸿蒙三端同步上线；用户可从手机发起和管理 Agent 任务，不再只依赖桌面客户端、微信小程序或 IM 机器人。",
+    "impact": "独立移动入口补齐 WorkBuddy 的跨端分发链路，并使其成为首批登陆鸿蒙的通用智能体应用之一",
+    "sourceUrl": "https://www.ithome.com/0/978/468.htm",
+    "sourceLabel": "IT之家：WorkBuddy 正式版 App 三端上线",
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "2026-07-17-p02-workbuddy-b08de1f3",
+    "productSlug": "p02-workbuddy",
+    "date": "2026-07-17",
+    "category": "生态合作",
+    "title": "X-AI 记忆眼镜接入 WorkBuddy，打通线下感知到办公执行",
+    "summary": "李未可 X-AI 记忆眼镜将会议、面谈和差旅等线下信息结构化为纪要与待办，再交由 WorkBuddy 生成文稿、PPT、日程并完成跨系统流转。",
+    "impact": "WorkBuddy 首次获得可穿戴硬件入口，把办公 Agent 的任务起点从主动输入扩展到现实场景感知与长期记忆",
+    "sourceUrl": "https://www.stdaily.com/web/gdxw/2026-07/18/content_549290.html",
+    "sourceLabel": "科技日报：X-AI 记忆眼镜接入 WorkBuddy",
+    "verifiedAt": "2026-07-19",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-07-07-alipay-ai-open-platform",
+    "productSlug": null,
+    "date": "2026-07-07",
+    "category": "生态基础设施",
+    "title": "支付宝 AI 开放平台上线，阿宝连接手机、车机与 AI 眼镜",
+    "summary": "支付宝面向企业开发者和服务商开放 AI 平台邀测，商家服务可通过阿宝触达支付宝用户，并授权手机、车机与 AI 眼镜等终端发现和调用。",
+    "impact": "超级 App 开始把支付、服务与多终端 Agent 入口组合成开放分发层，扩大智能体从对话到办事和交易的闭环能力",
+    "sourceUrl": "https://mp.weixin.qq.com/s/DIgQpqW_L3Pu__7Uxi61EA",
+    "sourceLabel": "支付宝官方：AI 开放平台开放邀测",
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "2026-06-30-openclaw-mobile-apps",
+    "productSlug": "p44-openclaw",
+    "date": "2026-06-30",
+    "category": "跨端入口",
+    "title": "OpenClaw 推出官方 iOS 与 Android 应用",
+    "summary": "OpenClaw 官方移动端可与用户自托管的 Gateway 配对，在手机上完成对话、语音交互、远程操作审批和设备感知自动化。",
+    "impact": "OpenClaw 从依赖聊天应用的远程入口扩展为原生移动节点，强化任务审批和跨设备连续执行能力",
+    "sourceUrl": "https://openclaw.ai/",
+    "sourceLabel": "OpenClaw 官方：移动端应用上线",
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "2026-06-22-wechat-native-ai-assistant-gray-release",
+    "productSlug": null,
+    "date": "2026-06-22",
+    "category": "超级 App 入口",
+    "title": "微信灰度上线原生 AI 助手",
+    "summary": "微信灰度上线原生 AI 助手能力，将大模型能力带入国民级 App 的原生入口和应用生态。",
+    "impact": "超级 App 内 Agent 入口开始进入真实分发场景，可能改变用户发起 AI 任务的入口格局",
+    "sourceUrl": "https://news.aibase.com/zh/news/29043",
+    "sourceLabel": "AIBase：微信灰度上线原生AI助手",
+    "verifiedAt": "2026-06-22"
+  },
+  {
+    "id": "2026-06-17-skywork-tianggong-3-1-multi-agent-workflow",
+    "productSlug": "p05-skywork",
+    "date": "2026-06-17",
+    "category": "多 Agent",
+    "title": "天工 3.1 上线设计画布与多 Agent 并行工作流",
+    "summary": "昆仑万维发布天工 3.1，新增全新画布设计能力和多 Agent 并行工作流，强化复杂项目从 Demo 到交付的产品化能力。",
+    "impact": "Skywork 从桌面 Agent 执行入口进一步扩展到多 Agent 协作和复杂项目交付工作台",
+    "sourceUrl": "https://news.aibase.com/zh/news/28988",
+    "sourceLabel": "AIBase：昆仑万维发布天工3.1",
+    "verifiedAt": "2026-06-22"
+  },
+  {
+    "id": "2026-06-17-wechat-pay-ai-card-agent-payment",
+    "productSlug": null,
+    "date": "2026-06-17",
+    "category": "生态基础设施",
+    "title": "微信支付发布 AI 专属卡，支持 Agent 闭环消费",
+    "summary": "微信支付推出面向 AI Agent 的专属卡能力，支持 Agent 在授权边界内完成下单和支付，并与主账户资金隔离。",
+    "impact": "Agent 从信息处理和任务执行进一步接近交易闭环，支付权限和资金隔离成为新的基础设施变量",
+    "sourceUrl": "https://news.aibase.com/zh/news/28984",
+    "sourceLabel": "AIBase：微信支付正式发布 AI 专属卡",
+    "verifiedAt": "2026-06-22"
+  },
+  {
+    "id": "2026-06-17-workbuddy-wechat-pay-ai-card",
+    "productSlug": "p02-workbuddy",
+    "date": "2026-06-17",
+    "category": "生态连接",
+    "title": "WorkBuddy 支持微信支付 AI 专属卡使用场景",
+    "summary": "微信支付 AI 专属卡被报道已支持在 WorkBuddy 内使用，使 WorkBuddy 具备更接近“任务执行 + 支付闭环”的入口想象空间。",
+    "impact": "WorkBuddy 的微信生态入口从办公执行延伸到交易授权场景，强化腾讯体系内 Agent 闭环能力",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Xb3JhSS1VN0h3eE93UUg2TVZYV1k2MFBDZlg2ZzVzd2Z0dlo3M1NFVHJtdnI5enFseElCd0g1dnVSdWk2Ym5JTC1PazFwNHdESlI3WnIySE9aSHFoU1cteWozTk1fVzlGbnJxNkpwdWZZaEMxanp1SURIZ1NPSlE?oc=5",
+    "sourceLabel": "PANews：AI-exclusive card supported within WorkBuddy",
+    "verifiedAt": "2026-06-22"
+  },
+  {
+    "id": "2026-06-17-xiaomi-mimo-claw-release",
+    "productSlug": "p30-xiaomi-miclaw",
+    "date": "2026-06-17",
+    "category": "重大版本",
+    "title": "MiMo Claw 正式版发布，强化连续工具调用与使用时长",
+    "summary": "小米 MiMo Claw 正式版发布，强调千次连续工具调用、旗舰模型与金山办公等能力，并将免费使用时长增至 4 小时。",
+    "impact": "小米 miclaw 从测试形态推进到更完整的 Claw 产品版本，强化长链路执行和办公场景能力",
+    "sourceUrl": "https://news.aibase.com/zh/news/28969",
+    "sourceLabel": "AIBase：小米发布MiMo Claw正式版",
+    "verifiedAt": "2026-06-22"
+  },
+  {
     "id": "2026-06-16-qoderwork-consciousness",
     "productSlug": "p01-qoderwork",
     "date": "2026-06-16",
@@ -36,18 +145,6 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-06-16"
   },
   {
-    "id": "2026-06-04-kimi-work-beta",
-    "productSlug": "p43-kimi-work",
-    "date": "2026-06-04",
-    "category": "产品发布",
-    "title": "Kimi Work Beta 版发布，进入本地桌面 Agent 赛道",
-    "summary": "月之暗面推出通用型本地 Agent「Kimi Work」Beta 版，定位知识工作者的桌面工作台。",
-    "impact": "国内模型厂商开始以独立桌面 Agent 工作台形态进入类 Cowork / OpenClaw 竞争格局",
-    "sourceUrl": "https://mp.weixin.qq.com/s/guE7g4kpu_PdrDT0a7DhzA",
-    "sourceLabel": "AI工具集 / 月之暗面Kimi",
-    "verifiedAt": "2026-06-16"
-  },
-  {
     "id": "2026-06-04-hermes-desktop",
     "productSlug": "p42-hermes-agent",
     "date": "2026-06-04",
@@ -60,16 +157,16 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-06-08"
   },
   {
-    "id": "2026-06-03-workbuddy-zte-cloud-pc",
-    "productSlug": "p02-workbuddy",
-    "date": "2026-06-03",
-    "category": "生态合作",
-    "title": "中兴与腾讯推出搭载 WorkBuddy 的 AI 云电脑",
-    "summary": "中兴云电脑与腾讯 WorkBuddy 结合，将 WorkBuddy 从独立桌面 Agent 延伸到云电脑硬件与企业办公交付场景。",
-    "impact": "形成重要硬件与云电脑分发渠道",
-    "sourceUrl": "https://finance.sina.com.cn/tech/mobile/n/n/2026-06-05/doc-iniakrwk8193819.shtml",
-    "sourceLabel": "新浪科技：中兴与腾讯正式合作报道",
-    "verifiedAt": "2026-06-08"
+    "id": "2026-06-04-kimi-work-beta",
+    "productSlug": "p43-kimi-work",
+    "date": "2026-06-04",
+    "category": "产品发布",
+    "title": "Kimi Work Beta 版发布，进入本地桌面 Agent 赛道",
+    "summary": "月之暗面推出通用型本地 Agent「Kimi Work」Beta 版，定位知识工作者的桌面工作台。",
+    "impact": "国内模型厂商开始以独立桌面 Agent 工作台形态进入类 Cowork / OpenClaw 竞争格局",
+    "sourceUrl": "https://mp.weixin.qq.com/s/guE7g4kpu_PdrDT0a7DhzA",
+    "sourceLabel": "AI工具集 / 月之暗面Kimi",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "2026-06-03-openclaw-2026-6-1",
@@ -82,6 +179,18 @@ window.MAJOR_UPDATES = [
     "sourceUrl": "https://x.com/openclaw/status/2062288421406785710",
     "sourceLabel": "X：OpenClaw (@openclaw)",
     "verifiedAt": "2026-06-16"
+  },
+  {
+    "id": "2026-06-03-workbuddy-zte-cloud-pc",
+    "productSlug": "p02-workbuddy",
+    "date": "2026-06-03",
+    "category": "生态合作",
+    "title": "中兴与腾讯推出搭载 WorkBuddy 的 AI 云电脑",
+    "summary": "中兴云电脑与腾讯 WorkBuddy 结合，将 WorkBuddy 从独立桌面 Agent 延伸到云电脑硬件与企业办公交付场景。",
+    "impact": "形成重要硬件与云电脑分发渠道",
+    "sourceUrl": "https://finance.sina.com.cn/tech/mobile/n/n/2026-06-05/doc-iniakrwk8193819.shtml",
+    "sourceLabel": "新浪科技：中兴与腾讯正式合作报道",
+    "verifiedAt": "2026-06-08"
   },
   {
     "id": "2026-06-02-microsoft-scout-launch",
@@ -108,15 +217,15 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-06-08"
   },
   {
-    "id": "2026-05-27-workbuddy-expert-teams",
-    "productSlug": "p02-workbuddy",
+    "id": "2026-05-27-minimax-agent-teams",
+    "productSlug": "p04-minimax-agent-minimax",
     "date": "2026-05-27",
-    "category": "核心能力",
-    "title": "上线连接器、Agent 专家团与自动化工作流",
-    "summary": "WorkBuddy 将企业数据连接、多角色协作与自动知识更新整合进桌面 Agent。",
-    "impact": "形成新的产品工作模式",
-    "sourceUrl": "https://www.codebuddy.cn/work/",
-    "sourceLabel": "WorkBuddy 官方产品页",
+    "category": "多 Agent",
+    "title": "上线 Agent Teams，并整合 TokenPlan 与 Agent Plan",
+    "summary": "MiniMax Agent 引入 Leader、Worker、Verifier 团队协作模式，同时打通 Agent、CLI 与 API Credits。",
+    "impact": "新增关键能力并改变商业模式",
+    "sourceUrl": "https://agent.minimaxi.com/",
+    "sourceLabel": "MiniMax Agent 官方产品页",
     "verifiedAt": "2026-05-28"
   },
   {
@@ -132,15 +241,15 @@ window.MAJOR_UPDATES = [
     "verifiedAt": "2026-05-28"
   },
   {
-    "id": "2026-05-27-minimax-agent-teams",
-    "productSlug": "p04-minimax-agent-minimax",
+    "id": "2026-05-27-workbuddy-expert-teams",
+    "productSlug": "p02-workbuddy",
     "date": "2026-05-27",
-    "category": "多 Agent",
-    "title": "上线 Agent Teams，并整合 TokenPlan 与 Agent Plan",
-    "summary": "MiniMax Agent 引入 Leader、Worker、Verifier 团队协作模式，同时打通 Agent、CLI 与 API Credits。",
-    "impact": "新增关键能力并改变商业模式",
-    "sourceUrl": "https://agent.minimaxi.com/",
-    "sourceLabel": "MiniMax Agent 官方产品页",
+    "category": "核心能力",
+    "title": "上线连接器、Agent 专家团与自动化工作流",
+    "summary": "WorkBuddy 将企业数据连接、多角色协作与自动知识更新整合进桌面 Agent。",
+    "impact": "形成新的产品工作模式",
+    "sourceUrl": "https://www.codebuddy.cn/work/",
+    "sourceLabel": "WorkBuddy 官方产品页",
     "verifiedAt": "2026-05-28"
   },
   {

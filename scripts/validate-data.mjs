@@ -36,7 +36,7 @@ for (const product of research.products) {
 for (const update of updates) {
   if (!update.id || ids.has(update.id)) errors.push(`重大动态 ID 缺失或重复：${update.id}`);
   ids.add(update.id);
-  if (!slugs.has(update.productSlug)) errors.push(`未知产品 slug：${update.productSlug}`);
+  if (update.productSlug && !slugs.has(update.productSlug)) errors.push(`未知产品 slug：${update.productSlug}`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(update.date)) errors.push(`日期格式错误：${update.id}`);
   if (!/^https?:\/\//.test(update.sourceUrl)) errors.push(`信源链接错误：${update.id}`);
   for (const field of ["category", "title", "summary", "impact", "sourceLabel", "verifiedAt"]) {

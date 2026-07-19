@@ -1,5 +1,45 @@
 [
   {
+    "id": "p02-workbuddy-ed80ecae",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "刚刚！全球首款「AI记忆眼镜」正式发布，售价799元起 - VR陀螺",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CeEc2TmJNOVhDOTRaWFhfU3lpSzNZNE42aGZtNi1Va3ZaM1BFTHFDMnpwTE1RcFg1VzlOQ3ZFMTV5ci1HZUw3YUFrNA?oc=5",
+    "sourceLabel": "VR陀螺",
+    "sourceType": "media",
+    "publishedAt": "2026-07-17T10:10:22.000Z",
+    "discoveredAt": "2026-07-19T14:58:48.908Z",
+    "score": 12,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p42-hermes-agent-dcac2765",
+    "productSlug": "p42-hermes-agent",
+    "productName": "Hermes Agent（Nous Research）",
+    "title": "刚刚！全球首款「AI记忆眼镜」正式发布，售价799元起 - VR陀螺",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CeEc2TmJNOVhDOTRaWFhfU3lpSzNZNE42aGZtNi1Va3ZaM1BFTHFDMnpwTE1RcFg1VzlOQ3ZFMTV5ci1HZUw3YUFrNA?oc=5",
+    "sourceLabel": "VR陀螺",
+    "sourceType": "media",
+    "publishedAt": "2026-07-17T10:10:22.000Z",
+    "discoveredAt": "2026-07-19T14:58:55.267Z",
+    "score": 12,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
     "id": "p45-qoder-cloud-agents-manual-2026-06-06",
     "productSlug": "p45-qoder-cloud-agents",
     "productName": "Qoder Cloud Agents（阿里巴巴）",
@@ -19,6 +59,44 @@
     "status": "accepted_manual",
     "reviewedAt": "2026-06-16",
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
+  },
+  {
+    "id": "p02-workbuddy-f1a7c1d",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯WorkBuddy正式发布独立APP - 电商派",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JUFgyODZwRE1JV0h5cHRGVUZuaGZ0SzNBQURnbzAyamlxb3lFcmcyaVNGdzFLX0Y2eGFRTlR0WlpSZk12RUxSeFJjb0tneV9iUmRnMTBBTW95OGRoUDkwMw?oc=5",
+    "sourceLabel": "电商派",
+    "sourceType": "media",
+    "publishedAt": "2026-07-19T07:13:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:48.908Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "promoted",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p16-product-5a10452",
+    "productSlug": "p16-product",
+    "productName": "悟空（阿里）",
+    "title": "智联招聘AI求职陪伴产品“职悟空”正式发布 - 电商派",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lVVYyRG5xc3NYMFFmUWo5VDRNOHh0ODk2TXJGbG40Rk5EN0hQcHlYTjBJdXhjTFJ1RzNlb3pJZ1RzREJvbzBBbGVkd3NxRXl3SjdMU2lwTHI3WFhqand6cA?oc=5",
+    "sourceLabel": "电商派",
+    "sourceType": "media",
+    "publishedAt": "2026-07-19T01:43:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:52.818Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
     "id": "p44-openclaw-eb2ffae0",
@@ -75,6 +153,25 @@
     ],
     "status": "rejected_auto",
     "reviewedAt": "2026-07-13",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p02-workbuddy-203ded9d",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯混元Hy3正式发布：Agent能力显著提升，产品深度融合 - Tencent",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIcFE5NGJpUlRudnZFemd5V3lOOUNQWUJ6NWQtMDBMQlFPOUJMaV9mT3c4aFVjUHNOaTNnX2ZXT3BVVktLdlJ5ME1id3VHa0gwWE41cDdGUEJXMWxxaUN0LQ?oc=5",
+    "sourceLabel": "Tencent",
+    "sourceType": "media",
+    "publishedAt": "2026-07-06T07:00:00.000Z",
+    "discoveredAt": "2026-07-19T14:58:48.908Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-19",
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
@@ -208,6 +305,44 @@
     ],
     "status": "rejected_auto",
     "reviewedAt": "2026-06-16",
+    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+  },
+  {
+    "id": "p02-workbuddy-b08de1f3",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "李未可于WAIC发布X-AI记忆眼镜，与腾讯云WorkBuddy落地办公生态 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVeHRaUkwzV2pSdzBWNDZmWlJHOGhXWkNhcWt3ZXBhOXRjN21DUVRHbHVOM21VNndWb043cG1oUnlWeVNGOVh4VDNQVUtCempoWG9oSDhySGsxV3l6elpVQVVuX0dyRnQ0b1YycTUwUzdjZHJqSlR2aElxWVNac0U?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-07-17T14:39:08.000Z",
+    "discoveredAt": "2026-07-19T14:58:48.908Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：可信媒体、高事件得分且产品名称明确匹配"
+  },
+  {
+    "id": "p12-codex-open-ai-f83b263e",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "开源编程智能体内存方案发布，通过 SSH 同步",
+    "sourceUrl": "https://github.com/vshulcz/deja-vu",
+    "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceType": "media",
+    "publishedAt": "2026-07-15T22:49:15.715Z",
+    "discoveredAt": "2026-07-19T14:59:09.110Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "rejected_auto",
+    "reviewedAt": "2026-07-19",
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
@@ -586,6 +721,46 @@
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {
+    "id": "p31-gemini-spark-google-4256a6cc",
+    "productSlug": "p31-gemini-spark-google",
+    "productName": "Gemini Spark（Google）",
+    "title": "谷歌升级 Gemini Spark AI助手，新增 Workspace 编辑能力并提速50%以上",
+    "sourceUrl": "https://news.aibase.com/zh/news/29655",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-16T07:39:39.000Z",
+    "discoveredAt": "2026-07-19T15:00:03.967Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-b75694c8",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI Codex、ChatGPT Work 暂时取消5小时使用限制",
+    "sourceUrl": "https://www.ithome.com/0/975/839.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-13T00:00:00.000Z",
+    "discoveredAt": "2026-07-19T15:00:04.000Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
     "id": "p44-openclaw-da24549a",
     "productSlug": "p44-openclaw",
     "productName": "OpenClaw",
@@ -601,7 +776,7 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "deferred_auto",
+    "status": "promoted",
     "reviewedAt": "2026-07-06",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },

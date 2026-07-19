@@ -1,8 +1,8 @@
 const trustedMediaPattern = /36氪|第一财经|一财|新浪科技|新浪财经|新华网|新华社|科技日报|IT之家|东方财富|财联社|界面新闻|晚点|机器之心|量子位|钛媒体|极客公园|InfoQ|AIBase|AIbase|AI工具集|TechCrunch|The Verge|VentureBeat|Reuters|Bloomberg/iu;
 
 const lowSignalPattern = /评论|盘点|回顾|传闻|或将|可能|概念股|ETF|股价|教程|测评|bug fixes?|minor update|优化|修复|小幅改进|日常更新|收购|并购|融资|估值|财报|IPO|acquir|acquisition|funding|raised|valuation|earnings|shares?/iu;
-const nonProductPattern = /榜单|白皮书|研究报告|行业报告|自律公约|标准发布|评测基准|benchmark|排行榜/iu;
-const standaloneProductPattern = /agent|cowork|computer use|openclaw|copilot|assistant|智能体|工作台|助手|claw|操作系统|经营中心|agent phone|智能体手机/iu;
+const nonProductPattern = /榜单|白皮书|研究报告|行业报告|自律公约|标准发布|评测基准|benchmark|排行榜|爬虫|流量管理|社交功能|Xcode/iu;
+const standaloneProductPattern = /agent|cowork|computer use|openclaw|智能体|工作台|claw|操作系统|经营中心|agent phone|智能体手机/iu;
 const launchPattern = /\b(launch(?:es|ed)?|unveil[sd]?|announce[sd]?|release[sd]?|introduc(?:e[ds]?|ing))\b|正式发布|全新发布|发布|上线|推出|首发|开放公测|开启公测|开放邀测|内测/iu;
 
 const firstPartyHosts = new Set([
@@ -32,19 +32,22 @@ export function normalize(value = "") {
 
 export function productMatchesTitle(product, title) {
   if (!product) return false;
-  const normalizedTitle = normalize(title);
+  const normalizedTitle = normalize(title.split("|")[0]);
   const vendor = normalize(product.vendor || "");
   const blockedAliases = new Set(["ai", "agent", "assistant", "desktop", "claw", "智能体", "助手", "桌面版", "工作台", vendor].filter(Boolean));
-  const nameVariants = [product.name, ...(product.aliases || [])].flatMap((name) => [
-    name,
-    name.replace(/[（(].*?[）)]/g, ""),
-    ...name
-      .split(/[\s/·（()）]+/u)
-      .filter((part) => {
-        const normalized = normalize(part);
-        return normalized.length >= 3 && !blockedAliases.has(normalized);
-      }),
-  ]);
+  const names = [product.name, ...(product.aliases || [])];
+  const nameVariants = names.flatMap((name) => {
+    const baseName = name.replace(/[（(].*?[）)]/g, "");
+    return [
+      baseName,
+      ...baseName
+        .split(/[\s/·（()）]+/u)
+        .filter((part) => {
+          const normalized = normalize(part);
+          return normalized.length >= 3 && !blockedAliases.has(normalized);
+        }),
+    ];
+  });
   const aliases = nameVariants
     .map(normalize)
     .filter((alias) => alias.length >= 3)

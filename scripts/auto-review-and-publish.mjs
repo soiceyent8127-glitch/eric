@@ -1,10 +1,14 @@
 import fs from "node:fs/promises";
 import vm from "node:vm";
+import {
+  inferStandaloneCategory,
+  isLikelySameEvent,
+  reviewExistingCandidate,
+  reviewStandaloneCandidate,
+} from "./review-policy.mjs";
 
 const root = new URL("../", import.meta.url);
 const timezone = "Asia/Shanghai";
-const trustedMediaPattern = /36氪|第一财经|一财|新浪科技|新浪财经|东方财富|财联社|界面新闻|晚点|机器之心|量子位|钛媒体|极客公园|InfoQ|AIBase|AI工具集|TechCrunch|The Verge|VentureBeat|Reuters|Bloomberg/iu;
-const lowSignalPattern = /评论|盘点|回顾|传闻|或将|可能|概念股|ETF|股价|教程|测评|bug fixes?|minor update|优化|修复|小幅改进|日常更新|收购|并购|融资|估值|财报|IPO|acquir|acquisition|funding|raised|valuation|earnings|shares?/iu;
 
 function localDate(date = new Date()) {
   return new Intl.DateTimeFormat("en-CA", {
@@ -13,35 +17,6 @@ function localDate(date = new Date()) {
     month: "2-digit",
     day: "2-digit",
   }).format(date);
-}
-
-function normalize(value = "") {
-  return value
-    .toLowerCase()
-    .replace(/[（(].*?[）)]/g, "")
-    .replace(/桌面版|desktop|agent|智能体/giu, "")
-    .replace(/[^a-z0-9\u4e00-\u9fff]+/g, "");
-}
-
-function productMatchesTitle(product, title) {
-  const normalizedTitle = normalize(title);
-  const vendor = normalize(product.vendor || "");
-  const blockedAliases = new Set(["ai", "agent", "assistant", "desktop", "claw", "智能体", "助手", "桌面版", "工作台", vendor].filter(Boolean));
-  const nameVariants = [product.name, ...(product.aliases || [])].flatMap((name) => [
-    name,
-    name.replace(/[（(].*?[）)]/g, ""),
-    ...name
-      .split(/[\s/·（()）]+/u)
-      .filter((part) => {
-        const normalized = normalize(part);
-        return normalized.length >= 3 && !blockedAliases.has(normalized);
-      }),
-  ]);
-  const aliases = nameVariants
-    .map(normalize)
-    .filter((alias) => alias.length >= 3)
-    .filter((alias) => !blockedAliases.has(alias));
-  return aliases.some((alias) => normalizedTitle.includes(alias));
 }
 
 function stripPublisher(title) {
@@ -55,10 +30,6 @@ function inferCategory(title) {
   if (/多.?agent|multi.?agent|computer use|长期记忆|记忆|反思|意识功能|意识能力|技能进化|自我进化|成长|企业治理|远程控制|跨端|审批|审计/iu.test(title)) return "核心能力";
   if (/发布|推出|上线|launch|unveil|release/iu.test(title)) return "重大版本";
   return "重大动态";
-}
-
-function hasCoreAbilitySignal(candidate) {
-  return candidate.reasons?.some((reason) => reason.includes("关键能力变化")) || false;
 }
 
 function duplicateSignalTerms(text = "") {
@@ -130,38 +101,30 @@ const rejected = [];
 
 for (const candidate of candidates.filter((item) => item.status === "pending")) {
   const product = products.get(candidate.productSlug);
-  const official = candidate.sourceType === "official";
-  const exactMatch = productMatchesTitle(product, candidate.title);
-  const trustedMedia = trustedMediaPattern.test(candidate.sourceLabel || "");
-  const noisy = lowSignalPattern.test(candidate.title) || candidate.reasons?.some((reason) => reason.includes("疑似日常更新"));
-  const publishable =
-    !noisy &&
-    ((official && candidate.score >= 6) ||
-      (exactMatch && trustedMedia && candidate.score >= 9) ||
-      (exactMatch && trustedMedia && hasCoreAbilitySignal(candidate) && candidate.score >= 6));
+  const review = reviewExistingCandidate(candidate, product);
 
-  if (noisy || (!official && !exactMatch)) {
+  if (review.decision === "rejected") {
     candidate.status = "rejected_auto";
     candidate.reviewedAt = reviewedAt;
-    candidate.reviewReason = noisy ? "自动审核：标题属于评论、传闻、市场/财务资本噪音或日常更新" : "自动审核：标题与目标产品名称不匹配";
+    candidate.reviewReason = review.reason;
     rejected.push(candidate);
     continue;
   }
 
-  if (!publishable) {
+  if (review.decision === "deferred") {
     candidate.status = "deferred_auto";
     candidate.reviewedAt = reviewedAt;
-    candidate.reviewReason = "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布";
+    candidate.reviewReason = review.reason;
     deferred.push(candidate);
     continue;
   }
 
   candidate.status = "accepted_auto";
   candidate.reviewedAt = reviewedAt;
-  candidate.reviewReason = official ? "自动审核：官方一手信源且达到重大事件阈值" : "自动审核：可信媒体、高事件得分且产品名称明确匹配";
+  candidate.reviewReason = review.reason;
   accepted.push(candidate);
 
-  if (existingSources.has(candidate.sourceUrl) || isDuplicateEvent(candidate, updates)) continue;
+  if (existingSources.has(candidate.sourceUrl) || isDuplicateEvent(candidate, updates) || updates.some((update) => isLikelySameEvent(candidate.title, update.title))) continue;
   const date = candidate.publishedAt?.slice(0, 10) || reviewedAt;
   updates.push({
     id: `${date}-${candidate.id}`,
@@ -180,10 +143,41 @@ for (const candidate of candidates.filter((item) => item.status === "pending")) 
 }
 
 for (const candidate of productCandidates.filter((item) => item.status === "pending")) {
-  candidate.status = "deferred_auto";
+  const review = reviewStandaloneCandidate(candidate);
+  candidate.score = review.score;
   candidate.reviewedAt = reviewedAt;
-  candidate.reviewReason = "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布";
-  deferred.push(candidate);
+  candidate.reviewReason = review.reason;
+
+  if (review.decision === "rejected") {
+    candidate.status = "rejected_auto";
+    rejected.push(candidate);
+    continue;
+  }
+
+  if (review.decision === "deferred") {
+    candidate.status = "deferred_auto";
+    deferred.push(candidate);
+    continue;
+  }
+
+  candidate.status = "accepted_auto";
+  accepted.push(candidate);
+  if (existingSources.has(candidate.sourceUrl) || updates.some((update) => isLikelySameEvent(candidate.title, update.title))) continue;
+  const date = candidate.publishedAt?.slice(0, 10) || reviewedAt;
+  updates.push({
+    id: `${date}-${candidate.id}`,
+    productSlug: null,
+    date,
+    category: inferStandaloneCategory(candidate.title),
+    title: stripPublisher(candidate.title),
+    summary: "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    impact: "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    sourceUrl: candidate.sourceUrl,
+    sourceLabel: candidate.sourceLabel,
+    verifiedAt: reviewedAt,
+    autoReviewed: true,
+  });
+  existingSources.add(candidate.sourceUrl);
 }
 
 updates.sort((a, b) => String(b.date).localeCompare(String(a.date)));

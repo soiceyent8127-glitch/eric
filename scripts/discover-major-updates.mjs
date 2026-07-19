@@ -150,6 +150,7 @@ async function discoverOfficialRss(product, feeds) {
           { ...item, sourceLabel: item.sourceLabel || `${product.vendor || product.name} 官方信源` },
           "official",
         );
+        if (candidate) candidate.associationVerified = true;
         if (candidate) discovered.push(candidate);
       }
     } catch (error) {
@@ -180,7 +181,8 @@ async function discoverGithubReleases(product, repo) {
           "official",
         ),
       )
-      .filter(Boolean);
+      .filter(Boolean)
+      .map((candidate) => ({ ...candidate, associationVerified: true }));
   } catch (error) {
     console.warn(`跳过 ${product.name} 的 GitHub Releases：${error.message}`);
     return [];

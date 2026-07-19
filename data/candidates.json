@@ -15,9 +15,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
+    "status": "deferred_auto",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p42-hermes-agent-dcac2765",
@@ -35,9 +35,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
+    "status": "deferred_auto",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p45-qoder-cloud-agents-manual-2026-06-06",
@@ -94,9 +94,9 @@
       "产品发布或停止运营 +6",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
+    "status": "deferred_auto",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p44-openclaw-eb2ffae0",
@@ -114,8 +114,8 @@
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p02-workbuddy-33e91b7b",
@@ -132,9 +132,9 @@
       "产品发布或停止运营 +6",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p09-marvis-40fe8029",
@@ -151,9 +151,9 @@
       "产品发布或停止运营 +6",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p02-workbuddy-203ded9d",
@@ -170,9 +170,9 @@
       "产品发布或停止运营 +6",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
+    "status": "deferred_auto",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p44-openclaw-c43894c5",
@@ -189,9 +189,9 @@
       "产品发布或停止运营 +6",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p36-2.5-e0da4b16",
@@ -208,9 +208,9 @@
       "产品发布或停止运营 +6",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p44-openclaw-2f17dc4e",
@@ -227,9 +227,9 @@
       "产品发布或停止运营 +6",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p05-skywork-d638fbdb",
@@ -324,7 +324,7 @@
     ],
     "status": "accepted_auto",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：可信媒体、高事件得分且产品名称明确匹配"
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
   },
   {
     "id": "p12-codex-open-ai-f83b263e",
@@ -341,9 +341,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
+    "status": "deferred_auto",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p44-openclaw-80299b2c",
@@ -361,8 +361,8 @@
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p08-manus-manus-fe4656c9",
@@ -379,9 +379,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "promoted_manual",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "p12-codex-open-ai-f8da6189",
@@ -398,9 +398,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p05-skywork-783b0c46",
@@ -736,9 +736,9 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "p12-codex-open-ai-b75694c8",
@@ -758,7 +758,7 @@
     ],
     "status": "deferred_auto",
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p44-openclaw-da24549a",
@@ -796,9 +796,9 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "status": "promoted_manual",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "p12-codex-open-ai-534f4770",
@@ -817,8 +817,8 @@
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p44-openclaw-512e0a4b",
@@ -837,8 +837,8 @@
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p12-codex-open-ai-3c867d0c",
@@ -857,8 +857,8 @@
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p12-codex-open-ai-681d2304",
@@ -875,9 +875,9 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "rejected_auto",
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：标题与目标产品名称不匹配"
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p12-codex-open-ai-a92fcc3",
@@ -895,8 +895,8 @@
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p12-codex-open-ai-b09db4b6",
@@ -914,8 +914,8 @@
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p44-openclaw-4499a17e",

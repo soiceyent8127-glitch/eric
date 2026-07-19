@@ -14,8 +14,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-9620fbc1",
@@ -32,8 +33,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-e247ce5a",
@@ -51,8 +53,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-5f44c18a",
@@ -63,15 +66,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-17T06:53:57.000Z",
     "discoveredAt": "2026-07-19T15:00:03.962Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-4e426830",
@@ -82,15 +86,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-17T02:04:35.000Z",
     "discoveredAt": "2026-07-19T15:00:03.964Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-6bbbf8b9",
@@ -108,8 +113,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-9dba79f3",
@@ -126,8 +132,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-e03aff41",
@@ -145,8 +152,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-1e682eaf",
@@ -163,8 +171,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-e3a1b85f",
@@ -181,8 +190,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-acebe5aa",
@@ -193,15 +203,16 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-07-14T00:00:00.000Z",
     "discoveredAt": "2026-07-19T15:00:03.999Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-1a3bbe32",
@@ -212,15 +223,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-13T08:56:44.000Z",
     "discoveredAt": "2026-07-19T15:00:03.980Z",
-    "status": "deferred_auto",
+    "status": "rejected_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 8,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
   },
   {
     "id": "new-product-6bd06343",
@@ -230,15 +242,16 @@
     "sourceType": "media",
     "publishedAt": "2026-07-10T13:41:03.000Z",
     "discoveredAt": "2026-07-13T05:47:29.819Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 6,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-a23206ee",
@@ -256,8 +269,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-a7344d64",
@@ -268,15 +282,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-10T01:09:03.000Z",
     "discoveredAt": "2026-07-13T05:47:58.732Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-5abcdc0a",
@@ -293,8 +308,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-b9765ede",
@@ -312,8 +328,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-7db436bc",
@@ -330,8 +347,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-3b5b5507",
@@ -342,15 +360,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-07T02:27:36.000Z",
     "discoveredAt": "2026-07-13T05:47:58.744Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-a8141cd1",
@@ -387,8 +406,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-13",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-d592537f",
@@ -405,8 +425,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-8b7f4c8e",
@@ -424,8 +445,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 0,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-50e47b35",
@@ -435,15 +457,16 @@
     "sourceType": "media",
     "publishedAt": "2026-07-02T20:51:39.000Z",
     "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-3bea2cb5",
@@ -460,8 +483,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 8,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-715c0dac",
@@ -472,15 +496,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-02T03:27:10.000Z",
     "discoveredAt": "2026-07-06T06:46:36.154Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 0,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-5fa116de",
@@ -490,15 +515,16 @@
     "sourceType": "media",
     "publishedAt": "2026-07-02T02:53:26.000Z",
     "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-28b016bc",
@@ -509,15 +535,16 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-07-02T00:00:00.000Z",
     "discoveredAt": "2026-07-06T06:46:36.171Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 5,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-6a506d02",
@@ -527,15 +554,16 @@
     "sourceType": "media",
     "publishedAt": "2026-07-01T13:00:00.000Z",
     "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "deferred_auto",
+    "status": "rejected_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
   },
   {
     "id": "new-product-587cd728",
@@ -545,15 +573,16 @@
     "sourceType": "media",
     "publishedAt": "2026-07-01T05:29:11.000Z",
     "discoveredAt": "2026-07-06T06:45:29.907Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-cc99ad52",
@@ -563,15 +592,16 @@
     "sourceType": "media",
     "publishedAt": "2026-07-01T01:55:57.000Z",
     "discoveredAt": "2026-07-06T06:45:29.907Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-e195c62f",
@@ -581,15 +611,16 @@
     "sourceType": "media",
     "publishedAt": "2026-07-01T00:00:00.000Z",
     "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-a04fa288",
@@ -600,15 +631,16 @@
     "discoverySource": "AI工具集",
     "publishedAt": "2026-07-01T00:00:00.000Z",
     "discoveredAt": "2026-07-06T06:46:36.172Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-83744d93",
@@ -618,15 +650,16 @@
     "sourceType": "media",
     "publishedAt": "2026-06-30T17:17:40.302Z",
     "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-97c440d4",
@@ -643,8 +676,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 6,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-9c4cbb6",
@@ -662,8 +696,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 8,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-70231a87",
@@ -673,15 +708,16 @@
     "sourceType": "media",
     "publishedAt": "2026-06-29T16:00:00.000Z",
     "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-95d31fa4",
@@ -692,15 +728,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-06-29T07:45:17.000Z",
     "discoveredAt": "2026-07-06T06:46:36.170Z",
-    "status": "deferred_auto",
+    "status": "rejected_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-07-06",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 5,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
   },
   {
     "id": "new-product-7fc60fa6",
@@ -718,8 +755,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-4d0883e0",
@@ -736,8 +774,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-688d63f4",
@@ -754,8 +793,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-e7502afa",
@@ -772,8 +812,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-7aa72cad",
@@ -790,8 +831,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-edb6e790",
@@ -808,8 +850,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-4a91ba49",
@@ -820,15 +863,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-06-26T07:06:46.000Z",
     "discoveredAt": "2026-06-29T07:02:40.562Z",
-    "status": "deferred_auto",
+    "status": "rejected_auto",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 8,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
   },
   {
     "id": "new-product-73ed222",
@@ -845,8 +889,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-8201fe53",
@@ -863,8 +908,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
+    "score": 2,
     "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-4cfce6ec",
@@ -874,15 +920,16 @@
     "sourceType": "media",
     "publishedAt": "2026-06-24T16:00:00.000Z",
     "discoveredAt": "2026-06-29T07:02:22.020Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-e55d3487",
@@ -899,8 +946,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-4884eb30",
@@ -911,15 +959,16 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-06-24T06:09:16.000Z",
     "discoveredAt": "2026-06-29T07:02:40.575Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 5,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-d87d7f1b",
@@ -937,8 +986,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
   },
   {
     "id": "new-product-db7d83d4",
@@ -956,8 +1006,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 5,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-3a2e7d8",
@@ -975,8 +1026,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-dbfeea7c",
@@ -994,8 +1046,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 2,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-f1fcce87",
@@ -1013,8 +1066,9 @@
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-29",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
+    "score": 8,
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
   },
   {
     "id": "new-product-c4475efc",
@@ -1282,15 +1336,15 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-06-16T01:43:25.000Z",
     "discoveredAt": "2026-06-16T07:43:46.798Z",
-    "status": "deferred_manual",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
       "找到官方一手信源",
       "补充厂商、类型与官网"
     ],
-    "reviewedAt": "2026-06-16",
-    "reviewReason": "人工审核：更像超级 App 内生活服务 Agent，暂不纳入桌面/Cowork 主表"
+    "reviewedAt": "2026-07-19",
+    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   },
   {
     "id": "new-product-d4d9afb",
@@ -1836,129 +1890,5 @@
     ],
     "reviewedAt": "2026-06-16",
     "reviewReason": "人工审核：OpenClaw 作为类 Claw 生态基准产品和执行底座，已补入产品库与重大动态"
-  },
-  {
-    "id": "new-product-cbe5b6f2",
-    "title": "Replit上线SEO Agent助应用被发现",
-    "sourceUrl": "https://x.com/Replit/status/2062211976995188871",
-    "sourceLabel": "X：Replit (@Replit)",
-    "sourceType": "media",
-    "publishedAt": "2026-06-03T16:37:04.000Z",
-    "discoveredAt": "2026-06-08T13:21:31.529Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-09",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-77aae0d7",
-    "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
-    "sourceUrl": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
-    "sourceLabel": "TechCrunch：AI（RSS）",
-    "sourceType": "media",
-    "publishedAt": "2026-06-03T13:40:00.000Z",
-    "discoveredAt": "2026-06-08T13:21:31.529Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-09",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-668ab7da",
-    "title": "Kimi Work Beta版发布：面向知识工作者的本地Agent",
-    "sourceUrl": "https://mp.weixin.qq.com/s/cpy4PddGBQZl5w8eEKX2uw",
-    "sourceLabel": "公众号：月之暗面（Kimi）",
-    "sourceType": "media",
-    "publishedAt": "2026-06-03T13:30:07.000Z",
-    "discoveredAt": "2026-06-09T07:35:39.339Z",
-    "status": "accepted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-16",
-    "reviewReason": "人工审核：Kimi Work 属于本地桌面 Agent / 类 Cowork 产品，已补入产品库"
-  },
-  {
-    "id": "new-product-95a3df6c",
-    "title": "继OpenClaw养虾爆火后，Hermes Agent迎来史诗级进化！开箱即用+自我进化，上线即爆火！GUI已成Agent的主流界面？ - 51CTO",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4NWJhSS1IMFpDUU9pTnJFV2lnck5TX2lFZjhhTXZ2MERUZnpxM2NhZU1pWlNubExGaFdxY1FBWTRqR00zWXNwM1g2dGh5azUzMndv?oc=5",
-    "sourceLabel": "51CTO",
-    "publishedAt": "2026-06-03T08:03:46.000Z",
-    "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "accepted",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-08",
-    "reviewReason": "确认 Hermes Agent 推出官方跨平台桌面应用，新增产品并进入正式时间线"
-  },
-  {
-    "id": "new-product-2f661049",
-    "title": "微软推出基于OpenClaw构建的新型AI个人助手Scout - 新浪财经",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yVHRzTC1VNWgzMHFJZTJrdzFlMVNqT3lLUnAxdXNUZlNuXzROYWJHUGFXWTkyZW1MWll5US1VTll2R1JneG9PUFhjLVhDNDlPZHlsMXI5aFJvbm12U0oybndCR1ppcDRaYTBydGhyQWlDcW9jQnBUWXFwbllBUQ?oc=5",
-    "sourceLabel": "新浪财经",
-    "publishedAt": "2026-06-03T00:53:27.000Z",
-    "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "accepted",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-08",
-    "reviewReason": "确认 Microsoft Scout 为独立企业级常驻个人 Agent，新增产品并进入正式时间线"
-  },
-  {
-    "id": "new-product-ba403456",
-    "title": "千问App向第三方Agent、Skill全面开放",
-    "sourceUrl": "https://mp.weixin.qq.com/s/rUcQ-QxC3xmKfrK18fV0Yw",
-    "sourceLabel": "AI工具集 / 千问APP",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-06-03T00:00:00.000Z",
-    "discoveredAt": "2026-06-16T08:05:16.349Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-22",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-3b11d632",
-    "title": "微软首席执行官宣布推出新技术 助力OpenClaw在Windows上流畅运行 - 东方财富",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83ZUJhMm9VUU5Ydy1Wci1FdzAzV3hMV2M3aUJxbmJtMG82eHVRUEk5cG5mMDdFd21xWVFVRnFqUjFSNlJ6VzNIaXkxc29PNmpRVUh3aFdYbWVlSThwMUhXYw?oc=5",
-    "sourceLabel": "东方财富",
-    "publishedAt": "2026-06-02T17:50:35.000Z",
-    "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "rejected",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-08",
-    "reviewReason": "微软 OpenClaw 技术与 Scout 相关，但不是独立产品候选"
   }
 ]

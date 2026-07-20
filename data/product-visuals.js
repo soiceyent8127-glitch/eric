@@ -10,8 +10,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p03-ai.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -120,8 +120,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p23-stepclaw": {
-    "icon": "assets/product-icons/p23-stepclaw.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p23-stepclaw.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fdownload&sz=128",
     "status": "collected"
   },
   "p24-skyclaw": {
@@ -171,7 +171,7 @@ window.PRODUCT_VISUALS = {
   },
   "p40-loomy": {
     "icon": "assets/product-icons/p40-loomy.png",
-    "source": "https://loomy.xunfei.cn/icon.png?ce83e803068bc403",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Floomy.xunfei.cn%2F&sz=128",
     "status": "collected"
   },
   "p31-gemini-spark-google": {

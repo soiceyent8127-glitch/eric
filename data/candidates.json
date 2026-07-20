@@ -327,6 +327,25 @@
     "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
   },
   {
+    "id": "p12-codex-open-ai-4ead8d97",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 发布 GPT-5.6 系列：三款模型、多智能体协作、全新安全体系- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pMXVfSWwtN0F6WFF2RXlRY1EzandGNzBJc3U4Y2I4YnVkOWxVaUR0ZVhwc3F3WHBodFZZUkVzQWY3OTlZZ2JXaFdlcDBEeHVFcl9oSEVR?oc=5",
+    "sourceLabel": "OSCHINA",
+    "sourceType": "media",
+    "publishedAt": "2026-07-16T02:23:20.000Z",
+    "discoveredAt": "2026-07-20T05:47:49.239Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-20",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
     "id": "p12-codex-open-ai-f83b263e",
     "productSlug": "p12-codex-open-ai",
     "productName": "Codex桌面版（Open AI）",
@@ -719,6 +738,25 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p43-kimi-work-56cb0a31",
+    "productSlug": "p43-kimi-work",
+    "productName": "Kimi Work（月之暗面）",
+    "title": "Kimi K3发布三天后暂停新会员订阅，月之暗面称算力已逼近极限 - 金融界",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zQlZ4NU0xN1hrdElWR29GLTRiTlBsVUU0cHdoaTJsRmlKU3U5X1JkWUlSSk1LTkpXZFRYczQ1b1BrVVVfYnp1RzJBYUozNmJubVo1YlgtWjREcUUwQ1FhMy1BNDRfT3ptYzhtRng4eGd5eE92?oc=5",
+    "sourceLabel": "金融界",
+    "sourceType": "media",
+    "publishedAt": "2026-07-20T00:03:58.000Z",
+    "discoveredAt": "2026-07-20T05:47:50.581Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-20",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p31-gemini-spark-google-4256a6cc",

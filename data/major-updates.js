@@ -1,5 +1,18 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-07-21-new-product-2ef71807",
+    "productSlug": null,
+    "date": "2026-07-21",
+    "category": "新产品",
+    "title": "Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix",
+    "sourceLabel": "Google Developers Blog（RSS）",
+    "verifiedAt": "2026-07-27",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-07-18-workbuddy-app-release",
     "productSlug": "p02-workbuddy",
     "date": "2026-07-18",

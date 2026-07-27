@@ -6,12 +6,12 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/cf6af313380574bd3c2c7fc12f56ac3e5ffa17a6/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/7c9e013aa35d2492f67017e7b069132b91c001e3/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
+    "icon": "assets/product-icons/p03-ai.svg",
+    "source": "https://chat.stepfun.com/svg/favicon.svg",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -75,7 +75,7 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p16-product": {
-    "icon": "assets/product-icons/p16-product.png",
+    "icon": "assets/product-icons/p16-product.webp",
     "source": "https://img.alicdn.com/imgextra/i2/O1CN01DyN8OO1Bzprc46cXu_!!6000000000017-2-tps-128-128.png",
     "status": "collected"
   },
@@ -120,8 +120,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p23-stepclaw": {
-    "icon": "assets/product-icons/p23-stepclaw.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fdownload&sz=128",
+    "icon": "assets/product-icons/p23-stepclaw.svg",
+    "source": "https://chat.stepfun.com/svg/favicon.svg",
     "status": "collected"
   },
   "p24-skyclaw": {
@@ -171,7 +171,7 @@ window.PRODUCT_VISUALS = {
   },
   "p40-loomy": {
     "icon": "assets/product-icons/p40-loomy.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Floomy.xunfei.cn%2F&sz=128",
+    "source": "https://loomy.xunfei.cn/icon.png?ce83e803068bc403",
     "status": "collected"
   },
   "p31-gemini-spark-google": {

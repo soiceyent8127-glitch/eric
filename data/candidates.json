@@ -308,6 +308,82 @@
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
+    "id": "p02-workbuddy-16515671",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯设计Agent平台Miora全面开放",
+    "sourceUrl": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+    "sourceLabel": "公众号：数字生命卡兹克",
+    "sourceType": "media",
+    "publishedAt": "2026-07-22T04:21:03.000Z",
+    "discoveredAt": "2026-07-27T05:58:50.646Z",
+    "score": 7,
+    "reasons": [
+      "关键能力变化 +4",
+      "商业或开放范围变化 +3"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-3fdcf70b",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "ChatGPT 桌面版上线语音控制多智能体",
+    "sourceUrl": "https://x.com/OpenAI/status/2080378182469857576",
+    "sourceLabel": "X：OpenAI (@OpenAI)",
+    "sourceType": "media",
+    "publishedAt": "2026-07-23T19:43:04.000Z",
+    "discoveredAt": "2026-07-27T05:59:13.886Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p02-workbuddy-598aadb0",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "李未可×WorkBuddy发布首款AI记忆眼镜，让AI从听懂话走向懂工作 - xw.qq.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjRnNmWXdHaGJ6RHJBUFMyZld4T2RLUmZLUGpSSmw0SHVUd1l2RWh4aXVqb0lYNGoxbEgxbktGcjFrMEo3ZVFNZXpOb18xZFpQUGxYaFF3?oc=5",
+    "sourceLabel": "xw.qq.com",
+    "sourceType": "media",
+    "publishedAt": "2026-07-21T06:55:00.000Z",
+    "discoveredAt": "2026-07-27T05:58:43.134Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p02-workbuddy-6f18b152",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "李未可于WAIC发布X-AI记忆眼镜，与腾讯云WorkBuddy落地办公生态 - MSN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOMGVkTHFabGF1ZnQtQWU0VEpjaDNldmxHd2JJT1B1c2FiNW8wMURtQ1pJQVkxRlBNZkQ4b3dudlVMNXVYX1RiZU5ZLU45OU5SNWgyVU5WaUhGS1Ixd1FHMmNfOFJSSWlFWHBuM2NTa0RqX2h3NzhrbFc2eW5naTN0M2sydDFRaHc4OWRFVXd6OGhhZUt4bHZDVjROM1dLaU9HcXBhWGJfZXJWYVBpa0l2MXlUTnNLdmlha0p3bDlzdDRoSW5CR0ZXM3RvYV8yS3BmQnFvdnQ2aElOdGlyUmlmMkQ5LUF3MHBoUjFjZmNSUE1aaG5Zd1lObmZPQmlYdnJtakpPOTNsWkxYMnUwaHhpcEkyeWphMEhMSGxUbmZYbG1ORjAwU0dUT3ZuOVBjWUZCQ3RiQjBwMUVuRmtqWTlwZ0ZGbGUwVk9wQVdpZVJ0UWxDeXF5TF9BUTJpcnoyV1lkN2pTMnFB?oc=5",
+    "sourceLabel": "MSN",
+    "sourceType": "media",
+    "publishedAt": "2026-07-20T19:21:46.000Z",
+    "discoveredAt": "2026-07-27T05:58:43.135Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
     "id": "p02-workbuddy-b08de1f3",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",
@@ -738,6 +814,46 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p06-openwork-different-ai-39dd7161",
+    "productSlug": "p06-openwork-different-ai",
+    "productName": "OpenWork（different-ai）",
+    "title": "吴恩达开源个人桌面Agent「OpenWorker」",
+    "sourceUrl": "https://mp.weixin.qq.com/s/qwVRnh02GuERh8vEgDHr-A",
+    "sourceLabel": "AI工具集 / 量子位",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-27T00:00:00.000Z",
+    "discoveredAt": "2026-07-27T06:00:25.134Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-42e44490",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "NTT DATA部署Codex： 5 名工程师 3 天的故障分析缩短至 30 分钟， 9000 名员工已用上AI",
+    "sourceUrl": "https://news.aibase.com/zh/news/29832",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-23T06:00:40.000Z",
+    "discoveredAt": "2026-07-27T06:00:25.117Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p43-kimi-work-56cb0a31",

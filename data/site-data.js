@@ -2,8 +2,8 @@ window.RESEARCH_DATA = {
   "meta": {
     "title": "类 OpenClaw 和类 Claude Cowork 竞品调研",
     "source": "类OpenClaw&类ClaudeCowork竞品调研.docx",
-    "generatedAt": "2026-06-08",
-    "productCount": 45
+    "generatedAt": "2026-08-03",
+    "productCount": 46
   },
   "strategy": {
     "overview": "海外正在分化为两条路线：OpenAI / Anthropic 抢本地桌面 Agent 和个人生产力入口，Google / AWS / Microsoft 抢云端常驻 Agent 和企业工作流入口；国内则围绕 OpenClaw 生态做产品化封装，竞争核心是 IM 分发、混合执行环境、Skill 生态、办公场景交付和企业化治理。",
@@ -749,19 +749,19 @@ window.RESEARCH_DATA = {
       "slug": "p16-product"
     },
     {
-      "name": "CoPaw",
+      "name": "QwenPaw（原 CoPaw）",
       "type": "类 OpenClaw",
       "group": "核心友商",
       "region": "国内",
       "vendor": "阿里云 / 开源社区",
       "launchDate": "2.14",
-      "updatedAt": "4.12 4.12 3.31",
+      "updatedAt": "2026-07-24",
       "deployment": "云端/本地",
       "businessModel": "* 免费开源",
       "features": "开源个人智能体工作台 - 本地云端均可部署 - 配置CoPaw时，用户仅需在本地用三条命令就可以完成安装与启动，在云端能在魔搭云空间一键配置 - 虽然支持云端部署，但数据默认全在本地，不依赖第三方托管 - 主动心跳机制与长期记忆功能 - 内置定时任务调度系统，不仅会被动响应用户的需求，还可自主完成查邮件、整理待办事项等任务 - 同时，CoPaw自带长期记忆功能，还会主动将用户对话中的决策、偏好、待办等写入记忆，使用时间越长，CoPaw越懂用户",
       "ecosystem": "模型生态 - API key自主接入模型 - 云端：ModelScope、DashScope 或自定义 - 本地：支持 llama.cpp、MLX、Ollama - IM生态 - 支持接入钉钉、飞书、QQ - 技能生态 - 内置10+skill，支持接入ClawHub 和 GitHub的skill",
       "partnership": "面向企业协作的 HiClaw 项目已加入 AgentScope 生态，未来会与 CoPaw 联合优化",
-      "website": "https://clawbot.ai/copaw",
+      "website": "https://github.com/agentscope-ai/QwenPaw",
       "pricing": "未找到公开定价页",
       "updates": "4月12日 阿里云宣布开源桌面Agent工具CoPaw正式更名为QwenPaw，并同步发布1.1.0版本。 更名旨在强化与通义千问（Qwen）开源生态的深度整合，突出智能体本地模型支持及大小模型协同能力；‘Paw’延续其陪伴型个人助手定位。项目仍坚持开源协作，支持钉钉、飞书、QQ等多平台一键部署，兼容本地及云端运行。此次升级不改变其打造实用、安全、个性化AI助手的核心目标。 CoPaw 1.0 版本正式发布 本地化部署与定制小模型：支持在 Mac/Windows/Linux 上一键安装运行，同步发布了专为 CoPaw 场景定制的CoPaw-Flash 系列小模型，可根据设备性能自动推荐合适的尺寸和量化版本，数据不离开设备 安全机制：采用分层防御架构，包括监控工具调用的\"工具守卫\"、敏感文件访问控制的\"文件防护\"，以及技能安装前风险扫描的\"技能扫描器\" 多智能体协作：可在同一实例中创建多个隔离的智能体工作区，支持并行运行、独立配置，以及智能体之间的异步通信与协作 记忆管理：通过 ReMe 机制分层管理上下文和长期记忆，对话中动态压缩历史内容，结合向量检索和全文检索调用沉淀记忆 发布 CoPaw 1.0 新版本 为 CoPaw 量身定制的小模型 全面支持本地化模型部署，一键低门槛安装，即装即用。可以在本地使用为 CoPaw 量身定制的 CoPaw-Flash 系列模型 安全机制:工具文件技能三重防护 工具守卫（Tool Guard） — 运行时防御层 文件防护（File Guard） — 访问控制层 技能扫描器（Skill Scanner） — 准入审计层 在技能安装前或被启用时自动扫描，检测风险模式，提供拦截/警告/关闭三种模式 多智能体协同 在同一实例内运行多个独立的智能体工作区，各自拥有专属配置、记忆与技能，既可独立响应不同频道，也可协作完成复杂任务 工作空间隔离：同一实例内可运行多个彼此隔离的智能体，各自拥有独立的配置、记忆、技能与对话历史 并发启动与隔离：应用启动时并发加载已启用的智能体工作区；各智能体可并行处理不同任务，并通过锁机制保证并发安全与工作空间隔离 零停机重载：支持单个智能体配置热重载，同一进程内新实例就绪后原子切换，旧实例完成当前任务后自动退出，避免中断正在进行的对话 异步协作：支持智能体间显式通信与后台协作，复杂任务可由多个角色分工处理，主智能体可先提交任务、后续查询结果 记忆管理：上下文管理与记忆存储 上下文管理 采用分层管理机制，在内存中保留当前对话所需的关键信息与近期交互内容，并将历史对话、阶段性摘要、及工具结果进行持久化存储；在推理前，对上下文进行动态整理，优先保留近期强相关的内容，并将较早期的信息压缩为结构化摘要，必要时再按索引回溯原始内容 个性化记忆 持续沉淀用户偏好、任务经验、和关键知识；在检索时融合向量检索与全文检索能力，兼顾相似内容召回与精确信息定位；在多智能体场景下，不同角色的记忆相互隔离，以减少跨任务干扰并提升结果稳定性",
       "summary": "开源个人智能体工作台 - 本地云端均可部署 - 配置CoPaw时，用户仅需在本地用三条命令就可以完成安装与启动，在云端能在魔搭云空间一键配置 - 虽然支持云端部署，但数据默认全在本地，不依赖第三方托管 - 主动心跳机制与",
@@ -800,19 +800,19 @@ window.RESEARCH_DATA = {
       "slug": "p17-copaw"
     },
     {
-      "name": "HiClaw",
+      "name": "AgentTeams（原 HiClaw）",
       "type": "类 OpenClaw",
       "group": "核心友商",
       "region": "国内",
       "vendor": "HiClaw 社区",
       "launchDate": "3.6",
-      "updatedAt": "4.14 4.14 3-4月（4.2发布月报）",
+      "updatedAt": "2026-07-30",
       "deployment": "云端",
       "businessModel": "* 免费开源",
       "features": "开源协作式多 Agent 操作系统 - 引入了 Manager Agent（AI 管家）角色帮你管理的Worker Agent 团队 - 模式一：直接对话 Manager - 适合快速问答和简单操作 - 模式二：Manager 分派 Worker - 面对复杂项目，Manager 自动拆解任务并分配给专业的 Worker。每个 Worker 拥有独立的Skills和Memory - 企业级安全 - Worker 永远不持有真实的 API Key 或 GitHub PAT，只有一个消费者令牌（类似\"工牌\"）。即使 Worker 被攻击，攻击者也拿不到任何真实凭证 - 多 Agent 群聊网络 - Manager Agent 智能分解任务，协调多个 Worker Agent 并行执行，大幅提升复杂任务处理能力 - Matrix 协议驱动 - 基于开放的 Matrix IM 协议，所有 Agent 通信透明可审计，天然支持分布式部署和联邦通信 - 人工全程监督 - 人类可随时进入任意 Matrix 房间观察 Agent 对话，实时干预或修正 Agent 行为，确保安全可控",
       "ecosystem": "模型生态 - 内置了 Higress AI 网关，负责模型 API Key 管理以及入口流量的安全管控。模型 API Key 的切换、新增，以及路由、域名、证书管理 - IM生态 - 真正开箱即用的 IM - 内置 Matrix 服务器，不需要申请飞书/钉钉机器人，不需要等待审批。浏览器打开 Element Web 就能对话，或者用手机上的 Matrix 客户端（Element、FluffyChat）随时指挥，iOS、Android、Web 全平台支持 - 技能生态 - Worker可以按需从skills.sh社区技能库获取技能，社区已有80,000+个技能 - Worker内置find-skills能力，可主动检索并安装skills.sh社区技能",
       "partnership": "",
-      "website": "https://hiclaw.io/",
+      "website": "https://github.com/agentscope-ai/AgentTeams",
       "pricing": "未找到公开定价页；开源部署成本取决于模型和基础设施",
       "updates": "3-4月（4.2发布月报） HiClaw 现已支持 Worker 模板，帮助团队把某一类问题中已经验证过的 Skill 组合、执行约束、输出结构和 SOP 沉淀为标准 Worker，让 Agent 在处理同类任务时不必每次从头组织能力，从而获得更稳定的输出，也更方便分发、管理和测试。 适用场景：模板更适合那些已经逐渐形成稳定处理框架的场景，例如： 售前方案编写 - 代码评审 发布前检查 项目启动与需求拆解 内容生产与渠道改写 面向特定业务系统的标准化分析任务 共享与分发：可以分发给不同团队直接复用；可以作为标准资产做版本管理；可以围绕模板建立测试和回归机制；可以持续迭代，而不是依赖个人经验传递 加入 AgentScope，与 CoPaw 共建多智能体基础设施：CoPaw 面向个人，HiClaw 面向企业。HiClaw 将以 CoPaw 作为 Agent 智能内核，提升长程、并行和协作类任务能力 阿里云原生部署上线：新增阿里云原生部署支持，提供统一的云/本地抽象层，包括对云端部署 CoPaw 工作进程的支持",
       "summary": "开源协作式多 Agent 操作系统 - 引入了 Manager Agent（AI 管家）角色帮你管理的Worker Agent 团队 - 模式一：直接对话 Manager - 适合快速问答和简单操作 - 模式二：Mana",
@@ -1935,6 +1935,46 @@ window.RESEARCH_DATA = {
         "API 集成"
       ],
       "slug": "p45-qoder-cloud-agents"
+    },
+    {
+      "name": "千问办公（Qwen Office）",
+      "type": "类 Cowork",
+      "group": "模型厂商",
+      "region": "国内",
+      "vendor": "阿里巴巴",
+      "launchDate": "2026-07-27",
+      "updatedAt": "2026-07-27",
+      "deployment": "桌面客户端；网页端与钉钉内嵌版规划中",
+      "businessModel": "限量测试阶段，未公布稳定公开定价",
+      "features": "面向专业办公交付的通用 Agent 工作台，可把自然语言任务直接交付为可编辑的 PPTX、Word、Excel 与 HTML，并支持文档、表格、知识库、邮件、会议和日程等企业办公能力。",
+      "ecosystem": "上接千问模型，下接钉钉组织与协作数据、阿里云 Agent 基础设施，并连接专业数据源、第三方工具和自定义 Skill。",
+      "partnership": "官方产品页展示 1688、小红书等专业数据源及第三方工具连接能力。",
+      "website": "https://qwenwork.cn/",
+      "pricing": "限量测试阶段，未公布稳定公开定价",
+      "updates": "2026-07-27 阿里巴巴确认千问办公开启限量测试，桌面客户端率先上线；网页端及钉钉内嵌版本计划后续推出。",
+      "summary": "阿里巴巴面向专业人士推出的 AI 办公工作台，连接千问模型、钉钉协作数据和阿里云能力，强调直接交付可编辑办公文件与完整工作成果。",
+      "featureBullets": [
+        "直接生成和编辑 PPTX、Word、Excel 与 HTML 等可交付成果",
+        "覆盖群聊、会议、日程、文档、表格、知识库、邮件等企业办公场景",
+        "支持多模态输入、网页全栈生成、专业数据源和自定义 Skill"
+      ],
+      "ecosystemBullets": [
+        "连接千问模型、钉钉组织协作数据与阿里云 Agent 基础设施",
+        "通过专业数据源、第三方工具和 Skill 市场扩展任务能力"
+      ],
+      "updateBullets": [
+        "2026-07-27 开启限量测试并上线桌面客户端",
+        "官方披露网页端和钉钉内嵌版本的后续规划"
+      ],
+      "capabilities": [
+        "本地执行",
+        "Skill 生态",
+        "多 Agent",
+        "办公交付",
+        "企业数据连接",
+        "自动化任务"
+      ],
+      "slug": "p46-qwen-office"
     }
   ]
 };

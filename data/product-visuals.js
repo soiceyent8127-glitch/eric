@@ -223,5 +223,10 @@ window.PRODUCT_VISUALS = {
     "icon": "assets/product-icons/p45-qoder-cloud-agents.png",
     "source": "https://img.alicdn.com/imgextra/i4/O1CN01OQC0dn1xLcdAaRALo_!!6000000006427-2-tps-180-180.png",
     "status": "collected"
+  },
+  "p46-qwen-office": {
+    "icon": "",
+    "source": "https://qwenwork.cn/",
+    "status": "pending"
   }
 };

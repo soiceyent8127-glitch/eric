@@ -1,6 +1,11 @@
 {
   "githubRepos": {
-    "p42-hermes-agent": "NousResearch/hermes-agent"
+    "p06-openwork-different-ai": "different-ai/openwork",
+    "p17-copaw": "agentscope-ai/QwenPaw",
+    "p18-hiclaw": "agentscope-ai/AgentTeams",
+    "p28-nemoclaw-nvidia": "NVIDIA/NemoClaw",
+    "p42-hermes-agent": "NousResearch/hermes-agent",
+    "p44-openclaw": "openclaw/openclaw"
   },
   "officialRss": {},
   "cnNews": {
@@ -44,6 +49,26 @@
       "Qoder Cloud Agents CN",
       "Cloud Agents 多角色协作 跨会话记忆 定时自动执行",
       "阿里 Qoder Cloud Agents"
+    ],
+    "p02-workbuddy": [
+      "WorkBuddy Changelog",
+      "WorkBuddy 版本更新"
+    ],
+    "p17-copaw": [
+      "QwenPaw release",
+      "QwenPaw 版本更新"
+    ],
+    "p18-hiclaw": [
+      "AgentTeams release",
+      "HiClaw AgentTeams"
+    ],
+    "p43-kimi-work": [
+      "Kimi Work 更新",
+      "Kimi Work Goal Mode"
+    ],
+    "p46-qwen-office": [
+      "千问办公 更新",
+      "Qwen Office release"
     ]
   }
 }

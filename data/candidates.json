@@ -43,22 +43,22 @@
     "id": "p12-codex-open-ai-ea1225e1",
     "productSlug": "p12-codex-open-ai",
     "productName": "Codex桌面版（Open AI）",
-    "title": "OpenAI 把安全审查塞进命令行：Codex Security CLI 开源，让漏洞在 CI 里自己现形",
-    "sourceUrl": "https://news.aibase.com/zh/news/29967",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-07-29T02:46:54.000Z",
-    "discoveredAt": "2026-08-03T05:51:43.490Z",
-    "score": 11,
+    "title": "OpenAI 开源 Codex Security CLI 与 TypeScript SDK",
+    "sourceUrl": "https://github.com/openai/codex-security",
+    "sourceLabel": "OpenAI 官方 GitHub：Codex Security",
+    "sourceType": "official",
+    "discoverySource": "manual-verification",
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "discoveredAt": "2026-08-03T06:11:08.595Z",
+    "score": 8,
     "reasons": [
       "产品发布或停止运营 +6",
-      "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
+    "associationVerified": true,
     "status": "accepted_auto",
     "reviewedAt": "2026-08-03",
-    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+    "reviewReason": "自动审核：官方一手信源且产品关联明确"
   },
   {
     "id": "p45-qoder-cloud-agents-manual-2026-06-06",
@@ -90,7 +90,7 @@
     "sourceLabel": "Qwen：Blog Retrieval（API）",
     "sourceType": "media",
     "publishedAt": "2026-08-03T02:00:00.000Z",
-    "discoveredAt": "2026-08-03T05:51:11.094Z",
+    "discoveredAt": "2026-08-03T06:10:13.064Z",
     "score": 8,
     "reasons": [
       "产品发布或停止运营 +6",
@@ -109,7 +109,7 @@
     "sourceLabel": "Qwen：Blog Retrieval（API）",
     "sourceType": "media",
     "publishedAt": "2026-08-03T02:00:00.000Z",
-    "discoveredAt": "2026-08-03T05:51:11.917Z",
+    "discoveredAt": "2026-08-03T06:10:14.711Z",
     "score": 8,
     "reasons": [
       "产品发布或停止运营 +6",
@@ -128,7 +128,7 @@
     "sourceLabel": "Qwen：Blog Retrieval（API）",
     "sourceType": "media",
     "publishedAt": "2026-08-03T02:00:00.000Z",
-    "discoveredAt": "2026-08-03T05:51:32.716Z",
+    "discoveredAt": "2026-08-03T06:10:43.979Z",
     "score": 8,
     "reasons": [
       "产品发布或停止运营 +6",
@@ -147,7 +147,7 @@
     "sourceLabel": "中国日报网",
     "sourceType": "media",
     "publishedAt": "2026-07-30T07:01:01.000Z",
-    "discoveredAt": "2026-08-03T05:50:57.451Z",
+    "discoveredAt": "2026-08-03T06:09:49.567Z",
     "score": 8,
     "reasons": [
       "产品发布或停止运营 +6",
@@ -405,25 +405,6 @@
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
-    "id": "p02-workbuddy-16515671",
-    "productSlug": "p02-workbuddy",
-    "productName": "WorkBuddy（腾讯）",
-    "title": "腾讯设计Agent平台Miora全面开放",
-    "sourceUrl": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
-    "sourceLabel": "公众号：数字生命卡兹克",
-    "sourceType": "media",
-    "publishedAt": "2026-07-22T04:21:03.000Z",
-    "discoveredAt": "2026-07-27T05:58:50.646Z",
-    "score": 7,
-    "reasons": [
-      "关键能力变化 +4",
-      "商业或开放范围变化 +3"
-    ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-07-27",
-    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
-  },
-  {
     "id": "p12-codex-open-ai-bb91ca5f",
     "productSlug": "p12-codex-open-ai",
     "productName": "Codex桌面版（Open AI）",
@@ -432,7 +413,7 @@
     "sourceLabel": "cj.sina.cn",
     "sourceType": "media",
     "publishedAt": "2026-08-01T01:57:12.000Z",
-    "discoveredAt": "2026-08-03T05:50:58.749Z",
+    "discoveredAt": "2026-08-03T06:09:52.827Z",
     "score": 6,
     "reasons": [
       "关键能力变化 +4",
@@ -443,60 +424,22 @@
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
-    "id": "p12-codex-open-ai-3fdcf70b",
-    "productSlug": "p12-codex-open-ai",
-    "productName": "Codex桌面版（Open AI）",
-    "title": "ChatGPT 桌面版上线语音控制多智能体",
-    "sourceUrl": "https://x.com/OpenAI/status/2080378182469857576",
-    "sourceLabel": "X：OpenAI (@OpenAI)",
-    "sourceType": "media",
-    "publishedAt": "2026-07-23T19:43:04.000Z",
-    "discoveredAt": "2026-07-27T05:59:13.886Z",
-    "score": 6,
-    "reasons": [
-      "关键能力变化 +4",
-      "明确事件词 +2"
-    ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-07-27",
-    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
-  },
-  {
     "id": "p02-workbuddy-598aadb0",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",
-    "title": "李未可×WorkBuddy发布首款AI记忆眼镜，让AI从听懂话走向懂工作 - xw.qq.com",
+    "title": "李未可×WorkBuddy发布首款AI记忆眼镜，让AI从听懂话走向懂工作 - QQ News",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjRnNmWXdHaGJ6RHJBUFMyZld4T2RLUmZLUGpSSmw0SHVUd1l2RWh4aXVqb0lYNGoxbEgxbktGcjFrMEo3ZVFNZXpOb18xZFpQUGxYaFF3?oc=5",
-    "sourceLabel": "xw.qq.com",
+    "sourceLabel": "QQ News",
     "sourceType": "media",
-    "publishedAt": "2026-07-21T06:55:00.000Z",
-    "discoveredAt": "2026-07-27T05:58:43.134Z",
+    "publishedAt": "2026-07-21T07:00:00.000Z",
+    "discoveredAt": "2026-08-03T06:09:49.567Z",
     "score": 6,
     "reasons": [
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-27",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
-  },
-  {
-    "id": "p02-workbuddy-6f18b152",
-    "productSlug": "p02-workbuddy",
-    "productName": "WorkBuddy（腾讯）",
-    "title": "李未可于WAIC发布X-AI记忆眼镜，与腾讯云WorkBuddy落地办公生态 - MSN",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOMGVkTHFabGF1ZnQtQWU0VEpjaDNldmxHd2JJT1B1c2FiNW8wMURtQ1pJQVkxRlBNZkQ4b3dudlVMNXVYX1RiZU5ZLU45OU5SNWgyVU5WaUhGS1Ixd1FHMmNfOFJSSWlFWHBuM2NTa0RqX2h3NzhrbFc2eW5naTN0M2sydDFRaHc4OWRFVXd6OGhhZUt4bHZDVjROM1dLaU9HcXBhWGJfZXJWYVBpa0l2MXlUTnNLdmlha0p3bDlzdDRoSW5CR0ZXM3RvYV8yS3BmQnFvdnQ2aElOdGlyUmlmMkQ5LUF3MHBoUjFjZmNSUE1aaG5Zd1lObmZPQmlYdnJtakpPOTNsWkxYMnUwaHhpcEkyeWphMEhMSGxUbmZYbG1ORjAwU0dUT3ZuOVBjWUZCQ3RiQjBwMUVuRmtqWTlwZ0ZGbGUwVk9wQVdpZVJ0UWxDeXF5TF9BUTJpcnoyV1lkN2pTMnFB?oc=5",
-    "sourceLabel": "MSN",
-    "sourceType": "media",
-    "publishedAt": "2026-07-20T19:21:46.000Z",
-    "discoveredAt": "2026-07-27T05:58:43.135Z",
-    "score": 6,
-    "reasons": [
-      "关键能力变化 +4",
-      "明确事件词 +2"
-    ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-07-27",
+    "reviewedAt": "2026-08-03",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
@@ -517,25 +460,6 @@
     "status": "accepted_auto",
     "reviewedAt": "2026-07-19",
     "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
-  },
-  {
-    "id": "p12-codex-open-ai-4ead8d97",
-    "productSlug": "p12-codex-open-ai",
-    "productName": "Codex桌面版（Open AI）",
-    "title": "OpenAI 发布 GPT-5.6 系列：三款模型、多智能体协作、全新安全体系- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pMXVfSWwtN0F6WFF2RXlRY1EzandGNzBJc3U4Y2I4YnVkOWxVaUR0ZVhwc3F3WHBodFZZUkVzQWY3OTlZZ2JXaFdlcDBEeHVFcl9oSEVR?oc=5",
-    "sourceLabel": "OSCHINA",
-    "sourceType": "media",
-    "publishedAt": "2026-07-16T02:23:20.000Z",
-    "discoveredAt": "2026-07-20T05:47:49.239Z",
-    "score": 6,
-    "reasons": [
-      "关键能力变化 +4",
-      "明确事件词 +2"
-    ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-07-20",
-    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p12-codex-open-ai-f83b263e",
@@ -941,7 +865,7 @@
     "sourceType": "media",
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-29T01:16:10.000Z",
-    "discoveredAt": "2026-08-03T05:51:43.492Z",
+    "discoveredAt": "2026-08-03T06:11:08.596Z",
     "score": 5,
     "reasons": [
       "商业或开放范围变化 +3",
@@ -961,7 +885,7 @@
     "sourceType": "media",
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-27T08:22:01.000Z",
-    "discoveredAt": "2026-08-03T05:51:43.497Z",
+    "discoveredAt": "2026-08-03T06:11:08.601Z",
     "score": 5,
     "reasons": [
       "商业或开放范围变化 +3",
@@ -981,14 +905,14 @@
     "sourceType": "media",
     "discoverySource": "AI工具集",
     "publishedAt": "2026-07-27T00:00:00.000Z",
-    "discoveredAt": "2026-07-27T06:00:25.134Z",
+    "discoveredAt": "2026-08-03T06:11:08.616Z",
     "score": 5,
     "reasons": [
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-27",
+    "reviewedAt": "2026-08-03",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
@@ -1001,33 +925,14 @@
     "sourceType": "media",
     "discoverySource": "AIBase",
     "publishedAt": "2026-07-23T06:00:40.000Z",
-    "discoveredAt": "2026-07-27T06:00:25.117Z",
+    "discoveredAt": "2026-08-03T06:11:08.608Z",
     "score": 5,
     "reasons": [
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
     "status": "deferred_auto",
-    "reviewedAt": "2026-07-27",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
-  },
-  {
-    "id": "p43-kimi-work-56cb0a31",
-    "productSlug": "p43-kimi-work",
-    "productName": "Kimi Work（月之暗面）",
-    "title": "Kimi K3发布三天后暂停新会员订阅，月之暗面称算力已逼近极限 - 金融界",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zQlZ4NU0xN1hrdElWR29GLTRiTlBsVUU0cHdoaTJsRmlKU3U5X1JkWUlSSk1LTkpXZFRYczQ1b1BrVVVfYnp1RzJBYUozNmJubVo1YlgtWjREcUUwQ1FhMy1BNDRfT3ptYzhtRng4eGd5eE92?oc=5",
-    "sourceLabel": "金融界",
-    "sourceType": "media",
-    "publishedAt": "2026-07-20T00:03:58.000Z",
-    "discoveredAt": "2026-07-20T05:47:50.581Z",
-    "score": 5,
-    "reasons": [
-      "商业或开放范围变化 +3",
-      "明确事件词 +2"
-    ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-07-20",
+    "reviewedAt": "2026-08-03",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
@@ -1376,5 +1281,100 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-09",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p02-workbuddy-16515671",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯设计Agent平台Miora全面开放",
+    "sourceUrl": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+    "sourceLabel": "公众号：数字生命卡兹克",
+    "sourceType": "media",
+    "publishedAt": "2026-07-22T04:21:03.000Z",
+    "discoveredAt": "2026-07-27T05:58:50.646Z",
+    "score": 7,
+    "reasons": [
+      "关键能力变化 +4",
+      "商业或开放范围变化 +3"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-3fdcf70b",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "ChatGPT 桌面版上线语音控制多智能体",
+    "sourceUrl": "https://x.com/OpenAI/status/2080378182469857576",
+    "sourceLabel": "X：OpenAI (@OpenAI)",
+    "sourceType": "media",
+    "publishedAt": "2026-07-23T19:43:04.000Z",
+    "discoveredAt": "2026-07-27T05:59:13.886Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p02-workbuddy-6f18b152",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "李未可于WAIC发布X-AI记忆眼镜，与腾讯云WorkBuddy落地办公生态 - MSN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOMGVkTHFabGF1ZnQtQWU0VEpjaDNldmxHd2JJT1B1c2FiNW8wMURtQ1pJQVkxRlBNZkQ4b3dudlVMNXVYX1RiZU5ZLU45OU5SNWgyVU5WaUhGS1Ixd1FHMmNfOFJSSWlFWHBuM2NTa0RqX2h3NzhrbFc2eW5naTN0M2sydDFRaHc4OWRFVXd6OGhhZUt4bHZDVjROM1dLaU9HcXBhWGJfZXJWYVBpa0l2MXlUTnNLdmlha0p3bDlzdDRoSW5CR0ZXM3RvYV8yS3BmQnFvdnQ2aElOdGlyUmlmMkQ5LUF3MHBoUjFjZmNSUE1aaG5Zd1lObmZPQmlYdnJtakpPOTNsWkxYMnUwaHhpcEkyeWphMEhMSGxUbmZYbG1ORjAwU0dUT3ZuOVBjWUZCQ3RiQjBwMUVuRmtqWTlwZ0ZGbGUwVk9wQVdpZVJ0UWxDeXF5TF9BUTJpcnoyV1lkN2pTMnFB?oc=5",
+    "sourceLabel": "MSN",
+    "sourceType": "media",
+    "publishedAt": "2026-07-20T19:21:46.000Z",
+    "discoveredAt": "2026-07-27T05:58:43.135Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-4ead8d97",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 发布 GPT-5.6 系列：三款模型、多智能体协作、全新安全体系- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pMXVfSWwtN0F6WFF2RXlRY1EzandGNzBJc3U4Y2I4YnVkOWxVaUR0ZVhwc3F3WHBodFZZUkVzQWY3OTlZZ2JXaFdlcDBEeHVFcl9oSEVR?oc=5",
+    "sourceLabel": "OSCHINA",
+    "sourceType": "media",
+    "publishedAt": "2026-07-16T02:23:20.000Z",
+    "discoveredAt": "2026-07-20T05:47:49.239Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-20",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p43-kimi-work-56cb0a31",
+    "productSlug": "p43-kimi-work",
+    "productName": "Kimi Work（月之暗面）",
+    "title": "Kimi K3发布三天后暂停新会员订阅，月之暗面称算力已逼近极限 - 金融界",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zQlZ4NU0xN1hrdElWR29GLTRiTlBsVUU0cHdoaTJsRmlKU3U5X1JkWUlSSk1LTkpXZFRYczQ1b1BrVVVfYnp1RzJBYUozNmJubVo1YlgtWjREcUUwQ1FhMy1BNDRfT3ptYzhtRng4eGd5eE92?oc=5",
+    "sourceLabel": "金融界",
+    "sourceType": "media",
+    "publishedAt": "2026-07-20T00:03:58.000Z",
+    "discoveredAt": "2026-07-20T05:47:50.581Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-07-20",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   }
 ]

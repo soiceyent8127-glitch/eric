@@ -1,5 +1,437 @@
 [
   {
+    "id": "new-product-5eb9a9b1",
+    "title": "京东外卖推出 AI 智能头盔：老骑手的\"活地图\"装进耳朵，首批骑手免费领",
+    "sourceUrl": "https://news.aibase.com/zh/news/30061",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-03T03:12:39.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.475Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-5db9a81e",
+    "title": "京东外卖发布AI智能头盔:支持语音接单、路线导航和订单备注提醒",
+    "sourceUrl": "https://news.aibase.com/zh/news/30060",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-03T02:54:28.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.476Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-5eb76b1a",
+    "title": "Qwen3.8-Max上线:聚焦真实办公与复杂任务，下周将开源模型权重",
+    "sourceUrl": "https://news.aibase.com/zh/news/30059",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-03T02:50:46.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.476Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-5fb76cad",
+    "title": "消息称阿里内测 AI 办公平台\"万有无界\"：多个数字员工组队干活",
+    "sourceUrl": "https://news.aibase.com/zh/news/30058",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-03T02:48:34.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.476Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 5,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-bdcfa284",
+    "title": "阿里推出多角色 Agent 协作工作台「万有无界」",
+    "sourceUrl": "https://www.ithome.com/0/984/883.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-08-03T00:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.498Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-cdb44840",
+    "title": "DeepSeek-V4-Flash API公测上线 Agent能力全面爆发",
+    "sourceUrl": "https://news.aibase.com/zh/news/30044",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-31T07:33:48.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.477Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-cab204f0",
+    "title": "聚焦语音Agent可靠性：xAI正式发布Grok Voice Think Fast 2.0",
+    "sourceUrl": "https://news.aibase.com/zh/news/30031",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-31T03:02:49.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.480Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 8,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+  },
+  {
+    "id": "new-product-9ff76b79",
+    "title": "DeepSeek-V4-Flash 正式版 API 上线公测",
+    "sourceUrl": "https://www.ithome.com/0/984/116.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.499Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-f575175c",
+    "title": "美团CatPaw上线：为中小商家提供开箱即用的AI工作台 - 搜狐网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSllQeWFyMTFDcloyUkRVbnJfSHkxOGJtNE1zckF0c2puaVM2UDlpV1A2b1YxOG44U3Zsb2dmc2NINDN1RzVKbGdaaWo0MmJjcVdnNGxZRTcyOG43UEhGb0JzZC05WkhnbHFmYTdmcnY2VWNfMk1LRDFtTkpFM0lZVU5qSnRBbGRfZmt1Zg?oc=5",
+    "sourceLabel": "搜狐网",
+    "sourceType": "media",
+    "publishedAt": "2026-07-30T07:56:05.000Z",
+    "discoveredAt": "2026-08-03T05:51:01.604Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-5baa9a6e",
+    "title": "xAI发布Grok Voice Think Fast2.0，语音识别与智能体能力全面升级",
+    "sourceUrl": "https://news.aibase.com/zh/news/30002",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-30T02:59:04.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.485Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-3f0aa45f",
+    "title": "360旗下纳米团队推出 AI 办公智能体「纳米Work」",
+    "sourceUrl": "https://mp.weixin.qq.com/s/gVQqWE-xWZx9Be2oy4k7rQ",
+    "sourceLabel": "AI工具集 / 纳米Work",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.500Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-63bf3753",
+    "title": "商汤科技推出 Seko3.0，首创 AI 视频梦工厂",
+    "sourceUrl": "https://mp.weixin.qq.com/s/Qntwg7dpd1jKtMPmyXvXLA",
+    "sourceLabel": "AI工具集 / 商汤科技SenseTime",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-29T00:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.500Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-15aee30a",
+    "title": "Perplexity 推出 Windows 版个人电脑智能体",
+    "sourceUrl": "https://x.com/perplexity_ai/status/2082103880155046176",
+    "sourceLabel": "X：Perplexity (@perplexity_ai)",
+    "sourceType": "media",
+    "publishedAt": "2026-07-28T14:00:23.000Z",
+    "discoveredAt": "2026-08-03T05:51:33.573Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-d62f4426",
+    "title": "火山引擎上线豆包搜索服务，为AI Agent提供实时可信搜索能力",
+    "sourceUrl": "https://mp.weixin.qq.com/s/1nZqQHYqclsIF6__WLscgA",
+    "sourceLabel": "公众号：火山引擎",
+    "sourceType": "media",
+    "publishedAt": "2026-07-28T07:51:54.000Z",
+    "discoveredAt": "2026-08-03T05:51:33.573Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-1315474a",
+    "title": "美团推出全场景AI Agent平台CatPaw，内部已覆盖9万员工 - 华尔街见闻",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50TDR3X3ZZRm9BeHRuMGlHYWFuQV9FZTNPTk41OTROVlF0VjllR0xwNkhjdmJoQTNidWNpVlJ5ODZNTkI4bmpleld3NXhtVXRXU3BF?oc=5",
+    "sourceLabel": "华尔街见闻",
+    "sourceType": "media",
+    "publishedAt": "2026-07-28T03:41:04.000Z",
+    "discoveredAt": "2026-08-03T05:51:01.604Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-c18d2023",
+    "title": "Kimi K3 开放模型权重、技术报告和关键 Infra 技术",
+    "sourceUrl": "https://mp.weixin.qq.com/s/tryHe81IyM6nr0fBPDz72g",
+    "sourceLabel": "AI工具集 / 月之暗面Kimi",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-28T00:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.500Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 0,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-4af8d97d",
+    "title": "微软推出首个网络安全 AI 模型 MAI-Cyber-1-Flash",
+    "sourceUrl": "https://www.ithome.com/0/982/312.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-07-28T00:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.500Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-fbdf8d90",
+    "title": "美团上线AI工作台CatPaw，几分钟搞定2小时数据复盘 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXBvRkYwMWl2VDlCak5rblphUW9rSlI1RldoMVZLaF9xSklCblJQZy12cWJacHRuNXR4am5nX2JvYjZSaWFnUkhaYWZPUk9Zb3Mzb3BEM1N1OXJCdU5xZlJneE1aU2dSbWRQWVhhRUNVM1p0elhDa2Yta1dfQ1otZHExcjNDLXJZUHlENVgzNXY2YUMzUHhSdkUzQWc1ZjJMQVhGRHZ2dw?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-07-27T23:12:07.000Z",
+    "discoveredAt": "2026-08-03T05:51:01.604Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-5d63d1aa",
+    "title": "美团全场景AI Agent 平台 CatPaw 上线|新浪科技|商家|经营|宠物医院|团购_手机新浪网 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPeVlJRlFKdE01d2NSSy1qRk9pVTlVNUp2cXJabDItZThfNUFTQlk5bGgwbmxyZmlQZHRJUmx6cnJCOEtEMHlqUUp2V25nNlhjdk9GbmF4OG14VzVQQVpZU25QLWdiT1h6QkVXT3NHeDJ2V2NWNUJKUVQ2eGhPVWxsT1hfMEVfWUUwRTJGTmJpdnJ2cl8tY01MUDhZRC1rMnB6RWpVVExhbU5KN1F4N0dRUjBlR2lsV3ZSck5DNmVTNURNZzkwRWluaDlyWHZ0eDBtNW94R0pMR0pRRW5xeTRfVHpxUGFxa3I0WXBKeDkxanR4S0hvNDMyTmhnMXRLMzNfamNHdkNBcFFkTEtON0VaMVE4RjNmRm9Lc21Nd0JsMA?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-07-27T13:53:49.000Z",
+    "discoveredAt": "2026-08-03T05:51:01.604Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-35640825",
+    "title": "美团发布全场景 AI Agent 平台 CatPaw，搭载 1.6T 参数开源大模型 LongCat 2.0",
+    "sourceUrl": "https://news.aibase.com/zh/news/29913",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-27T08:36:45.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.497Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-88b01202",
+    "title": "美团全场景AI Agent平台CatPaw上线 内部已覆盖9万员工 - 观点网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84T0swVmY5SzVqRDRNVVBrVUtVY2JIOVkyV1poRHR0TndUaGdLNEdidk1zcUdpN1gzdjUwaHR4NFV3ckZuWjhkVE5JeUREQQ?oc=5",
+    "sourceLabel": "观点网",
+    "sourceType": "media",
+    "publishedAt": "2026-07-27T07:56:53.000Z",
+    "discoveredAt": "2026-08-03T05:51:01.604Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-2c0a0a36",
+    "title": "美团上线AI工作台CatPaw，几分钟搞定2小时数据复盘 - finance.eastmoney.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40RlJlY2c1LTJVNktDX3lFekZ5eHF4UVUzOEN5a1RVSEVwLUtWcFBlWGo1d21oVlFPNXVtaWkybF9VaGtKQW92OUI1NTZWT01YN2FtYWJwTlUwaEItWl9QbmdpenpNdw?oc=5",
+    "sourceLabel": "finance.eastmoney.com",
+    "sourceType": "media",
+    "publishedAt": "2026-07-27T06:15:55.000Z",
+    "discoveredAt": "2026-08-03T05:51:01.603Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
     "id": "new-product-683aeeab",
     "title": "美团全场景AI Agent 平台 CatPaw 上线_手机新浪网 - 新浪财经",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVHp0bXlWZDNCTlVuTUlZRHF2TERSTXo4RzVNeWhpemp3ZjFldWNaWTFKWWtlZXNyWGJ2THE4Y2czUEVuQlBsWlBYc3FvM2txRmkzQzctdUYtUDFOR1dZdkZRazFDaXpaTnBlNThvVUhCbXJUVnN0VVd0b1R0b01HYXJjcmVmMUZqNHBGUEdOQldyNGY1S0JBLUs4VWJIQ2YtYnFRUWh3VUI2Zjh1WUk5YjdGWFdGd1lQRjZ4RHJhc3RpQXBoWm53b3M4dFJHYUd2MzNMU043Qm5mY21QUzVEN1Y2bDFMbDhJRmxvUEt3WUtJcThs?oc=5",
@@ -1758,221 +2190,6 @@
       "补充厂商、类型与官网"
     ],
     "reviewedAt": "2026-06-22",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-82782387",
-    "title": "阿里秒悟Meoo推出开源命令行工具 Meoo CLI",
-    "sourceUrl": "https://mp.weixin.qq.com/s/lHIkas573yCCXa60Hn7WXA",
-    "sourceLabel": "AI工具集 / 阿里云",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-06-11T00:00:00.000Z",
-    "discoveredAt": "2026-06-16T07:47:26.936Z",
-    "status": "rejected_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-16",
-    "reviewReason": "人工审核：偏开发/部署 CLI，不属于类 Cowork/OpenClaw 桌面 Agent 主表"
-  },
-  {
-    "id": "new-product-e747e523",
-    "title": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议",
-    "sourceUrl": "https://mp.weixin.qq.com/s/WkMPz-eBK2Hz0ZTQEwtx6w",
-    "sourceLabel": "公众号：小米 MiMo",
-    "sourceType": "media",
-    "publishedAt": "2026-06-10T18:06:35.000Z",
-    "discoveredAt": "2026-06-15T07:34:29.082Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-15",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-918a40e3",
-    "title": "安心养虾！从OpenClaw看云上AI安全落地路径 阿里云Agent安全中心公测免费开放！阿里云Agent Skills门户同步上线！养虾人可前往使用精选skills～#阿里云 #AI新星计划 #前沿科技趋势发布月 #OpenClaw #Agent安全中心 - Sohu",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwNnY5Y3JMeUFkWGxvT0F4dy03emp6emxOSUt3dGFHV3VIaS1KVl9fVVc4dEV2ZFV5Y2F0MXNtdGs2Y2RyX2gzMHU5WVB0MkRadWNR?oc=5",
-    "sourceLabel": "Sohu",
-    "sourceType": "media",
-    "publishedAt": "2026-06-10T09:49:11.000Z",
-    "discoveredAt": "2026-06-15T07:34:17.403Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-15",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-43439215",
-    "title": "星环科技发布XClaw：全能桌面智能体，开启轻量安全的AI助手新时代 - Sina finance",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ3ZCQ0RPWkYycTNYNG00ZEhOSGlzeTdYZXdGU05DY21WcUcxdDJCRDB6emphMHBkSVQtckh5Si1TYlFaRk41LTRQZFdUUW04b0VCUEV2QjVOdjZmXzlpYU5kMlZsMGF6RjlIRG5uc2xkOTE0c3phRDVvZVNlVXE5ZVcyWjE?oc=5",
-    "sourceLabel": "Sina finance",
-    "sourceType": "media",
-    "publishedAt": "2026-06-10T08:24:00.000Z",
-    "discoveredAt": "2026-06-15T07:34:17.117Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-15",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-c2e13d63",
-    "title": "阿里千问推出国内首个全周期高考志愿填报Agent",
-    "sourceUrl": "https://mp.weixin.qq.com/s/ocE80lRyRyQ1g-AfCTGmxw",
-    "sourceLabel": "AI工具集 / 千问APP",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-06-10T00:00:00.000Z",
-    "discoveredAt": "2026-06-16T07:43:46.808Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-22",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-89833438",
-    "title": "Gopuff与SpaceXAI推出Go AI购物助手",
-    "sourceUrl": "https://x.ai/news/grok-gopuff",
-    "sourceLabel": "xAI：News（网页）",
-    "sourceType": "media",
-    "publishedAt": "2026-06-09T00:00:00.000Z",
-    "discoveredAt": "2026-06-15T07:34:29.083Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-15",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-cd413b20",
-    "title": "AgentScope Java 2.0 发布",
-    "sourceUrl": "https://x.com/alibaba_cloud/status/2063923881857945815",
-    "sourceLabel": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-    "sourceType": "media",
-    "publishedAt": "2026-06-08T09:59:33.000Z",
-    "discoveredAt": "2026-06-08T13:21:31.528Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-09",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-12ec024c",
-    "title": "从超级个体到超级团队，腾讯首发效率智能体工具集 - 同花顺财经",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZTE54NXE1Q09FQUZRel81aDVhSjhwS3dQYnNNVmdCejY3ellXNmtqM1REWDV5UjR0aEVkM1pqWXNvS1B6YlAxeWE3OW5NU18zRi0xWHN0MkllRWZuQlE?oc=5",
-    "sourceLabel": "同花顺财经",
-    "publishedAt": "2026-06-08T08:23:08.000Z",
-    "discoveredAt": "2026-06-08T11:39:25.428Z",
-    "status": "rejected",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-08",
-    "reviewReason": "腾讯效率智能体工具集是既有产品组合，不是独立产品"
-  },
-  {
-    "id": "new-product-73d31bde",
-    "title": "华鲲振宇发布鲲鹏AI Agent解决方案：拥抱OpenClaw，开启智能体算力新范式 - 搜狐网",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbkxKS2FHLWxnOGtNXzAwcTYtc2w2UHc5c2VvZzJVWDdjS0h0dnE3TUpRU2d6bzZLRWpFTTdya2tDZEVkdWFPZ3p6OUN2a2N3cXAxbkdmUXJRVkNscm5nMTFWbHVsRTYxLXNJZzZ0bE1nQVBWcTRacHNUX2xIdkdRWXJVdjFJcXFKSGYteQ?oc=5",
-    "sourceLabel": "搜狐网",
-    "publishedAt": "2026-06-08T00:52:32.000Z",
-    "discoveredAt": "2026-06-08T11:39:25.896Z",
-    "status": "rejected",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-08",
-    "reviewReason": "更偏算力与行业解决方案，暂不属于本产品库核心范围"
-  },
-  {
-    "id": "new-product-29649f64",
-    "title": "覆盖20多个垂直场景Agent！腾讯首发效率智能体工具集 - 17173",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYbUNrVHRfdC1Xcm96Vnh5N3N4V0hQRmZBR2pORnNRWDJ1UTc3TlFLc01QeTg5bENSM3JQMlRtMDd5THJWdEU1eUJ1d0huUUN4UEVtekVYNzBFSHBhVGF2eUJpN0Q?oc=5",
-    "sourceLabel": "17173",
-    "sourceType": "media",
-    "publishedAt": "2026-06-05T09:04:09.000Z",
-    "discoveredAt": "2026-06-09T07:35:19.117Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-09",
-    "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
-  },
-  {
-    "id": "new-product-9240ef56",
-    "title": "覆盖20多个垂直场景Agent！腾讯首发效率智能体工具集 - 搜狐网",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ON1lUeXlxRDBDcW9TR3RjZzdXOHRqdEVyWHltTEowQTdKOXBkdG5NU3c4R0NyUEdWUFF6TGkwMUJKN19tQ1lCOGh2SUhYTjRHd1E?oc=5",
-    "sourceLabel": "搜狐网",
-    "publishedAt": "2026-06-05T08:51:28.000Z",
-    "discoveredAt": "2026-06-08T11:39:25.428Z",
-    "status": "rejected",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-08",
-    "reviewReason": "与腾讯效率智能体工具集为重复报道，不是独立产品"
-  },
-  {
-    "id": "new-product-9c3e4c2d",
-    "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
-    "sourceUrl": "https://x.com/alibaba_cloud/status/2062777684120244656",
-    "sourceLabel": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-    "sourceType": "media",
-    "publishedAt": "2026-06-05T06:04:59.000Z",
-    "discoveredAt": "2026-06-08T13:21:31.529Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "reviewedAt": "2026-06-09",
     "reviewReason": "自动审核：新产品入库需要独立官网、厂商与产品定位等完整信息，媒体标题不能单独触发发布"
   }
 ]

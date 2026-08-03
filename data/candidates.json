@@ -40,6 +40,27 @@
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
+    "id": "p12-codex-open-ai-ea1225e1",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 把安全审查塞进命令行：Codex Security CLI 开源，让漏洞在 CI 里自己现形",
+    "sourceUrl": "https://news.aibase.com/zh/news/29967",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-29T02:46:54.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.490Z",
+    "score": 11,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+  },
+  {
     "id": "p45-qoder-cloud-agents-manual-2026-06-06",
     "productSlug": "p45-qoder-cloud-agents",
     "productName": "Qoder Cloud Agents（阿里巴巴）",
@@ -59,6 +80,82 @@
     "status": "accepted_manual",
     "reviewedAt": "2026-06-16",
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
+  },
+  {
+    "id": "p08-manus-manus-67c0a4a5",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+    "sourceUrl": "https://qwen.ai/blog?id=qwen3.8",
+    "sourceLabel": "Qwen：Blog Retrieval（API）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-03T02:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:11.094Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-69e54404",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+    "sourceUrl": "https://qwen.ai/blog?id=qwen3.8",
+    "sourceLabel": "Qwen：Blog Retrieval（API）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-03T02:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:11.917Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p44-openclaw-7fc0b297",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+    "sourceUrl": "https://qwen.ai/blog?id=qwen3.8",
+    "sourceLabel": "Qwen：Blog Retrieval（API）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-03T02:00:00.000Z",
+    "discoveredAt": "2026-08-03T05:51:32.716Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p02-workbuddy-a429396d",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "《云上Agent基准度量模型》正式发布，腾讯云推动云上Agent安全、稳定、可信 - 中国日报网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LUHUzTEh1VEVPUkZuUjN1LW1Ea3k5eUFvNTVqWVNySmtZaVB4cVM2Q1k3NkJ4Q2RTck4yTVdQMzlDNDBWWmFOUDZUa0dfNkliemhzVTIzazFCQm16UmRNWlR1U0FqV1A2d012eXhTRlpEVFZwNHVaUGYxLS0?oc=5",
+    "sourceLabel": "中国日报网",
+    "sourceType": "media",
+    "publishedAt": "2026-07-30T07:01:01.000Z",
+    "discoveredAt": "2026-08-03T05:50:57.451Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p02-workbuddy-f1a7c1d",
@@ -324,6 +421,25 @@
     ],
     "status": "deferred_auto",
     "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-bb91ca5f",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "美媒：OpenAI筹备发布新模型系列Astra，主打多智能体长周期任务协同 - cj.sina.cn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObktneUZUb0hxeENWbnJBbWhlNkdtLTRuMVZFUGVoVHRpMjdQdmxIV1Z5OUZRUkVqSWhjaFRvMlFfY2FKTkFYbVRvS1dQM2l5d1Vlb0xsTGRlU3c3OFBPaHlSZTgtOHRkb0EtVWxWVDdhcl9FWHc4TU5Wcl9jdDJSSw?oc=5",
+    "sourceLabel": "cj.sina.cn",
+    "sourceType": "media",
+    "publishedAt": "2026-08-01T01:57:12.000Z",
+    "discoveredAt": "2026-08-03T05:50:58.749Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-03",
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
@@ -814,6 +930,46 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-58198ed0",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
+    "sourceUrl": "https://news.aibase.com/zh/news/29955",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-29T01:16:10.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.492Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-670f1911",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "灵光APP上线“一键部署”:支持Codex、Claude Code、Cursor等AI应用直接发布",
+    "sourceUrl": "https://news.aibase.com/zh/news/29912",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-07-27T08:22:01.000Z",
+    "discoveredAt": "2026-08-03T05:51:43.497Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-03",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p06-openwork-different-ai-39dd7161",

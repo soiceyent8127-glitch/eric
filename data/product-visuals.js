@@ -6,7 +6,7 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/7c9e013aa35d2492f67017e7b069132b91c001e3/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/eccc5151d81c4b7d6d6aa044cbd63fdf2f8f1b52/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
@@ -75,7 +75,7 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p16-product": {
-    "icon": "assets/product-icons/p16-product.webp",
+    "icon": "assets/product-icons/p16-product.png",
     "source": "https://img.alicdn.com/imgextra/i2/O1CN01DyN8OO1Bzprc46cXu_!!6000000000017-2-tps-128-128.png",
     "status": "collected"
   },
@@ -180,7 +180,7 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p34-yoyo-claw": {
-    "icon": "assets/product-icons/p34-yoyo-claw.webp",
+    "icon": "assets/product-icons/p34-yoyo-claw.png",
     "source": "https://www.honor.com/etc/designs/honor-site/assets/apple-icon.png",
     "status": "collected"
   },

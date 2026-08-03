@@ -1,5 +1,31 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-07-31-new-product-cab204f0",
+    "productSlug": null,
+    "date": "2026-07-31",
+    "category": "语音 Agent",
+    "title": "聚焦语音Agent可靠性：xAI正式发布Grok Voice Think Fast 2.0",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://news.aibase.com/zh/news/30031",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-08-03",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-07-29-p12-codex-open-ai-ea1225e1",
+    "productSlug": "p12-codex-open-ai",
+    "date": "2026-07-29",
+    "category": "重大动态",
+    "title": "OpenAI 把安全审查塞进命令行：Codex Security CLI 开源，让漏洞在 CI 里自己现形",
+    "summary": "Codex桌面版（Open AI） 出现新的产品发布或停止运营、商业或开放范围变化、明确事件词。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
+    "impact": "可能改变产品商业化、合作生态或使用入口",
+    "sourceUrl": "https://news.aibase.com/zh/news/29967",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-08-03",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-07-21-new-product-2ef71807",
     "productSlug": null,
     "date": "2026-07-21",

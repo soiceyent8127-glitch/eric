@@ -6,12 +6,12 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/eccc5151d81c4b7d6d6aa044cbd63fdf2f8f1b52/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/709745d01ec0bb0097bc3807f2da2112e7faa3d7/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p03-ai.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -75,18 +75,18 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p16-product": {
-    "icon": "assets/product-icons/p16-product.png",
+    "icon": "assets/product-icons/p16-product.webp",
     "source": "https://img.alicdn.com/imgextra/i2/O1CN01DyN8OO1Bzprc46cXu_!!6000000000017-2-tps-128-128.png",
     "status": "collected"
   },
   "p17-copaw": {
-    "icon": "assets/product-icons/p17-copaw.svg",
-    "source": "https://clawbot.ai/copaw/favicon.svg",
+    "icon": "assets/product-icons/p17-copaw.png",
+    "source": "https://github.com/fluidicon.png",
     "status": "collected"
   },
   "p18-hiclaw": {
     "icon": "assets/product-icons/p18-hiclaw.png",
-    "source": "https://hiclaw.io/favicon.png",
+    "source": "https://github.com/fluidicon.png",
     "status": "collected"
   },
   "p19-jvs-claw": {
@@ -120,8 +120,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p23-stepclaw": {
-    "icon": "assets/product-icons/p23-stepclaw.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p23-stepclaw.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fdownload&sz=128",
     "status": "collected"
   },
   "p24-skyclaw": {
@@ -140,8 +140,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p26-molili": {
-    "icon": "assets/product-icons/p26-molili.ico",
-    "source": "https://www.molili.com.cn/favicon.ico",
+    "icon": "assets/product-icons/p26-molili.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.molili.com.cn%2F&sz=128",
     "status": "collected"
   },
   "p27-easyclaw": {
@@ -160,8 +160,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p38-wps-claw": {
-    "icon": "assets/product-icons/p38-wps-claw.png",
-    "source": "https://qn.cache.wpscdn.cn/copilot-cdn/images/copilot/lingxi_logo_64_v1.png",
+    "icon": "assets/product-icons/p38-wps-claw.ico",
+    "source": "https://lingxi.cn/favicon.ico",
     "status": "collected"
   },
   "p39-astronclaw": {
@@ -225,8 +225,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p46-qwen-office": {
-    "icon": "",
-    "source": "https://qwenwork.cn/",
-    "status": "pending"
+    "icon": "assets/product-icons/p46-qwen-office.webp",
+    "source": "https://img.alicdn.com/imgextra/i4/O1CN01HdCyPs1MZh3Szwmxo_!!6000000001449-2-tps-180-180.png",
+    "status": "collected"
   }
 };

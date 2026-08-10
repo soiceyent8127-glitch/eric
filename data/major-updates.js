@@ -1,5 +1,44 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-08-06-new-product-eda7d386",
+    "productSlug": null,
+    "date": "2026-08-06",
+    "category": "新产品",
+    "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
+    "sourceLabel": "Google Developers Blog（RSS）",
+    "verifiedAt": "2026-08-10",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-08-05-new-product-3b5660d3",
+    "productSlug": null,
+    "date": "2026-08-05",
+    "category": "垂直工作台",
+    "title": "家居行业迎来首个AI执行中枢：三维家AI工作台正式发布",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NTmZwOEo2U3FwNGJUTkRQTURCREZQSUZSdERKblh0a3lkb0RURlZuWXd2Um5MNzRYUmxDSTBYaWNlTnktZ1VzdGI0TjJhdk8zRDYtY3FLZVFPT29CUXJqcEFacGl0b0tNSGI2WThpN19ybTZ4WjRLN2ZlcG9DMEE?oc=5",
+    "sourceLabel": "新浪财经",
+    "verifiedAt": "2026-08-10",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-08-05-new-product-9f28ba66",
+    "productSlug": null,
+    "date": "2026-08-05",
+    "category": "新产品",
+    "title": "阿里推出原生 Computer Use Agent「Qwen-CUA」",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://ai-bot.cn/qwen-cua/",
+    "sourceLabel": "AI工具集",
+    "verifiedAt": "2026-08-10",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-07-30-p18-agentteams-v1-2",
     "productSlug": "p18-hiclaw",
     "date": "2026-07-30",

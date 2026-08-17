@@ -84,6 +84,37 @@ test("官方来源的新 Agent 产品可以直接进入行业时间线", () => {
   assert.equal(reviewStandaloneCandidate(candidate).decision, "accepted");
 });
 
+test("产品官网上的云智能体与 Agent 运行时发布可直接收录", () => {
+  const cursor = {
+    title: "Cursor 推出 builds，云智能体启动速度提升至 3 倍",
+    sourceLabel: "Cursor Blog",
+    sourceUrl: "https://cursor.com/blog/builds",
+    sourceType: "media",
+  };
+  const langchain = {
+    title: "Managed Deep Agents 正式开放公开测试",
+    sourceLabel: "LangChain Blog",
+    sourceUrl: "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+    sourceType: "media",
+  };
+  assert.equal(isOfficialSource(cursor), true);
+  assert.equal(reviewStandaloneCandidate(cursor).decision, "accepted");
+  assert.equal(isOfficialSource(langchain), true);
+  assert.equal(reviewStandaloneCandidate(langchain).decision, "accepted");
+});
+
+test("Harness 与 Subagents 被视为 Agent 产品信号", () => {
+  assert.equal(
+    reviewStandaloneCandidate({
+      title: "DeepSeek Harness 开发者预览版正式发布",
+      sourceLabel: "DeepSeek 官网",
+      sourceUrl: "https://deepseek.com/harness/en",
+      sourceType: "media",
+    }).decision,
+    "accepted",
+  );
+});
+
 test("可信媒体确认的强新产品信号可以自动发布", () => {
   const result = reviewStandaloneCandidate({
     title: "中国移动上线新消息 Claw，支持短信远程控制 Agent",

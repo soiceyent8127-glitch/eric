@@ -2,14 +2,22 @@ const trustedMediaPattern = /36氪|第一财经|一财|新浪科技|新浪财经
 
 const lowSignalPattern = /评论|盘点|回顾|传闻|或将|可能|概念股|ETF|股价|教程|测评|bug fixes?|minor update|优化|修复|小幅改进|日常更新|收购|并购|融资|估值|财报|IPO|acquir|acquisition|funding|raised|valuation|earnings|shares?/iu;
 const nonProductPattern = /榜单|白皮书|研究报告|行业报告|自律公约|标准发布|评测基准|benchmark|排行榜|爬虫|流量管理|社交功能|Xcode/iu;
-const standaloneProductPattern = /agent|cowork|computer use|openclaw|智能体|工作台|claw|操作系统|经营中心|agent phone|智能体手机/iu;
-const launchPattern = /\b(launch(?:es|ed)?|unveil[sd]?|announce[sd]?|release[sd]?|introduc(?:e[ds]?|ing))\b|正式发布|全新发布|发布|上线|推出|首发|开放公测|开启公测|开放邀测|内测/iu;
+const standaloneProductPattern = /agent|cowork|computer use|openclaw|harness|subagents?|智能体|云智能体|工作台|claw|操作系统|经营中心|agent phone|智能体手机/iu;
+const launchPattern = /\b(launch(?:es|ed)?|unveil[sd]?|announce[sd]?|release[sd]?|introduc(?:e[ds]?|ing)|public beta)\b|正式发布|全新发布|发布|上线|推出|首发|开放公测|开启公测|公开测试|开放邀测|内测/iu;
 
 const firstPartyHosts = new Set([
   "anthropic.com",
   "www.anthropic.com",
   "claude.com",
   "www.claude.com",
+  "support.claude.com",
+  "cursor.com",
+  "www.cursor.com",
+  "deepseek.com",
+  "www.deepseek.com",
+  "langchain.com",
+  "www.langchain.com",
+  "cloud.google.com",
   "x.ai",
   "runwayml.com",
   "www.runwayml.com",

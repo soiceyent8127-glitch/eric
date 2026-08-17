@@ -500,6 +500,25 @@
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
+    "id": "p12-codex-open-ai-922d3853",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "别再死磕IDE了！OpenAI Codex独立App上线，多智能体替你写代码 - blog.csdn.net",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MeVR4a2tZV2VfVF9mcm9YZXYwcXQxNDhydk4xWEdiMU5BWVhwbTRCYWZkb2tpMDZQZGl2STYteVhRM0dMSUV3Ykx0cF8zS3ZMZGtiTThCWUJoOHMwX0ZjS3ZNb1VpQXc?oc=5",
+    "sourceLabel": "blog.csdn.net",
+    "sourceType": "media",
+    "publishedAt": "2026-08-08T07:00:00.000Z",
+    "discoveredAt": "2026-08-17T03:20:08.830Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
     "id": "p12-codex-open-ai-bb91ca5f",
     "productSlug": "p12-codex-open-ai",
     "productName": "Codex桌面版（Open AI）",
@@ -1006,6 +1025,46 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-767363ed",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "Codex 中 GPT-5.6 Sol 百万上下文放开：ChatGPT 账号也能用",
+    "sourceUrl": "https://news.aibase.com/zh/news/30389",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-17T03:14:20.000Z",
+    "discoveredAt": "2026-08-17T03:21:32.261Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-68734de3",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "百万上下文全面开放，Codex迎来AI编程“终极形态”",
+    "sourceUrl": "https://news.aibase.com/zh/news/30387",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-17T03:12:14.000Z",
+    "discoveredAt": "2026-08-17T03:21:32.262Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p12-codex-open-ai-b138373",

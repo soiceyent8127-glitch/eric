@@ -47,7 +47,7 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-08-14T02:43:42.000Z",
     "discoveredAt": "2026-08-17T03:10:15.522Z",
-    "status": "deferred_auto",
+    "status": "rejected_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -56,7 +56,7 @@
     ],
     "score": 0,
     "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+    "reviewReason": "人工复核：与 DeepSeek 官方 Harness 发布为同一事件，保留官方信源版本"
   },
   {
     "id": "new-product-1960f479",
@@ -83,10 +83,10 @@
     "title": "Cursor 推出 builds：云智能体启动速度提升至 3 倍",
     "sourceUrl": "https://cursor.com/blog/builds",
     "sourceLabel": "Cursor Blog",
-    "sourceType": "media",
+    "sourceType": "official",
     "publishedAt": "2026-08-13T12:00:00.000Z",
     "discoveredAt": "2026-08-17T03:09:58.130Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -95,7 +95,7 @@
     ],
     "score": 2,
     "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+    "reviewReason": "人工复核：Cursor 官方博客确认 Builds 上线，已补入重大动态"
   },
   {
     "id": "new-product-135c6dd9",
@@ -160,13 +160,13 @@
   {
     "id": "new-product-a6718ccc",
     "title": "DeepSeek Harness 开发者预览版开放测试",
-    "sourceUrl": "https://mp.weixin.qq.com/s/mANdGRI4fO_sEbC1ECEoZQ",
-    "sourceLabel": "AI工具集 / DeepSeek Harness 团队",
-    "sourceType": "media",
+    "sourceUrl": "https://github.com/deepseek-ai/deepseek-harness",
+    "sourceLabel": "DeepSeek 官方 GitHub",
+    "sourceType": "official",
     "discoverySource": "AI工具集",
     "publishedAt": "2026-08-13T00:00:00.000Z",
     "discoveredAt": "2026-08-17T03:10:15.542Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -175,7 +175,7 @@
     ],
     "score": 0,
     "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+    "reviewReason": "人工复核：DeepSeek 官方仓库确认开源 Harness 开发者预览版，已补入重大动态"
   },
   {
     "id": "new-product-2bc59835",
@@ -261,10 +261,10 @@
     "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
     "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
     "sourceLabel": "公众号：智谱（GLM）",
-    "sourceType": "media",
+    "sourceType": "official",
     "publishedAt": "2026-08-11T05:52:25.000Z",
     "discoveredAt": "2026-08-17T03:09:58.130Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -273,17 +273,17 @@
     ],
     "score": 2,
     "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+    "reviewReason": "人工复核：智谱官方公众号确认 ZCode 的 Goal、Subagents 与远程控制升级，已补入重大动态"
   },
   {
     "id": "new-product-1fec4d6b",
     "title": "LangChain 推出 Managed Deep Agents 公开测试版",
     "sourceUrl": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
     "sourceLabel": "LangChain：Blog（RSS）",
-    "sourceType": "media",
+    "sourceType": "official",
     "publishedAt": "2026-08-07T17:24:06.000Z",
     "discoveredAt": "2026-08-10T04:05:07.244Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -291,8 +291,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "人工复核：LangChain 官方博客确认 Managed Deep Agents 进入公开测试，已补入重大动态"
   },
   {
     "id": "new-product-af1a3e07",
@@ -434,10 +434,10 @@
     "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
     "sourceUrl": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
     "sourceLabel": "Google Cloud：Databases（RSS）",
-    "sourceType": "media",
+    "sourceType": "official",
     "publishedAt": "2026-08-04T16:00:00.000Z",
     "discoveredAt": "2026-08-10T04:05:07.244Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -445,8 +445,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "人工复核：Google Cloud 官方博客确认 Database Operations Agents，已补入重大动态"
   },
   {
     "id": "new-product-eb293799",

@@ -6,12 +6,12 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/709745d01ec0bb0097bc3807f2da2112e7faa3d7/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/b8115e929057b1ee3886c3cf192ef1ce284aa0f2/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
+    "icon": "assets/product-icons/p03-ai.svg",
+    "source": "https://chat.stepfun.com/svg/favicon.svg",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -30,9 +30,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p10-krowork": {
-    "icon": "assets/product-icons/p10-krowork.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fkrowork.com%2F&sz=128",
-    "status": "collected"
+    "source": "https://krowork.com/",
+    "status": "fallback"
   },
   "p13-lantay": {
     "icon": "assets/product-icons/p13-lantay.ico",
@@ -75,7 +74,7 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p16-product": {
-    "icon": "assets/product-icons/p16-product.webp",
+    "icon": "assets/product-icons/p16-product.png",
     "source": "https://img.alicdn.com/imgextra/i2/O1CN01DyN8OO1Bzprc46cXu_!!6000000000017-2-tps-128-128.png",
     "status": "collected"
   },
@@ -120,8 +119,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p23-stepclaw": {
-    "icon": "assets/product-icons/p23-stepclaw.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fdownload&sz=128",
+    "icon": "assets/product-icons/p23-stepclaw.svg",
+    "source": "https://chat.stepfun.com/svg/favicon.svg",
     "status": "collected"
   },
   "p24-skyclaw": {
@@ -225,7 +224,7 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p46-qwen-office": {
-    "icon": "assets/product-icons/p46-qwen-office.webp",
+    "icon": "assets/product-icons/p46-qwen-office.png",
     "source": "https://img.alicdn.com/imgextra/i4/O1CN01HdCyPs1MZh3Szwmxo_!!6000000001449-2-tps-180-180.png",
     "status": "collected"
   }

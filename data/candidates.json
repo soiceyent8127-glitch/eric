@@ -61,6 +61,44 @@
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
   },
   {
+    "id": "p31-gemini-spark-google-c71e76b1",
+    "productSlug": "p31-gemini-spark-google",
+    "productName": "Gemini Spark（Google）",
+    "title": "刚刚，Gemini 3.7 Flash 正式发布，谷歌真的急了 - 36 Kr",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBCSDlNd01LZkFkRTMydXFaeGpJSDlMZ2plRHJQVEJqTTRUN2hCcEx6RThCaURnd3NpcjlUdkhuMXZ4dnUtcE9oY2ZYSXlrQQ?oc=5",
+    "sourceLabel": "36 Kr",
+    "sourceType": "media",
+    "publishedAt": "2026-08-13T10:54:00.000Z",
+    "discoveredAt": "2026-08-17T03:09:21.112Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p08-manus-manus-fe8bc5b5",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "AI日报：SpaceXAI 推出Grok Bot；OpenAI发布Linux版ChatGPT；LTX正式发布开放世界模型LTX-2.5 - AIBase",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uY2c0V0xjMHRvNXNBQmVJci1xUlFDaEVUeFc3MzNLUFhGcjM0bW9rU0w4REc0SHQ3eW9nSVhEVjRYWkdMSm92T2RyWVFGQzA?oc=5",
+    "sourceLabel": "AIBase",
+    "sourceType": "media",
+    "publishedAt": "2026-08-12T08:39:00.000Z",
+    "discoveredAt": "2026-08-17T03:09:19.170Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
     "id": "p08-manus-manus-67c0a4a5",
     "productSlug": "p08-manus-manus",
     "productName": "Manus桌面版（Manus）",
@@ -422,6 +460,44 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-07-27",
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-fe64cee7",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI提速狂飙16倍！GPT-5.6多智能体V2上线，741轮怪物对话1秒打开 - 新浪网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZUVE5RjIyUEZGOF82WV8ycVJqbWNnZ1NNYjJ2WFlqRk5kSDNuVFZjLVI1aDFTSlpBUXRNVnBpV1hJMFhGdE82LUlmdlE3RlA3SXZjX016bFRkVGNISTZIS1o0U0pjT3BmQnVsMGRKVTRXdXE0LVplWU9BODNiZ28?oc=5",
+    "sourceLabel": "新浪网",
+    "sourceType": "media",
+    "publishedAt": "2026-08-16T01:24:13.000Z",
+    "discoveredAt": "2026-08-17T03:09:19.219Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p02-workbuddy-d82eccb5",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "WorkBuddy上线远程控制，国内也有了最丝滑的Agent工作方式",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
+    "sourceLabel": "公众号：数字生命卡兹克",
+    "sourceType": "media",
+    "publishedAt": "2026-08-13T04:32:24.000Z",
+    "discoveredAt": "2026-08-17T03:09:27.532Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-17",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p12-codex-open-ai-bb91ca5f",

@@ -443,6 +443,26 @@
     "reviewReason": "自动审核：标题与目标产品名称不匹配"
   },
   {
+    "id": "p12-codex-open-ai-4c9ce87a",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 开源 AI Agent 底层执行框架 Codex Harness",
+    "sourceUrl": "https://ai-bot.cn/codex-harness/",
+    "sourceLabel": "AI工具集",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.184Z",
+    "score": 7,
+    "reasons": [
+      "关键能力变化 +4",
+      "商业或开放范围变化 +3"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+  },
+  {
     "id": "p02-workbuddy-16515671",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",
@@ -459,6 +479,44 @@
     ],
     "status": "deferred_auto",
     "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-207208be",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI提速狂飙16倍！GPT-5.6多智能体V2上线，741轮怪物对话1秒打开 - 智源社区",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoT1FNU1NoN2thTWYxVGdBY2xXaVdaZl9CdUVibFhsMnlPaUpSNWYxU2Vtc2E1T1Y2SVdadEQzYnJPRmY1MUo0Yw?oc=5",
+    "sourceLabel": "智源社区",
+    "sourceType": "media",
+    "publishedAt": "2026-08-17T11:50:00.000Z",
+    "discoveredAt": "2026-08-24T03:12:58.815Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-663f5c72",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 推出 Mac「电脑历史」功能：记录 ChatGPT 记忆却不加密存储 - Yellow.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOR2hkcXpvcUctZkhUbGE4ZUVEMzJndGFwOVBYX0dPNVRxZkp3bk9MOFNlNjZlcVpfanFqTlZjaTB1b0hUSmxKWTFlblJ3T0RwY01KMDFtb2hPbmxFai1HUjRNcnZ6SUdIeG50Y3JrOVN0Ym1jbWZXbGFiQmduN2hLLWJqVWxqNkhfSjkxbVlqV1R3M3lHTVFSS05WVXI2T25KUElVMUh1RmdaZkNIU1laZk5YMU5ISWd1X1Vadl9JUXI3WGxzR1dra2luQmFNaVF4akFsTGVxdldDSGZwd1J6SHFoekJDMW9aa2ZmM2ZpLWZkUzZZUGUyUUhUQmtMZUxCZzltMUNOWGlMZFJFQWpoeWYxYlM5QWRJMDNyQ3BuMzdYUmYxcVp2dkVkNjhoV2U2bUFRSU1mTmdsOEdVMHBPTXBPZTRmdGdZMnZwOWtMX3hNbVQ5SWNB?oc=5",
+    "sourceLabel": "Yellow.com",
+    "sourceType": "media",
+    "publishedAt": "2026-08-17T08:19:16.000Z",
+    "discoveredAt": "2026-08-24T03:12:58.815Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-24",
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
@@ -1025,6 +1083,46 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-d4d715d0",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI全面开源Codex Harness，AI编程智能体底层能力进一步开放",
+    "sourceUrl": "https://news.aibase.com/zh/news/30531",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-21T07:26:59.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.159Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p02-workbuddy-17873f5b",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯新一代大模型Hy4将发布，将成WorkBuddy核心引擎",
+    "sourceUrl": "https://news.aibase.com/zh/news/30515",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-21T01:24:32.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.162Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p12-codex-open-ai-767363ed",

@@ -1,5 +1,201 @@
 [
   {
+    "id": "new-product-588ea47",
+    "title": "Claude Platform 正式上线Computer Use、Skills API 与 Files API",
+    "sourceUrl": "https://news.aibase.com/zh/news/30522",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-21T02:58:17.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.161Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 6,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+  },
+  {
+    "id": "new-product-6815c611",
+    "title": "尊时凯龙登录入口官网发布2026春季重大更新：AI智能工作台引领效率革命 - womenofchina.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6YUtxYk9sQkRFUFBpajJ4Sndjd09OXzdvQmJFM290UHRsV3d0SXF1OXhGSkMwTF9halBKb1pyZjJ0T0M3YTlTS3piUjdHYXlXRjJhTV92c2E0YU91ZE4yTkZ2TkpmaHBpRXc?oc=5",
+    "sourceLabel": "womenofchina.com",
+    "sourceType": "media",
+    "publishedAt": "2026-08-21T01:26:43.000Z",
+    "discoveredAt": "2026-08-24T03:13:03.078Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-fb8d57b7",
+    "title": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向",
+    "sourceUrl": "https://news.aibase.com/zh/news/30508",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-20T09:58:30.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.163Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-f28d498c",
+    "title": "IDC发布《中国生成式AI安全评估平台报告》，蚂蚁数科位居领导者",
+    "sourceUrl": "https://news.aibase.com/zh/news/30501",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-20T06:29:15.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.164Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-ffcd858d",
+    "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+    "sourceUrl": "https://claude.com/blog/computer-use-skills-api-files-api",
+    "sourceLabel": "Claude：Blog（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-19T16:00:00.000Z",
+    "discoveredAt": "2026-08-24T03:14:04.345Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 6,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：官方一手信源确认新 Agent 产品或独立入口"
+  },
+  {
+    "id": "new-product-a2880dd",
+    "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+    "sourceUrl": "https://mistral.ai/news/agentic-search",
+    "sourceLabel": "Mistral AI：News（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-19T16:00:00.000Z",
+    "discoveredAt": "2026-08-24T03:14:04.345Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-7fb3402d",
+    "title": "字节跳动推出扣子桌面端",
+    "sourceUrl": "https://mp.weixin.qq.com/s/9Kods-auxnMj__emtsZSCQ",
+    "sourceLabel": "AI工具集 / 扣子Coze",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.185Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-a1587c3d",
+    "title": "2699元起！闪极新款AI眼镜发布：重40g，能写日记、接Agent，40小时续航 - 新浪财经",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNajZIQ1hPdm9YRHdyZTZLMlFoY3FQd2VGTG5Damo0MEhkeEI0LVhRRmVJbTZYM2pRQ1psN3NPNjJpbWhkaXJfS0NJdm5hejFVaWQ3RVhlMmcwU1BvZzBNeDlpSENVa09LaW1lNTVtT3hibDRYNm0tSTNpRUt3aWlOVERadXlqanFxXzN2a3J5eWZmQVM1dFJFcFVsZ0o5ZXdqZHVZVVA2TQ?oc=5",
+    "sourceLabel": "新浪财经",
+    "sourceType": "media",
+    "publishedAt": "2026-08-18T15:54:23.000Z",
+    "discoveredAt": "2026-08-24T03:13:03.330Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-3fb433f",
+    "title": "生产级RAG与Agent可视化平台Ollmo v0.1. 0 正式发布",
+    "sourceUrl": "https://news.aibase.com/zh/news/30427",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-18T05:55:40.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.179Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 8,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+  },
+  {
+    "id": "new-product-5fb4665",
+    "title": "企业微信5.0.10打通AI Agent，十大办公能力全面开放",
+    "sourceUrl": "https://news.aibase.com/zh/news/30425",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-18T03:18:22.000Z",
+    "discoveredAt": "2026-08-24T03:14:45.179Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 3,
+    "reviewedAt": "2026-08-24",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
     "id": "new-product-7ade23bd",
     "title": "ScienceDiscovery发布：零科研幻觉的一站式AI工作台，BiomniBench-DA验证效果业界SOTA - 搜狐网",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRVhoSmFST00tNkJ1YU1FdGk0RHhYZXlPZk8yOXo2dTUxVmFzNkFSaHhPUXdldDlsSV9SUzYxUkxlb0ZKSW0yM2J1MmFFNjZKS3o4Q3pFNzRSQkw0b1lITGoxdktiT3UtcUtjc3RFdGNGVHNVTDVUNDFpQV9HNjdoTU8xOW9NRFY3?oc=5",
@@ -1860,276 +2056,6 @@
     "sourceType": "media",
     "publishedAt": "2026-06-30T17:17:40.302Z",
     "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
-  },
-  {
-    "id": "new-product-97c440d4",
-    "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
-    "sourceUrl": "https://x.com/op7418/status/2071816099986022650",
-    "sourceLabel": "X：歸藏 (@op7418)",
-    "sourceType": "media",
-    "publishedAt": "2026-06-30T04:40:25.000Z",
-    "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 6,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-9c4cbb6",
-    "title": "美团正式发布万亿参数开源大模型 LongCat-2.0，原生支持1M 超长上下文",
-    "sourceUrl": "https://news.aibase.com/zh/news/29259",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-06-30T02:57:01.000Z",
-    "discoveredAt": "2026-07-06T06:46:36.167Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 8,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-70231a87",
-    "title": "Claude Science 科研工作台正式上线",
-    "sourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench",
-    "sourceLabel": "Anthropic：Newsroom（网页）",
-    "sourceType": "media",
-    "publishedAt": "2026-06-29T16:00:00.000Z",
-    "discoveredAt": "2026-07-06T06:45:45.936Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
-  },
-  {
-    "id": "new-product-95d31fa4",
-    "title": "豆包内测社交功能:打通飞书账号，AI助手也要做熟人社交?",
-    "sourceUrl": "https://news.aibase.com/zh/news/29231",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-06-29T07:45:17.000Z",
-    "discoveredAt": "2026-07-06T06:46:36.170Z",
-    "status": "rejected_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 5,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
-  },
-  {
-    "id": "new-product-7fc60fa6",
-    "title": "OpenAI 推出最新一代大语言模型系列 GPT-5.6",
-    "sourceUrl": "https://mp.weixin.qq.com/s/zHA3FpSLLVksg9ze9Ybg_g",
-    "sourceLabel": "AI工具集 / 机器之心",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-06-29T00:00:00.000Z",
-    "discoveredAt": "2026-06-29T07:02:40.585Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-4d0883e0",
-    "title": "手机核心价值再丰富：vivo X Fold6折叠旗舰发布 打造“一套 AI 工作台” - 东方财富",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLekp3TzhUTl9FbmE0UWF4TDEybHVDaHJvT3EwaF8xbTFOR1IxX0FFN3NIdUdLWkRiQjZmMzAxbk1MYWlyeE1CLWh2dC10NTVCbWxaM0plMUkwU2dteXdwUFNkTlJHQQ?oc=5",
-    "sourceLabel": "东方财富",
-    "sourceType": "media",
-    "publishedAt": "2026-06-27T20:03:13.000Z",
-    "discoveredAt": "2026-06-29T07:02:06.818Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-688d63f4",
-    "title": "vivo X Fold6发布：AI折叠屏工作台就位 - 新浪财经",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NUFAwcHFPaUJZd2Fyd2lycnUzSkk0b1BGTTQ4WEprSUxuNXY5STZPRmx6NGlGaDFoWXFIVUpoaVUzdndrUW90ckhmQnRfd0RUSU9TWEhETm4tSzZwQjBDcFBhZERReC0tQVYyUzFPdzJZQ3ZHSkVNYXVXdFRVdw?oc=5",
-    "sourceLabel": "新浪财经",
-    "sourceType": "media",
-    "publishedAt": "2026-06-27T15:36:43.000Z",
-    "discoveredAt": "2026-06-29T07:02:06.819Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-e7502afa",
-    "title": "手机核心价值再丰富：vivo X Fold6折叠旗舰发布 打造“一套 AI 工作台” - 广州日报新花城",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOejZ2cktsTmt6QUJId0VZbmZTMlpmOGNfSUUtYUZWTFFwV3lIU21XcjV2OThGdHpfTDFvN09vZlZEVmhFZ0JZaXVtOWhhb0ZtVXNxRDM1TlMwQkpjam1rVjJUUVUySWlQeXVvWEtNb2pxOUpucXROa29tT3ktSVFVZEs1cEkxOXVIU0E?oc=5",
-    "sourceLabel": "广州日报新花城",
-    "sourceType": "media",
-    "publishedAt": "2026-06-27T07:00:00.000Z",
-    "discoveredAt": "2026-07-19T14:58:58.387Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-7aa72cad",
-    "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout - Infoq.cn",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zVzZ6dXNaa3o4alFPSVN5SnhSZDZaa0pkLVJYaUt3UmctYkNacGxCQUNENXRUc2luRU1XZHRpNC03TXVKX0hNaG1UMTJrbE5FRFJrQ3FmMXkxNHppQ3c?oc=5",
-    "sourceLabel": "Infoq.cn",
-    "sourceType": "media",
-    "publishedAt": "2026-06-26T15:51:54.000Z",
-    "discoveredAt": "2026-06-29T07:02:07.085Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-edb6e790",
-    "title": "vivo X Fold6 发布 开启折叠屏 AI 工作台新时代 - 财富号",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QV3RRTXFrSXo4cGpKZ1BOd05MaWhhT3VIWHdxSUUtQ3RLZW9PSUY5M295VkNEOVgyanZWelJ4Y0tqbnhsbTJxMDBjVXpWc2MzR3dpYWZ1aDUyQ1hPMU9ZbnVIWEIyX0NUNG0w?oc=5",
-    "sourceLabel": "财富号",
-    "sourceType": "media",
-    "publishedAt": "2026-06-26T15:47:00.000Z",
-    "discoveredAt": "2026-06-29T07:02:06.818Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-4a91ba49",
-    "title": "苹果 Xcode 26.6 正式发布，编程助手迎来“谷歌 Gemini”强力外援",
-    "sourceUrl": "https://news.aibase.com/zh/news/29197",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-06-26T07:06:46.000Z",
-    "discoveredAt": "2026-06-29T07:02:40.562Z",
-    "status": "rejected_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 8,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
-  },
-  {
-    "id": "new-product-73ed222",
-    "title": "vivo X Fold6发布会|vivo x fold6|朱珠|发布会|ai工作台 - 新浪网",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YVElETFFOVG5lbGhsUjB5ZjRYdFBLMG5jM3NHVzVvVUxURkRQdGNTSGVCR21HaDA3T1VhbmcxbUtfTU9seEdsU2NoZ0pRTzB1dWY5UUk2eE1uVDhyYm1WdlpGaw?oc=5",
-    "sourceLabel": "新浪网",
-    "sourceType": "media",
-    "publishedAt": "2026-06-26T07:00:00.000Z",
-    "discoveredAt": "2026-07-19T14:58:58.388Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-8201fe53",
-    "title": "vivo X Fold6和TWS5 Pro发布|vivo x fold6|vivo tws5 pro|ai工作台|hi-fi人声大师|多设备互联|深海降噪|蔡司联合研发|第五代骁龙8至尊版|7000mah|ipx8防水 - 新浪网",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIdjZua01pemJNUHNiZXNDTXdySlJkVFp2UHpCZlNDNjZ0am5uMDhWTVdudnltWHZvcDVadVc4a0dKNll3UElOeHhuQkxTWVMwb1FYTGd4VXZEeFZET21aMWFXTQ?oc=5",
-    "sourceLabel": "新浪网",
-    "sourceType": "media",
-    "publishedAt": "2026-06-26T07:00:00.000Z",
-    "discoveredAt": "2026-07-19T14:58:58.388Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-4cfce6ec",
-    "title": "Runway发布Agent 2.0",
-    "sourceUrl": "https://runwayml.com/news/introducing-agent-2",
-    "sourceLabel": "Runway：News（网页）",
-    "sourceType": "media",
-    "publishedAt": "2026-06-24T16:00:00.000Z",
-    "discoveredAt": "2026-06-29T07:02:22.020Z",
     "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",

@@ -6,12 +6,12 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/b8115e929057b1ee3886c3cf192ef1ce284aa0f2/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/a10fcfbaeb859a4d482df911327345b69f90eb20/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p03-ai.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -30,8 +30,9 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p10-krowork": {
-    "source": "https://krowork.com/",
-    "status": "fallback"
+    "icon": "assets/product-icons/p10-krowork.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fkrowork.com%2F&sz=128",
+    "status": "collected"
   },
   "p13-lantay": {
     "icon": "assets/product-icons/p13-lantay.ico",

@@ -1,5 +1,44 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-08-21-p12-codex-open-ai-4c9ce87a",
+    "productSlug": "p12-codex-open-ai",
+    "date": "2026-08-21",
+    "category": "重大动态",
+    "title": "OpenAI 开源 AI Agent 底层执行框架 Codex Harness",
+    "summary": "Codex桌面版（Open AI） 出现新的关键能力变化、商业或开放范围变化。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
+    "impact": "可能改变产品商业化、合作生态或使用入口",
+    "sourceUrl": "https://ai-bot.cn/codex-harness/",
+    "sourceLabel": "AI工具集",
+    "verifiedAt": "2026-08-24",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-08-21-new-product-588ea47",
+    "productSlug": null,
+    "date": "2026-08-21",
+    "category": "新产品",
+    "title": "Claude Platform 正式上线Computer Use、Skills API 与 Files API",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://news.aibase.com/zh/news/30522",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-08-24",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-08-18-new-product-3fb433f",
+    "productSlug": null,
+    "date": "2026-08-18",
+    "category": "新产品",
+    "title": "生产级RAG与Agent可视化平台Ollmo v0.1. 0 正式发布",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://news.aibase.com/zh/news/30427",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-08-24",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-08-13-deepseek-harness-developer-preview",
     "productSlug": null,
     "date": "2026-08-13",
@@ -65,19 +104,6 @@ window.MAJOR_UPDATES = [
     "autoReviewed": false
   },
   {
-    "id": "2026-08-04-google-database-operations-agents",
-    "productSlug": null,
-    "date": "2026-08-04",
-    "category": "企业 Agent",
-    "title": "Google Cloud 发布 Database Operations Agents",
-    "summary": "Google Cloud 公开 Database Onboarding Agent 与 Database Observability Agent：前者负责选型、配置和部署，后者持续监控、排障与维护，并接入 Chat、CLI、控制台、MCP 和第三方 IDE。",
-    "impact": "企业 Agent 开始接管数据库从 Day 0 上线到 Day 1/2 运维的完整生命周期，数据库管理由辅助建议向常驻自主执行推进",
-    "sourceUrl": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
-    "sourceLabel": "Google Cloud 官方博客：Database Operations Agents",
-    "verifiedAt": "2026-08-17",
-    "autoReviewed": false
-  },
-  {
     "id": "2026-08-06-new-product-eda7d386",
     "productSlug": null,
     "date": "2026-08-06",
@@ -115,6 +141,19 @@ window.MAJOR_UPDATES = [
     "sourceLabel": "AI工具集",
     "verifiedAt": "2026-08-10",
     "autoReviewed": true
+  },
+  {
+    "id": "2026-08-04-google-database-operations-agents",
+    "productSlug": null,
+    "date": "2026-08-04",
+    "category": "企业 Agent",
+    "title": "Google Cloud 发布 Database Operations Agents",
+    "summary": "Google Cloud 公开 Database Onboarding Agent 与 Database Observability Agent：前者负责选型、配置和部署，后者持续监控、排障与维护，并接入 Chat、CLI、控制台、MCP 和第三方 IDE。",
+    "impact": "企业 Agent 开始接管数据库从 Day 0 上线到 Day 1/2 运维的完整生命周期，数据库管理由辅助建议向常驻自主执行推进",
+    "sourceUrl": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
+    "sourceLabel": "Google Cloud 官方博客：Database Operations Agents",
+    "verifiedAt": "2026-08-17",
+    "autoReviewed": false
   },
   {
     "id": "2026-07-30-p18-agentteams-v1-2",

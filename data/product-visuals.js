@@ -1,17 +1,17 @@
 window.PRODUCT_VISUALS = {
   "p01-qoderwork": {
     "icon": "assets/product-icons/p01-qoderwork.png",
-    "source": "https://img.alicdn.com/imgextra/i4/O1CN01OQC0dn1xLcdAaRALo_!!6000000006427-2-tps-180-180.png",
+    "source": "https://img.alicdn.com/imgextra/i4/O1CN01QkSxiCocd3D0prc8_!!6000000008124-2-tps-412-412.png",
     "status": "collected"
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/a10fcfbaeb859a4d482df911327345b69f90eb20/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/91541fc9837f594933a81b4d19c295c075b3f329/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
+    "icon": "assets/product-icons/p03-ai.svg",
+    "source": "https://chat.stepfun.com/svg/favicon.svg",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -211,7 +211,7 @@ window.PRODUCT_VISUALS = {
   },
   "p43-kimi-work": {
     "icon": "assets/product-icons/p43-kimi-work.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.kimi.com%2F&sz=128",
+    "source": "https://www.kimi.com/pwa-192.png",
     "status": "collected"
   },
   "p44-openclaw": {
@@ -221,7 +221,7 @@ window.PRODUCT_VISUALS = {
   },
   "p45-qoder-cloud-agents": {
     "icon": "assets/product-icons/p45-qoder-cloud-agents.png",
-    "source": "https://img.alicdn.com/imgextra/i4/O1CN01OQC0dn1xLcdAaRALo_!!6000000006427-2-tps-180-180.png",
+    "source": "https://img.alicdn.com/imgextra/i4/O1CN01QkSxiCocd3D0prc8_!!6000000008124-2-tps-412-412.png",
     "status": "collected"
   },
   "p46-qwen-office": {

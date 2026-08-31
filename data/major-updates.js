@@ -1,5 +1,18 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-08-31-p44-openclaw-94c45907",
+    "productSlug": "p44-openclaw",
+    "date": "2026-08-31",
+    "category": "重大版本",
+    "title": "OpenClaw2.0正式发布:重构底层架构，支持多人共享云端会话",
+    "summary": "OpenClaw 出现新的产品发布或停止运营、关键能力变化、商业或开放范围变化、明确事件词。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
+    "impact": "可能改变产品商业化、合作生态或使用入口",
+    "sourceUrl": "https://news.aibase.com/zh/news/30720",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-08-31",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-08-21-p12-codex-open-ai-4c9ce87a",
     "productSlug": "p12-codex-open-ai",
     "date": "2026-08-21",

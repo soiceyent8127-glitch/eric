@@ -1,5 +1,27 @@
 [
   {
+    "id": "p44-openclaw-94c45907",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "OpenClaw2.0正式发布:重构底层架构，支持多人共享云端会话",
+    "sourceUrl": "https://news.aibase.com/zh/news/30720",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-31T06:54:50.000Z",
+    "discoveredAt": "2026-08-31T08:37:22.843Z",
+    "score": 15,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "关键能力变化 +4",
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+  },
+  {
     "id": "p02-workbuddy-ed80ecae",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",
@@ -59,6 +81,63 @@
     "status": "accepted_manual",
     "reviewedAt": "2026-06-16",
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
+  },
+  {
+    "id": "p02-workbuddy-14d84f43",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "智启湾擎 可信先行——湾擎·WorkBuddy正式发布，深知可信筑牢政务智能知识底座 - 创业邦",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZeGNJLTdiV05ic1d2VWdmZnYyOXZQd1ZkenI2U08ydV9SUnhQTzlraWhqbmctLTdKUDZoamw2RlFMelYtM3lsYWw5NFd5anFw?oc=5",
+    "sourceLabel": "创业邦",
+    "sourceType": "media",
+    "publishedAt": "2026-08-25T05:58:35.000Z",
+    "discoveredAt": "2026-08-31T08:35:35.532Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p02-workbuddy-37af8649",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "飞书与豆包合并后首款Agent产品\"豆包工作\"发布",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685540&idx=1&sn=601bd8669d18bf0b4c9a9e88af421797",
+    "sourceLabel": "公众号：数字生命卡兹克",
+    "sourceType": "media",
+    "publishedAt": "2026-08-25T03:19:09.000Z",
+    "discoveredAt": "2026-08-31T08:35:46.845Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p46-qwen-office-4fa799e6",
+    "productSlug": "p46-qwen-office",
+    "productName": "千问办公（Qwen Office）",
+    "title": "飞书与豆包合并后首款Agent产品\"豆包工作\"发布",
+    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685540&idx=1&sn=601bd8669d18bf0b4c9a9e88af421797",
+    "sourceLabel": "公众号：数字生命卡兹克",
+    "sourceType": "media",
+    "publishedAt": "2026-08-25T03:19:09.000Z",
+    "discoveredAt": "2026-08-31T08:36:53.499Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p31-gemini-spark-google-c71e76b1",
@@ -480,6 +559,45 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-07-27",
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p18-hiclaw-b1d48124",
+    "productSlug": "p18-hiclaw",
+    "productName": "AgentTeams（原 HiClaw）",
+    "title": "一个创意，一支AI团队:千问创作Agent Teams上线，编剧导演美术全承包",
+    "sourceUrl": "https://news.aibase.com/zh/news/30721",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-31T07:02:30.000Z",
+    "discoveredAt": "2026-08-31T08:37:22.843Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+  },
+  {
+    "id": "p06-openwork-different-ai-726b48a9",
+    "productSlug": "p06-openwork-different-ai",
+    "productName": "OpenWork（different-ai）",
+    "title": "OpenWorker 新版发布，内置网络安全智能体",
+    "sourceUrl": "https://x.com/AndrewYNg/status/2092315079576555806",
+    "sourceLabel": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+    "sourceType": "media",
+    "publishedAt": "2026-08-25T18:16:02.000Z",
+    "discoveredAt": "2026-08-31T08:35:54.657Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p12-codex-open-ai-207208be",
@@ -1083,6 +1201,103 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p02-workbuddy-50c40b32",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免",
+    "sourceUrl": "https://news.aibase.com/zh/news/30699",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-08-28T08:09:37.000Z",
+    "discoveredAt": "2026-08-31T08:37:22.847Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p46-qwen-office-52112833",
+    "productSlug": "p46-qwen-office",
+    "productName": "千问办公（Qwen Office）",
+    "title": "阿里千问办公国际版，开启公测",
+    "sourceUrl": "https://mp.weixin.qq.com/s/rA-DzisZWl5MuioqYkySpA?scene=1&click_id=5",
+    "sourceLabel": "AI工具集 / 千问办公QwenWork",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "discoveredAt": "2026-08-31T08:37:22.868Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p21-autoclaw-635799c4",
+    "productSlug": "p21-autoclaw",
+    "productName": "AutoClaw（智谱）",
+    "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
+    "sourceUrl": "https://www.zhipuai.cn/zh/research/163",
+    "sourceLabel": "智谱：研究（网页内嵌数据）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-26T14:00:00.000Z",
+    "discoveredAt": "2026-08-31T08:36:20.055Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-3be6314e",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
+    "sourceUrl": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+    "sourceLabel": "TechCrunch：AI（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-24T15:00:00.000Z",
+    "discoveredAt": "2026-08-31T08:36:01.058Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p44-openclaw-897beed3",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
+    "sourceUrl": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+    "sourceLabel": "TechCrunch：AI（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-08-24T15:00:00.000Z",
+    "discoveredAt": "2026-08-31T08:36:51.501Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-08-31",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p12-codex-open-ai-d4d715d0",

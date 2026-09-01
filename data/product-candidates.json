@@ -124,7 +124,7 @@
     "sourceType": "media",
     "publishedAt": "2026-08-27T07:40:00.000Z",
     "discoveredAt": "2026-08-31T08:35:43.020Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -132,8 +132,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 2,
-    "reviewedAt": "2026-08-31",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：Qoder 官方博客确认 Agent Desktop 从编码工具升级为通用任务工作台，已发布"
   },
   {
     "id": "new-product-61e9629b",
@@ -354,7 +354,7 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-08-27T00:54:19.000Z",
     "discoveredAt": "2026-08-31T08:37:22.856Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -362,8 +362,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 3,
-    "reviewedAt": "2026-08-31",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：Anthropic 官方确认 Claude in Chrome 面向所有付费方案全面开放，已发布"
   },
   {
     "id": "new-product-d00340cf",
@@ -373,7 +373,7 @@
     "sourceType": "media",
     "publishedAt": "2026-08-25T03:19:09.000Z",
     "discoveredAt": "2026-08-31T08:36:54.116Z",
-    "status": "deferred_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -381,8 +381,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 2,
-    "reviewedAt": "2026-08-31",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：飞书官网已确认豆包工作产品定位、入口与企业知识能力，已发布"
   },
   {
     "id": "new-product-7683e71a",
@@ -431,7 +431,7 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-08-21T02:58:17.000Z",
     "discoveredAt": "2026-08-24T03:14:45.161Z",
-    "status": "accepted_auto",
+    "status": "rejected_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -439,8 +439,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 6,
-    "reviewedAt": "2026-08-24",
-    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：与 Anthropic 官方候选重复，保留官方一手来源版本"
   },
   {
     "id": "new-product-6815c611",
@@ -509,7 +509,7 @@
     "sourceType": "media",
     "publishedAt": "2026-08-19T16:00:00.000Z",
     "discoveredAt": "2026-08-24T03:14:04.345Z",
-    "status": "accepted_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -517,8 +517,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 6,
-    "reviewedAt": "2026-08-24",
-    "reviewReason": "自动审核：官方一手信源确认新 Agent 产品或独立入口"
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：Anthropic 官方确认 Computer Use、Browser Use、Skills API 与 Files API 正式可用，已发布"
   },
   {
     "id": "new-product-a2880dd",
@@ -587,7 +587,7 @@
     "discoverySource": "AIBase",
     "publishedAt": "2026-08-18T05:55:40.000Z",
     "discoveredAt": "2026-08-24T03:14:45.179Z",
-    "status": "accepted_auto",
+    "status": "promoted_manual",
     "reviewChecklist": [
       "确认它是独立产品而非普通功能",
       "确认属于研究范围",
@@ -595,8 +595,8 @@
       "补充厂商、类型与官网"
     ],
     "score": 8,
-    "reviewedAt": "2026-08-24",
-    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：已找到 Ollmo 官方 GitHub，确认开源版本与产品能力后发布"
   },
   {
     "id": "new-product-5fb4665",

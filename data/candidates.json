@@ -17,9 +17,9 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "accepted_auto",
-    "reviewedAt": "2026-08-31",
-    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+    "status": "promoted_manual",
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：已用 OpenClaw 官方 Release Notes 重写并发布"
   },
   {
     "id": "p02-workbuddy-ed80ecae",
@@ -537,9 +537,9 @@
       "关键能力变化 +4",
       "商业或开放范围变化 +3"
     ],
-    "status": "accepted_auto",
-    "reviewedAt": "2026-08-24",
-    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+    "status": "promoted_manual",
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：已追溯 OpenAI Developers 官方文章，校正发布日期并重写发布"
   },
   {
     "id": "p02-workbuddy-16515671",
@@ -561,6 +561,25 @@
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
+    "id": "p44-openclaw-436732ae",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "OpenAI广告业务年化收入突破10亿美元，推出仅约200天；OpenClaw发布史上最大更新，新增长期记忆与多Agent协作｜全球科技早参 - mrjjxw.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DX0VHbHE3cVQzWG1NZ2RjNVhlNW1XZTVoTHNwSlN2cm5GXzZqWlZJRndYZUtQT1ptNXNzM1FMZnI0akotdUVWS2pmeGZYWGVhVDVoWmx6eTNjaXlSTmFFME1qdkt5UQ?oc=5",
+    "sourceLabel": "mrjjxw.com",
+    "sourceType": "media",
+    "publishedAt": "2026-08-31T23:43:00.000Z",
+    "discoveredAt": "2026-09-01T03:47:37.306Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
     "id": "p18-hiclaw-b1d48124",
     "productSlug": "p18-hiclaw",
     "productName": "AgentTeams（原 HiClaw）",
@@ -576,9 +595,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "accepted_auto",
-    "reviewedAt": "2026-08-31",
-    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+    "status": "rejected_manual",
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：千问创作 Agent Teams 与 AgentScope AgentTeams（原 HiClaw）不是同一产品"
   },
   {
     "id": "p06-openwork-different-ai-726b48a9",
@@ -595,9 +614,9 @@
       "关键能力变化 +4",
       "明确事件词 +2"
     ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-08-31",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+    "status": "rejected_manual",
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：OpenWorker 是 Andrew Ng 团队的独立产品，不属于 different-ai 的 OpenWork；新闻已按独立产品发布"
   },
   {
     "id": "p12-codex-open-ai-207208be",
@@ -1238,9 +1257,9 @@
       "商业或开放范围变化 +3",
       "明确事件词 +2"
     ],
-    "status": "deferred_auto",
-    "reviewedAt": "2026-08-31",
-    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+    "status": "promoted_manual",
+    "reviewedAt": "2026-09-01",
+    "reviewReason": "人工复核：QwenWork 国际版官方站点与文档已上线，国际版公测作为开放范围变化发布"
   },
   {
     "id": "p21-autoclaw-635799c4",

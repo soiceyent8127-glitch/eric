@@ -73,6 +73,40 @@ test("厂商名或关键词列表不会冒充目标产品名称", () => {
   );
 });
 
+test("相似产品名不会因前缀包含关系被错误关联", () => {
+  assert.equal(
+    reviewExistingCandidate(
+      {
+        title: "OpenWorker 新版发布，内置网络安全智能体",
+        sourceLabel: "AIBase",
+        sourceUrl: "https://news.aibase.com/example",
+        sourceType: "media",
+        score: 6,
+        reasons: ["关键能力变化 +4", "明确事件词 +2"],
+      },
+      { slug: "p06-openwork-different-ai", name: "OpenWork（different-ai）", vendor: "different-ai" },
+    ).decision,
+    "deferred",
+  );
+});
+
+test("通用名称 AgentTeams 必须带有 HiClaw 或 AgentScope 上下文", () => {
+  assert.equal(
+    reviewExistingCandidate(
+      {
+        title: "千问创作 Agent Teams 正式上线",
+        sourceLabel: "AIBase",
+        sourceUrl: "https://news.aibase.com/example",
+        sourceType: "media",
+        score: 6,
+        reasons: ["关键能力变化 +4", "明确事件词 +2"],
+      },
+      { slug: "p18-hiclaw", name: "AgentTeams（原 HiClaw）", vendor: "AgentScope" },
+    ).decision,
+    "deferred",
+  );
+});
+
 test("官方来源的新 Agent 产品可以直接进入行业时间线", () => {
   const candidate = {
     title: "Runway 发布 Agent 2.0",
@@ -101,6 +135,18 @@ test("产品官网上的云智能体与 Agent 运行时发布可直接收录", (
   assert.equal(reviewStandaloneCandidate(cursor).decision, "accepted");
   assert.equal(isOfficialSource(langchain), true);
   assert.equal(reviewStandaloneCandidate(langchain).decision, "accepted");
+});
+
+test("本轮新增的一手产品站点会被识别为官方来源", () => {
+  for (const sourceUrl of [
+    "https://qoder.com/blog/qoder-desktop",
+    "https://docs.qwenwork.ai/getting-started/quick-start",
+    "https://www.feishu.cn/content/article/example",
+    "https://docs.openclaw.ai/releases/2026.8.1",
+    "https://developers.openai.com/blog/codex-as-a-platform",
+  ]) {
+    assert.equal(isOfficialSource({ sourceUrl, sourceType: "media" }), true);
+  }
 });
 
 test("Harness 与 Subagents 被视为 Agent 产品信号", () => {

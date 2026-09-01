@@ -25,8 +25,20 @@ const firstPartyHosts = new Set([
   "blog.cloudflare.com",
   "openai.com",
   "www.openai.com",
+  "developers.openai.com",
   "openclaw.ai",
   "www.openclaw.ai",
+  "docs.openclaw.ai",
+  "qoder.com",
+  "www.qoder.com",
+  "docs.qoder.com",
+  "qwenwork.ai",
+  "www.qwenwork.ai",
+  "docs.qwenwork.ai",
+  "qwenwork.cn",
+  "www.qwenwork.cn",
+  "feishu.cn",
+  "www.feishu.cn",
   "seed.bytedance.com",
 ]);
 
@@ -40,7 +52,8 @@ export function normalize(value = "") {
 
 export function productMatchesTitle(product, title) {
   if (!product) return false;
-  const normalizedTitle = normalize(title.split("|")[0]);
+  const titleHead = title.split("|")[0];
+  const normalizedTitle = normalize(titleHead);
   const vendor = normalize(product.vendor || "");
   const blockedAliases = new Set(["ai", "agent", "assistant", "desktop", "claw", "智能体", "助手", "桌面版", "工作台", vendor].filter(Boolean));
   const names = [product.name, ...(product.aliases || [])];
@@ -57,10 +70,24 @@ export function productMatchesTitle(product, title) {
     ];
   });
   const aliases = nameVariants
-    .map(normalize)
-    .filter((alias) => alias.length >= 3)
-    .filter((alias) => !blockedAliases.has(alias));
-  return aliases.some((alias) => normalizedTitle.includes(alias));
+    .map((raw) => ({ raw: raw.trim(), normalized: normalize(raw) }))
+    .filter(({ normalized }) => normalized.length >= 3)
+    .filter(({ normalized }) => !blockedAliases.has(normalized));
+  return aliases.some(({ raw, normalized }) => {
+    if (/^[a-z0-9 ._-]+$/iu.test(raw)) {
+      const escaped = raw
+        .toLowerCase()
+        .replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+        .replace(/[\s._-]+/g, "[\\s._-]*");
+      return new RegExp(`(^|[^a-z0-9])${escaped}(?![a-z0-9])`, "iu").test(titleHead);
+    }
+    return normalizedTitle.includes(normalized);
+  });
+}
+
+function hasAmbiguousAssociation(candidate, product) {
+  if (product?.slug !== "p18-hiclaw") return false;
+  return !candidate.associationVerified && !/HiClaw|AgentScope/iu.test(candidate.title || "");
 }
 
 export function isTrustedMedia(candidate) {
@@ -106,6 +133,10 @@ export function reviewExistingCandidate(candidate, product) {
 
   if (!exactMatch && !associationVerified) {
     return { decision: "deferred", reason: "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝" };
+  }
+
+  if (hasAmbiguousAssociation(candidate, product)) {
+    return { decision: "deferred", reason: "自动审核：产品名称具有歧义，缺少厂商或官方上下文，保留候选等待复核" };
   }
 
   if (official && score >= 5) {

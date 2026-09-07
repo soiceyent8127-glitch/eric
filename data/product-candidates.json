@@ -1,5 +1,241 @@
 [
   {
+    "id": "new-product-ed95ce3e",
+    "title": "火山引擎内测 AI 版权平台，Seedance 从“防侵权”转向“IP 商业化”",
+    "sourceUrl": "https://news.aibase.com/zh/news/30868",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-07T05:55:53.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.000Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 5,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-e895c65f",
+    "title": "讯飞星火 X2.5 正式发布：MoE 架构 293B，代码与智能体能力大幅提升",
+    "sourceUrl": "https://news.aibase.com/zh/news/30867",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-07T05:43:28.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.001Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 8,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+  },
+  {
+    "id": "new-product-e695c339",
+    "title": "努比亚NaviX Ultra定档9月16日发布，搭载豆包手机助手",
+    "sourceUrl": "https://news.aibase.com/zh/news/30861",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-07T02:34:57.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.002Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-65f5b50d",
+    "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
+    "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+    "sourceLabel": "GitHub Blog",
+    "sourceType": "media",
+    "publishedAt": "2026-09-04T16:04:14.000Z",
+    "discoveredAt": "2026-09-07T07:17:28.807Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-758e5591",
+    "title": "阿里千问上线首月用户破3000万：开源上下文底座，打造企业级Agent新范式",
+    "sourceUrl": "https://news.aibase.com/zh/news/30832",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-04T03:04:02.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.007Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-6a8c05a9",
+    "title": "微软Copilot Studio推出人工审批新功能，全面强化AI代理操作管控",
+    "sourceUrl": "https://news.aibase.com/zh/news/30825",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-04T01:33:12.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.009Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 6,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-dbe5a19b",
+    "title": "Meta王牌AI大模型Muse Spark 1.3发布：编程能力硬刚GPT-5.6 Sol",
+    "sourceUrl": "https://news.aibase.com/zh/news/30786",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-03T00:54:48.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.015Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-bf753337",
+    "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+    "sourceUrl": "https://huggingface.co/blog/funes",
+    "sourceLabel": "Hugging Face：Blog（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "discoveredAt": "2026-09-07T07:17:28.807Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-6fa941ba",
+    "title": "Meta 推出新一代大语言模型 Muse Spark 1.3",
+    "sourceUrl": "https://www.ithome.com/0/997/728.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.027Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-b9b633f2",
+    "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
+    "sourceUrl": "https://cursor.com/blog/self-hosted-machines",
+    "sourceLabel": "Cursor Blog",
+    "sourceType": "media",
+    "publishedAt": "2026-09-02T12:00:00.000Z",
+    "discoveredAt": "2026-09-07T07:17:28.807Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：官方一手信源确认新 Agent 产品或独立入口"
+  },
+  {
+    "id": "new-product-6eec967d",
+    "title": "阿里云企业级 Agent 协作平台「万有无界」开启公测",
+    "sourceUrl": "https://mp.weixin.qq.com/s/ejt5cXJiDUBFVIKCz6pIXQ",
+    "sourceLabel": "AI工具集 / 阿里云",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-02T00:00:00.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.028Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 5,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+  },
+  {
+    "id": "new-product-fc659a41",
+    "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+    "sourceUrl": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+    "sourceLabel": "Google DeepMind：Blog（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-01T17:08:51.000Z",
+    "discoveredAt": "2026-09-07T07:17:28.807Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
     "id": "new-product-c9f6ce66",
     "title": "科大讯飞将发布星火X2.5通用大模型",
     "sourceUrl": "https://news.aibase.com/zh/news/30716",
@@ -1865,182 +2101,5 @@
     "score": 2,
     "reviewedAt": "2026-07-19",
     "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-e247ce5a",
-    "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本登顶 RTEB 检索基准",
-    "sourceUrl": "https://news.aibase.com/zh/news/29695",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-07-17T09:14:19.000Z",
-    "discoveredAt": "2026-07-19T15:00:03.959Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-5f44c18a",
-    "title": "阶跃星辰发布STEPX Neo样机，全球首款大模型原生智能体手机亮相",
-    "sourceUrl": "https://news.aibase.com/zh/news/29686",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-07-17T06:53:57.000Z",
-    "discoveredAt": "2026-07-19T15:00:03.962Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
-  },
-  {
-    "id": "new-product-4e426830",
-    "title": "京东推出京麦AI经营中心，开放22款AI工具助力商家智能经营",
-    "sourceUrl": "https://news.aibase.com/zh/news/29675",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-07-17T02:04:35.000Z",
-    "discoveredAt": "2026-07-19T15:00:03.964Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
-  },
-  {
-    "id": "new-product-6bbbf8b9",
-    "title": "月之暗面推出最强开源 AI 大模型 Kimi K3",
-    "sourceUrl": "https://mp.weixin.qq.com/s/V4xhEIy8xDXSMDPrPkmUAQ",
-    "sourceLabel": "AI工具集 / 月之暗面 Kimi",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-07-17T00:00:00.000Z",
-    "discoveredAt": "2026-07-19T15:00:03.998Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-9dba79f3",
-    "title": "百度文库网盘启动重大升级，GenFlow将面向金融等行业推出AI工作台 - article.9466.com",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WVThJSjZzUUVwVHNKVWUyX0RYXzh4TEJ1em1ESHNZam5BLWMzcklja0ZOWEUzbjlscnA1VDlfa0R6eE5VV2xhckRXbFc3aTg?oc=5",
-    "sourceLabel": "article.9466.com",
-    "sourceType": "media",
-    "publishedAt": "2026-07-16T06:16:00.000Z",
-    "discoveredAt": "2026-07-19T14:58:58.388Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-e03aff41",
-    "title": "三星携手百度智能云，推出 “盖乐世 AI” 重磅备案！",
-    "sourceUrl": "https://news.aibase.com/zh/news/29647",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-07-16T05:52:16.000Z",
-    "discoveredAt": "2026-07-19T15:00:03.969Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-1e682eaf",
-    "title": "天工短剧工作台发布\"Agent智能分镜+无限画布\"双轨创作模式",
-    "sourceUrl": "https://mp.weixin.qq.com/s/WlGAeogkF_N5122nHA0TtQ",
-    "sourceLabel": "公众号：昆仑万维（天工）",
-    "sourceType": "media",
-    "publishedAt": "2026-07-16T02:00:00.000Z",
-    "discoveredAt": "2026-07-19T14:59:34.202Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-e3a1b85f",
-    "title": "开源编程智能体内存方案发布，通过 SSH 同步",
-    "sourceUrl": "https://github.com/vshulcz/deja-vu",
-    "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
-    "sourceType": "media",
-    "publishedAt": "2026-07-15T22:49:15.715Z",
-    "discoveredAt": "2026-07-19T14:59:34.202Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-acebe5aa",
-    "title": "阶跃星辰推出首款大模型原生智能体手机 STEPX Neo",
-    "sourceUrl": "https://mp.weixin.qq.com/s/zJ85sWEPlmGKWSFfGIae1g",
-    "sourceLabel": "AI工具集 / 智东西",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-07-14T00:00:00.000Z",
-    "discoveredAt": "2026-07-19T15:00:03.999Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-07-19",
-    "reviewReason": "人工复核：已核验并以编辑摘要收录到本期重大动态"
   }
 ]

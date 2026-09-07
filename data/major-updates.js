@@ -1,5 +1,44 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-09-07-new-product-e895c65f",
+    "productSlug": null,
+    "date": "2026-09-07",
+    "category": "新产品",
+    "title": "讯飞星火 X2.5 正式发布：MoE 架构 293B，代码与智能体能力大幅提升",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://news.aibase.com/zh/news/30867",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-09-07",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-02-new-product-b9b633f2",
+    "productSlug": null,
+    "date": "2026-09-02",
+    "category": "新产品",
+    "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://cursor.com/blog/self-hosted-machines",
+    "sourceLabel": "Cursor Blog",
+    "verifiedAt": "2026-09-07",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-02-new-product-6eec967d",
+    "productSlug": null,
+    "date": "2026-09-02",
+    "category": "新产品",
+    "title": "阿里云企业级 Agent 协作平台「万有无界」开启公测",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://mp.weixin.qq.com/s/ejt5cXJiDUBFVIKCz6pIXQ",
+    "sourceLabel": "AI工具集 / 阿里云",
+    "verifiedAt": "2026-09-07",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-08-31-p44-openclaw-94c45907",
     "productSlug": "p44-openclaw",
     "date": "2026-08-31",

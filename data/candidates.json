@@ -83,6 +83,25 @@
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
   },
   {
+    "id": "p12-codex-open-ai-19ed9a4e",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代 - user.guancha.cn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mODVuTzVjM0lmSEU5ak5YZVd3Qm5QMHVQd0FfY3RLRTNWdm9oOGVObzlwZENsR0hoc0ZWeHlIcFpCTHBiSkRIQzFUb3RKLXE5TUsyNnlqVUNKQQ?oc=5",
+    "sourceLabel": "user.guancha.cn",
+    "sourceType": "media",
+    "publishedAt": "2026-09-04T08:32:23.000Z",
+    "discoveredAt": "2026-09-07T07:16:51.784Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
     "id": "p02-workbuddy-14d84f43",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",
@@ -558,6 +577,101 @@
     ],
     "status": "deferred_auto",
     "reviewedAt": "2026-07-27",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-e1afd822",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
+    "sourceUrl": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
+    "sourceLabel": "The Decoder：AI News（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-05T13:31:04.000Z",
+    "discoveredAt": "2026-09-07T07:17:11.424Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p01-qoderwork-dc250f6c",
+    "productSlug": "p01-qoderwork",
+    "productName": "QoderWork（阿里巴巴）",
+    "title": "阿里Agent新赛道开启 多智能体赛马战略布局全面升级 - 36 Kr",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpX1BaUjJYUjJVNHNBbUdxeDkyNnhQM0VIUWxHektlbHllLUZKSklKcWNFbkQtX2JxTnJfaE9WTERYbzRLbnhhVzlfd0ZOZC1sSk84?oc=5",
+    "sourceLabel": "36 Kr",
+    "sourceType": "media",
+    "publishedAt": "2026-09-03T09:42:00.000Z",
+    "discoveredAt": "2026-09-07T07:16:50.046Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p16-product-25c45367",
+    "productSlug": "p16-product",
+    "productName": "悟空（阿里）",
+    "title": "阿里Agent新赛道开启 多智能体赛马战略布局全面升级 - 36 Kr",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpX1BaUjJYUjJVNHNBbUdxeDkyNnhQM0VIUWxHektlbHllLUZKSklKcWNFbkQtX2JxTnJfaE9WTERYbzRLbnhhVzlfd0ZOZC1sSk84?oc=5",
+    "sourceLabel": "36 Kr",
+    "sourceType": "media",
+    "publishedAt": "2026-09-03T09:42:00.000Z",
+    "discoveredAt": "2026-09-07T07:16:52.158Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p46-qwen-office-9ca75c4b",
+    "productSlug": "p46-qwen-office",
+    "productName": "千问办公（Qwen Office）",
+    "title": "阿里Agent新赛道开启 多智能体赛马战略布局全面升级 - 36 Kr",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpX1BaUjJYUjJVNHNBbUdxeDkyNnhQM0VIUWxHektlbHllLUZKSklKcWNFbkQtX2JxTnJfaE9WTERYbzRLbnhhVzlfd0ZOZC1sSk84?oc=5",
+    "sourceLabel": "36 Kr",
+    "sourceType": "media",
+    "publishedAt": "2026-09-03T09:42:00.000Z",
+    "discoveredAt": "2026-09-07T07:16:54.893Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-d3e7f610",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+    "sourceUrl": "https://huggingface.co/blog/funes",
+    "sourceLabel": "Hugging Face：Blog（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "discoveredAt": "2026-09-07T07:17:11.424Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
@@ -1220,6 +1334,105 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-6b5fc17a",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出",
+    "sourceUrl": "https://www.ithome.com/0/998/661.htm",
+    "sourceLabel": "IT之家（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-05T00:42:24.000Z",
+    "discoveredAt": "2026-09-07T07:17:11.424Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p02-workbuddy-b35906b2",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "Plaud与腾讯WorkBuddy达成生态合作:无缝接入工作流，让对话即为生产力",
+    "sourceUrl": "https://news.aibase.com/zh/news/30783",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-02T09:39:14.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.016Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p02-workbuddy-b259051f",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯WorkBuddy宣布开放平台能力，面向软硬件及开发者，共创AI Agent行业新标准",
+    "sourceUrl": "https://news.aibase.com/zh/news/30780",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-02T08:18:57.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.017Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p02-workbuddy-3b5c1b61",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "腾讯WorkBuddy宣布开放平台上线 全面开放Agent基座能力",
+    "sourceUrl": "https://news.aibase.com/zh/news/30773",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-02T06:17:48.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.018Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p09-marvis-f4e6b703",
+    "productSlug": "p09-marvis",
+    "productName": "Marvis（腾讯）",
+    "title": "Marvis上线自定义模型功能，支持接入Kimi、智谱GLM等主流模型",
+    "sourceUrl": "https://news.aibase.com/zh/news/30760",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-01T14:01:01.000Z",
+    "discoveredAt": "2026-09-07T07:18:03.020Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-07",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p02-workbuddy-50c40b32",

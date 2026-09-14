@@ -580,6 +580,26 @@
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
+    "id": "p11-amazon-quick-aws-718ac5ca",
+    "productSlug": "p11-amazon-quick-aws",
+    "productName": "Amazon Quick（AWS）",
+    "title": "亚马逊云科技推出企业级 AI 工作助手 Amazon Quick",
+    "sourceUrl": "https://mp.weixin.qq.com/s/cjP_Q3KadAbfs4qfwdLPww",
+    "sourceLabel": "AI工具集 / 亚马逊云科技",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "discoveredAt": "2026-09-14T07:52:10.020Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-09-14",
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+  },
+  {
     "id": "p12-codex-open-ai-e1afd822",
     "productSlug": "p12-codex-open-ai",
     "productName": "Codex桌面版（Open AI）",
@@ -1334,6 +1354,64 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p02-workbuddy-cae70407",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "DeepSeek V4.1-Flash登陆WorkBuddy，开启限时免费试用",
+    "sourceUrl": "https://news.aibase.com/zh/news/30995",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-11T06:53:24.000Z",
+    "discoveredAt": "2026-09-14T07:52:09.999Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-14",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-6c7ebd7a",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+    "sourceUrl": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "discoveredAt": "2026-09-14T07:51:29.193Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-14",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-db84673",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+    "sourceUrl": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-09T11:00:00.000Z",
+    "discoveredAt": "2026-09-14T07:51:29.193Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-14",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p12-codex-open-ai-6b5fc17a",

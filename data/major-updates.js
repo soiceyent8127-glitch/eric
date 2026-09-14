@@ -1,5 +1,57 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-09-14-p11-amazon-quick-aws-718ac5ca",
+    "productSlug": "p11-amazon-quick-aws",
+    "date": "2026-09-14",
+    "category": "重大版本",
+    "title": "亚马逊云科技推出企业级 AI 工作助手 Amazon Quick",
+    "summary": "Amazon Quick（AWS） 出现新的关键能力变化、明确事件词。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
+    "impact": "新增关键能力并改变产品使用方式",
+    "sourceUrl": "https://mp.weixin.qq.com/s/cjP_Q3KadAbfs4qfwdLPww",
+    "sourceLabel": "AI工具集 / 亚马逊云科技",
+    "verifiedAt": "2026-09-14",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-10-new-product-514209c9",
+    "productSlug": null,
+    "date": "2026-09-10",
+    "category": "新产品",
+    "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://openai.com/index/put-data-to-work",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "verifiedAt": "2026-09-14",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-10-new-product-a8df40db",
+    "productSlug": null,
+    "date": "2026-09-10",
+    "category": "新产品",
+    "title": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://cursor.com/blog/projects",
+    "sourceLabel": "Cursor Blog",
+    "verifiedAt": "2026-09-14",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-10-new-product-1285eb31",
+    "productSlug": null,
+    "date": "2026-09-10",
+    "category": "新产品",
+    "title": "OpenAI 发布 Agents API 公测版",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://openai.com/index/introducing-the-agents-api",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "verifiedAt": "2026-09-14",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-09-07-new-product-e895c65f",
     "productSlug": null,
     "date": "2026-09-07",

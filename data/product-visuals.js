@@ -6,7 +6,7 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/1f2371ee806002399af6a996ddf43953db5a2d63/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/93a7cd0d70556625552d16b09c6a9cf8c2e089b9/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
@@ -140,8 +140,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p26-molili": {
-    "icon": "assets/product-icons/p26-molili.png",
-    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.molili.com.cn%2F&sz=128",
+    "icon": "assets/product-icons/p26-molili.ico",
+    "source": "https://www.molili.com.cn/favicon.ico",
     "status": "collected"
   },
   "p27-easyclaw": {

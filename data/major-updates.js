@@ -1,5 +1,44 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-09-16-new-product-6825c874",
+    "productSlug": null,
+    "date": "2026-09-16",
+    "category": "新产品",
+    "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://openai.com/index/reimagining-advertising-with-ai",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "verifiedAt": "2026-09-21",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-16-new-product-f7c247eb",
+    "productSlug": null,
+    "date": "2026-09-16",
+    "category": "新产品",
+    "title": "vivo 正式发布智能体大模型矩阵，并重磅预研 30B MoE 端侧大模型",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://news.aibase.com/zh/news/31091",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-09-21",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-15-new-product-3ebd44c1",
+    "productSlug": null,
+    "date": "2026-09-15",
+    "category": "新产品",
+    "title": "Anthropic 将 Claude Cowork 与聊天合并为统一 Claude，并推出 Docs 和 Slides",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://claude.com/blog/cowork-is-now-claude",
+    "sourceLabel": "Claude：Blog（网页）",
+    "verifiedAt": "2026-09-21",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-09-14-p11-amazon-quick-aws-718ac5ca",
     "productSlug": "p11-amazon-quick-aws",
     "date": "2026-09-14",

@@ -6,12 +6,12 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/93a7cd0d70556625552d16b09c6a9cf8c2e089b9/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/e64b8fb4bc34aa55029abb007f83b311b08261f3/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
-    "icon": "assets/product-icons/p03-ai.svg",
-    "source": "https://chat.stepfun.com/svg/favicon.svg",
+    "icon": "assets/product-icons/p03-ai.png",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.stepfun.com%2Fchats%2Fnew&sz=128",
     "status": "collected"
   },
   "p04-minimax-agent-minimax": {
@@ -171,7 +171,7 @@ window.PRODUCT_VISUALS = {
   },
   "p40-loomy": {
     "icon": "assets/product-icons/p40-loomy.png",
-    "source": "https://loomy.xunfei.cn/icon.png?ce83e803068bc403",
+    "source": "https://loomy.xunfei.cn/icon.png?5f7e7b8be5d4c76b",
     "status": "collected"
   },
   "p31-gemini-spark-google": {

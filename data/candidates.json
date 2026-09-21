@@ -1356,6 +1356,65 @@
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
   },
   {
+    "id": "p02-workbuddy-b0171f2d",
+    "productSlug": "p02-workbuddy",
+    "productName": "WorkBuddy（腾讯）",
+    "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
+    "sourceUrl": "https://news.aibase.com/zh/news/31190",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-20T05:52:26.000Z",
+    "discoveredAt": "2026-09-21T07:56:36.710Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-21",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-f9459781",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 宣布 GPT-5.5 将于 10 月 14 日下线：ChatGPT 与 Codex 同步移除",
+    "sourceUrl": "https://news.aibase.com/zh/news/31070",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-16T01:22:23.000Z",
+    "discoveredAt": "2026-09-21T07:56:36.731Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-21",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-dd8fb3d3",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+    "sourceUrl": "https://x.com/SiliconFlowAI/status/2099536759168352634",
+    "sourceLabel": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+    "sourceType": "media",
+    "publishedAt": "2026-09-14T16:32:25.000Z",
+    "discoveredAt": "2026-09-21T07:55:06.594Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-21",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
     "id": "p02-workbuddy-cae70407",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",

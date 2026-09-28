@@ -1,5 +1,202 @@
 [
   {
+    "id": "new-product-340be46e",
+    "title": "视频化身、系统级代控与眼镜接入，Meta 全新 AI 智能体 Muse 开启内测",
+    "sourceUrl": "https://news.aibase.com/zh/news/31360",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-28T01:00:05.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.039Z",
+    "status": "accepted_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 5,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
+  },
+  {
+    "id": "new-product-3609a8fd",
+    "title": "OpenAI或将推出代号「O」的常驻智能助手，预计9月29日正式发布",
+    "sourceUrl": "https://news.aibase.com/zh/news/31358",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-28T00:48:06.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.039Z",
+    "status": "rejected_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 8,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
+  },
+  {
+    "id": "new-product-ace36e08",
+    "title": "阿里“Accio”与数贸会联合上线“数贸会agent”，可一键匹配展商 - 搜狐网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSll1d2dIX3gxVks4Sm9UbjllQlpGbm1nS3J6STJaMklvUHFIX3lyN3duS2xuWnRucUtpSjZHOUI3RmdtajNMbE01djdfTEtCWXJPM3pZWk00MTNlOS0zd1d6N2YzRHNxRV9SSDlKUlBmanRtdVRSV1FCNzRMUkM0X3hnenZyb3l6OV84MA?oc=5",
+    "sourceLabel": "搜狐网",
+    "sourceType": "media",
+    "publishedAt": "2026-09-25T01:11:00.000Z",
+    "discoveredAt": "2026-09-28T08:37:46.395Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-443bbc15",
+    "title": "Accio与数贸会联合上线“数贸会agent”：超2000家展商轻松逛 - 电商派",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwbkppVjhRV0ZaUElybHFaNU0ybzZGU3ROWElkamoxRDJPZUhqODlDdTBGZUZPMFR5aEJWYVhSeVItUnpIX0tfeG96NTJkT0JMZHdBUHU2WHVzOEFfamhMNA?oc=5",
+    "sourceLabel": "电商派",
+    "sourceType": "media",
+    "publishedAt": "2026-09-24T07:42:00.000Z",
+    "discoveredAt": "2026-09-28T08:37:46.395Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-adffd889",
+    "title": "Meta发布首款无摄像头AI眼镜及第三代Ray-Ban Meta，全系接入AI助手Muse",
+    "sourceUrl": "https://news.aibase.com/zh/news/31318",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-24T01:00:36.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.048Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-5ee9e350",
+    "title": "腾讯云推出Tencent Cloud DataBuddy— 面向智能体原生的数据与AI工作台 - 富途牛牛",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbS1GU21nZm1SRzFtMm9mdFhFSGIzZWlrSm9WTlpXOEM3VEN0ZU1qanJWaWRrai1OZ3d2bUFMVDA0c1BFalNRdVFuVWRyTHFnMjdJX0JsV1A3WGxfQWNjMVo2ekVUZU1rbVZDNFl1MXVaYlFxVFhDdGJCbUdyQjZmbmxiX2daVlk1RER3QVRidjNkRHJ0VFUwZS1hR0ZjZm4tVldF?oc=5",
+    "sourceLabel": "富途牛牛",
+    "sourceType": "media",
+    "publishedAt": "2026-09-23T06:03:37.000Z",
+    "discoveredAt": "2026-09-28T08:37:46.395Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-9161a399",
+    "title": "阿里推出 AI 手机全栈解决方案 Qwen Intelligence",
+    "sourceUrl": "https://mp.weixin.qq.com/s/VtdRnD7xIquJJiWhmUdahg",
+    "sourceLabel": "AI工具集 / 千问大模型",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.064Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-15971a7f",
+    "title": "OpenAI内部AI已能自主训练模型，奥特曼发布全球安全倡议应对RSI逼近",
+    "sourceUrl": "https://news.aibase.com/zh/news/31271",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-22T08:02:05.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.056Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-9d9eac5c",
+    "title": "小米发布并开源 MiMo-V2.6:AA 智能指数46分登顶最强开源模型",
+    "sourceUrl": "https://news.aibase.com/zh/news/31249",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-22T01:37:34.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.060Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
+    "id": "new-product-6e4210da",
+    "title": "Kimi 推出 Kimi Code 桌面客户端 Kimi Code Desktop",
+    "sourceUrl": "https://mp.weixin.qq.com/s/0x-tXOxlutrxE9YNODng0A",
+    "sourceLabel": "AI工具集 / 月之暗面 Kimi",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.064Z",
+    "status": "deferred_auto",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ],
+    "score": 2,
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
+  },
+  {
     "id": "new-product-17d15f",
     "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8",
     "sourceUrl": "https://news.aibase.com/zh/news/31187",
@@ -1885,201 +2082,5 @@
     "score": 6,
     "reviewedAt": "2026-08-10",
     "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
-  },
-  {
-    "id": "new-product-cb1a1eda",
-    "title": "智能体安全已是必答题，天融信正式发布AI智能体安全评估服务 - FX168财经",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ldzJoSkJ6azNLaWJGSzZHcWpNUVBhU21LdTBTSVQ5OTU3VnNOajMydGVrVEk2dUI5YTdTRzJUY2l6eXFyMEwzcmVfQ1VVdUFOU3Br?oc=5",
-    "sourceLabel": "FX168财经",
-    "sourceType": "media",
-    "publishedAt": "2026-08-04T18:34:01.000Z",
-    "discoveredAt": "2026-08-10T04:04:35.914Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 8,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-eb7159b8",
-    "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
-    "sourceUrl": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
-    "sourceLabel": "Google Cloud：Databases（RSS）",
-    "sourceType": "official",
-    "publishedAt": "2026-08-04T16:00:00.000Z",
-    "discoveredAt": "2026-08-10T04:05:07.244Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "人工复核：Google Cloud 官方博客确认 Database Operations Agents，已补入重大动态"
-  },
-  {
-    "id": "new-product-eb293799",
-    "title": "腾讯混元推出智能体评测基准 E-Bench",
-    "sourceUrl": "https://mp.weixin.qq.com/s/5QIL92Vumz2E52Moo3wE9g",
-    "sourceLabel": "AI工具集 / 腾讯混元",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-08-04T00:00:00.000Z",
-    "discoveredAt": "2026-08-10T04:05:17.529Z",
-    "status": "rejected_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
-  },
-  {
-    "id": "new-product-61bbed01",
-    "title": "DeepSeek-V4-Flash 正式版上线国家超算互联网：一键调用，性能叫板最强闭源模型",
-    "sourceUrl": "https://news.aibase.com/zh/news/30076",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-03T08:19:01.000Z",
-    "discoveredAt": "2026-08-10T04:05:17.524Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-5eb9a9b1",
-    "title": "京东外卖推出 AI 智能头盔：老骑手的\"活地图\"装进耳朵，首批骑手免费领",
-    "sourceUrl": "https://news.aibase.com/zh/news/30061",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-03T03:12:39.000Z",
-    "discoveredAt": "2026-08-03T06:11:08.576Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-03",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-5db9a81e",
-    "title": "京东外卖发布AI智能头盔:支持语音接单、路线导航和订单备注提醒",
-    "sourceUrl": "https://news.aibase.com/zh/news/30060",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-03T02:54:28.000Z",
-    "discoveredAt": "2026-08-03T06:11:08.576Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-03",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-5eb76b1a",
-    "title": "Qwen3.8-Max上线:聚焦真实办公与复杂任务，下周将开源模型权重",
-    "sourceUrl": "https://news.aibase.com/zh/news/30059",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-03T02:50:46.000Z",
-    "discoveredAt": "2026-08-03T06:11:08.576Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-03",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-5fb76cad",
-    "title": "消息称阿里内测 AI 办公平台\"万有无界\"：多个数字员工组队干活",
-    "sourceUrl": "https://news.aibase.com/zh/news/30058",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-03T02:48:34.000Z",
-    "discoveredAt": "2026-08-03T06:11:08.576Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 5,
-    "reviewedAt": "2026-08-03",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-bdcfa284",
-    "title": "阿里推出多角色 Agent 协作工作台「万有无界」",
-    "sourceUrl": "https://www.ithome.com/0/984/883.htm",
-    "sourceLabel": "AI工具集 / IT之家",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-08-03T00:00:00.000Z",
-    "discoveredAt": "2026-08-03T06:11:08.615Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-03",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-c4f8cc75",
-    "title": "开云下载入口官方正版发布'3+2+2'全栈产品矩阵定义企业级智能体落地新标准-TGBUS - 电玩巴士",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BZXNtbDJ0ZnBnZDlleUN5ZW5IMlkxTlduZVpjVkdUNUNYb2tTUjRFWHMyeUliVjVaYW10d3pGU3FCYVNQZ08tdGhSOTZvSkZ3OTNiLVBvOVdkQVFWa2tyOQ?oc=5",
-    "sourceLabel": "电玩巴士",
-    "sourceType": "media",
-    "publishedAt": "2026-08-02T16:24:15.000Z",
-    "discoveredAt": "2026-08-03T06:16:52.772Z",
-    "status": "rejected_manual",
-    "reviewedAt": "2026-08-03",
-    "reviewReason": "人工核验：标题与来源呈现明显 SEO 垃圾内容，不属于可核验的 Agent 产品发布",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ]
   }
 ]

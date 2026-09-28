@@ -62,6 +62,27 @@
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
+    "id": "p46-qwen-office-6bb514bd",
+    "productSlug": "p46-qwen-office",
+    "productName": "千问办公（Qwen Office）",
+    "title": "办公桌上的 AI 新物种！阿里千问办公首款桌面机器人 QwenNote Eva 正式发布，售价 899 元",
+    "sourceUrl": "https://news.aibase.com/zh/news/31276",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-22T09:58:56.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.056Z",
+    "score": 11,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+  },
+  {
     "id": "p45-qoder-cloud-agents-manual-2026-06-06",
     "productSlug": "p45-qoder-cloud-agents",
     "productName": "Qoder Cloud Agents（阿里巴巴）",
@@ -81,6 +102,26 @@
     "status": "accepted_manual",
     "reviewedAt": "2026-06-16",
     "reviewReason": "人工审核：Qoder Cloud Agents 是明确的云端 Agent 产品/能力体系，已补入产品库与重大动态"
+  },
+  {
+    "id": "p14-qclaw-b2d05fc0",
+    "productSlug": "p14-qclaw",
+    "productName": "Qclaw（腾讯）",
+    "title": "腾讯 QClaw 微信远程办公 AI 助手将停止运营",
+    "sourceUrl": "https://www.ithome.com/1/006/528.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-24T00:00:00.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.063Z",
+    "score": 9,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "商业或开放范围变化 +3"
+    ],
+    "status": "accepted_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
   },
   {
     "id": "p12-codex-open-ai-19ed9a4e",
@@ -578,6 +619,79 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-07-27",
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p43-kimi-work-44b8ee1f",
+    "productSlug": "p43-kimi-work",
+    "productName": "Kimi Work（月之暗面）",
+    "title": "Fireworks AI 发布 Ember-1：基于 Kimi K3 的后训练模型，推理 Token 减少约 40%",
+    "sourceUrl": "https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-28T07:22:33.000Z",
+    "discoveredAt": "2026-09-28T08:40:28.416Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p14-qclaw-e962ca7c",
+    "productSlug": "p14-qclaw",
+    "productName": "Qclaw（腾讯）",
+    "title": "不养龙虾了！ 腾讯QClaw将停止运营 - Newswav",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNN3E5MHAwbTl4SUlNQlQ2UHg1V29XTkxuWmdYMWFQSS1kaklWdEV0U0V6a01WZ1k5MmFBOXYtcnVjMGhNalRObnh0OFk2ZjNQd2Y2Mklsb2ZWakVwU2FoX3g5R2RUTDN6NXhjaUt4QkFHcHluczduSGdKSDR0eTlFVGdJb29sakY0QmN4VExGQnJiUGd6aERSRUJKN2R6Rm8tdFNISnBWUGpNcGxaLUphLURSZGFMMHppbHYwMDlUcDYxVU8tS1lSaExVbTM5U0xUNW5TejNjZ25WbGx2QTU2UU82WC1hNF9YUDZR?oc=5",
+    "sourceLabel": "Newswav",
+    "sourceType": "media",
+    "publishedAt": "2026-09-25T00:00:00.000Z",
+    "discoveredAt": "2026-09-28T08:37:42.401Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或停止运营 +6"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p14-qclaw-2a3f9acf",
+    "productSlug": "p14-qclaw",
+    "productName": "Qclaw（腾讯）",
+    "title": "腾讯QClaw将于12月24日停止运营 - TradingView",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kbFVTdFRqUXRiSmJIU0pZcmxWbXFfSlp6d2R5bWZ2VmJidmpBLWRldjJTNDNVQThRVGx1ZzNiOU1UY1NTY29IMGU3RHBiUlY2amUxS3JaTTI4eXRWOHczOXlCUUpIenROM1Jj?oc=5",
+    "sourceLabel": "TradingView",
+    "sourceType": "media",
+    "publishedAt": "2026-09-24T01:11:00.000Z",
+    "discoveredAt": "2026-09-28T08:37:42.401Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或停止运营 +6"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p14-qclaw-4650ee9d",
+    "productSlug": "p14-qclaw",
+    "productName": "Qclaw（腾讯）",
+    "title": "腾讯QClaw将于12月24日停止运营 支持数据迁移，提供积分补偿 - 封面新闻",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3ekpzcHlSQXY3ZnRoRzNtbS12YVY5UWVCb1QzMExpOVkxMEU3aXBPajNOdGZDSkxWUFlTZXBHS3lNc1JaT0ZFT0MwcHdyYTlwbm5qcjFBU2xXQ1B4emh4R3NRbjBSQXVZbVc4eUpDeG5SbndNSlhz?oc=5",
+    "sourceLabel": "封面新闻",
+    "sourceType": "media",
+    "publishedAt": "2026-09-23T12:52:00.000Z",
+    "discoveredAt": "2026-09-28T08:37:42.401Z",
+    "score": 6,
+    "reasons": [
+      "产品发布或停止运营 +6"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
   },
   {
     "id": "p11-amazon-quick-aws-718ac5ca",
@@ -1354,6 +1468,65 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p09-marvis-d3f6750c",
+    "productSlug": "p09-marvis",
+    "productName": "Marvis（腾讯）",
+    "title": " 腾讯Marvis定位升级“AI管家”，支持用户管理个人设备和数字资产",
+    "sourceUrl": "https://news.aibase.com/zh/news/31335",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-24T03:06:34.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.045Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p14-qclaw-27d70562",
+    "productSlug": "p14-qclaw",
+    "productName": "Qclaw（腾讯）",
+    "title": "腾讯 QClaw 微信远程办公 AI 助手宣布停运：12 月 24 日关停，即日起停新用户注册",
+    "sourceUrl": "https://news.aibase.com/zh/news/31317",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-24T00:59:06.000Z",
+    "discoveredAt": "2026-09-28T08:40:51.048Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：事件可能相关，但信源或事件强度仍需复核"
+  },
+  {
+    "id": "p12-codex-open-ai-18077d7d",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
+    "sourceUrl": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-23T05:18:36.000Z",
+    "discoveredAt": "2026-09-28T08:38:02.330Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "deferred_auto",
+    "reviewedAt": "2026-09-28",
+    "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
   },
   {
     "id": "p02-workbuddy-b0171f2d",

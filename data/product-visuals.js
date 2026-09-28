@@ -6,7 +6,7 @@ window.PRODUCT_VISUALS = {
   },
   "p02-workbuddy": {
     "icon": "assets/product-icons/p02-workbuddy.svg",
-    "source": "https://download.codebuddy.cn/web/website/e64b8fb4bc34aa55029abb007f83b311b08261f3/assets/logo.svg",
+    "source": "https://download.codebuddy.cn/web/website/2323ea5befd8bcf62c88b96b44fc8f6c83815612/assets/logo.svg",
     "status": "collected"
   },
   "p03-ai": {
@@ -16,7 +16,7 @@ window.PRODUCT_VISUALS = {
   },
   "p04-minimax-agent-minimax": {
     "icon": "assets/product-icons/p04-minimax-agent-minimax.png",
-    "source": "https://agent.minimaxi.com/assets/logo/apple-touch_v2.png",
+    "source": "https://agent.minimax.cn/assets/logo/apple-touch_v2.png",
     "status": "collected"
   },
   "p05-skywork": {
@@ -131,7 +131,7 @@ window.PRODUCT_VISUALS = {
   },
   "p33-maxhermes-minimax": {
     "icon": "assets/product-icons/p33-maxhermes-minimax.png",
-    "source": "https://agent.minimaxi.com/assets/logo/apple-touch_v2.png",
+    "source": "https://agent.minimax.cn/assets/logo/apple-touch_v2.png",
     "status": "collected"
   },
   "p25-lobsterai": {
@@ -155,8 +155,8 @@ window.PRODUCT_VISUALS = {
     "status": "collected"
   },
   "p37-ai-claw": {
-    "icon": "assets/product-icons/p37-ai-claw.ico",
-    "source": "https://brand.lenovo.com.cn/favicon.ico",
+    "icon": "assets/product-icons/p37-ai-claw.jpg",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fbrand.lenovo.com.cn%2Fbrand%2Fppn03698.html&sz=128",
     "status": "collected"
   },
   "p38-wps-claw": {
@@ -171,7 +171,7 @@ window.PRODUCT_VISUALS = {
   },
   "p40-loomy": {
     "icon": "assets/product-icons/p40-loomy.png",
-    "source": "https://loomy.xunfei.cn/icon.png?5f7e7b8be5d4c76b",
+    "source": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Floomy.xunfei.cn%2F&sz=128",
     "status": "collected"
   },
   "p31-gemini-spark-google": {

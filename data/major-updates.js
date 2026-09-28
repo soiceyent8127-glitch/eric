@@ -1,5 +1,44 @@
 window.MAJOR_UPDATES = [
   {
+    "id": "2026-09-28-new-product-340be46e",
+    "productSlug": null,
+    "date": "2026-09-28",
+    "category": "智能终端",
+    "title": "视频化身、系统级代控与眼镜接入，Meta 全新 AI 智能体 Muse 开启内测",
+    "summary": "该事件确认了新的 Agent 产品、独立入口或重大工作模式已经公开发布。",
+    "impact": "为 Agent 市场增加新的产品形态或可用入口，值得纳入竞争跟踪",
+    "sourceUrl": "https://news.aibase.com/zh/news/31360",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-09-28",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-24-p14-qclaw-b2d05fc0",
+    "productSlug": "p14-qclaw",
+    "date": "2026-09-24",
+    "category": "产品状态",
+    "title": "腾讯 QClaw 微信远程办公 AI 助手将停止运营",
+    "summary": "Qclaw（腾讯） 出现新的产品发布或停止运营、商业或开放范围变化。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
+    "impact": "可能改变产品商业化、合作生态或使用入口",
+    "sourceUrl": "https://www.ithome.com/1/006/528.htm",
+    "sourceLabel": "AI工具集 / IT之家",
+    "verifiedAt": "2026-09-28",
+    "autoReviewed": true
+  },
+  {
+    "id": "2026-09-22-p46-qwen-office-6bb514bd",
+    "productSlug": "p46-qwen-office",
+    "date": "2026-09-22",
+    "category": "重大版本",
+    "title": "办公桌上的 AI 新物种！阿里千问办公首款桌面机器人 QwenNote Eva 正式发布，售价 899 元",
+    "summary": "千问办公（Qwen Office） 出现新的产品发布或停止运营、商业或开放范围变化、明确事件词。自动审核确认其信源和事件强度达到正式时间线的收录标准。",
+    "impact": "可能改变产品商业化、合作生态或使用入口",
+    "sourceUrl": "https://news.aibase.com/zh/news/31276",
+    "sourceLabel": "AIbase基地",
+    "verifiedAt": "2026-09-28",
+    "autoReviewed": true
+  },
+  {
     "id": "2026-09-16-new-product-6825c874",
     "productSlug": null,
     "date": "2026-09-16",

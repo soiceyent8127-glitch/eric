@@ -104,9 +104,9 @@ window.MAJOR_UPDATES = [
     "autoReviewed": false
   },
   {
-    "id": "2026-09-15-claude-unified-cowork",
+    "id": "2026-09-16-claude-unified-cowork",
     "productSlug": null,
-    "date": "2026-09-15",
+    "date": "2026-09-16",
     "category": "产品整合",
     "title": "Anthropic 将 Cowork 与聊天合并为统一 Claude，并推出 Docs 和 Slides",
     "summary": "Claude 把聊天与原 Cowork 的长任务委派入口整合到同一产品中，并增加可编辑文档和演示文稿工作区，让用户从对话、委派执行到交付修改不再切换模式。",

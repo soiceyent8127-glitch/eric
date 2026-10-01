@@ -1,5 +1,104 @@
 [
   {
+    "id": "new-product-3250ac51",
+    "title": "腾讯入局Personal Agent赛道:代号\"Handy Bot\"，已在微信低调内测",
+    "sourceUrl": "https://news.aibase.com/zh/news/31426",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-30T01:29:38.000Z",
+    "discoveredAt": "2026-10-01T05:38:18.530Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-b537357a",
+    "title": "OpenAI推出新一代主力模型 GPT-6.1 Sol 和常驻型 Agent「Dots」",
+    "sourceUrl": "https://mp.weixin.qq.com/s/ZkiIqn6wYc9r3q-PufwwpQ",
+    "sourceLabel": "AI工具集 / 量子位",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:38:18.538Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-19f82769",
+    "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
+    "sourceUrl": "https://openai.com/index/introducing-dots/",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T17:36:13.593Z",
+    "discoveredAt": "2026-10-01T05:38:06.157Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-e9b8473c",
+    "title": "OpenAI 推出新版 Codex Cloud，Agents API 开放预览并支持 computer use",
+    "sourceUrl": "https://x.com/thsottiaux/status/2104987594719461796",
+    "sourceLabel": "X：Tibo (@thsottiaux)",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T17:32:06.000Z",
+    "discoveredAt": "2026-10-01T05:38:06.157Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-162903d",
+    "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
+    "sourceUrl": "https://openai.com/index/devday-2026-recap",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T10:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:38:06.157Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-46fac738",
+    "title": "Manus 推出 Manus 2.0 和个人 Agent 应用 Cue",
+    "sourceUrl": "https://mp.weixin.qq.com/s/18cIG3kJNLNgR4Gv5tdNgA",
+    "sourceLabel": "AI工具集 / APPSO",
+    "sourceType": "media",
+    "discoverySource": "AI工具集",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:38:18.538Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-340be46e",
     "title": "视频化身、系统级代控与眼镜接入，Meta 全新 AI 智能体 Muse 开启内测",
     "sourceUrl": "https://news.aibase.com/zh/news/31360",
@@ -40,6 +139,54 @@
     "reviewReason": "自动审核：属于传闻、资本噪音、榜单政策或非产品事件"
   },
   {
+    "id": "new-product-fc69485",
+    "title": "xAI 发布 Team Bots：可与团队共同学习工作的 Grok 智能体",
+    "sourceUrl": "https://x.ai/news/team-bots",
+    "sourceLabel": "xAI：News（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:38:06.157Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-905eef9f",
+    "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+    "sourceUrl": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+    "sourceLabel": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+    "sourceType": "media",
+    "publishedAt": "2026-09-27T16:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:38:06.157Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-9a81f40",
+    "title": "Microsoft 发布新版 Copilot，新增 Home、Code 与 Autopilot",
+    "sourceUrl": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot",
+    "sourceLabel": "Microsoft：Official Blog（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-25T12:03:50.000Z",
+    "discoveredAt": "2026-10-01T05:38:06.157Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
     "id": "new-product-ace36e08",
     "title": "阿里“Accio”与数贸会联合上线“数贸会agent”，可一键匹配展商 - 搜狐网",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSll1d2dIX3gxVks4Sm9UbjllQlpGbm1nS3J6STJaMklvUHFIX3lyN3duS2xuWnRucUtpSjZHOUI3RmdtajNMbE01djdfTEtCWXJPM3pZWk00MTNlOS0zd1d6N2YzRHNxRV9SSDlKUlBmanRtdVRSV1FCNzRMUkM0X3hnenZyb3l6OV84MA?oc=5",
@@ -57,6 +204,38 @@
     "score": 2,
     "reviewedAt": "2026-09-28",
     "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
+  },
+  {
+    "id": "new-product-c8455a13",
+    "title": "Google Cloud API Gateway 推出 MCP 支持，可将现有 REST API 直接暴露为智能体工具",
+    "sourceUrl": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway",
+    "sourceLabel": "Google Developers Blog（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-24T17:13:23.694Z",
+    "discoveredAt": "2026-10-01T05:38:06.157Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
+  },
+  {
+    "id": "new-product-e9df3223",
+    "title": "Accio与数贸会联合上线“数贸会agent”：超2000家展商轻松逛 - finance.sina.com.cn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbmozQ3lvdlM1V3NjbjdXUC11QTh3aEhPY3lCeW9VNklYTW5UQl9oTFV4OUt1WTJHMTFRSHBhMGRBcHZrUk1WajVrSlpRSXdWdDkxQ2Y5TzVCREdtdUVXbzFIR1RnQ2lERkNXbVhJc0dNR1hJZVFEU0xYUU01MUtBVDNCVzJZYzFoSlZTSHVkVkMyS2R3RkhTVXdCN1UzaXUyajdtN1ZGVGNDWUpma0FIVmVB?oc=5",
+    "sourceLabel": "finance.sina.com.cn",
+    "sourceType": "media",
+    "publishedAt": "2026-09-24T08:25:32.000Z",
+    "discoveredAt": "2026-10-01T05:37:15.528Z",
+    "status": "pending",
+    "reviewChecklist": [
+      "确认它是独立产品而非普通功能",
+      "确认属于研究范围",
+      "找到官方一手信源",
+      "补充厂商、类型与官网"
+    ]
   },
   {
     "id": "new-product-443bbc15",
@@ -1789,298 +1968,5 @@
     "score": 2,
     "reviewedAt": "2026-08-17",
     "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-33c7e364",
-    "title": "荣耀Robot Phone全球发布：搭载Agentic OS与全新YOYO Pro，开启多模态智能新体验",
-    "sourceUrl": "https://news.aibase.com/zh/news/30299",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-13T01:34:14.000Z",
-    "discoveredAt": "2026-08-17T03:10:15.530Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-2dc7d9f2",
-    "title": "性能狂飙！Grok 4.6正式发布，实力比肩GPT-5.6 Sol",
-    "sourceUrl": "https://news.aibase.com/zh/news/30293",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-13T00:54:37.000Z",
-    "discoveredAt": "2026-08-17T03:10:15.531Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 8,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-a6718ccc",
-    "title": "DeepSeek Harness 开发者预览版开放测试",
-    "sourceUrl": "https://github.com/deepseek-ai/deepseek-harness",
-    "sourceLabel": "DeepSeek 官方 GitHub",
-    "sourceType": "official",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-08-13T00:00:00.000Z",
-    "discoveredAt": "2026-08-17T03:10:15.542Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 0,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "人工复核：DeepSeek 官方仓库确认开源 Harness 开发者预览版，已补入重大动态"
-  },
-  {
-    "id": "new-product-2bc59835",
-    "title": "xAI 发布 Grok Bot：给 AI 智能体配一台专属云端电脑，当\"打工人\"而非\"聊天工具\"",
-    "sourceUrl": "https://news.aibase.com/zh/news/30285",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-12T08:36:09.000Z",
-    "discoveredAt": "2026-08-17T03:10:15.532Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-b3caeb7b",
-    "title": "零门槛畅玩高画质视频：超算互联网正式上线 MiniMax-H3 智能体",
-    "sourceUrl": "https://news.aibase.com/zh/news/30261",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-12T01:09:58.000Z",
-    "discoveredAt": "2026-08-17T03:10:15.536Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-29d26102",
-    "title": "马斯克旗下 SpaceXAI 推出 Grok Bot：多智能体协同办公时代来了",
-    "sourceUrl": "https://news.aibase.com/zh/news/30257",
-    "sourceLabel": "AIbase基地",
-    "sourceType": "media",
-    "discoverySource": "AIBase",
-    "publishedAt": "2026-08-12T01:01:45.000Z",
-    "discoveredAt": "2026-08-17T03:10:15.536Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-ab796171",
-    "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
-    "sourceUrl": "https://openrouter.ai/blog/announcements/web-search-benchmark",
-    "sourceLabel": "OpenRouter：Announcements（RSS）",
-    "sourceType": "media",
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "discoveredAt": "2026-08-17T03:09:58.130Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-34341cc7",
-    "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
-    "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
-    "sourceLabel": "公众号：智谱（GLM）",
-    "sourceType": "official",
-    "publishedAt": "2026-08-11T05:52:25.000Z",
-    "discoveredAt": "2026-08-17T03:09:58.130Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "人工复核：智谱官方公众号确认 ZCode 的 Goal、Subagents 与远程控制升级，已补入重大动态"
-  },
-  {
-    "id": "new-product-1fec4d6b",
-    "title": "LangChain 推出 Managed Deep Agents 公开测试版",
-    "sourceUrl": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
-    "sourceLabel": "LangChain：Blog（RSS）",
-    "sourceType": "official",
-    "publishedAt": "2026-08-07T17:24:06.000Z",
-    "discoveredAt": "2026-08-10T04:05:07.244Z",
-    "status": "promoted_manual",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-17",
-    "reviewReason": "人工复核：LangChain 官方博客确认 Managed Deep Agents 进入公开测试，已补入重大动态"
-  },
-  {
-    "id": "new-product-af1a3e07",
-    "title": "阿里全新一代视频生成模型 Wan3.0 上线「堆友」",
-    "sourceUrl": "https://mp.weixin.qq.com/s/WLTtA0dYTU7FrzG9_PCAWA",
-    "sourceLabel": "AI工具集 / 堆友",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-08-07T00:00:00.000Z",
-    "discoveredAt": "2026-08-10T04:05:17.527Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：尚未形成明确的新 Agent 产品或独立入口信号"
-  },
-  {
-    "id": "new-product-eda7d386",
-    "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
-    "sourceUrl": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
-    "sourceLabel": "Google Developers Blog（RSS）",
-    "sourceType": "media",
-    "publishedAt": "2026-08-06T16:53:12.298Z",
-    "discoveredAt": "2026-08-10T04:05:07.244Z",
-    "status": "accepted_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：官方一手信源确认新 Agent 产品或独立入口"
-  },
-  {
-    "id": "new-product-5331e9ff",
-    "title": "MetaMask推出自托管AI钱包Agent Wallet，支持AI代理自主执行链上交易 - TradingView",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PY1RrOFFuNWdxSlVvN3lzbUV2RUdmeUZPbE9FZjc3bHlGUjJkbV9tYzZxeVR4anJhSXU1NjRQMXZyLW9TOV9MNGtlVlhLMG9scFZnWmEzSlJqWWRGdHBUcVJSWlY1QQ?oc=5",
-    "sourceLabel": "TradingView",
-    "sourceType": "media",
-    "publishedAt": "2026-08-06T16:30:00.000Z",
-    "discoveredAt": "2026-08-10T04:04:35.914Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 6,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-4bdf3084",
-    "title": "Cloudflare发布开源AI工作台Cloudflare OS，面向企业员工开放 - 디지털투데이",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUFEtak5CaS1ScklNSENmWTZkNGlINWd3R1VmcmxYVDVkVERTbXlFVlhMRnlGSFVRaXF6NEtPOXc1MExPdzJNOWQzNUlPRXhiR0ZEcUNjUEFrZ05GVnFyTm0zY2dZNTdkMGhFSWd0dkVYSnR6QWNPMWhnSXo5Rnpac0xGQ1hTdjFoTklILUVDRkZMWW9UVUI2bl9mNXdTOUFNSm9QN1JNREtickI5UGJ6R1JJOTNKeHcz?oc=5",
-    "sourceLabel": "디지털투데이",
-    "sourceType": "media",
-    "publishedAt": "2026-08-06T08:30:20.000Z",
-    "discoveredAt": "2026-08-10T04:04:35.655Z",
-    "status": "deferred_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：产品信号明确，但仍需补充一手或可信媒体信源"
-  },
-  {
-    "id": "new-product-3b5660d3",
-    "title": "家居行业迎来首个AI执行中枢：三维家AI工作台正式发布 - 新浪财经",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NTmZwOEo2U3FwNGJUTkRQTURCREZQSUZSdERKblh0a3lkb0RURlZuWXd2Um5MNzRYUmxDSTBYaWNlTnktZ1VzdGI0TjJhdk8zRDYtY3FLZVFPT29CUXJqcEFacGl0b0tNSGI2WThpN19ybTZ4WjRLN2ZlcG9DMEE?oc=5",
-    "sourceLabel": "新浪财经",
-    "sourceType": "media",
-    "publishedAt": "2026-08-05T02:20:33.000Z",
-    "discoveredAt": "2026-08-10T04:04:35.655Z",
-    "status": "accepted_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 8,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
-  },
-  {
-    "id": "new-product-9f28ba66",
-    "title": "阿里推出原生 Computer Use Agent「Qwen-CUA」",
-    "sourceUrl": "https://ai-bot.cn/qwen-cua/",
-    "sourceLabel": "AI工具集",
-    "sourceType": "media",
-    "discoverySource": "AI工具集",
-    "publishedAt": "2026-08-05T00:00:00.000Z",
-    "discoveredAt": "2026-08-10T04:05:17.528Z",
-    "status": "accepted_auto",
-    "reviewChecklist": [
-      "确认它是独立产品而非普通功能",
-      "确认属于研究范围",
-      "找到官方一手信源",
-      "补充厂商、类型与官网"
-    ],
-    "score": 6,
-    "reviewedAt": "2026-08-10",
-    "reviewReason": "自动审核：可信媒体确认，且新产品与重大变化信号明确"
   }
 ]

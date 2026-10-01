@@ -228,5 +228,20 @@ window.PRODUCT_VISUALS = {
     "icon": "assets/product-icons/p46-qwen-office.png",
     "source": "https://img.alicdn.com/imgextra/i4/O1CN01HdCyPs1MZh3Szwmxo_!!6000000001449-2-tps-180-180.png",
     "status": "collected"
+  },
+  "p47-openai-dots": {
+    "icon": null,
+    "source": "https://openai.com/index/introducing-dots/",
+    "status": "fallback"
+  },
+  "p48-cue": {
+    "icon": null,
+    "source": "https://cue.im/",
+    "status": "fallback"
+  },
+  "p49-grok-team-bots": {
+    "icon": null,
+    "source": "https://x.ai/news/team-bots",
+    "status": "fallback"
   }
 };

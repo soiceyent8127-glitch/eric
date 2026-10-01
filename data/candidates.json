@@ -22,6 +22,24 @@
     "reviewReason": "人工复核：已用 OpenClaw 官方 Release Notes 重写并发布"
   },
   {
+    "id": "p08-manus-manus-15fb1265",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶 - 极客公园",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1FWjdKdEtKZ1NZWUZWTWZ3bzNZVHpabENLQUdleURnZWVoVzY0S3hKN1IzRkxkbzhqbzhJdFExTFNoWTJlbXZRRjR4aDk?oc=5",
+    "sourceLabel": "极客公园",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T05:32:16.000Z",
+    "discoveredAt": "2026-10-01T05:37:05.651Z",
+    "score": 12,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
     "id": "p02-workbuddy-ed80ecae",
     "productSlug": "p02-workbuddy",
     "productName": "WorkBuddy（腾讯）",
@@ -122,6 +140,23 @@
     "status": "accepted_auto",
     "reviewedAt": "2026-09-28",
     "reviewReason": "自动审核：可信媒体、产品关联明确且属于重大变化"
+  },
+  {
+    "id": "p08-manus-manus-a03504f2",
+    "productSlug": "p08-manus-manus",
+    "productName": "Manus桌面版（Manus）",
+    "title": "Manus 2.0 正式发布：新架构 Cascade、Manus Studio 与独立应用 Cue",
+    "sourceUrl": "https://manus.im/zh-cn/blog/introducing-manus-2-0",
+    "sourceLabel": "Manus：Blog（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-27T16:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:37:28.609Z",
+    "score": 8,
+    "reasons": [
+      "产品发布或停止运营 +6",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
   },
   {
     "id": "p12-codex-open-ai-19ed9a4e",
@@ -619,6 +654,108 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-07-27",
     "reviewReason": "自动审核：产品关联度不足，保留候选等待复核，不再直接拒绝"
+  },
+  {
+    "id": "p12-codex-open-ai-165bd360",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI发布Codex CLI重大升级：支持语音对话与多智能体协作 - DoNews",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00aEk3aGJzVGhFRHR4Y3l4aU9IU0YweVVtTlhmTzRjaG5CZFItanpqZmVfc1llMnloOFZQSTk5WEFTWTlEdUxJZ3N6dUZFX0JZZy1uUHZKRzcwSE5lTFE?oc=5",
+    "sourceLabel": "DoNews",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T18:10:02.000Z",
+    "discoveredAt": "2026-10-01T05:37:05.732Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p12-codex-open-ai-85cade8b",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 推出新版 Codex Cloud，Agents API 开放预览并支持 computer use",
+    "sourceUrl": "https://x.com/thsottiaux/status/2104987594719461796",
+    "sourceLabel": "X：Tibo (@thsottiaux)",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T17:32:06.000Z",
+    "discoveredAt": "2026-10-01T05:37:31.069Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p12-codex-open-ai-e460a31f",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
+    "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T17:20:30.075Z",
+    "discoveredAt": "2026-10-01T05:37:31.069Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p11-amazon-quick-aws-b52e73c",
+    "productSlug": "p11-amazon-quick-aws",
+    "productName": "Amazon Quick（AWS）",
+    "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
+    "sourceUrl": "https://openai.com/index/devday-2026-recap",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T10:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:37:29.823Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p12-codex-open-ai-c4263050",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
+    "sourceUrl": "https://openai.com/index/devday-2026-recap",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T10:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:37:31.069Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p44-openclaw-698ecc9d",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
+    "sourceUrl": "https://openai.com/index/devday-2026-recap",
+    "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T10:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:38:03.118Z",
+    "score": 6,
+    "reasons": [
+      "关键能力变化 +4",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
   },
   {
     "id": "p43-kimi-work-44b8ee1f",
@@ -1468,6 +1605,92 @@
     "status": "deferred_auto",
     "reviewedAt": "2026-06-08",
     "reviewReason": "自动审核：事件可能相关，但信源或事件强度不足以无人值守发布"
+  },
+  {
+    "id": "p12-codex-open-ai-64b264f4",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
+    "sourceUrl": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+    "sourceLabel": "MarkTechPost（RSS）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-30T21:09:24.000Z",
+    "discoveredAt": "2026-10-01T05:37:31.069Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p12-codex-open-ai-acd801be",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
+    "sourceUrl": "https://news.aibase.com/zh/news/31431",
+    "sourceLabel": "AIbase基地",
+    "sourceType": "media",
+    "discoverySource": "AIBase",
+    "publishedAt": "2026-09-30T06:05:07.000Z",
+    "discoveredAt": "2026-10-01T05:38:18.529Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p12-codex-open-ai-331457d3",
+    "productSlug": "p12-codex-open-ai",
+    "productName": "Codex桌面版（Open AI）",
+    "title": "Every 实测 OpenAI DevDay 2026：20 多项发布与上手体验",
+    "sourceUrl": "https://every.to/vibe-check/vibe-check-openai-devday-2026",
+    "sourceLabel": "Every：最新文章（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:37:31.069Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p44-openclaw-f587ff0",
+    "productSlug": "p44-openclaw",
+    "productName": "OpenClaw",
+    "title": "Every 实测 OpenAI DevDay 2026：20 多项发布与上手体验",
+    "sourceUrl": "https://every.to/vibe-check/vibe-check-openai-devday-2026",
+    "sourceLabel": "Every：最新文章（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "discoveredAt": "2026-10-01T05:38:03.118Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "p11-amazon-quick-aws-f492ee7e",
+    "productSlug": "p11-amazon-quick-aws",
+    "productName": "Amazon Quick（AWS）",
+    "title": "Anthropic 发布 Claude Sonnet 5.5，速度提升 30%+ 且每任务成本最多降低 30%",
+    "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+    "sourceLabel": "Anthropic：Newsroom（网页）",
+    "sourceType": "media",
+    "publishedAt": "2026-09-28T17:58:11.000Z",
+    "discoveredAt": "2026-10-01T05:37:29.823Z",
+    "score": 5,
+    "reasons": [
+      "商业或开放范围变化 +3",
+      "明确事件词 +2"
+    ],
+    "status": "pending"
   },
   {
     "id": "p09-marvis-d3f6750c",

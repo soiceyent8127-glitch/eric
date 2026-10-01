@@ -2,8 +2,8 @@ window.RESEARCH_DATA = {
   "meta": {
     "title": "类 OpenClaw 和类 Claude Cowork 竞品调研",
     "source": "类OpenClaw&类ClaudeCowork竞品调研.docx",
-    "generatedAt": "2026-08-03",
-    "productCount": 46
+    "generatedAt": "2026-10-01",
+    "productCount": 49
   },
   "strategy": {
     "overview": "海外正在分化为两条路线：OpenAI / Anthropic 抢本地桌面 Agent 和个人生产力入口，Google / AWS / Microsoft 抢云端常驻 Agent 和企业工作流入口；国内则围绕 OpenClaw 生态做产品化封装，竞争核心是 IM 分发、混合执行环境、Skill 生态、办公场景交付和企业化治理。",
@@ -482,7 +482,7 @@ window.RESEARCH_DATA = {
       "region": "国外",
       "vendor": "Manus",
       "launchDate": "3.16 3.16 3.16",
-      "updatedAt": "3.30，4.30，5.12",
+      "updatedAt": "2026-09-28",
       "deployment": "",
       "businessModel": "* 分层订阅制",
       "features": "核心功能：My Computer - 本地文件，全权限智能处理 - 本地应用与环境，全链路掌控 - 能启动和控制电脑里已安装的应用程序， - 能直接调用本地的开发工具、运行环境，甚至是闲置的GPU算力 - 云-端联动，解锁24小时无人值守能力 - 结合原本内置的Gmail、日历、在线文档等Connectors连接器，Manus可以实现跨设备、跨平台的全链路自动化 - 安全红线：每一次操作都需“人工点头” - 人工介入授权机制，生成的每一条拟执行的终端指令，都必须经过用户的实时点击确认 - 跨设备 Agent - 可以在多个设备间无缝工作",
@@ -490,7 +490,7 @@ window.RESEARCH_DATA = {
       "partnership": "",
       "website": "https://help.manus.im/zh-CN/articles/14089011-%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BD-manus-%E6%A1%8C%E9%9D%A2%E7%AB%AF%E5%BA%94%E7%94%A8",
       "pricing": "https://manus.im/pricing",
-      "updates": "3.30 支持从手机远程控制 Desktop 4.30 claude computer：一台永远不关机的电脑，一台 Ubuntu 系统的专属云端机器，24 小时运转，无休无止。 5.12 浏览器插件：产品入口进入浏览器，与编程插件和网页侧工作流结合，进一步贴近日常操作场景",
+      "updates": "2026-09-28 Manus 2.0 发布：新 Agent 框架 Cascade、Manus Studio、Cloud Computer、事件触发 Automations、Remote Control 与 Computer Use 上线。此前已支持手机远程控制桌面端、长期云电脑与浏览器插件。",
       "summary": "核心功能：My Computer - 本地文件，全权限智能处理 - 本地应用与环境，全链路掌控 - 能启动和控制电脑里已安装的应用程序， - 能直接调用本地的开发工具、运行环境，甚至是闲置的GPU算力 - 云-端联动，解",
       "featureBullets": [
         "核心功能：My Computer",
@@ -506,6 +506,8 @@ window.RESEARCH_DATA = {
         "支持从Github导入"
       ],
       "updateBullets": [
+        "2026-09-28 Manus 2.0 发布，桌面应用升级为 Manus Studio，并加入 Cascade、Cloud Computer 与事件触发 Automations",
+        "2026-09-28 Remote Control 与 Computer Use 支持从手机发出指令，在授权工作区操作用户电脑",
         "3.30 支持从手机远程控制 Desktop 4.30 claude computer：一台永远不关机的电脑，一台 Ubuntu 系统的专属云端机器，24 小时运转，无休无止",
         "5.12 浏览器插件：产品入口进入浏览器，与编程插件和网页侧工作流结合，进一步贴近日常操作场景"
       ],
@@ -526,7 +528,7 @@ window.RESEARCH_DATA = {
       "region": "国外",
       "vendor": "AWS",
       "launchDate": "4.28",
-      "updatedAt": "",
+      "updatedAt": "2026-09-29",
       "deployment": "",
       "businessModel": "分层订阅制企业版",
       "features": "AI原生企业操作台 - 角色化助理：预置了 15 个专家助理，用户不用先写一大段提示词，直接选更接近任务的角色就能进入工作状态； - Deep Research（深度研究）：面向需要持续收集信息、整理逻辑并形成初步判断的复杂问题。 - Workflow（flow）：把高频、重复、规则相对明确的工作固定下来，下次不用从零开始，典型场景是周会、周报、数据汇报。 - 协同汇总：针对多人协同时信息分散的问题。支持打通飞书 CLI，可总结用户社群消息、提炼讨论热点、共性问题和高频需求，省去逐条翻聊天记录、爬楼找上下文的成本。 - 知识复用：可按需圈定知识范围（如把某个文件夹设为 Agent 可访问内容），让历史资料能被搜索、调用、对比和复用。",
@@ -590,6 +592,8 @@ window.RESEARCH_DATA = {
         "终端生态：手机端集成进 ChatGPT App、双端实时同步"
       ],
       "updateBullets": [
+        "2026-09-29 Codex 云端任务可从任意设备启动，CLI 新增语音操控和 /agents 多任务视图",
+        "2026-09-29 Agents API 加入 Computer Use、工具搜索、上下文压缩和 Codex 多智能体能力",
         "时间 / 模块 更新内容 2026-02-02 Introducing the Codex app",
         "推出Codex应用，适用于 macOS 的 Codex 应用是一个桌面界面，用于并行运行代理线程，并与代理协作处理长时间运行的任务。它包含项目侧边栏、线程列表和用于跨项目跟踪工作的审阅窗格 2026-03-25 Build and install plugins in Codex",
         "Codex 支持插件：插件是可安装的包，可以把 skills、app 集成和 MCP server 配置打包成可复用的工作流插件可用于 Codex app、CLI 和 IDE 扩展 2026-04-16 Codex can now help with more of your work",
@@ -1749,32 +1753,35 @@ window.RESEARCH_DATA = {
       "slug": "p32-officeclaw"
     },
     {
-      "name": "Microsoft Scout（Microsoft）",
+      "name": "Microsoft Autopilot（原 Scout）",
       "type": "类 OpenClaw",
       "group": "模型厂商",
       "region": "国外",
       "vendor": "Microsoft",
       "launchDate": "2026-06-02",
-      "updatedAt": "2026-06-02",
+      "updatedAt": "2026-09-25",
       "deployment": "云端 / Microsoft 365",
-      "businessModel": "Frontier 客户预览阶段",
-      "features": "Microsoft 面向工作的企业级常驻个人 Agent。Scout 基于开源 OpenClaw 构建，可在后台持续运行，理解用户的工作方式，并在无需每次提示的情况下主动执行任务。",
-      "ecosystem": "深度接入 Microsoft 365、Work IQ、Teams 与 Outlook，并叠加企业身份、策略、安全和合规控制。",
+      "businessModel": "2026-09-30 起扩大私有预览；运行采用按量计费",
+      "features": "Microsoft 面向工作的常驻个人 Agent，原名 Scout。Autopilot 拥有独立身份、记忆、云电脑和工作区，可监听频道、跟进线程、运行周期任务，并在数天后继续处理项目。",
+      "ecosystem": "深度接入 Microsoft 365、Microsoft IQ、Teams、Outlook、频道与文档，并叠加企业权限、审计和治理控制。",
       "partnership": "",
-      "website": "https://partner.microsoft.com/en-us/blog/article/microsoft-build-2026-recap",
-      "pricing": "预览阶段，未公布独立定价",
-      "updates": "",
-      "summary": "基于 OpenClaw 构建的企业级常驻个人 Agent，深度接入 Microsoft 365，并加入身份、策略、安全与合规控制。",
+      "website": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "pricing": "私有预览；按量计费",
+      "updates": "2026-09-25 Scout 更名为 Autopilot，并作为新版 Microsoft Copilot 的常驻 Agent 进入更大范围私有预览。",
+      "summary": "Microsoft 365 中的常驻个人 Agent，拥有独立身份、记忆和云电脑，可主动执行长期任务并接受企业权限与审计治理。",
       "featureBullets": [
-        "企业级、始终在线的个人 Agent",
-        "可在后台持续运行并主动完成工作任务",
-        "基于 OpenClaw 构建，叠加企业身份、策略和安全控制"
+        "拥有独立身份、记忆、云电脑和工作区",
+        "可监听频道、跟进线程、执行周期工作并跨日续接项目",
+        "叠加企业身份、权限、审计和安全控制"
       ],
       "ecosystemBullets": [
-        "接入 Microsoft 365、Work IQ、Teams 与 Outlook",
-        "面向 Frontier 客户开放预览"
+        "接入 Microsoft 365、Microsoft IQ、Teams 与 Outlook",
+        "作为新版 Copilot 的 Autopilot 入口进入私有预览"
       ],
-      "updateBullets": [],
+      "updateBullets": [
+        "2026-09-25 Scout 更名为 Autopilot",
+        "2026-09-30 起扩大私有预览，并纳入新版 Copilot 的 Home、Code 与 Cowork 工作入口"
+      ],
       "capabilities": [
         "IM 入口",
         "云端沙箱",
@@ -1975,6 +1982,127 @@ window.RESEARCH_DATA = {
         "自动化任务"
       ],
       "slug": "p46-qwen-office"
+    },
+    {
+      "name": "OpenAI Dots",
+      "type": "常驻个人 Agent",
+      "group": "模型厂商",
+      "region": "国外",
+      "vendor": "OpenAI",
+      "launchDate": "2026-09-29",
+      "updatedAt": "2026-09-29",
+      "deployment": "OpenAI 云端；可连接用户电脑与应用",
+      "businessModel": "首个 Dot 包含在 Pro 与 Business Premium 方案中；Enterprise 可由管理员启用 Beta",
+      "features": "由 GPT-6 Astra 驱动的 24/7 常驻个人智能体，拥有独立云电脑和浏览器，可在后台推进多个项目、主动研究，并随用户反馈持续学习偏好。",
+      "ecosystem": "可连接 4,000 多个应用，并通过 ChatGPT、Slack、Teams 与语音交互；支持把任务交给 Codex 或 ChatGPT Work。",
+      "partnership": "OpenAI 正与 Microsoft 合作，把企业专用 Dots 接入 Agent 365 的治理与安全控制。",
+      "website": "https://openai.com/index/introducing-dots/",
+      "pricing": "首个 Dot 随 Pro 与 Business Premium 提供；企业专用 Dots 处于试点阶段",
+      "updates": "2026-09-29 正式发布并开始向符合条件地区的 Pro、Business Premium 与 Enterprise 用户开放。",
+      "summary": "OpenAI 推出的常驻个人智能体，拥有自己的云电脑、浏览器、长期偏好和跨应用执行能力，可全天候推进工作。",
+      "featureBullets": [
+        "独立云电脑与浏览器，可同时推进多个长期任务",
+        "主动研究默认只读，高风险动作按规则进入审批",
+        "在用户反馈中学习目标、偏好与交付标准"
+      ],
+      "ecosystemBullets": [
+        "连接 4,000 多个应用",
+        "支持 ChatGPT、Slack、Teams、移动端与语音入口",
+        "可调度 Codex 和 ChatGPT Work 中的任务"
+      ],
+      "updateBullets": [
+        "2026-09-29 首批向 Pro、Business Premium 和 Enterprise 开放",
+        "企业专用 Dots 支持独立身份、凭据与 Microsoft Agent 365 治理集成"
+      ],
+      "capabilities": [
+        "IM 入口",
+        "云端沙箱",
+        "安全治理",
+        "长期记忆",
+        "自动化任务",
+        "电脑操控"
+      ],
+      "slug": "p47-openai-dots"
+    },
+    {
+      "name": "Cue（Manus）",
+      "type": "个人 Agent",
+      "group": "其他厂商",
+      "region": "国外",
+      "vendor": "Manus",
+      "launchDate": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "deployment": "云端；网页、桌面与移动端",
+      "businessModel": "邀请码早期体验阶段，限量免费",
+      "features": "面向个人日常事务的独立 Agent 应用。每个 Agent 拥有自己的邮箱、电话号码、钱包和电脑，可发送消息、在预算内付款、接听电话并独立执行任务。",
+      "ecosystem": "基于 Manus 基础设施，可在群聊中组织多个 Agent 协作，并连接线下服务场景。",
+      "partnership": "",
+      "website": "https://cue.im/",
+      "pricing": "早期体验阶段，邀请码用户可免费使用",
+      "updates": "2026-09-28 随 Manus 2.0 正式发布，网页、桌面和移动端同步进入早期体验。",
+      "summary": "Manus 推出的独立个人 Agent 应用，为智能体配置邮箱、电话、钱包和云电脑，并支持多个 Agent 组队完成日常任务。",
+      "featureBullets": [
+        "每个 Agent 拥有独立邮箱、电话号码、钱包和电脑",
+        "可接听电话、发送消息并在预算内完成支付",
+        "多个 Agent 可在群聊中围绕共同目标协作"
+      ],
+      "ecosystemBullets": [
+        "基于 Manus 的 Agent 与云端执行基础设施",
+        "覆盖网页、桌面和移动端入口"
+      ],
+      "updateBullets": [
+        "2026-09-28 进入邀请码早期体验",
+        "iOS 版本等待 App Store 审核后分批上线"
+      ],
+      "capabilities": [
+        "IM 入口",
+        "云端沙箱",
+        "多 Agent",
+        "长期记忆",
+        "自动化任务",
+        "支付"
+      ],
+      "slug": "p48-cue"
+    },
+    {
+      "name": "Grok Team Bots（xAI）",
+      "type": "企业团队 Agent",
+      "group": "模型厂商",
+      "region": "国外",
+      "vendor": "xAI",
+      "launchDate": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "deployment": "xAI 云端；Slack 与企业应用连接",
+      "businessModel": "Teams 与 Enterprise 方案公测",
+      "features": "围绕共享角色或工作流构建的团队智能体，把文件、指令、Skills、插件、第三方凭据与记忆组合到同一个可持续学习的 Bot 中。",
+      "ecosystem": "支持 Salesforce、Notion、GitHub、Slack 等应用；团队共享专业知识，同时隔离每位成员的私人对话与个人记忆。",
+      "partnership": "官方示例包含 Cursor Cloud Agents、Databricks、Datadog、Linear、Hex 与 Statsig 等工具协作。",
+      "website": "https://x.ai/news/team-bots",
+      "pricing": "随 Teams 与 Enterprise 方案提供，未公布独立定价",
+      "updates": "2026-09-28 面向 Teams 与 Enterprise 方案开放公测。",
+      "summary": "xAI 面向企业团队推出的共享智能体，可整合上下文、工具、凭据和长期记忆，并在 Slack 中作为共同协作者持续学习。",
+      "featureBullets": [
+        "把团队文件、Skills、插件、凭据与记忆组合为角色型 Bot",
+        "共享团队专业知识，同时隔离个人对话和个人记忆",
+        "可在 Slack 中持续接收任务、汇报和协作"
+      ],
+      "ecosystemBullets": [
+        "连接 Salesforce、Notion、GitHub 等企业应用",
+        "可协调 Cursor Cloud Agents 等外部执行工具"
+      ],
+      "updateBullets": [
+        "2026-09-28 公测上线",
+        "官方提供销售、产品管理、营销和数据分析等预置 Team Bots"
+      ],
+      "capabilities": [
+        "IM 入口",
+        "Skill 生态",
+        "多 Agent",
+        "长期记忆",
+        "自动化任务",
+        "企业数据连接"
+      ],
+      "slug": "p49-grok-team-bots"
     }
   ]
 };

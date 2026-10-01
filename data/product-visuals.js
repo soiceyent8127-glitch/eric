@@ -243,5 +243,10 @@ window.PRODUCT_VISUALS = {
     "icon": null,
     "source": "https://x.ai/news/team-bots",
     "status": "fallback"
+  },
+  "p50-wanyouwujie": {
+    "icon": null,
+    "source": "https://www.qianwenai.com/agents/wanyou",
+    "status": "fallback"
   }
 };

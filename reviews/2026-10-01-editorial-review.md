@@ -2,9 +2,11 @@
 
 复核范围：2026-09-02 至 2026-10-01，时区 Asia/Shanghai。
 
-- 正式整理 15 条重大动态，其中 12 条使用厂商一手信源，3 条使用厂商公众号或可信媒体信源。
-- 新增 3 个独立产品：OpenAI Dots、Cue（Manus）、Grok Team Bots（xAI）。
-- 更新 3 个既有产品档案：Manus 2.0、Codex、Microsoft Autopilot（原 Scout）。
+- 正式整理 14 条重大动态，其中 13 条使用厂商一手信源，QClaw 停运使用 AIBase 报道；万有无界公测日期另由 IT之家核实。
+- 新增 4 个独立产品：OpenAI Dots、Cue（Manus）、Grok Team Bots（xAI）、万有无界（阿里云）。
+- 更新 4 个既有产品档案：Manus 2.0、Codex、Microsoft Autopilot（原 Scout）、QClaw 停运及迁移状态。
+- Amazon Quick 早已在产品库收录；9月公众号介绍无法确认新发布或重大变化，本轮不把它当成新产品动态重复发布。
+- Cursor 自托管条目明确仅工具执行自托管，推理与规划仍在云端，避免误导为完整私有化。
 - 删除自动流程误收的 Meta Muse 二手稿、QwenNote Eva 硬件稿、vivo 模型矩阵与讯飞星火模型稿。
 - Handy Bot 等仅有爆料或缺少正式入口的候选继续暂缓，不进入产品库和正式时间线。
 
